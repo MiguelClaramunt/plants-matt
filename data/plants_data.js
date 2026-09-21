@@ -1,3 +1,4 @@
+// Auto-generated — do not edit manually
 window.PLANT_DATABASE = [
   {
     "id": "abies-grandis",
@@ -817,16 +818,9 @@ window.PLANT_DATABASE = [
     "clean_latin": "Acer pseudoplatanus",
     "family": "Sapindaceae",
     "plant_type": "broadleaf",
-    "total_images": 16,
+    "total_images": 14,
     "images": {
       "premature_fruit": [
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Knoppen_van_een_esdoorn_%28Acer_platanoides%29._03-04-2023_%28d.j.b.%29.jpg/960px-Knoppen_van_een_esdoorn_%28Acer_platanoides%29._03-04-2023_%28d.j.b.%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Knoppen van een esdoorn (Acer platanoides). 03-04-2023 (d.j.b.).jpg",
-          "author": "Dominicus Johannes Bergsma",
-          "source": "Wikimedia Commons",
-          "organ": "premature_fruit"
-        },
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/%D0%9A%D0%B2%D0%B5%D1%82%D0%BA%D0%B0_%D0%BA%D0%BB%D1%91%D0%BD%D1%83_%D1%8F%D0%B2%D0%B0%D1%80%D0%B0.jpg/960px-%D0%9A%D0%B2%D0%B5%D1%82%D0%BA%D0%B0_%D0%BA%D0%BB%D1%91%D0%BD%D1%83_%D1%8F%D0%B2%D0%B0%D1%80%D0%B0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Кветка клёну явара.jpg",
@@ -856,13 +850,6 @@ window.PLANT_DATABASE = [
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Acer_pseudoplatanus_leaf_illustration.jpg/960px-Acer_pseudoplatanus_leaf_illustration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Acer pseudoplatanus leaf illustration.jpg",
           "author": "G.Bernetti/EUFORGEN",
-          "source": "Wikimedia Commons",
-          "organ": "leaves_closeup"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Acer_pseudoplatanus_leaves_with_disease.jpg/960px-Acer_pseudoplatanus_leaves_with_disease.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Acer pseudoplatanus leaves with disease.jpg",
-          "author": "This photo has been taken by Matthieu Sontag (User:Mirgolth) and released under",
           "source": "Wikimedia Commons",
           "organ": "leaves_closeup"
         }
@@ -1146,7 +1133,7 @@ window.PLANT_DATABASE = [
     "clean_latin": "Acer saccharum",
     "family": "Sapindaceae",
     "plant_type": "broadleaf",
-    "total_images": 12,
+    "total_images": 13,
     "images": {
       "premature_fruit": [
         {
@@ -1196,7 +1183,15 @@ window.PLANT_DATABASE = [
           "organ": "leaves_closeup"
         }
       ],
-      "bark_closeup": [],
+      "bark_closeup": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Acer_saccharum_JPG1L.jpg/960px-Acer_saccharum_JPG1L.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Acer saccharum JPG1L.jpg",
+          "author": "Jean-Pol GRANDMONT",
+          "source": "Wikimedia Commons",
+          "organ": "bark_closeup"
+        }
+      ],
       "tree_shape": [
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Huron_National_Forest_Big_Trees_MI.jpg/960px-Huron_National_Forest_Big_Trees_MI.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1248,13 +1243,6 @@ window.PLANT_DATABASE = [
         }
       ],
       "unclassified": [
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Acer_saccharum_JPG1L.jpg/960px-Acer_saccharum_JPG1L.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Acer saccharum JPG1L.jpg",
-          "author": "Jean-Pol GRANDMONT",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Acer_saccharum_JPG1T.jpg/960px-Acer_saccharum_JPG1T.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Acer saccharum JPG1T.jpg",
@@ -1383,7 +1371,7 @@ window.PLANT_DATABASE = [
     "clean_latin": "Aesculus hippocastanum",
     "family": "Sapindaceae",
     "plant_type": "broadleaf",
-    "total_images": 13,
+    "total_images": 14,
     "images": {
       "premature_fruit": [
         {
@@ -1490,15 +1478,16 @@ window.PLANT_DATABASE = [
           "organ": "buds"
         }
       ],
-      "leaves_underside": [],
-      "unclassified": [
+      "leaves_underside": [
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Aesculus_hippocastanum_JPG1a.jpg/960px-Aesculus_hippocastanum_JPG1a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Aesculus hippocastanum JPG1a.jpg",
           "author": "Jean-Pol GRANDMONT",
           "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
+          "organ": "leaves_underside"
+        }
+      ],
+      "unclassified": [
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Aesculus_hippocastanum_reiter_1803.jpg/960px-Aesculus_hippocastanum_reiter_1803.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Aesculus hippocastanum reiter 1803.jpg",
@@ -2109,13 +2098,6 @@ window.PLANT_DATABASE = [
           "organ": "unclassified"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Alnus_serrulata_leaves.jpg/960px-Alnus_serrulata_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Alnus serrulata leaves.jpg",
-          "author": "Wikimedia Commons",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738230061/large.jpg",
           "title": "Alnus incana Observation #402154309",
           "author": "(c) Robert Wernerehl, some rights reserved (CC BY-NC-SA)",
@@ -2621,7 +2603,7 @@ window.PLANT_DATABASE = [
     "clean_latin": "Betula pubescens",
     "family": "Betulaceae",
     "plant_type": "broadleaf",
-    "total_images": 15,
+    "total_images": 13,
     "images": {
       "premature_fruit": [
         {
@@ -2656,13 +2638,6 @@ window.PLANT_DATABASE = [
         }
       ],
       "leaves_closeup": [
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Acronicta_auricoma_-_Betula_pubescens_-_Niitv%C3%A4lja_bog.jpg/960px-Acronicta_auricoma_-_Betula_pubescens_-_Niitv%C3%A4lja_bog.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Acronicta auricoma - Betula pubescens - Niitvälja bog.jpg",
-          "author": "Ivar Leidus",
-          "source": "Wikimedia Commons",
-          "organ": "leaves_closeup"
-        },
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Betula-pubescens-downy-leaves.JPG/960px-Betula-pubescens-downy-leaves.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Betula-pubescens-downy-leaves.JPG",
@@ -2730,13 +2705,6 @@ window.PLANT_DATABASE = [
       ],
       "leaves_underside": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/2006-08-01_Fomes_fomentarius.png/960px-2006-08-01_Fomes_fomentarius.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "2006-08-01 Fomes fomentarius.png",
-          "author": "Andreas Kunze",
-          "source": "Wikimedia Commons",
-          "organ": "leaves_underside"
-        },
-        {
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738157859/large.jpg",
           "title": "Betula pubescens Observation #402118695",
           "author": "(c) Yaroslav Magazov, some rights reserved (CC BY-NC)",
@@ -2749,13 +2717,6 @@ window.PLANT_DATABASE = [
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/0_Betula_pubescens_-_Vecqu%C3%A9e_-_Xhoffraix_%282%29.JPG/960px-0_Betula_pubescens_-_Vecqu%C3%A9e_-_Xhoffraix_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "0 Betula pubescens - Vecquée - Xhoffraix (2).JPG",
           "author": "Jean-Pol GRANDMONT",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/306_Betula_alba_L.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "title": "306 Betula alba L.jpg",
-          "author": "Amédée Masclef",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
@@ -3286,7 +3247,7 @@ window.PLANT_DATABASE = [
     "clean_latin": "Cornus mas",
     "family": "Cornaceae",
     "plant_type": "broadleaf",
-    "total_images": 16,
+    "total_images": 15,
     "images": {
       "premature_fruit": [
         {
@@ -3322,16 +3283,9 @@ window.PLANT_DATABASE = [
       ],
       "leaves_closeup": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Antispila_treitschkiella-AT%2C_Upper_Austria%2C_Mattsee%2C_Camping_Stein-E-NMW00129-Z32429a.jpg/960px-Antispila_treitschkiella-AT%2C_Upper_Austria%2C_Mattsee%2C_Camping_Stein-E-NMW00129-Z32429a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Antispila treitschkiella-AT, Upper Austria, Mattsee, Camping Stein-E-NMW00129-Z32429a.jpg",
-          "author": "Michael Kurz",
-          "source": "Wikimedia Commons",
-          "organ": "leaves_closeup"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Castanea_sativa_foliage_Artvin.jpg/960px-Castanea_sativa_foliage_Artvin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Castanea sativa foliage Artvin.jpg",
-          "author": "Sten Porse",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/148_Cornus_mas_L.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "title": "148 Cornus mas L.jpg",
+          "author": "Amédée Masclef",
           "source": "Wikimedia Commons",
           "organ": "leaves_closeup"
         }
@@ -3418,20 +3372,6 @@ window.PLANT_DATABASE = [
       ],
       "unclassified": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Xanthoria_parietina_-_Common_orange_lichen_-_Gew%C3%B6hnliche_Gelbflechte_-_04.jpg/960px-Xanthoria_parietina_-_Common_orange_lichen_-_Gew%C3%B6hnliche_Gelbflechte_-_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Xanthoria parietina - Common orange lichen - Gewöhnliche Gelbflechte - 04.jpg",
-          "author": "Norbert Nagel",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/148_Cornus_mas_L.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "title": "148 Cornus mas L.jpg",
-          "author": "Amédée Masclef",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Cornus_mas_-_Prof._Dr._Thome-s_Flora_von_Deutschland_..._%28Pl._391%29_clean.jpg/960px-Cornus_mas_-_Prof._Dr._Thome-s_Flora_von_Deutschland_..._%28Pl._391%29_clean.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Cornus mas - Prof. Dr. Thome-s Flora von Deutschland ... (Pl. 391) clean.jpg",
           "author": "Migula, Walter; Thomé, Otto W.",
@@ -3449,13 +3389,6 @@ window.PLANT_DATABASE = [
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Cornus_mas_%E2%80%94_Flora_Batava_%E2%80%94_Volume_v17.jpg/960px-Cornus_mas_%E2%80%94_Flora_Batava_%E2%80%94_Volume_v17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Cornus mas — Flora Batava — Volume v17.jpg",
           "author": "Jan Kops",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/CornusMasInfectedLeaves.jpg/960px-CornusMasInfectedLeaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "CornusMasInfectedLeaves.jpg",
-          "author": "Tigerente",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
@@ -4217,7 +4150,7 @@ window.PLANT_DATABASE = [
     "clean_latin": "Crataegus monogyna",
     "family": "Rosaceae",
     "plant_type": "broadleaf",
-    "total_images": 13,
+    "total_images": 12,
     "images": {
       "premature_fruit": [
         {
@@ -4285,13 +4218,6 @@ window.PLANT_DATABASE = [
           "author": "AnRo0002",
           "source": "Wikimedia Commons",
           "organ": "bark"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Crataegus_laevigata_%27Punicea%27_%28Rosaceae%29_bark.JPG/960px-Crataegus_laevigata_%27Punicea%27_%28Rosaceae%29_bark.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Crataegus laevigata 'Punicea' (Rosaceae) bark.JPG",
-          "author": "Magnus Manske",
-          "source": "Wikimedia Commons",
-          "organ": "bark"
         }
       ],
       "buds": [
@@ -4345,13 +4271,6 @@ window.PLANT_DATABASE = [
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Mainz_-_Bl%C3%A4tter_eines_eingriffeligen_Wei%C3%9Fdorns.jpg/960px-Mainz_-_Bl%C3%A4tter_eines_eingriffeligen_Wei%C3%9Fdorns.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Mainz - Blätter eines eingriffeligen Weißdorns.jpg",
           "author": "ManuelB701",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Phyllonorycter_corylifoliella_Mine.jpg/960px-Phyllonorycter_corylifoliella_Mine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Phyllonorycter corylifoliella Mine.jpg",
-          "author": "Jowaninpensans",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
@@ -4525,16 +4444,9 @@ window.PLANT_DATABASE = [
     "clean_latin": "Fagus sylvatica",
     "family": "Fagaceae",
     "plant_type": "broadleaf",
-    "total_images": 15,
+    "total_images": 14,
     "images": {
       "premature_fruit": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Telekia_ozdobn%C3%A1%2C_Yellow_oxeye_%28Telekia_speciosa%29_near_the_chalet_and_historic_hunting_lodge_Ka%C5%A1tielik%2C_on_the_western_shore_of_the_lake_Morsk%C3%A9_oko%2C_Vihorlat_Mountains_%28Vihorlatsk%C3%A9_vrchy%29%2C_Slovakia_%28September_2023%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "title": "Telekia ozdobná, Yellow oxeye (Telekia speciosa) near the chalet and historic hunting lodge Kaštielik, on the western shore of the lake Morské oko, Vihorlat Mountains (Vihorlatské vrchy), Slovakia (September 2023) 01.jpg",
-          "author": "ZemplinTemplar",
-          "source": "Wikimedia Commons",
-          "organ": "premature_fruit"
-        },
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Vrucht_van_een_beuk_%28Fagus_sylvatica%29_20-06-2023_%28d.j.b.%29.jpg/960px-Vrucht_van_een_beuk_%28Fagus_sylvatica%29_20-06-2023_%28d.j.b.%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Vrucht van een beuk (Fagus sylvatica) 20-06-2023 (d.j.b.).jpg",
@@ -4854,7 +4766,7 @@ window.PLANT_DATABASE = [
     "clean_latin": "Fraxinus excelsior",
     "family": "Oleaceae",
     "plant_type": "broadleaf",
-    "total_images": 14,
+    "total_images": 15,
     "images": {
       "premature_fruit": [
         {
@@ -4968,15 +4880,16 @@ window.PLANT_DATABASE = [
           "organ": "buds"
         }
       ],
-      "leaves_underside": [],
-      "unclassified": [
+      "leaves_underside": [
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Fraxinus_excelsior_%27Aurea_pendula%27.jpg/960px-Fraxinus_excelsior_%27Aurea_pendula%27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Fraxinus excelsior 'Aurea pendula'.jpg",
           "author": "Jean-Pol GRANDMONT",
           "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
+          "organ": "leaves_underside"
+        }
+      ],
+      "unclassified": [
         {
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738266302/large.jpg",
           "title": "Fraxinus excelsior Observation #402173404",
@@ -5182,7 +5095,7 @@ window.PLANT_DATABASE = [
     "clean_latin": "Ginkgo biloba",
     "family": "Ginkgoaceae",
     "plant_type": "conifer",
-    "total_images": 15,
+    "total_images": 14,
     "images": {
       "premature_fruit": [
         {
@@ -5281,13 +5194,6 @@ window.PLANT_DATABASE = [
         }
       ],
       "buds": [
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Budai_Arbor%C3%A9tum._Fels%C5%91_kert._D%C3%A9lszaki_kutyatej_%28Euphorbia_myrsinites%29._-_Budapest.JPG/960px-Budai_Arbor%C3%A9tum._Fels%C5%91_kert._D%C3%A9lszaki_kutyatej_%28Euphorbia_myrsinites%29._-_Budapest.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Budai Arborétum. Felső kert. Délszaki kutyatej (Euphorbia myrsinites). - Budapest.JPG",
-          "author": "Globetrotter19",
-          "source": "Wikimedia Commons",
-          "organ": "buds"
-        },
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/GingkoFruitingTwigSpring.jpg/960px-GingkoFruitingTwigSpring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "GingkoFruitingTwigSpring.jpg",
@@ -5540,13 +5446,6 @@ window.PLANT_DATABASE = [
       ],
       "leaves_closeup": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Fungus_on_leaves_of_Juglans_regia_%2838832814821%29.jpg/960px-Fungus_on_leaves_of_Juglans_regia_%2838832814821%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Fungus on leaves of Juglans regia (38832814821).jpg",
-          "author": "Björn S...",
-          "source": "Wikimedia Commons",
-          "organ": "leaves_closeup"
-        },
-        {
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737860503/large.jpg",
           "title": "Juglans regia Observation #401971996",
           "author": "(c) Sokolov Yuriy Ivanovich, some rights reserved (CC BY-NC)",
@@ -5618,15 +5517,16 @@ window.PLANT_DATABASE = [
           "organ": "buds"
         }
       ],
-      "leaves_underside": [],
-      "unclassified": [
+      "leaves_underside": [
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/295_Juglans_regia_L.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "title": "295 Juglans regia L.jpg",
           "author": "Amédée Masclef",
           "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
+          "organ": "leaves_underside"
+        }
+      ],
+      "unclassified": [
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Juglans_regia_K%C3%B6z%C3%B6ns%C3%A9ges_di%C3%B3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "title": "Juglans regia Közönséges dió.jpg",
@@ -6153,13 +6053,6 @@ window.PLANT_DATABASE = [
           "organ": "unclassified"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Juniperus_oxycedrus_2601.jpg/960px-Juniperus_oxycedrus_2601.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Juniperus oxycedrus 2601.jpg",
-          "author": "Balles2601 (iNaturalist profile: Balles2601)",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Juniperus_communis200509_059.jpg/960px-Juniperus_communis200509_059.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Juniperus communis200509 059.jpg",
           "author": "Bff",
@@ -6496,13 +6389,6 @@ window.PLANT_DATABASE = [
           "organ": "unclassified"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Larix_kaempferi_MHNT.BOT.2007.40.39.jpg/960px-Larix_kaempferi_MHNT.BOT.2007.40.39.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Larix kaempferi MHNT.BOT.2007.40.39.jpg",
-          "author": "Roger Culos",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Bergtocht_van_Peio_Paese_naar_Lago_Covel_in_het_Nationaal_park_Stelvio_%28Itali%C3%AB%29._Wond_van_een_afgebroken_tak._Europese_larix_%28Larix_decidua%29_02.jpg/960px-Bergtocht_van_Peio_Paese_naar_Lago_Covel_in_het_Nationaal_park_Stelvio_%28Itali%C3%AB%29._Wond_van_een_afgebroken_tak._Europese_larix_%28Larix_decidua%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Bergtocht van Peio Paese naar Lago Covel in het Nationaal park Stelvio (Italië). Wond van een afgebroken tak. Europese larix (Larix decidua) 02.jpg",
           "author": "Dominicus Johannes Bergsma",
@@ -6769,13 +6655,6 @@ window.PLANT_DATABASE = [
           "organ": "unclassified"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Larix_kaempferi_MHNT.BOT.2007.40.39.jpg/960px-Larix_kaempferi_MHNT.BOT.2007.40.39.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Larix kaempferi MHNT.BOT.2007.40.39.jpg",
-          "author": "Roger Culos",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/718383291/large.jpg",
           "title": "Larix kaempferi Observation #392024265",
           "author": "(c) shingha4223, some rights reserved (CC BY-NC)",
@@ -6798,7 +6677,7 @@ window.PLANT_DATABASE = [
     "clean_latin": "Larix x",
     "family": "Pinaceae",
     "plant_type": "conifer",
-    "total_images": 11,
+    "total_images": 12,
     "images": {
       "premature_fruit": [
         {
@@ -6834,13 +6713,6 @@ window.PLANT_DATABASE = [
       ],
       "leaves_closeup": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/%28Larix_leptolepis_close-up_at_Yumoto%2C_Japan%29_-_DPLA_-_93b2e1982702933e0480770396e8bc18.jpg/960px-%28Larix_leptolepis_close-up_at_Yumoto%2C_Japan%29_-_DPLA_-_93b2e1982702933e0480770396e8bc18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "(Larix leptolepis close-up at Yumoto, Japan) - DPLA - 93b2e1982702933e0480770396e8bc18.jpg",
-          "author": "Carlquist, Sherwin John, 1930-2021",
-          "source": "Wikimedia Commons",
-          "organ": "leaves_closeup"
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Larix_x_marschlinsii16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "title": "Larix x marschlinsii16.jpg",
           "author": "User:Mmparedes",
@@ -6848,7 +6720,15 @@ window.PLANT_DATABASE = [
           "organ": "leaves_closeup"
         }
       ],
-      "bark_closeup": [],
+      "bark_closeup": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Larix_x_marschlinsii_-_szyszka_558.jpg/960px-Larix_x_marschlinsii_-_szyszka_558.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Larix x marschlinsii - szyszka 558.jpg",
+          "author": "Pleple2000",
+          "source": "Wikimedia Commons",
+          "organ": "bark_closeup"
+        }
+      ],
       "tree_shape": [
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Larix_x_marschlinsii_21_4_2017_Kaisaniemi_0096.jpg/960px-Larix_x_marschlinsii_21_4_2017_Kaisaniemi_0096.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -6858,7 +6738,15 @@ window.PLANT_DATABASE = [
           "organ": "tree_shape"
         }
       ],
-      "bark": [],
+      "bark": [
+        {
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/669621645/large.jpg",
+          "title": "Larix x Observation #366711785",
+          "author": "(c) Elka, some rights reserved (CC BY-NC)",
+          "source": "iNaturalist",
+          "organ": "bark"
+        }
+      ],
       "buds": [
         {
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/689045581/large.jpg",
@@ -6892,20 +6780,6 @@ window.PLANT_DATABASE = [
         }
       ],
       "unclassified": [
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Larix_x_marschlinsii_-_szyszka_558.jpg/960px-Larix_x_marschlinsii_-_szyszka_558.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Larix x marschlinsii - szyszka 558.jpg",
-          "author": "Pleple2000",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/669621645/large.jpg",
-          "title": "Larix x Observation #366711785",
-          "author": "(c) Elka, some rights reserved (CC BY-NC)",
-          "source": "iNaturalist",
-          "organ": "unclassified"
-        },
         {
           "url": "https://static.inaturalist.org/photos/666567349/large.jpg",
           "title": "Larix x Observation #365106296",
@@ -7201,13 +7075,6 @@ window.PLANT_DATABASE = [
           "organ": "unclassified"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Perittia_herrichiella_mosbo6.jpg/960px-Perittia_herrichiella_mosbo6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Perittia herrichiella mosbo6.jpg",
-          "author": "Natthager",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736827549/large.jpg",
           "title": "Lonicera xylosteum Observation #401449653",
           "author": "(c) Miroslav Stamenov, some rights reserved (CC BY-NC)",
@@ -7300,7 +7167,7 @@ window.PLANT_DATABASE = [
     "clean_latin": "Malus sylvestris",
     "family": "Rosaceae",
     "plant_type": "broadleaf",
-    "total_images": 15,
+    "total_images": 13,
     "images": {
       "premature_fruit": [
         {
@@ -7335,13 +7202,6 @@ window.PLANT_DATABASE = [
         }
       ],
       "leaves_closeup": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Malus_domestica_leaf_illustrations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "title": "Malus domestica leaf illustrations.jpg",
-          "author": "G.Bernetti/EUFORGEN",
-          "source": "Wikimedia Commons",
-          "organ": "leaves_closeup"
-        },
         {
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737842438/large.jpg",
           "title": "Malus sylvestris Observation #401970212",
@@ -7392,13 +7252,6 @@ window.PLANT_DATABASE = [
         }
       ],
       "buds": [
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Malus_domestica_bud_illustrations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "title": "Malus domestica bud illustrations.jpg",
-          "author": "G.Bernetti/EUFORGEN",
-          "source": "Wikimedia Commons",
-          "organ": "buds"
-        },
         {
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738053849/large.jpg",
           "title": "Malus sylvestris Observation #402065626",
@@ -7601,7 +7454,7 @@ window.PLANT_DATABASE = [
     "clean_latin": "Picea abies",
     "family": "Pinaceae",
     "plant_type": "conifer",
-    "total_images": 15,
+    "total_images": 14,
     "images": {
       "premature_fruit": [
         {
@@ -7668,13 +7521,6 @@ window.PLANT_DATABASE = [
         }
       ],
       "tree_shape": [
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Pine_tree_bark.jpg/960px-Pine_tree_bark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Pine tree bark.jpg",
-          "author": "Titus Tscharntke",
-          "source": "Wikimedia Commons",
-          "organ": "tree_shape"
-        },
         {
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738217262/large.jpg",
           "title": "Picea abies Observation #402149756",
@@ -7825,16 +7671,9 @@ window.PLANT_DATABASE = [
     "clean_latin": "Picea sitchensis",
     "family": "Pinaceae",
     "plant_type": "conifer",
-    "total_images": 15,
+    "total_images": 13,
     "images": {
       "premature_fruit": [
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Conifer_cones_for_arts_and_crafts_use_at_a_primary_school_in_Norway_%28gran-_og_furukongler_som_formingsmateriale_p%C3%A5_barneskole%29_2017-10-23.jpg/960px-Conifer_cones_for_arts_and_crafts_use_at_a_primary_school_in_Norway_%28gran-_og_furukongler_som_formingsmateriale_p%C3%A5_barneskole%29_2017-10-23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Conifer cones for arts and crafts use at a primary school in Norway (gran- og furukongler som formingsmateriale på barneskole) 2017-10-23.jpg",
-          "author": "Wolfmann",
-          "source": "Wikimedia Commons",
-          "organ": "premature_fruit"
-        },
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Green_Cone_%283677670153%29.jpg/960px-Green_Cone_%283677670153%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Green Cone (3677670153).jpg",
@@ -7901,13 +7740,6 @@ window.PLANT_DATABASE = [
         }
       ],
       "bark": [
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/219_Donkey_Sled_Yard_at_Toledo._Bark_Peelers_%2822040375755%29.jpg/960px-219_Donkey_Sled_Yard_at_Toledo._Bark_Peelers_%2822040375755%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "219 Donkey Sled Yard at Toledo. Bark Peelers (22040375755).jpg",
-          "author": "U.S. Forest Service- Pacific Northwest Region",
-          "source": "Wikimedia Commons",
-          "organ": "bark"
-        },
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Epicormic_branching_in_Picea_sitchenenis_%28Sitka_Spruce%29.JPG/960px-Epicormic_branching_in_Picea_sitchenenis_%28Sitka_Spruce%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Epicormic branching in Picea sitchenenis (Sitka Spruce).JPG",
@@ -8116,20 +7948,6 @@ window.PLANT_DATABASE = [
           "author": "(c) Daniel LaPoint, all rights reserved",
           "source": "iNaturalist",
           "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/De8xeonX0AAKjV1.jpg/960px-De8xeonX0AAKjV1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "De8xeonX0AAKjV1.jpg",
-          "author": "United States Forest Service",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Lirula_macrospora.jpg/960px-Lirula_macrospora.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Lirula macrospora.jpg",
-          "author": "Paul E. Hennon (USDA Forest Service)",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
         }
       ]
     }
@@ -8140,7 +7958,7 @@ window.PLANT_DATABASE = [
     "clean_latin": "Pinus contorta",
     "family": "Pinaceae",
     "plant_type": "conifer",
-    "total_images": 15,
+    "total_images": 12,
     "images": {
       "premature_fruit": [
         {
@@ -8176,13 +7994,6 @@ window.PLANT_DATABASE = [
       ],
       "leaves_closeup": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/1924._These_lodgepole_pine_trees%2C_first_weakened_by_a_needle_miner%2C_were_later_killed_by_mountain_pine_beetle._Tenaya_Basin%2C_Yosemite_National_Park._%2826445242119%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "1924. These lodgepole pine trees, first weakened by a needle miner, were later killed by mountain pine beetle. Tenaya Basin, Yosemite National Park. (26445242119).jpg",
-          "author": "R6, State &amp; Private Forestry, Forest Health Protection",
-          "source": "Wikimedia Commons",
-          "organ": "leaves_closeup"
-        },
-        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Big_lodgepole_on_rock.jpg/960px-Big_lodgepole_on_rock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Big lodgepole on rock.jpg",
           "author": "DavetheMage (talk · contribs)",
@@ -8191,13 +8002,6 @@ window.PLANT_DATABASE = [
         }
       ],
       "bark_closeup": [
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Foxtail_pine_vs_lodgepole_pine_trunks.jpg/960px-Foxtail_pine_vs_lodgepole_pine_trunks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Foxtail pine vs lodgepole pine trunks.jpg",
-          "author": "Dcrjsr",
-          "source": "Wikimedia Commons",
-          "organ": "bark_closeup"
-        },
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Nature%27s_abstracts_-_Flickr_-_CAJC%2C_in_the_PNW.jpg/960px-Nature%27s_abstracts_-_Flickr_-_CAJC%2C_in_the_PNW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Nature's abstracts - Flickr - CAJC, in the PNW.jpg",
@@ -8220,13 +8024,6 @@ window.PLANT_DATABASE = [
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Bison_rub_on_Pinus_contorta_trunk%2C_Grand_Teton_NP.jpg/960px-Bison_rub_on_Pinus_contorta_trunk%2C_Grand_Teton_NP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Bison rub on Pinus contorta trunk, Grand Teton NP.jpg",
           "author": "Squidocto",
-          "source": "Wikimedia Commons",
-          "organ": "bark"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Dendroctonus_ponderosae_f11060656_2a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "title": "Dendroctonus ponderosae f11060656 2a.jpg",
-          "author": "Javier E. Mercado",
           "source": "Wikimedia Commons",
           "organ": "bark"
         }
@@ -8420,7 +8217,7 @@ window.PLANT_DATABASE = [
     "clean_latin": "Pinus mugo",
     "family": "Pinaceae",
     "plant_type": "conifer",
-    "total_images": 15,
+    "total_images": 14,
     "images": {
       "premature_fruit": [
         {
@@ -8500,13 +8297,6 @@ window.PLANT_DATABASE = [
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Pinus_mugo_subsp._uncinata_Sosna_hakowata_2013-08-11_01.jpg/960px-Pinus_mugo_subsp._uncinata_Sosna_hakowata_2013-08-11_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Pinus mugo subsp. uncinata Sosna hakowata 2013-08-11 01.jpg",
           "author": "Agnieszka Kwiecień, Nova",
-          "source": "Wikimedia Commons",
-          "organ": "bark"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Saprows_woodpecker.jpg/960px-Saprows_woodpecker.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Saprows woodpecker.jpg",
-          "author": "FB73",
           "source": "Wikimedia Commons",
           "organ": "bark"
         }
@@ -9428,7 +9218,7 @@ window.PLANT_DATABASE = [
     "clean_latin": "Platanus x",
     "family": "Platanaceae",
     "plant_type": "broadleaf",
-    "total_images": 13,
+    "total_images": 14,
     "images": {
       "premature_fruit": [
         {
@@ -9478,7 +9268,15 @@ window.PLANT_DATABASE = [
           "organ": "leaves_closeup"
         }
       ],
-      "bark_closeup": [],
+      "bark_closeup": [
+        {
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/727616103/large.jpg",
+          "title": "Platanus x Observation #396764225",
+          "author": "(c) Alex Press, some rights reserved (CC BY)",
+          "source": "iNaturalist",
+          "organ": "bark_closeup"
+        }
+      ],
       "tree_shape": [
         {
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/731465766/large.jpg",
@@ -9537,13 +9335,6 @@ window.PLANT_DATABASE = [
         }
       ],
       "unclassified": [
-        {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/727616103/large.jpg",
-          "title": "Platanus x Observation #396764225",
-          "author": "(c) Alex Press, some rights reserved (CC BY)",
-          "source": "iNaturalist",
-          "organ": "unclassified"
-        },
         {
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/727570386/large.jpg",
           "title": "Platanus x Observation #396736169",
@@ -9812,10 +9603,26 @@ window.PLANT_DATABASE = [
     "clean_latin": "Populus x wettsteinii",
     "family": "Salicaceae",
     "plant_type": "broadleaf",
-    "total_images": 12,
+    "total_images": 14,
     "images": {
-      "premature_fruit": [],
-      "seed_pot": [],
+      "premature_fruit": [
+        {
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/530148979/large.jpg",
+          "title": "Populus x wettsteinii (Hybrid Aspen) Obs #294531207",
+          "author": "(c) Mikko Heikkinen, some rights reserved (CC BY)",
+          "source": "iNaturalist",
+          "organ": "premature_fruit"
+        }
+      ],
+      "seed_pot": [
+        {
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/217142667/large.jpeg",
+          "title": "Populus x wettsteinii (Hybrid Aspen) Obs #127856405",
+          "author": "(c) Mika E Laine, some rights reserved (CC BY-NC)",
+          "source": "iNaturalist",
+          "organ": "seed_pot"
+        }
+      ],
       "leaves_closeup": [
         {
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/472678330/large.jpeg",
@@ -9913,20 +9720,6 @@ window.PLANT_DATABASE = [
         }
       ],
       "unclassified": [
-        {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/530148979/large.jpg",
-          "title": "Populus x wettsteinii (Hybrid Aspen) Obs #294531207",
-          "author": "(c) Mikko Heikkinen, some rights reserved (CC BY)",
-          "source": "iNaturalist",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/217142667/large.jpeg",
-          "title": "Populus x wettsteinii (Hybrid Aspen) Obs #127856405",
-          "author": "(c) Mika E Laine, some rights reserved (CC BY-NC)",
-          "source": "iNaturalist",
-          "organ": "unclassified"
-        },
         {
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/530149830/large.jpg",
           "title": "Populus x wettsteinii (Hybrid Aspen) Obs #294531209",
@@ -10944,7 +10737,7 @@ window.PLANT_DATABASE = [
     "clean_latin": "Pyrus communis",
     "family": "Rosaceae",
     "plant_type": "broadleaf",
-    "total_images": 13,
+    "total_images": 14,
     "images": {
       "premature_fruit": [
         {
@@ -10994,7 +10787,15 @@ window.PLANT_DATABASE = [
           "organ": "leaves_closeup"
         }
       ],
-      "bark_closeup": [],
+      "bark_closeup": [
+        {
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735875599/large.jpg",
+          "title": "Pyrus communis Observation #400956515",
+          "author": "(c) Denys Davydov, some rights reserved (CC BY-NC)",
+          "source": "iNaturalist",
+          "organ": "bark_closeup"
+        }
+      ],
       "tree_shape": [
         {
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735936133/large.jpg",
@@ -11053,13 +10854,6 @@ window.PLANT_DATABASE = [
         }
       ],
       "unclassified": [
-        {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735875599/large.jpg",
-          "title": "Pyrus communis Observation #400956515",
-          "author": "(c) Denys Davydov, some rights reserved (CC BY-NC)",
-          "source": "iNaturalist",
-          "organ": "unclassified"
-        },
         {
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735662964/large.jpg",
           "title": "Pyrus communis Observation #400853615",
@@ -11867,7 +11661,7 @@ window.PLANT_DATABASE = [
     "clean_latin": "Salix alba",
     "family": "Salicaceae",
     "plant_type": "broadleaf",
-    "total_images": 12,
+    "total_images": 13,
     "images": {
       "premature_fruit": [
         {
@@ -11926,7 +11720,15 @@ window.PLANT_DATABASE = [
           "organ": "bark_closeup"
         }
       ],
-      "tree_shape": [],
+      "tree_shape": [
+        {
+          "url": "https://static.inaturalist.org/photos/735276143/large.jpg",
+          "title": "Salix alba Observation #400654357",
+          "author": "(c) Sylvie Esp., all rights reserved",
+          "source": "iNaturalist",
+          "organ": "tree_shape"
+        }
+      ],
       "bark": [
         {
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737903555/large.jpg",
@@ -11969,13 +11771,6 @@ window.PLANT_DATABASE = [
         }
       ],
       "unclassified": [
-        {
-          "url": "https://static.inaturalist.org/photos/735276143/large.jpg",
-          "title": "Salix alba Observation #400654357",
-          "author": "(c) Sylvie Esp., all rights reserved",
-          "source": "iNaturalist",
-          "organ": "unclassified"
-        },
         {
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734987797/large.jpg",
           "title": "Salix alba Observation #400514766",
@@ -12230,7 +12025,7 @@ window.PLANT_DATABASE = [
     "clean_latin": "Sambucus nigra",
     "family": "Adoxaceae",
     "plant_type": "broadleaf",
-    "total_images": 14,
+    "total_images": 15,
     "images": {
       "premature_fruit": [
         {
@@ -12296,7 +12091,15 @@ window.PLANT_DATABASE = [
           "organ": "bark_closeup"
         }
       ],
-      "tree_shape": [],
+      "tree_shape": [
+        {
+          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737796613/large.jpg",
+          "title": "Sambucus nigra Observation #401934153",
+          "author": "(c) lucas_spagnuolo, some rights reserved (CC BY-NC)",
+          "source": "iNaturalist",
+          "organ": "tree_shape"
+        }
+      ],
       "bark": [
         {
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738232322/large.jpg",
@@ -12346,13 +12149,6 @@ window.PLANT_DATABASE = [
         }
       ],
       "unclassified": [
-        {
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737796613/large.jpg",
-          "title": "Sambucus nigra Observation #401934153",
-          "author": "(c) lucas_spagnuolo, some rights reserved (CC BY-NC)",
-          "source": "iNaturalist",
-          "organ": "unclassified"
-        },
         {
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737783446/large.jpg",
           "title": "Sambucus nigra Observation #401933519",
@@ -12978,7 +12774,7 @@ window.PLANT_DATABASE = [
     "clean_latin": "Taxus baccata",
     "family": "Taxaceae",
     "plant_type": "conifer",
-    "total_images": 15,
+    "total_images": 14,
     "images": {
       "premature_fruit": [
         {
@@ -13042,13 +12838,6 @@ window.PLANT_DATABASE = [
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/A_Defynnog_Yew_canopy%2C_Powys%2C_Wales.jpg/960px-A_Defynnog_Yew_canopy%2C_Powys%2C_Wales.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "A Defynnog Yew canopy, Powys, Wales.jpg",
           "author": "Rosser1954",
-          "source": "Wikimedia Commons",
-          "organ": "tree_shape"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Boxwood_%28Buxus%29_and_Beech_%28Fagus%29_tree_forest_canopy%2C_Mezmay%2C_Russia.jpg/960px-Boxwood_%28Buxus%29_and_Beech_%28Fagus%29_tree_forest_canopy%2C_Mezmay%2C_Russia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Boxwood (Buxus) and Beech (Fagus) tree forest canopy, Mezmay, Russia.jpg",
-          "author": "Vyacheslav Argenberg",
           "source": "Wikimedia Commons",
           "organ": "tree_shape"
         }
@@ -13276,20 +13065,6 @@ window.PLANT_DATABASE = [
           "author": "C.Giordano/EUFORGEN",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Boxwood_and_beech_relict_forest_canopy%2C_Epiphytes%2C_Mezmay%2C_Russia.jpg/960px-Boxwood_and_beech_relict_forest_canopy%2C_Epiphytes%2C_Mezmay%2C_Russia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Boxwood and beech relict forest canopy, Epiphytes, Mezmay, Russia.jpg",
-          "author": "Vyacheslav Argenberg",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Catacomb_columbarium_City_of_London_Cemetery_south_bank_Newham_London_England_1.jpg/960px-Catacomb_columbarium_City_of_London_Cemetery_south_bank_Newham_London_England_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Catacomb columbarium City of London Cemetery south bank Newham London England 1.jpg",
-          "author": "Acabashi",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
         }
       ]
     }
@@ -13460,13 +13235,6 @@ window.PLANT_DATABASE = [
           "organ": "unclassified"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Western_Tuya.jpg/960px-Western_Tuya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Western Tuya.jpg",
-          "author": "Khaustov Vladimir",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738199685/large.jpg",
           "title": "Thuja occidentalis Observation #402139619",
           "author": "(c) Ashlea Viola, some rights reserved (CC BY-NC)",
@@ -13583,13 +13351,6 @@ window.PLANT_DATABASE = [
           "title": "Thuja occidentalis Observation #402001205",
           "author": "(c) Clara Casabona, some rights reserved (CC BY-NC)",
           "source": "iNaturalist",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/CBG_Fruit_Veg_Island_-_Cornus_mas_%27Golden_Glory%27%2C_Juglans_cinerea_%27Weschcke%27_Butternut%2C_Thuja_occidentalis_%27Brandon%27%2C_Vitis_cvs_Grapes_150627_%2819708869043%29.jpg/960px-CBG_Fruit_Veg_Island_-_Cornus_mas_%27Golden_Glory%27%2C_Juglans_cinerea_%27Weschcke%27_Butternut%2C_Thuja_occidentalis_%27Brandon%27%2C_Vitis_cvs_Grapes_150627_%2819708869043%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "CBG Fruit Veg Island - Cornus mas 'Golden Glory', Juglans cinerea 'Weschcke' Butternut, Thuja occidentalis 'Brandon', Vitis cvs Grapes 150627 (19708869043).jpg",
-          "author": "cultivar413 from Fallbrook, California",
-          "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
         {
@@ -14504,7 +14265,7 @@ window.PLANT_DATABASE = [
     "clean_latin": "Tilia x",
     "family": "Malvaceae",
     "plant_type": "broadleaf",
-    "total_images": 15,
+    "total_images": 14,
     "images": {
       "premature_fruit": [
         {
@@ -14581,13 +14342,6 @@ window.PLANT_DATABASE = [
       ],
       "bark": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Associatie_van_melige_schotelkorst_%28Lecanoretum_carpineae%29.jpg/960px-Associatie_van_melige_schotelkorst_%28Lecanoretum_carpineae%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Associatie van melige schotelkorst (Lecanoretum carpineae).jpg",
-          "author": "Industrees",
-          "source": "Wikimedia Commons",
-          "organ": "bark"
-        },
-        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Lenticels_on_a_young_lime_tree%27s_bark._Tilia_x_europea._Lainshaw_Woods%2C_East_Ayrshire.jpg/960px-Lenticels_on_a_young_lime_tree%27s_bark._Tilia_x_europea._Lainshaw_Woods%2C_East_Ayrshire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Lenticels on a young lime tree's bark. Tilia x europea. Lainshaw Woods, East Ayrshire.jpg",
           "author": "Rosser1954",
@@ -14629,30 +14383,9 @@ window.PLANT_DATABASE = [
       ],
       "unclassified": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Tilia_x_orbicularis_JPG1Aa.jpg/960px-Tilia_x_orbicularis_JPG1Aa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Tilia x orbicularis JPG1Aa.jpg",
-          "author": "Jean-Pol GRANDMONT",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Tilia_x_orbicularis_JPG1Ab.jpg/960px-Tilia_x_orbicularis_JPG1Ab.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Tilia x orbicularis JPG1Ab.jpg",
-          "author": "Jean-Pol GRANDMONT",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Tilia_x_vulgaris_parklind.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "title": "Tilia x vulgaris parklind.jpg",
           "author": "Carl Axel Magnus Lindman",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Tilia_%C3%97_orbicularis.jpg/960px-Tilia_%C3%97_orbicularis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Tilia × orbicularis.jpg",
-          "author": "This photo has been taken by Matthieu Sontag (User:Mirgolth) and released under",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
@@ -14781,13 +14514,6 @@ window.PLANT_DATABASE = [
           "author": "Rosser1954",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Krim-Linde_%28Sonnenstra%C3%9Fe%2C_Neuendettelsau%29_20250711_131845.jpg/960px-Krim-Linde_%28Sonnenstra%C3%9Fe%2C_Neuendettelsau%29_20250711_131845.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Krim-Linde (Sonnenstraße, Neuendettelsau) 20250711 131845.jpg",
-          "author": "Alexander Rahm",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
         }
       ]
     }
@@ -14798,20 +14524,13 @@ window.PLANT_DATABASE = [
     "clean_latin": "Tsuga canadensis",
     "family": "Pinaceae",
     "plant_type": "conifer",
-    "total_images": 16,
+    "total_images": 13,
     "images": {
       "premature_fruit": [
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/%28ms%29_Tsuga_canadensis_3.jpg/960px-%28ms%29_Tsuga_canadensis_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "(ms) Tsuga canadensis 3.jpg",
           "author": "Hladac",
-          "source": "Wikimedia Commons",
-          "organ": "premature_fruit"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Tsuga-heterophylla-cones.JPG/960px-Tsuga-heterophylla-cones.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Tsuga-heterophylla-cones.JPG",
-          "author": "Sten Porse",
           "source": "Wikimedia Commons",
           "organ": "premature_fruit"
         }
@@ -14903,23 +14622,9 @@ window.PLANT_DATABASE = [
           "author": "(c) Cole Wolf, some rights reserved (CC BY)",
           "source": "iNaturalist",
           "organ": "buds"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/BazzaniatriDolly2.JPG/960px-BazzaniatriDolly2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "BazzaniatriDolly2.JPG",
-          "author": "Richtid",
-          "source": "Wikimedia Commons",
-          "organ": "buds"
         }
       ],
       "leaves_underside": [
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Flickr_-_Nicholas_T_-_Shelved.jpg/960px-Flickr_-_Nicholas_T_-_Shelved.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Flickr - Nicholas T - Shelved.jpg",
-          "author": "Nicholas A. Tonelli from Pennsylvania, USA",
-          "source": "Wikimedia Commons",
-          "organ": "leaves_underside"
-        },
         {
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738310855/large.jpg",
           "title": "Tsuga canadensis Observation #402198351",
@@ -15143,20 +14848,6 @@ window.PLANT_DATABASE = [
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/2004-09-05-TSUGA-DU-CANADA-fruit.jpg/960px-2004-09-05-TSUGA-DU-CANADA-fruit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "2004-09-05-TSUGA-DU-CANADA-fruit.jpg",
           "author": "Moosh",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Stemonitis_fusca_28Jun2011.jpg/960px-Stemonitis_fusca_28Jun2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Stemonitis fusca 28Jun2011.jpg",
-          "author": "RiverBissonnette",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Yellow_ectomycorrhizal_fruting_body.jpg/960px-Yellow_ectomycorrhizal_fruting_body.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Yellow ectomycorrhizal fruting body.jpg",
-          "author": "Caverillfungi",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
@@ -15491,7 +15182,7 @@ window.PLANT_DATABASE = [
     "clean_latin": "Viburnum opulus",
     "family": "Adoxaceae",
     "plant_type": "broadleaf",
-    "total_images": 15,
+    "total_images": 14,
     "images": {
       "premature_fruit": [
         {
@@ -15578,13 +15269,6 @@ window.PLANT_DATABASE = [
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/%28ms%29_Viburnum_opulus_10.jpg/960px-%28ms%29_Viburnum_opulus_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "(ms) Viburnum opulus 10.jpg",
           "author": "Hladac",
-          "source": "Wikimedia Commons",
-          "organ": "bark"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/2012-08-14_Melomastia_mastoidea_%28Fr.%29_J._Schr%C3%B6t_365956.jpg/960px-2012-08-14_Melomastia_mastoidea_%28Fr.%29_J._Schr%C3%B6t_365956.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "2012-08-14 Melomastia mastoidea (Fr.) J. Schröt 365956.jpg",
-          "author": "This image was created by user Gerhard Koller (Gerhard) at Mushroom Observer, a",
           "source": "Wikimedia Commons",
           "organ": "bark"
         }
