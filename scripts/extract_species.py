@@ -1,0 +1,441 @@
+import json
+
+# Complete species list transcribed and verified against the BI1452 Autumn 2026 PDF
+SPECIES_DATA = [
+    # Page 1
+    {
+        "family": "Pinaceae",
+        "latin": "Abies grandis",
+        "english": "Grand Fir",
+        "swedish": "kustgran",
+        "zone": "06a"
+    },
+    {
+        "family": "Sapindaceae",
+        "latin": "Acer campestre",
+        "english": "Field Maple",
+        "swedish": "naverlönn",
+        "zone": "17"
+    },
+    {
+        "family": "Sapindaceae",
+        "latin": "Acer platanoides",
+        "english": "Norway Maple",
+        "swedish": "skogslönn",
+        "zone": "17, 19, 35"
+    },
+    {
+        "family": "Sapindaceae",
+        "latin": "Acer pseudoplatanus",
+        "english": "Sycamore Maple",
+        "swedish": "tysklönn, sykomorlönn",
+        "zone": "16, 17, 35"
+    },
+    {
+        "family": "Sapindaceae",
+        "latin": "Acer saccharum",
+        "english": "Sugar Maple",
+        "swedish": "sockerlönn",
+        "zone": "20"
+    },
+    {
+        "family": "Sapindaceae",
+        "latin": "Aesculus hippocastanum",
+        "english": "Horse Chestnut",
+        "swedish": "hästkastanj",
+        "zone": "17, 26"
+    },
+    {
+        "family": "Betulaceae",
+        "latin": "Alnus glutinosa",
+        "english": "Common Alder",
+        "swedish": "klibbal",
+        "zone": "04f"
+    },
+    {
+        "family": "Betulaceae",
+        "latin": "Alnus incana",
+        "english": "Grey Alder",
+        "swedish": "gråal",
+        "zone": "02b"
+    },
+    {
+        "family": "Betulaceae",
+        "latin": "Betula pendula",
+        "english": "Silver Birch",
+        "swedish": "vårtbjörk",
+        "zone": "16"
+    },
+    {
+        "family": "Betulaceae",
+        "latin": "Betula pubescens",
+        "english": "Downy Birch",
+        "swedish": "glasbjörk",
+        "zone": "03e, 05a, 10"
+    },
+    {
+        "family": "Betulaceae",
+        "latin": "Carpinus betulus",
+        "english": "Common Hornbeam",
+        "swedish": "avenbok",
+        "zone": "04f"
+    },
+    {
+        "family": "Cornaceae",
+        "latin": "Cornus mas",
+        "english": "Cornelian Cherry",
+        "swedish": "vårkornell",
+        "zone": "01a"
+    },
+    {
+        "family": "Cornaceae",
+        "latin": "Cornus sanguinea",
+        "english": "Common Dogwood",
+        "swedish": "skogskornell",
+        "zone": "01a"
+    },
+    {
+        "family": "Betulaceae",
+        "latin": "Corylus avellana",
+        "english": "Common Hazel",
+        "swedish": "hassel",
+        "zone": "05d, 16, 18"
+    },
+    {
+        "family": "Rosaceae",
+        "latin": "Crataegus monogyna",
+        "english": "Common Hawthorn",
+        "swedish": "trubbhagtorn",
+        "zone": "11b, 26, 20"
+    },
+    {
+        "family": "Fagaceae",
+        "latin": "Fagus sylvatica",
+        "english": "Common Beech",
+        "swedish": "bok",
+        "zone": "16"
+    },
+    {
+        "family": "Oleaceae",
+        "latin": "Fraxinus excelsior",
+        "english": "Common Ash",
+        "swedish": "ask",
+        "zone": "17, 19"
+    },
+    {
+        "family": "Ginkgoaceae",
+        "latin": "Ginkgo biloba",
+        "english": "Maidenhair Tree",
+        "swedish": "ginkgo",
+        "zone": "07b, 16, 19"
+    },
+    {
+        "family": "Juglandaceae",
+        "latin": "Juglans regia",
+        "english": "Common Walnut",
+        "swedish": "valnöt",
+        "zone": "17, 18"
+    },
+    {
+        "family": "Cupressaceae",
+        "latin": "Juniperus communis ('Vemboö' E)",
+        "english": "Common Juniper",
+        "swedish": "en",
+        "zone": "07a"
+    },
+    # Page 2
+    {
+        "family": "Pinaceae",
+        "latin": "Larix decidua",
+        "english": "European Larch",
+        "swedish": "europeisk lärk",
+        "zone": "17"
+    },
+    {
+        "family": "Pinaceae",
+        "latin": "Larix kaempferi",
+        "english": "Japanese Larch",
+        "swedish": "japansk lärk",
+        "zone": "06a"
+    },
+    {
+        "family": "Pinaceae",
+        "latin": "Larix × marschlinsii (eurolepis)",
+        "english": "Dunkeld Larch",
+        "swedish": "hybridlärk",
+        "zone": "06a"
+    },
+    {
+        "family": "Caprifoliaceae",
+        "latin": "Lonicera xylosteum",
+        "english": "European Fly Honeysuckle",
+        "swedish": "skogstry",
+        "zone": "01g"
+    },
+    {
+        "family": "Rosaceae",
+        "latin": "Malus sylvestris",
+        "english": "Wild Crab",
+        "swedish": "vildapel",
+        "zone": "03d, 25"
+    },
+    {
+        "family": "Pinaceae",
+        "latin": "Picea abies",
+        "english": "Norway Spruce",
+        "swedish": "gran",
+        "zone": "06b, 07a"
+    },
+    {
+        "family": "Pinaceae",
+        "latin": "Picea sitchensis",
+        "english": "Sitka Spruce",
+        "swedish": "sitkagran",
+        "zone": "16"
+    },
+    {
+        "family": "Pinaceae",
+        "latin": "Pinus contorta",
+        "english": "Lodgepole Pine",
+        "swedish": "contortatall",
+        "zone": "06b"
+    },
+    {
+        "family": "Pinaceae",
+        "latin": "Pinus mugo",
+        "english": "Mountain Pine",
+        "swedish": "bergtall",
+        "zone": "13"
+    },
+    {
+        "family": "Pinaceae",
+        "latin": "Pinus nigra",
+        "english": "Austrian Pine",
+        "swedish": "svarttall",
+        "zone": "06b, 16"
+    },
+    {
+        "family": "Pinaceae",
+        "latin": "Pinus ponderosa",
+        "english": "Ponderosa Pine",
+        "swedish": "gultall",
+        "zone": "16"
+    },
+    {
+        "family": "Pinaceae",
+        "latin": "Pinus strobus",
+        "english": "Weymouth Pine",
+        "swedish": "weymouthtall",
+        "zone": "06a"
+    },
+    {
+        "family": "Pinaceae",
+        "latin": "Pinus sylvestris",
+        "english": "Scots Pine",
+        "swedish": "tall",
+        "zone": "06a, 07b, 10"
+    },
+    {
+        "family": "Platanaceae",
+        "latin": "Platanus × hispanica",
+        "english": "London Plane",
+        "swedish": "hybridplatan",
+        "zone": "06a"
+    },
+    {
+        "family": "Salicaceae",
+        "latin": "Populus × canadensis 'Robusta'",
+        "english": "Canadian Poplar",
+        "swedish": "goliatpoppel",
+        "zone": "14, 15"
+    },
+    {
+        "family": "Salicaceae",
+        "latin": "Populus × wettsteinii",
+        "english": "Hybrid Aspen",
+        "swedish": "hybridasp",
+        "zone": "AV"
+    },
+    {
+        "family": "Salicaceae",
+        "latin": "Populus tremula",
+        "english": "Aspen",
+        "swedish": "asp",
+        "zone": "01c, 15"
+    },
+    {
+        "family": "Rosaceae",
+        "latin": "Prunus avium",
+        "english": "Wild Cherry",
+        "swedish": "fågelbär",
+        "zone": "03c, 04c"
+    },
+    {
+        "family": "Rosaceae",
+        "latin": "Prunus padus",
+        "english": "Bird Cherry",
+        "swedish": "hägg",
+        "zone": "02e, 03c"
+    },
+    {
+        "family": "Rosaceae",
+        "latin": "Prunus spinosa",
+        "english": "Blackthorn",
+        "swedish": "slån",
+        "zone": "14"
+    },
+    {
+        "family": "Pinaceae",
+        "latin": "Pseudotsuga menziesii",
+        "english": "Douglas Fir",
+        "swedish": "douglasgran",
+        "zone": "06a, 06b"
+    },
+    {
+        "family": "Rosaceae",
+        "latin": "Pyrus communis",
+        "english": "Common Pear",
+        "swedish": "päron",
+        "zone": "26, 34"
+    },
+    {
+        "family": "Fagaceae",
+        "latin": "Quercus petraea",
+        "english": "Sessile Oak",
+        "swedish": "bergek",
+        "zone": "16"
+    },
+    {
+        "family": "Fagaceae",
+        "latin": "Quercus robur",
+        "english": "English Oak",
+        "swedish": "skogsek",
+        "zone": "09a, 16, 17"
+    },
+    {
+        "family": "Fagaceae",
+        "latin": "Quercus rubra",
+        "english": "Red Oak",
+        "swedish": "rödek",
+        "zone": "14, 23"
+    },
+    {
+        "family": "Grossulariaceae",
+        "latin": "Ribes alpinum",
+        "english": "Mountain Currant, Alpine Currant",
+        "swedish": "måbär",
+        "zone": "17"
+    },
+    # Page 3
+    {
+        "family": "Salicaceae",
+        "latin": "Salix alba var. Sericea",
+        "english": "White Willow",
+        "swedish": "silverpil",
+        "zone": "15"
+    },
+    {
+        "family": "Salicaceae",
+        "latin": "Salix caprea",
+        "english": "Goat Willow",
+        "swedish": "sälg",
+        "zone": "34"
+    },
+    {
+        "family": "Adoxaceae",
+        "latin": "Sambucus nigra",
+        "english": "European Elder",
+        "swedish": "fläder",
+        "zone": "15, 20"
+    },
+    {
+        "family": "Adoxaceae",
+        "latin": "Sambucus racemosa",
+        "english": "European Red Elder",
+        "swedish": "druvfläder",
+        "zone": "07a"
+    },
+    {
+        "family": "Rosaceae",
+        "latin": "Sorbus aucuparia",
+        "english": "Common Rowan",
+        "swedish": "rönn",
+        "zone": "02a, 03a"
+    },
+    {
+        "family": "Rosaceae",
+        "latin": "Sorbus intermedia",
+        "english": "Swedish Whitebeam",
+        "swedish": "oxel",
+        "zone": "01a"
+    },
+    {
+        "family": "Taxaceae",
+        "latin": "Taxus baccata",
+        "english": "Common Yew",
+        "swedish": "idegran",
+        "zone": "06a, 16"
+    },
+    {
+        "family": "Cupressaceae",
+        "latin": "Thuja occidentalis",
+        "english": "Eastern White Cedar",
+        "swedish": "vanlig tuja",
+        "zone": "07a, 09c"
+    },
+    {
+        "family": "Cupressaceae",
+        "latin": "Thuja plicata ('Excelsa')",
+        "english": "Western Red Cedar",
+        "swedish": "jättetuja",
+        "zone": "07a, 28"
+    },
+    {
+        "family": "Malvaceae",
+        "latin": "Tilia cordata",
+        "english": "Small-leaved Lime",
+        "swedish": "skogslind",
+        "zone": "17"
+    },
+    {
+        "family": "Malvaceae",
+        "latin": "Tilia platyphyllos",
+        "english": "Broad-leaved Lime",
+        "swedish": "bohuslind",
+        "zone": "19"
+    },
+    {
+        "family": "Malvaceae",
+        "latin": "Tilia × europaea",
+        "english": "Common Lime",
+        "swedish": "parklind",
+        "zone": "17, 19"
+    },
+    {
+        "family": "Pinaceae",
+        "latin": "Tsuga canadensis",
+        "english": "Eastern Hemlock",
+        "swedish": "vanlig hemlock",
+        "zone": "07b, 28"
+    },
+    {
+        "family": "Ulmaceae",
+        "latin": "Ulmus glabra",
+        "english": "Wynch Elm",
+        "swedish": "skogsalm",
+        "zone": "15"
+    },
+    {
+        "family": "Adoxaceae",
+        "latin": "Viburnum opulus",
+        "english": "Guelder Rose",
+        "swedish": "skogsolvon",
+        "zone": "04f"
+    }
+]
+
+if __name__ == "__main__":
+    print(f"Total species: {len(SPECIES_DATA)}")
+    with open("bi1452_species.json", "w", encoding="utf-8") as f:
+        json.dump(SPECIES_DATA, f, indent=2, ensure_ascii=False)
+    print("Saved bi1452_species.json successfully.")

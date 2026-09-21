@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PhytoMemo — Tree Species Identification Quiz (BI1452)</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌿</text></svg>" />
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            botanical: {
+              50: '#f2f8f4',
+              100: '#e1f0e7',
+              200: '#c5e2d1',
+              300: '#99cbb2',
+              400: '#67ac8d',
+              500: '#43906f',
+              600: '#327357',
+              700: '#295b46',
+              800: '#234a3a',
+              900: '#1e3e31',
+              950: '#0d221b',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    }
+    .font-botanical {
+      font-family: 'Playfair Display', Georgia, serif;
+    }
+    .font-mono {
+      font-family: 'JetBrains Mono', monospace;
+    }
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #1c1917;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #44403c;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #57534e;
+    }
+  </style>
+
+  <!-- Load pre-built verified database -->
+  <script src="plants_data.js"></script>
+</head>
+<body class="bg-stone-950 text-stone-100 min-h-full flex flex-col selection:bg-emerald-600 selection:text-white antialiased">
+
+  <!-- Top Navigation Header -->
+  <header class="bg-stone-900/90 backdrop-blur border-b border-stone-800 sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center space-x-3 cursor-pointer" onclick="showView('setup-view')">
+        <span class="text-2xl">🌿</span>
+        <div>
+          <h1 class="text-lg font-bold text-emerald-400 tracking-tight flex items-center gap-2">
+            PhytoMemo
+            <span class="text-xs font-medium px-2 py-0.5 rounded-full bg-emerald-950 border border-emerald-800 text-emerald-300">BI1452 SLU</span>
+          </h1>
+          <p class="text-xs text-stone-400 hidden sm:block">Tree Species Memorization & Exam Trainer</p>
+        </div>
+      </div>
+
+      <!-- View Nav Tabs -->
+      <nav class="flex items-center space-x-1 sm:space-x-2">
+        <button id="nav-setup-btn" onclick="showView('setup-view')" class="px-3 py-1.5 rounded-lg text-sm font-medium transition bg-emerald-600 text-white shadow-sm flex items-center gap-1.5">
+          <span>🎯</span> <span class="hidden sm:inline">Quiz Setup</span>
+        </button>
+        <button id="nav-atlas-btn" onclick="showView('atlas-view')" class="px-3 py-1.5 rounded-lg text-sm font-medium text-stone-300 hover:text-white hover:bg-stone-800 transition flex items-center gap-1.5">
+          <span>📖</span> <span class="hidden sm:inline">Species Atlas</span>
+        </button>
+        <button id="nav-search-btn" onclick="showView('search-view')" class="px-3 py-1.5 rounded-lg text-sm font-medium text-stone-300 hover:text-white hover:bg-stone-800 transition flex items-center gap-1.5">
+          <span>➕</span> <span class="hidden sm:inline">Add Plant</span>
+        </button>
+        <button id="nav-export-btn" onclick="toggleExportModal()" class="px-3 py-1.5 rounded-lg text-sm font-medium text-stone-400 hover:text-white hover:bg-stone-800 transition" title="Export / Import Database">
+          <span>💾</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="flex-1 max-w-7xl w-full mx-auto p-4 sm:p-6 lg:p-8">
+
+    <!-- ================= VIEW 1: QUIZ SETUP ================= -->
+    <section id="setup-view" class="space-y-8">
+      
+      <!-- Intro Hero Banner -->
+      <div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-stone-900 via-stone-900 to-emerald-950/40 border border-stone-800 p-6 sm:p-8">
+        <div class="max-w-3xl">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold uppercase tracking-wider mb-4">
+            Interactive Tree Memorization Tool
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-bold text-stone-100 font-botanical tracking-tight">
+            Configure Your Tree Identification Quiz
+          </h2>
+          <p class="mt-2 text-stone-300 text-sm sm:text-base leading-relaxed">
+            Test your botanical identification skills across verified photos from Wikimedia Commons & iNaturalist: 
+            <span class="text-emerald-400 font-medium">bark, winter buds, leaves (top & underside), flowers, fruits/cones, habit, and classical botanical illustrations</span>.
+          </p>
+        </div>
+      </div>
+
+      <!-- Grid of Setup Controls -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        
+        <!-- LEFT 2 COLS: Species Selection (Interactive) -->
+        <div class="lg:col-span-2 space-y-6">
+          <div class="bg-stone-900 border border-stone-800 rounded-2xl p-6 shadow-sm">
+            
+            <!-- Section Header -->
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-stone-800">
+              <div>
+                <h3 class="text-lg font-bold text-stone-100 flex items-center gap-2">
+                  <span>🌲</span> Select Species to Examine
+                </h3>
+                <p class="text-xs text-stone-400 mt-0.5">
+                  Pick individual species, or use the quick filter presets below.
+                </p>
+              </div>
+              <div class="flex items-center gap-2">
+                <span id="selected-species-count" class="px-3 py-1 rounded-full bg-emerald-900/60 border border-emerald-700 text-emerald-300 text-xs font-bold">
+                  61 / 61 Selected
+                </span>
+              </div>
+            </div>
+
+            <!-- Quick Presets -->
+            <div class="flex flex-wrap gap-2 pt-4">
+              <button onclick="selectAllSpecies(true)" class="px-3 py-1.5 rounded-lg bg-stone-800 hover:bg-stone-700 text-xs font-semibold text-stone-200 transition">
+                ✓ Select All (61)
+              </button>
+              <button onclick="selectAllSpecies(false)" class="px-3 py-1.5 rounded-lg bg-stone-800 hover:bg-stone-700 text-xs font-semibold text-stone-300 transition">
+                ✕ Clear All
+              </button>
+              <button onclick="selectByType('conifer')" class="px-3 py-1.5 rounded-lg bg-stone-800 hover:bg-emerald-900/50 hover:border-emerald-700 border border-transparent text-xs font-semibold text-stone-200 transition">
+                🌲 Conifers Only (15)
+              </button>
+              <button onclick="selectByType('broadleaf')" class="px-3 py-1.5 rounded-lg bg-stone-800 hover:bg-emerald-900/50 hover:border-emerald-700 border border-transparent text-xs font-semibold text-stone-200 transition">
+                🍃 Broadleaf Only (46)
+              </button>
+            </div>
+
+            <!-- Family Quick Filter Pills -->
+            <div class="pt-3">
+              <label class="text-xs font-semibold text-stone-400 uppercase tracking-wider block mb-2">Filter by Family:</label>
+              <div id="family-filter-pills" class="flex flex-wrap gap-1.5 max-h-24 overflow-y-auto pr-1">
+                <!-- Injected via JS -->
+              </div>
+            </div>
+
+            <!-- Live Search in Species List -->
+            <div class="pt-4">
+              <div class="relative">
+                <span class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-stone-400">🔍</span>
+                <input 
+                  type="text" 
+                  id="species-search-input" 
+                  oninput="renderSpeciesSelectorList()" 
+                  placeholder="Filter species by Latin, Swedish (e.g. skogslönn), or English name..."
+                  class="w-full bg-stone-950 border border-stone-800 rounded-xl pl-10 pr-4 py-2 text-sm text-stone-100 placeholder-stone-500 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition"
+                />
+              </div>
+            </div>
+
+            <!-- Species Scrollable Grid -->
+            <div class="mt-4 border border-stone-800 rounded-xl bg-stone-950/60 p-2 max-h-[460px] overflow-y-auto space-y-1.5" id="species-checklist-container">
+              <!-- Checkboxes injected dynamically -->
+            </div>
+
+          </div>
+        </div>
+
+        <!-- RIGHT 1 COL: Quiz Parameters & Settings -->
+        <div class="space-y-6">
+          <div class="bg-stone-900 border border-stone-800 rounded-2xl p-6 shadow-sm space-y-6 sticky top-24">
+            
+            <h3 class="text-lg font-bold text-stone-100 flex items-center gap-2 pb-3 border-b border-stone-800">
+              <span>⚙️</span> Quiz Parameters
+            </h3>
+
+            <!-- Quiz Size -->
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <label class="text-sm font-semibold text-stone-200">Quiz Size (Questions)</label>
+                <span id="quiz-size-display" class="text-xs font-bold text-emerald-400 bg-emerald-950 px-2 py-0.5 rounded border border-emerald-800">20 questions</span>
+              </div>
+              <div class="grid grid-cols-5 gap-1.5 mb-2">
+                <button type="button" onclick="setQuizSize(5)" class="quiz-size-btn px-2 py-1.5 text-xs font-bold rounded-lg bg-stone-800 hover:bg-stone-700 text-stone-300 transition">5</button>
+                <button type="button" onclick="setQuizSize(10)" class="quiz-size-btn px-2 py-1.5 text-xs font-bold rounded-lg bg-stone-800 hover:bg-stone-700 text-stone-300 transition">10</button>
+                <button type="button" onclick="setQuizSize(20)" class="quiz-size-btn px-2 py-1.5 text-xs font-bold rounded-lg bg-emerald-600 text-white font-bold transition">20</button>
+                <button type="button" onclick="setQuizSize(30)" class="quiz-size-btn px-2 py-1.5 text-xs font-bold rounded-lg bg-stone-800 hover:bg-stone-700 text-stone-300 transition">30</button>
+                <button type="button" onclick="setQuizSize('all')" class="quiz-size-btn px-2 py-1.5 text-xs font-bold rounded-lg bg-stone-800 hover:bg-stone-700 text-stone-300 transition">All</button>
+              </div>
+              <input 
+                type="range" 
+                id="quiz-size-slider" 
+                min="3" 
+                max="61" 
+                value="20" 
+                oninput="onQuizSliderChange(this.value)"
+                class="w-full h-1.5 bg-stone-800 rounded-lg appearance-none cursor-pointer accent-emerald-500"
+              />
+            </div>
+
+            <!-- Target Answer Type -->
+            <div>
+              <label class="text-sm font-semibold text-stone-200 block mb-2">Prompt & Target Answer</label>
+              <div class="grid grid-cols-1 gap-2">
+                <label class="flex items-center gap-3 p-2.5 rounded-xl border border-emerald-700/50 bg-emerald-950/20 cursor-pointer hover:bg-emerald-950/40 transition">
+                  <input type="radio" name="answer-type" value="latin" checked class="text-emerald-500 focus:ring-0 accent-emerald-500" />
+                  <div>
+                    <span class="text-xs font-bold text-stone-100 block">Scientific Latin Name (Exam Standard)</span>
+                    <span class="text-[11px] text-stone-400">e.g. Acer platanoides, Pinus sylvestris</span>
+                  </div>
+                </label>
+                <label class="flex items-center gap-3 p-2.5 rounded-xl border border-stone-800 bg-stone-950/40 cursor-pointer hover:bg-stone-800/60 transition">
+                  <input type="radio" name="answer-type" value="swedish" class="text-emerald-500 focus:ring-0 accent-emerald-500" />
+                  <div>
+                    <span class="text-xs font-bold text-stone-200 block">🇸🇪 Swedish Common Name</span>
+                    <span class="text-[11px] text-stone-400">e.g. skogslönn, tall, vårtbjörk</span>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <!-- Results & Feedback Timing (Exam Mode vs Practice Mode) -->
+            <div>
+              <label class="text-sm font-semibold text-stone-200 block mb-2">Results & Feedback Timing</label>
+              <div class="grid grid-cols-1 gap-2">
+                <label class="flex items-start gap-3 p-2.5 rounded-xl border border-emerald-700/50 bg-emerald-950/20 cursor-pointer hover:bg-emerald-950/40 transition" id="feedback-timing-end-label">
+                  <input type="radio" name="feedback-timing" value="end" checked class="text-emerald-500 focus:ring-0 accent-emerald-500 mt-0.5" onchange="updateFeedbackTimingSelection()" />
+                  <div>
+                    <span class="text-xs font-bold text-stone-100 flex items-center gap-1.5">
+                      <span>🎓</span> Exam Mode (Showcase results at end only)
+                    </span>
+                    <span class="text-[11px] text-stone-400 block mt-0.5">
+                      Answers stay hidden throughout the test. Complete scorecard & answers revealed only after submitting all answers.
+                    </span>
+                  </div>
+                </label>
+                <label class="flex items-start gap-3 p-2.5 rounded-xl border border-stone-800 bg-stone-950/40 cursor-pointer hover:bg-stone-800/60 transition" id="feedback-timing-instant-label">
+                  <input type="radio" name="feedback-timing" value="instant" class="text-emerald-500 focus:ring-0 accent-emerald-500 mt-0.5" onchange="updateFeedbackTimingSelection()" />
+                  <div>
+                    <span class="text-xs font-bold text-stone-200 flex items-center gap-1.5">
+                      <span>💡</span> Practice Mode (Instant feedback per question)
+                    </span>
+                    <span class="text-[11px] text-stone-400 block mt-0.5">
+                      Immediately reveals whether you are correct, the actual Latin name, and full organ gallery after each answer.
+                    </span>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <!-- Organs to Include -->
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <label class="text-sm font-semibold text-stone-200">Organs to Examine</label>
+                <button onclick="toggleAllOrgans()" class="text-xs text-emerald-400 hover:underline">Toggle All</button>
+              </div>
+              <div class="grid grid-cols-2 gap-1.5" id="organ-checkboxes-container">
+                <!-- Injected via JS -->
+              </div>
+            </div>
+
+            <!-- Clue Mode -->
+            <div>
+              <label class="text-sm font-semibold text-stone-200 block mb-2">Clue Presentation Mode</label>
+              <select id="clue-mode-select" class="w-full bg-stone-950 border border-stone-800 rounded-xl px-3 py-2 text-xs text-stone-200 focus:outline-none focus:border-emerald-500">
+                <option value="single">👁️ 1 Random Organ Image (Strict Challenge)</option>
+                <option value="progressive" selected>💡 Progressive Reveal (1 image + optional hint clues)</option>
+                <option value="multi">🖼️ Multi-Organ Gallery (Show 2-3 organs side by side)</option>
+              </select>
+            </div>
+
+            <!-- Fuzzy Spelling Mode -->
+            <div>
+              <label class="flex items-center justify-between cursor-pointer p-2 rounded-xl bg-stone-950/50 border border-stone-800">
+                <div class="pr-2">
+                  <span class="text-xs font-semibold text-stone-200 block">Tolerant Spelling</span>
+                  <span class="text-[11px] text-stone-400">Forgive minor typos & hybrid accents</span>
+                </div>
+                <input type="checkbox" id="fuzzy-spelling-checkbox" checked class="w-4 h-4 rounded text-emerald-500 accent-emerald-500" />
+              </label>
+            </div>
+
+            <!-- Start Quiz Button -->
+            <button 
+              onclick="startQuiz()" 
+              class="w-full py-3.5 px-6 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-bold shadow-lg shadow-emerald-950/50 flex items-center justify-center gap-2 transition transform active:scale-98"
+            >
+              <span class="text-lg">🚀</span>
+              <span>Start Identification Quiz</span>
+            </button>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= VIEW 2: ACTIVE QUIZ ================= -->
+    <section id="quiz-view" class="hidden space-y-6 max-w-4xl mx-auto">
+      
+      <!-- Quiz Header & Progress -->
+      <div class="bg-stone-900 border border-stone-800 rounded-2xl p-4 sm:p-5 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div class="flex items-center gap-3 w-full sm:w-auto">
+          <button onclick="confirmExitQuiz()" class="p-2 rounded-lg bg-stone-800 hover:bg-stone-700 text-stone-300 text-xs font-medium transition" title="Quit Quiz">
+            ← Exit
+          </button>
+          <div>
+            <div class="text-xs text-stone-400 font-medium">Question Progress</div>
+            <div id="quiz-progress-text" class="text-sm font-bold text-stone-100">Question 1 of 20</div>
+          </div>
+        </div>
+
+        <!-- Progress bar -->
+        <div class="w-full sm:w-64 bg-stone-800 h-2.5 rounded-full overflow-hidden">
+          <div id="quiz-progress-bar" class="bg-gradient-to-r from-emerald-500 to-teal-400 h-full rounded-full transition-all duration-300" style="width: 5%"></div>
+        </div>
+
+        <!-- Score & Status counter -->
+        <div class="flex items-center gap-2">
+          <span id="quiz-status-label" class="text-xs text-stone-400">Score:</span>
+          <span id="quiz-live-score" class="text-sm font-bold text-emerald-400 px-2.5 py-1 bg-emerald-950/80 border border-emerald-800 rounded-lg">
+            0 / 0 (0%)
+          </span>
+          <button id="exam-finish-early-btn" onclick="confirmSubmitExamEarly()" class="hidden px-3 py-1 bg-amber-600/90 hover:bg-amber-500 text-white rounded-lg text-xs font-bold transition shadow-sm">
+            🏁 Finish & Submit
+          </button>
+        </div>
+      </div>
+
+      <!-- Exam Mode Question Navigator Palette (Shown in Exam Mode) -->
+      <div id="exam-navigator-bar" class="hidden bg-stone-900 border border-stone-800 rounded-xl p-3 flex flex-col sm:flex-row items-center justify-between gap-3">
+        <div class="flex items-center gap-2">
+          <span class="text-xs font-semibold text-stone-400">Jump to Question:</span>
+          <div id="exam-question-palette" class="flex flex-wrap gap-1 max-h-20 overflow-y-auto">
+            <!-- Question pills 1, 2, 3 injected dynamically -->
+          </div>
+        </div>
+        <div class="flex items-center gap-2 shrink-0">
+          <span id="exam-answered-summary" class="text-xs font-mono text-emerald-400 bg-emerald-950 px-2 py-0.5 rounded border border-emerald-800">
+            0 / 20 Answered
+          </span>
+        </div>
+      </div>
+
+      <!-- Main Question Presentation Card -->
+      <div class="bg-stone-900 border border-stone-800 rounded-2xl overflow-hidden shadow-xl">
+        
+        <!-- Clue Organ Image Display -->
+        <div class="p-4 sm:p-6 bg-stone-950/80">
+          <div class="flex items-center justify-between mb-3">
+            <div class="flex items-center gap-2">
+              <span id="quiz-organ-badge" class="px-3 py-1 rounded-full text-xs font-bold bg-emerald-950 text-emerald-300 border border-emerald-800 flex items-center gap-1.5">
+                🪵 Bark
+              </span>
+              <span id="quiz-image-source" class="text-[11px] text-stone-400 truncate max-w-[240px]">
+                Wikimedia Commons
+              </span>
+            </div>
+            <button onclick="openCurrentPhotoLightbox()" class="text-xs text-stone-400 hover:text-white flex items-center gap-1 bg-stone-800/80 px-2.5 py-1 rounded-lg transition" title="Click to zoom">
+              🔍 Zoom Details
+            </button>
+          </div>
+
+          <!-- Anti-Cheat Interactive Dynamic Crop Bar -->
+          <div id="anti-cheat-bar" class="mb-3 p-2 rounded-xl bg-stone-900 border border-amber-900/50 flex flex-wrap items-center justify-between gap-2 text-xs">
+            <div class="flex items-center gap-2">
+              <span class="px-2 py-0.5 rounded bg-amber-950/80 border border-amber-800 text-amber-300 font-bold text-[10px] flex items-center gap-1">
+                <span>🛡️</span> <span>Anti-Cheat Name Mask</span>
+              </span>
+              <span id="anti-cheat-crop-status" class="text-stone-300 text-[11px]">
+                Plant label cropped to prevent cheating
+              </span>
+            </div>
+            <div class="flex items-center gap-2">
+              <label for="interactive-crop-slider" class="text-[11px] text-stone-400">Bottom Crop:</label>
+              <input 
+                type="range" 
+                id="interactive-crop-slider" 
+                min="0" 
+                max="35" 
+                value="14" 
+                step="1"
+                oninput="applyInteractiveCrop(this.value)"
+                class="w-24 h-1.5 bg-stone-800 rounded-lg appearance-none cursor-pointer accent-emerald-500"
+                title="Adjust bottom crop percentage to hide printed plant names"
+              />
+              <span id="interactive-crop-val" class="font-mono text-[11px] text-emerald-400 w-7">14%</span>
+              <button type="button" onclick="setInteractiveCropPreset(0)" class="px-1.5 py-0.5 rounded bg-stone-800 hover:bg-stone-700 text-[10px] text-stone-300 transition" title="Show uncropped full image">0%</button>
+              <button type="button" onclick="setInteractiveCropPreset(14)" class="px-1.5 py-0.5 rounded bg-stone-800 hover:bg-stone-700 text-[10px] text-stone-300 transition" title="Standard plate label crop">14%</button>
+              <button type="button" onclick="setInteractiveCropPreset(22)" class="px-1.5 py-0.5 rounded bg-stone-800 hover:bg-stone-700 text-[10px] text-stone-300 transition" title="Deep label crop">22%</button>
+            </div>
+          </div>
+
+          <!-- Main Image Viewport with Dynamic Crop -->
+          <div id="quiz-images-container" class="relative min-h-[340px] sm:min-h-[420px] max-h-[540px] bg-stone-900 rounded-xl overflow-hidden flex items-center justify-center border border-stone-800 group">
+            <!-- Injected image element with CSS clip-path -->
+            <img 
+              id="quiz-primary-img" 
+              src="" 
+              alt="Plant organ for identification" 
+              class="max-h-[520px] w-auto max-w-full object-contain cursor-zoom-in transition-all duration-150 group-hover:scale-[1.01]"
+              style="clip-path: inset(0% 0% var(--crop-bottom, 0%) 0%);"
+              onclick="openCurrentPhotoLightbox()"
+              onerror="handleImageLoadError(this)"
+            />
+            <!-- Dynamic Bottom Mask Overlay -->
+            <div id="crop-mask-overlay" class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-stone-950 via-stone-950/95 to-transparent pointer-events-none transition-all duration-150 hidden flex flex-col justify-end pb-1.5 items-center">
+              <span class="text-[10px] font-bold tracking-wider text-amber-300/80 uppercase bg-black/70 px-2.5 py-0.5 rounded-full border border-amber-900/50">
+                🛡️ Plant Name Masked
+              </span>
+            </div>
+          </div>
+
+          <!-- Extra Hint Images (if progressive reveal or multi-organ mode) -->
+          <div id="quiz-extra-clues-container" class="mt-4 hidden space-y-2">
+            <span class="text-xs font-semibold text-stone-400 uppercase tracking-wider block">Additional Organ Clues:</span>
+            <div id="quiz-extra-clues-grid" class="grid grid-cols-2 sm:grid-cols-4 gap-2"></div>
+          </div>
+
+          <!-- Clue Action Buttons -->
+          <div class="mt-3 flex items-center justify-between">
+            <button 
+              id="reveal-hint-btn" 
+              onclick="revealAdditionalClue()" 
+              class="text-xs font-medium text-emerald-400 hover:text-emerald-300 bg-emerald-950/60 border border-emerald-800/80 px-3 py-1.5 rounded-lg flex items-center gap-1.5 transition"
+            >
+              <span>💡</span> <span>Reveal Another Organ Clue</span>
+            </button>
+            <span class="text-[11px] text-stone-500 italic">Click photo to zoom high resolution</span>
+          </div>
+        </div>
+
+        <!-- Input & Feedback Section -->
+        <div class="p-4 sm:p-6 border-t border-stone-800 bg-stone-900 space-y-4">
+          
+          <!-- Answer Input Form (Shown before submission) -->
+          <div id="quiz-input-section" class="space-y-3">
+            <label id="quiz-input-label" for="quiz-user-input" class="text-sm font-semibold text-stone-200 block">
+              What is the Latin scientific name of this species?
+            </label>
+            <div class="flex flex-col sm:flex-row gap-2">
+              <button 
+                id="exam-prev-btn"
+                onclick="navigateExamQuestion(-1)" 
+                class="hidden px-3.5 py-3 rounded-xl bg-stone-800 hover:bg-stone-700 text-stone-300 text-sm font-semibold transition"
+                title="Previous question"
+              >
+                ← Prev
+              </button>
+              <input 
+                type="text" 
+                id="quiz-user-input" 
+                autocomplete="off" 
+                spellcheck="false" 
+                placeholder="Type Latin name (e.g. Acer platanoides)..." 
+                class="flex-1 bg-stone-950 border border-stone-700 rounded-xl px-4 py-3 text-base text-stone-100 placeholder-stone-500 focus:outline-none focus:border-emerald-500 focus:ring-2 focus:ring-emerald-500/20 transition font-botanical italic"
+                onkeydown="if(event.key === 'Enter') submitQuizAnswer()"
+              />
+              <button 
+                id="quiz-submit-action-btn"
+                onclick="submitQuizAnswer()" 
+                class="px-6 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm transition flex items-center justify-center gap-1.5 shadow-md shadow-emerald-950"
+              >
+                <span id="quiz-submit-action-text">Next →</span> <span>↵</span>
+              </button>
+              <button 
+                id="quiz-skip-btn"
+                onclick="skipQuizAnswer()" 
+                class="px-4 py-3 rounded-xl bg-stone-800 hover:bg-stone-700 text-stone-300 text-sm font-medium transition"
+              >
+                Skip
+              </button>
+            </div>
+            <div id="exam-mode-tip" class="hidden text-[11px] text-stone-400 italic">
+              🎓 Exam Mode active: Results & answers will be showcased after submitting all questions.
+            </div>
+          </div>
+
+          <!-- Immediate Feedback Card (Shown after submission) -->
+          <div id="quiz-feedback-section" class="hidden space-y-4 pt-2">
+            
+            <!-- Result Alert Banner -->
+            <div id="feedback-alert" class="p-4 rounded-xl border flex items-start justify-between gap-3">
+              <div class="flex items-start gap-3">
+                <span id="feedback-icon" class="text-2xl">✅</span>
+                <div>
+                  <h4 id="feedback-title" class="text-base font-bold text-white">Correct!</h4>
+                  <p id="feedback-subtitle" class="text-xs text-stone-300 mt-0.5"></p>
+                </div>
+              </div>
+              <button 
+                id="next-question-btn" 
+                onclick="proceedToNextQuestion()" 
+                class="px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm shadow-md transition flex items-center gap-1.5 shrink-0"
+              >
+                <span>Next</span> <span>→ (Enter)</span>
+              </button>
+            </div>
+
+            <!-- Complete Species Reference Card -->
+            <div class="bg-stone-950 border border-stone-800 rounded-xl p-4 sm:p-5">
+              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 pb-4 border-b border-stone-800">
+                <div>
+                  <span class="text-[11px] text-stone-500 uppercase tracking-wider font-semibold block">Scientific Name (Latin)</span>
+                  <span id="feedback-latin-name" class="text-base font-bold font-botanical italic text-emerald-400">Acer platanoides</span>
+                </div>
+                <div>
+                  <span class="text-[11px] text-stone-500 uppercase tracking-wider font-semibold block">Swedish Common Name</span>
+                  <span id="feedback-swedish-name" class="text-sm font-semibold text-stone-200">skogslönn</span>
+                </div>
+                <div>
+                  <span class="text-[11px] text-stone-500 uppercase tracking-wider font-semibold block">English Common Name</span>
+                  <span id="feedback-english-name" class="text-sm font-semibold text-stone-200">Norway Maple</span>
+                </div>
+                <div>
+                  <span class="text-[11px] text-stone-500 uppercase tracking-wider font-semibold block">Family & Zone</span>
+                  <span id="feedback-family-zone" class="text-sm font-semibold text-stone-300">Sapindaceae (Zone 17)</span>
+                </div>
+              </div>
+
+              <!-- Mini Organ Gallery for Study -->
+              <div class="pt-4">
+                <span class="text-xs font-semibold text-stone-400 uppercase tracking-wider block mb-2">
+                  Complete Organ Profile for this Species:
+                </span>
+                <div id="feedback-all-organs-gallery" class="grid grid-cols-3 sm:grid-cols-6 gap-2">
+                  <!-- Thumbnails injected dynamically -->
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= VIEW 3: RESULTS SUMMARY ================= -->
+    <section id="results-view" class="hidden space-y-8 max-w-4xl mx-auto">
+      
+      <!-- Scorecard Hero -->
+      <div class="bg-gradient-to-br from-stone-900 via-stone-900 to-emerald-950 border border-stone-800 rounded-3xl p-6 sm:p-8 text-center relative overflow-hidden shadow-2xl">
+        <div class="max-w-md mx-auto space-y-3">
+          <span class="text-4xl">🏆</span>
+          <h2 class="text-2xl sm:text-3xl font-bold font-botanical text-stone-100">Quiz Completed!</h2>
+          
+          <div class="py-4">
+            <div class="inline-flex flex-col items-center justify-center w-36 h-36 rounded-full border-4 border-emerald-500/80 bg-stone-950/60 shadow-inner">
+              <span id="results-score-percent" class="text-3xl font-extrabold text-emerald-400">90%</span>
+              <span id="results-score-fraction" class="text-xs font-medium text-stone-400 mt-1">18 / 20 Correct</span>
+            </div>
+          </div>
+
+          <p id="results-rank-title" class="text-base font-semibold text-stone-200">Master Dendrologist 🌳</p>
+          <p id="results-summary-note" class="text-xs text-stone-400 max-w-sm mx-auto">
+            You successfully identified tree species across various botanical organs. Review your answers below.
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="pt-4 flex flex-wrap items-center justify-center gap-3">
+            <button 
+              id="drill-missed-btn" 
+              onclick="startMissedDrillQuiz()" 
+              class="px-5 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-500 text-white font-bold text-sm transition shadow-md flex items-center gap-2"
+            >
+              <span>🔄</span> <span>Drill Missed Species Only (<span id="missed-count-badge">0</span>)</span>
+            </button>
+            <button 
+              onclick="restartSameQuiz()" 
+              class="px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm transition shadow-md flex items-center gap-2"
+            >
+              <span>🔁</span> <span>Retake Quiz</span>
+            </button>
+            <button 
+              onclick="showView('setup-view')" 
+              class="px-5 py-2.5 rounded-xl bg-stone-800 hover:bg-stone-700 text-stone-200 text-sm font-medium transition"
+            >
+              ⚙️ Change Species & Settings
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Performance Breakdown by Organ -->
+      <div class="bg-stone-900 border border-stone-800 rounded-2xl p-6 shadow-sm">
+        <h3 class="text-base font-bold text-stone-100 mb-4 flex items-center gap-2">
+          <span>📊</span> Accuracy by Botanical Organ
+        </h3>
+        <div id="results-organ-breakdown-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+          <!-- Injected via JS -->
+        </div>
+      </div>
+
+      <!-- Comprehensive Question-by-Question Review -->
+      <div class="bg-stone-900 border border-stone-800 rounded-2xl p-6 shadow-sm space-y-4">
+        <div class="flex items-center justify-between pb-3 border-b border-stone-800">
+          <h3 class="text-base font-bold text-stone-100 flex items-center gap-2">
+            <span>📋</span> Detailed Review: Your Results vs Actual Answer
+          </h3>
+          <span class="text-xs text-stone-400">Click any image to expand</span>
+        </div>
+
+        <div id="results-review-table" class="space-y-2.5 max-h-[600px] overflow-y-auto pr-1">
+          <!-- Rows injected via JS -->
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- ================= VIEW 4: SPECIES ATLAS ================= -->
+    <section id="atlas-view" class="hidden space-y-6">
+      <div class="bg-stone-900 border border-stone-800 rounded-2xl p-6">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-stone-800">
+          <div>
+            <h2 class="text-xl font-bold font-botanical text-stone-100 flex items-center gap-2">
+              <span>📖</span> Botanical Species Atlas
+            </h2>
+            <p class="text-xs text-stone-400 mt-1">
+              Browse all 61 examination reference trees with complete organ photo galleries.
+            </p>
+          </div>
+          <div class="flex items-center gap-2">
+            <input 
+              type="text" 
+              id="atlas-search-input" 
+              oninput="renderAtlasList()" 
+              placeholder="Search Latin, Swedish, or English name..." 
+              class="w-64 bg-stone-950 border border-stone-800 rounded-xl px-3 py-1.5 text-xs text-stone-200 placeholder-stone-500 focus:outline-none focus:border-emerald-500"
+            />
+          </div>
+        </div>
+
+        <div id="atlas-species-grid" class="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <!-- Injected via JS -->
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ================= VIEW 5: SEARCH & ADD ANY PLANT ================= -->
+    <section id="search-view" class="hidden space-y-6 max-w-4xl mx-auto">
+      <div class="bg-stone-900 border border-stone-800 rounded-2xl p-6 space-y-6">
+        <div>
+          <h2 class="text-xl font-bold font-botanical text-stone-100 flex items-center gap-2">
+            <span>➕</span> Add Any Plant from Botanical Databases
+          </h2>
+          <p class="text-xs text-stone-400 mt-1">
+            Generalize your database beyond the BI1452 exam! Search iNaturalist Research Grade & Wikimedia Commons live to import any world flora.
+          </p>
+        </div>
+
+        <div class="flex gap-2">
+          <input 
+            type="text" 
+            id="add-plant-input" 
+            placeholder="Search any plant by Latin or common name (e.g. Sequoiadendron giganteum, Eucalyptus globulus)..." 
+            class="flex-1 bg-stone-950 border border-stone-800 rounded-xl px-4 py-2.5 text-sm text-stone-100 focus:outline-none focus:border-emerald-500 font-botanical italic"
+            onkeydown="if(event.key==='Enter') searchLiveBotanicalDatabases()"
+          />
+          <button 
+            onclick="searchLiveBotanicalDatabases()" 
+            class="px-5 py-2.5 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm rounded-xl transition flex items-center gap-2 shrink-0"
+          >
+            <span>Search Repositories</span>
+          </button>
+        </div>
+
+        <!-- Search Status & Results -->
+        <div id="live-search-status" class="hidden text-xs text-stone-400 italic"></div>
+        <div id="live-search-results-grid" class="space-y-4"></div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ================= LIGHTBOX MODAL FOR HIGH-RES DETAILS ================= -->
+  <div id="lightbox-modal" class="fixed inset-0 bg-black/90 backdrop-blur-md z-50 hidden flex flex-col items-center justify-center p-4" onclick="closeLightbox()">
+    <div class="relative max-w-5xl max-h-[90vh] w-full flex flex-col items-center" onclick="event.stopPropagation()">
+      <div class="w-full flex items-center justify-between pb-2 text-stone-300">
+        <div class="flex items-center gap-2">
+          <span id="lightbox-organ" class="text-xs font-bold text-emerald-400 px-2 py-0.5 rounded bg-emerald-950 border border-emerald-800"></span>
+          <span id="lightbox-title" class="text-xs text-stone-300 ml-2"></span>
+        </div>
+        <div class="flex items-center gap-2">
+          <button id="lightbox-crop-toggle-btn" onclick="toggleLightboxCrop()" class="px-2.5 py-1 rounded-lg bg-stone-800 hover:bg-stone-700 text-xs font-semibold text-amber-300 border border-amber-900/50 transition flex items-center gap-1">
+            <span>🛡️</span> <span id="lightbox-crop-text">Crop Label (14%)</span>
+          </button>
+          <button onclick="closeLightbox()" class="text-stone-400 hover:text-white text-lg p-1">✕</button>
+        </div>
+      </div>
+      <div class="relative overflow-hidden rounded-xl bg-stone-950 flex items-center justify-center max-h-[80vh] w-full border border-stone-800">
+        <img id="lightbox-img" src="" alt="High resolution botanical view" class="max-h-[80vh] w-auto max-w-full object-contain transition-all duration-150" style="clip-path: inset(0% 0% var(--lightbox-crop-bottom, 0%) 0%);" />
+        <div id="lightbox-mask-overlay" class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-stone-950 via-stone-950/90 to-transparent pointer-events-none transition-all duration-150 hidden flex flex-col justify-end pb-2 items-center">
+          <span class="text-[10px] font-bold tracking-wider text-amber-300 uppercase bg-black/70 px-2.5 py-0.5 rounded-full border border-amber-900/60">
+            🛡️ Name Masked in Lightbox
+          </span>
+        </div>
+      </div>
+      <div class="w-full pt-2 flex items-center justify-between text-[11px] text-stone-400">
+        <span id="lightbox-author"></span>
+        <a id="lightbox-link" href="#" target="_blank" class="text-emerald-400 hover:underline">View original on repository ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= EXPORT / IMPORT MODAL ================= -->
+  <div id="export-modal" class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4" onclick="toggleExportModal()">
+    <div class="bg-stone-900 border border-stone-800 rounded-2xl max-w-lg w-full p-6 space-y-4" onclick="event.stopPropagation()">
+      <div class="flex items-center justify-between pb-2 border-b border-stone-800">
+        <h3 class="text-base font-bold text-stone-100">💾 Plant Database Export & Import</h3>
+        <button onclick="toggleExportModal()" class="text-stone-400 hover:text-white">✕</button>
+      </div>
+      <p class="text-xs text-stone-400">
+        You can backup your plant deck with verified image links, or load a custom deck JSON file.
+      </p>
+      <div class="flex gap-2">
+        <button onclick="downloadDatabaseJSON()" class="flex-1 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition">
+          📥 Download plants_data.json
+        </button>
+        <label class="flex-1 py-2.5 rounded-xl bg-stone-800 hover:bg-stone-700 text-stone-200 text-xs font-bold text-center cursor-pointer transition">
+          📤 Import JSON Deck
+          <input type="file" accept=".json" onchange="importDatabaseJSON(event)" class="hidden" />
+        </label>
+      </div>
+      <div class="text-[11px] text-stone-500">
+        Current repository size: <span id="export-species-count">61</span> species.
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-stone-950 border-t border-stone-800/80 py-6 text-center text-xs text-stone-500">
+    <p>PhytoMemo • Botanical species identification quiz based on Swedish University of Agricultural Sciences (SLU) BI1452 curriculum.</p>
+    <p class="mt-1">Verified images curated from Wikimedia Commons & iNaturalist (Research Grade open data).</p>
+  </footer>
+
+  <!-- Application Logic -->
+  <script src="app.js"></script>
+</body>
+</html>
