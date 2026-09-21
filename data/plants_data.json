@@ -9,13 +9,6 @@
     "images": {
       "premature_fruit": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Fir_cones_5997.jpg/960px-Fir_cones_5997.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Fir cones 5997.jpg",
-          "author": "Chris Light",
-          "source": "Wikimedia Commons",
-          "organ": "premature_fruit"
-        },
-        {
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737975159/large.jpg",
           "title": "Abies grandis Observation #402031102",
           "author": "(c) Daughter Dad, some rights reserved (CC BY)",
@@ -28,6 +21,13 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Abies_grandis_cones.jpg/960px-Abies_grandis_cones.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Abies grandis cones.jpg",
           "author": "Dave Powell, USDA Forest Service, United States",
+          "source": "Wikimedia Commons",
+          "organ": "seed_pot"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Fir_cones_5997.jpg/960px-Fir_cones_5997.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Fir cones 5997.jpg",
+          "author": "Chris Light",
           "source": "Wikimedia Commons",
           "organ": "seed_pot"
         }
@@ -389,6 +389,20 @@
       ],
       "unclassified": [
         {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Adaxial_side._Acer_leaves_in_autumn.jpg/960px-Adaxial_side._Acer_leaves_in_autumn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Adaxial side. Acer leaves in autumn.jpg",
+          "author": "Dmitry Makeev",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Bl%C3%A4tter_des_Feldahorns_unter_Natriumdampflicht.jpg/960px-Bl%C3%A4tter_des_Feldahorns_unter_Natriumdampflicht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Blätter des Feldahorns unter Natriumdampflicht.jpg",
+          "author": "ManuelB701",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Acer_campestre_JPG1.jpg/960px-Acer_campestre_JPG1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Acer campestre JPG1.jpg",
           "author": "Jean-Pol GRANDMONT",
@@ -406,20 +420,6 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Acer_campestre_Sturm07018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "title": "Acer campestre Sturm07018.jpg",
           "author": "Johann Georg Sturm (Painter: Jacob Sturm)",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Adaxial_side._Acer_leaves_in_autumn.jpg/960px-Adaxial_side._Acer_leaves_in_autumn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Adaxial side. Acer leaves in autumn.jpg",
-          "author": "Dmitry Makeev",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Bl%C3%A4tter_des_Feldahorns_unter_Natriumdampflicht.jpg/960px-Bl%C3%A4tter_des_Feldahorns_unter_Natriumdampflicht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Blätter des Feldahorns unter Natriumdampflicht.jpg",
-          "author": "ManuelB701",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
@@ -935,6 +935,20 @@
       ],
       "unclassified": [
         {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/2018-06-07_Sycamore_Gap_Tree_%28Acer_pseudoplatanus%29%2C_next_to_Hadrian%E2%80%99s_Wall_UK.jpg/960px-2018-06-07_Sycamore_Gap_Tree_%28Acer_pseudoplatanus%29%2C_next_to_Hadrian%E2%80%99s_Wall_UK.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "2018-06-07 Sycamore Gap Tree (Acer pseudoplatanus), next to Hadrian’s Wall UK.jpg",
+          "author": "Gordon Leggett",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Hvozdec%2C_Mrtn%C3%ADk%2C_memorable_tree.jpg/960px-Hvozdec%2C_Mrtn%C3%ADk%2C_memorable_tree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Hvozdec, Mrtník, memorable tree.jpg",
+          "author": "Pavel Hrdlička (Czech Wikipedia user Packa)",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/GT_Sycamore.jpg/960px-GT_Sycamore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "GT Sycamore.jpg",
           "author": "Chiswick Chap",
@@ -1103,23 +1117,9 @@
           "organ": "unclassified"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/2018-06-07_Sycamore_Gap_Tree_%28Acer_pseudoplatanus%29%2C_next_to_Hadrian%E2%80%99s_Wall_UK.jpg/960px-2018-06-07_Sycamore_Gap_Tree_%28Acer_pseudoplatanus%29%2C_next_to_Hadrian%E2%80%99s_Wall_UK.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "2018-06-07 Sycamore Gap Tree (Acer pseudoplatanus), next to Hadrian’s Wall UK.jpg",
-          "author": "Gordon Leggett",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/2025_Platanus_x_hispanica_._Alameda_de_Santiago_de_Compostela_1.jpg/960px-2025_Platanus_x_hispanica_._Alameda_de_Santiago_de_Compostela_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "2025 Platanus x hispanica . Alameda de Santiago de Compostela 1.jpg",
           "author": "Lmbuga",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Hvozdec%2C_Mrtn%C3%ADk%2C_memorable_tree.jpg/960px-Hvozdec%2C_Mrtn%C3%ADk%2C_memorable_tree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Hvozdec, Mrtník, memorable tree.jpg",
-          "author": "Pavel Hrdlička (Czech Wikipedia user Packa)",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         }
@@ -1370,7 +1370,7 @@
     "clean_latin": "Aesculus hippocastanum",
     "family": "Sapindaceae",
     "plant_type": "broadleaf",
-    "total_images": 14,
+    "total_images": 13,
     "images": {
       "premature_fruit": [
         {
@@ -1436,13 +1436,6 @@
           "author": "Acabashi",
           "source": "Wikimedia Commons",
           "organ": "tree_shape"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Leaves_2010-10-02.JPG/960px-Leaves_2010-10-02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Leaves 2010-10-02.JPG",
-          "author": "Thibaut120094",
-          "source": "Wikimedia Commons",
-          "organ": "tree_shape"
         }
       ],
       "bark": [
@@ -1487,6 +1480,13 @@
         }
       ],
       "unclassified": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Leaves_2010-10-02.JPG/960px-Leaves_2010-10-02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Leaves 2010-10-02.JPG",
+          "author": "Thibaut120094",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Aesculus_hippocastanum_reiter_1803.jpg/960px-Aesculus_hippocastanum_reiter_1803.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Aesculus hippocastanum reiter 1803.jpg",
@@ -1664,7 +1664,7 @@
     "clean_latin": "Alnus glutinosa",
     "family": "Betulaceae",
     "plant_type": "broadleaf",
-    "total_images": 15,
+    "total_images": 14,
     "images": {
       "premature_fruit": [
         {
@@ -1732,13 +1732,6 @@
       ],
       "tree_shape": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Alder_tree_bark%2C_Chapeltoun%2C_North_Ayrshire.jpg/960px-Alder_tree_bark%2C_Chapeltoun%2C_North_Ayrshire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Alder tree bark, Chapeltoun, North Ayrshire.jpg",
-          "author": "Rosser1954",
-          "source": "Wikimedia Commons",
-          "organ": "tree_shape"
-        },
-        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Aulnaie-fr%C3%AAnaie_-_Castaignos-Souslens_%2840%29_-_2024-06-12_IMG_0062.jpg/960px-Aulnaie-fr%C3%AAnaie_-_Castaignos-Souslens_%2840%29_-_2024-06-12_IMG_0062.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Aulnaie-frênaie - Castaignos-Souslens (40) - 2024-06-12 IMG 0062.jpg",
           "author": "BotaFlo",
@@ -1788,6 +1781,20 @@
         }
       ],
       "unclassified": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Alnus_glutinosa_fruit_%26_catkins.jpg/960px-Alnus_glutinosa_fruit_%26_catkins.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Alnus glutinosa fruit & catkins.jpg",
+          "author": "Nefronus",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Alder_tree_bark%2C_Chapeltoun%2C_North_Ayrshire.jpg/960px-Alder_tree_bark%2C_Chapeltoun%2C_North_Ayrshire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Alder tree bark, Chapeltoun, North Ayrshire.jpg",
+          "author": "Rosser1954",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Alnus_glutinosa_%27Imperialis%27.jpg/960px-Alnus_glutinosa_%27Imperialis%27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Alnus glutinosa 'Imperialis'.jpg",
@@ -1936,13 +1943,6 @@
           "organ": "unclassified"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Alnus_glutinosa_fruit_%26_catkins.jpg/960px-Alnus_glutinosa_fruit_%26_catkins.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Alnus glutinosa fruit & catkins.jpg",
-          "author": "Nefronus",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Fruchtstand_der_Schwarzerle%2C_Alnus_glutinosa_4.JPG/960px-Fruchtstand_der_Schwarzerle%2C_Alnus_glutinosa_4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Fruchtstand der Schwarzerle, Alnus glutinosa 4.JPG",
           "author": "böhringer friedrich",
@@ -1978,15 +1978,15 @@
       ],
       "seed_pot": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Catkins_close_up_%282331636426%29.jpg/960px-Catkins_close_up_%282331636426%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Catkins close up (2331636426).jpg",
-          "author": "Randi Hausken from Bærum, Norway",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Alnus_incana_rugosa_seeds.jpg/960px-Alnus_incana_rugosa_seeds.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Alnus incana rugosa seeds.jpg",
+          "author": "Steve Hurst @ USDA-NRCS PLANTS Database",
           "source": "Wikimedia Commons",
           "organ": "seed_pot"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Alnus_incana_rugosa_seeds.jpg/960px-Alnus_incana_rugosa_seeds.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Alnus incana rugosa seeds.jpg",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Alnus_incana_seeds.jpg/960px-Alnus_incana_seeds.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Alnus incana seeds.jpg",
           "author": "Steve Hurst @ USDA-NRCS PLANTS Database",
           "source": "Wikimedia Commons",
           "organ": "seed_pot"
@@ -2083,16 +2083,30 @@
       ],
       "unclassified": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/%D0%9E%D0%BB%D1%8C%D1%85%D0%B0_%D1%81%D0%B5%D1%80%D0%B0%D1%8F_%28Alnus_incana%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "title": "Ольха серая (Alnus incana).jpg",
-          "author": "Гурьева Светлана (zooclub.ru)",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Alnus_incana_tenuifolia_leaf.jpg/960px-Alnus_incana_tenuifolia_leaf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Alnus incana tenuifolia leaf.jpg",
+          "author": "Robert H. Mohlenbrock. USDA NRCS. 1992. Western wetland flora: Field office guid",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Alnus_incana_tenuifolia_leaf.jpg/960px-Alnus_incana_tenuifolia_leaf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Alnus incana tenuifolia leaf.jpg",
-          "author": "Robert H. Mohlenbrock. USDA NRCS. 1992. Western wetland flora: Field office guid",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Alnus_incana_female_catkins%2C_Bute_East_Dock%2C_Cardiff%2C_September_2022.jpg/960px-Alnus_incana_female_catkins%2C_Bute_East_Dock%2C_Cardiff%2C_September_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Alnus incana female catkins, Bute East Dock, Cardiff, September 2022.jpg",
+          "author": "Dominic Nelson",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Catkins_close_up_%282331636426%29.jpg/960px-Catkins_close_up_%282331636426%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Catkins close up (2331636426).jpg",
+          "author": "Randi Hausken from Bærum, Norway",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/%D0%9E%D0%BB%D1%8C%D1%85%D0%B0_%D1%81%D0%B5%D1%80%D0%B0%D1%8F_%28Alnus_incana%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "title": "Ольха серая (Alnus incana).jpg",
+          "author": "Гурьева Светлана (zooclub.ru)",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
@@ -2258,23 +2272,9 @@
           "organ": "unclassified"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Alnus_incana_seeds.jpg/960px-Alnus_incana_seeds.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Alnus incana seeds.jpg",
-          "author": "Steve Hurst @ USDA-NRCS PLANTS Database",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Alnus_incana_tenuifolia2.jpg/960px-Alnus_incana_tenuifolia2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Alnus incana tenuifolia2.jpg",
           "author": "DouglasGoldman",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Alnus_incana_female_catkins%2C_Bute_East_Dock%2C_Cardiff%2C_September_2022.jpg/960px-Alnus_incana_female_catkins%2C_Bute_East_Dock%2C_Cardiff%2C_September_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Alnus incana female catkins, Bute East Dock, Cardiff, September 2022.jpg",
-          "author": "Dominic Nelson",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         }
@@ -2412,16 +2412,30 @@
       ],
       "unclassified": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Skorpbark-01128-B2.jpg/960px-Skorpbark-01128-B2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Skorpbark-01128-B2.jpg",
-          "author": "SiberianJay",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Leaf_Microbiology.jpg/960px-Leaf_Microbiology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Leaf Microbiology.jpg",
+          "author": "Giacomo Paltenghi",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Leaf_Microbiology.jpg/960px-Leaf_Microbiology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Leaf Microbiology.jpg",
-          "author": "Giacomo Paltenghi",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Betula_pendula_fruits.jpg/960px-Betula_pendula_fruits.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Betula pendula fruits.jpg",
+          "author": "Nefronus",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Betula-pendula-shoot.JPG/960px-Betula-pendula-shoot.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Betula-pendula-shoot.JPG",
+          "author": "Sten Porse",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Skorpbark-01128-B2.jpg/960px-Skorpbark-01128-B2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Skorpbark-01128-B2.jpg",
+          "author": "SiberianJay",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
@@ -2545,13 +2559,6 @@
           "organ": "unclassified"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Betula-pendula-shoot.JPG/960px-Betula-pendula-shoot.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Betula-pendula-shoot.JPG",
-          "author": "Sten Porse",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Reicherskreuzer_Heide_15.jpg/960px-Reicherskreuzer_Heide_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Reicherskreuzer Heide 15.jpg",
           "author": "J.-H. Janßen",
@@ -2580,13 +2587,6 @@
           "organ": "unclassified"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Betula_pendula_fruits.jpg/960px-Betula_pendula_fruits.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Betula pendula fruits.jpg",
-          "author": "Nefronus",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Betula_pendula_in_Sedovo_1.jpg/960px-Betula_pendula_in_Sedovo_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Betula pendula in Sedovo 1.jpg",
           "author": "Andrey Butko",
@@ -2602,7 +2602,7 @@
     "clean_latin": "Betula pubescens",
     "family": "Betulaceae",
     "plant_type": "broadleaf",
-    "total_images": 13,
+    "total_images": 15,
     "images": {
       "premature_fruit": [
         {
@@ -2643,6 +2643,13 @@
           "author": "Sten Porse",
           "source": "Wikimedia Commons",
           "organ": "leaves_closeup"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Leaves_-_Sandnes%2C_Norway_2021-08-02.jpg/960px-Leaves_-_Sandnes%2C_Norway_2021-08-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Leaves - Sandnes, Norway 2021-08-02.jpg",
+          "author": "Ryan Hodnett",
+          "source": "Wikimedia Commons",
+          "organ": "leaves_closeup"
         }
       ],
       "bark_closeup": [
@@ -2652,32 +2659,32 @@
           "author": "(c) Puzankov Aleksei, some rights reserved (CC BY-NC)",
           "source": "iNaturalist",
           "organ": "bark_closeup"
-        }
-      ],
-      "tree_shape": [
+        },
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Betula_pubescens_tree_bark_and_lenticels._Spier%27s_Old_School_Grounds%2C_Beith%2C_North_Ayrshire.jpg/960px-Betula_pubescens_tree_bark_and_lenticels._Spier%27s_Old_School_Grounds%2C_Beith%2C_North_Ayrshire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Betula pubescens tree bark and lenticels. Spier's Old School Grounds, Beith, North Ayrshire.jpg",
           "author": "Rosser1954",
           "source": "Wikimedia Commons",
-          "organ": "tree_shape"
-        },
+          "organ": "bark_closeup"
+        }
+      ],
+      "tree_shape": [
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Birch_tree_at_the_Simplonpass_June_2023_08.jpg/960px-Birch_tree_at_the_Simplonpass_June_2023_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Birch tree at the Simplonpass June 2023 08.jpg",
           "author": "Hp.Baumeler",
           "source": "Wikimedia Commons",
           "organ": "tree_shape"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/A_close-up_view_on_the_wide-grown_canopy_of_a_large_birch_tree_on_the_peat_in_North_Netherland%2C_2012.jpg/960px-A_close-up_view_on_the_wide-grown_canopy_of_a_large_birch_tree_on_the_peat_in_North_Netherland%2C_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "A close-up view on the wide-grown canopy of a large birch tree on the peat in North Netherland, 2012.jpg",
+          "author": "Fons Heijnsbroek",
+          "source": "Wikimedia Commons",
+          "organ": "tree_shape"
         }
       ],
       "bark": [
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Betula_pubescens_bark_and_lenticels._Spier%27s_Old_School_Grounds%2C_Beith%2C_North_Ayrshire.jpg/960px-Betula_pubescens_bark_and_lenticels._Spier%27s_Old_School_Grounds%2C_Beith%2C_North_Ayrshire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Betula pubescens bark and lenticels. Spier's Old School Grounds, Beith, North Ayrshire.jpg",
-          "author": "Rosser1954",
-          "source": "Wikimedia Commons",
-          "organ": "bark"
-        },
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/%D0%9A%D0%BE%D1%80%D0%B0_%D0%B1%D0%B5%D1%80%D1%91%D0%B7%D1%8B_%D0%BF%D1%83%D1%88%D0%B8%D1%81%D1%82%D0%BE%D0%B9.jpg/960px-%D0%9A%D0%BE%D1%80%D0%B0_%D0%B1%D0%B5%D1%80%D1%91%D0%B7%D1%8B_%D0%BF%D1%83%D1%88%D0%B8%D1%81%D1%82%D0%BE%D0%B9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Кора берёзы пушистой.jpg",
@@ -2709,13 +2716,34 @@
           "author": "(c) Yaroslav Magazov, some rights reserved (CC BY-NC)",
           "source": "iNaturalist",
           "organ": "leaves_underside"
-        }
-      ],
-      "unclassified": [
+        },
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/0_Betula_pubescens_-_Vecqu%C3%A9e_-_Xhoffraix_%282%29.JPG/960px-0_Betula_pubescens_-_Vecqu%C3%A9e_-_Xhoffraix_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "0 Betula pubescens - Vecquée - Xhoffraix (2).JPG",
           "author": "Jean-Pol GRANDMONT",
+          "source": "Wikimedia Commons",
+          "organ": "leaves_underside"
+        }
+      ],
+      "unclassified": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Betula_pubescens_seeds_-_seed_scale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "title": "Betula pubescens seeds - seed scale.jpg",
+          "author": "Rosser1954",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Betula_pubescens_bark_and_lenticels._Spier%27s_Old_School_Grounds%2C_Beith%2C_North_Ayrshire.jpg/960px-Betula_pubescens_bark_and_lenticels._Spier%27s_Old_School_Grounds%2C_Beith%2C_North_Ayrshire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Betula pubescens bark and lenticels. Spier's Old School Grounds, Beith, North Ayrshire.jpg",
+          "author": "Rosser1954",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Downy_Birch_%28Betula_pubescens%29_seeds_-_wind_born_by_wings_-_x25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "title": "Downy Birch (Betula pubescens) seeds - wind born by wings - x25.jpg",
+          "author": "Rosser1954",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
@@ -2723,20 +2751,6 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Betula_pubescens_in_Eastwoodhill_Arboretum_%283%29.jpg/960px-Betula_pubescens_in_Eastwoodhill_Arboretum_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Betula pubescens in Eastwoodhill Arboretum (3).jpg",
           "author": "Krzysztof Golik",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/DosenmoorBirken1.jpg/960px-DosenmoorBirken1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "DosenmoorBirken1.jpg",
-          "author": "Wilde Natur",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Leaves_-_Sandnes%2C_Norway_2021-08-02.jpg/960px-Leaves_-_Sandnes%2C_Norway_2021-08-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Leaves - Sandnes, Norway 2021-08-02.jpg",
-          "author": "Ryan Hodnett",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
@@ -2867,30 +2881,9 @@
           "organ": "unclassified"
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Betula_pubescens_seeds_-_seed_scale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "title": "Betula pubescens seeds - seed scale.jpg",
-          "author": "Rosser1954",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Betula_pubescens_var._pumila.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "title": "Betula pubescens var. pumila.jpg",
           "author": "Алексей Ябс",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Downy_Birch_%28Betula_pubescens%29_seeds_-_wind_born_by_wings_-_x25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "title": "Downy Birch (Betula pubescens) seeds - wind born by wings - x25.jpg",
-          "author": "Rosser1954",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/A_close-up_view_on_the_wide-grown_canopy_of_a_large_birch_tree_on_the_peat_in_North_Netherland%2C_2012.jpg/960px-A_close-up_view_on_the_wide-grown_canopy_of_a_large_birch_tree_on_the_peat_in_North_Netherland%2C_2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "A close-up view on the wide-grown canopy of a large birch tree on the peat in North Netherland, 2012.jpg",
-          "author": "Fons Heijnsbroek",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
@@ -2907,6 +2900,13 @@
           "author": "Rosser1954",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/DosenmoorBirken1.jpg/960px-DosenmoorBirken1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "DosenmoorBirken1.jpg",
+          "author": "Wilde Natur",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
         }
       ]
     }
@@ -2917,7 +2917,7 @@
     "clean_latin": "Carpinus betulus",
     "family": "Betulaceae",
     "plant_type": "broadleaf",
-    "total_images": 14,
+    "total_images": 12,
     "images": {
       "premature_fruit": [
         {
@@ -2936,13 +2936,6 @@
         }
       ],
       "seed_pot": [
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Carpinus_betulus_flower-001.jpg/960px-Carpinus_betulus_flower-001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Carpinus betulus flower-001.jpg",
-          "author": "User:Amada44",
-          "source": "Wikimedia Commons",
-          "organ": "seed_pot"
-        },
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Carpinus_betulus_kz1.jpg/960px-Carpinus_betulus_kz1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Carpinus betulus kz1.jpg",
@@ -2969,16 +2962,9 @@
       ],
       "bark_closeup": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Ruhland%2C_Karl-Liebknecht-Str._zwischen_Hausnr._12c%2B13%2C_Stra%C3%9Fen-Hainbuche_bl%C3%BChende_Zweige%2C_Fr%C3%BChling%2C_02.jpg/960px-Ruhland%2C_Karl-Liebknecht-Str._zwischen_Hausnr._12c%2B13%2C_Stra%C3%9Fen-Hainbuche_bl%C3%BChende_Zweige%2C_Fr%C3%BChling%2C_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Ruhland, Karl-Liebknecht-Str. zwischen Hausnr. 12c+13, Straßen-Hainbuche blühende Zweige, Frühling, 02.jpg",
-          "author": "Wilhelm Zimmerling PAR",
-          "source": "Wikimedia Commons",
-          "organ": "bark_closeup"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Carpinus_betulus_trunk.jpg/960px-Carpinus_betulus_trunk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Carpinus betulus trunk.jpg",
-          "author": "Jean-Pol GRANDMONT",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Carpinus_betulus_leaf_with_frost_RF.jpg/960px-Carpinus_betulus_leaf_with_frost_RF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Carpinus betulus leaf with frost RF.jpg",
+          "author": "Robert Flogaus-Faust",
           "source": "Wikimedia Commons",
           "organ": "bark_closeup"
         }
@@ -3035,6 +3021,27 @@
       ],
       "unclassified": [
         {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Carpinus_betulus_flower-001.jpg/960px-Carpinus_betulus_flower-001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Carpinus betulus flower-001.jpg",
+          "author": "User:Amada44",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Ruhland%2C_Karl-Liebknecht-Str._zwischen_Hausnr._12c%2B13%2C_Stra%C3%9Fen-Hainbuche_bl%C3%BChende_Zweige%2C_Fr%C3%BChling%2C_02.jpg/960px-Ruhland%2C_Karl-Liebknecht-Str._zwischen_Hausnr._12c%2B13%2C_Stra%C3%9Fen-Hainbuche_bl%C3%BChende_Zweige%2C_Fr%C3%BChling%2C_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Ruhland, Karl-Liebknecht-Str. zwischen Hausnr. 12c+13, Straßen-Hainbuche blühende Zweige, Frühling, 02.jpg",
+          "author": "Wilhelm Zimmerling PAR",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Carpinus_betulus_trunk.jpg/960px-Carpinus_betulus_trunk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Carpinus betulus trunk.jpg",
+          "author": "Jean-Pol GRANDMONT",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Carpinus_betulus_JPG1b.jpg/960px-Carpinus_betulus_JPG1b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Carpinus betulus JPG1b.jpg",
           "author": "Jean-Pol GRANDMONT",
@@ -3042,16 +3049,16 @@
           "organ": "unclassified"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Illustration_Carpinus_betulus_1.jpg/960px-Illustration_Carpinus_betulus_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Illustration Carpinus betulus 1.jpg",
-          "author": "Wikimedia Commons",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Carpinus_betulus_MHNT.BOT.2004.0.494.jpg/960px-Carpinus_betulus_MHNT.BOT.2004.0.494.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Carpinus betulus MHNT.BOT.2004.0.494.jpg",
+          "author": "Roger Culos",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Carpinus_betulus_leaf_with_frost_RF.jpg/960px-Carpinus_betulus_leaf_with_frost_RF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Carpinus betulus leaf with frost RF.jpg",
-          "author": "Robert Flogaus-Faust",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Illustration_Carpinus_betulus_1.jpg/960px-Illustration_Carpinus_betulus_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Illustration Carpinus betulus 1.jpg",
+          "author": "Wikimedia Commons",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
@@ -3210,13 +3217,6 @@
           "organ": "unclassified"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Carpinus_betulus_MHNT.BOT.2004.0.494.jpg/960px-Carpinus_betulus_MHNT.BOT.2004.0.494.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Carpinus betulus MHNT.BOT.2004.0.494.jpg",
-          "author": "Roger Culos",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Carpinus_betulus_in_Aveyron_%2810%29.jpg/960px-Carpinus_betulus_in_Aveyron_%2810%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Carpinus betulus in Aveyron (10).jpg",
           "author": "Tournasol7",
@@ -3246,7 +3246,7 @@
     "clean_latin": "Cornus mas",
     "family": "Cornaceae",
     "plant_type": "broadleaf",
-    "total_images": 15,
+    "total_images": 16,
     "images": {
       "premature_fruit": [
         {
@@ -3273,9 +3273,9 @@
           "organ": "seed_pot"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Kornelkirsche_Bl%C3%BCten%2C_Cornus_mas.jpg/960px-Kornelkirsche_Bl%C3%BCten%2C_Cornus_mas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Kornelkirsche Blüten, Cornus mas.jpg",
-          "author": "AndersenAnders",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Cornelian_Dogwood_Berries_-_panoramio.jpg/960px-Cornelian_Dogwood_Berries_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Cornelian Dogwood Berries - panoramio.jpg",
+          "author": "Art Anderson",
           "source": "Wikimedia Commons",
           "organ": "seed_pot"
         }
@@ -3285,6 +3285,13 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/148_Cornus_mas_L.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "title": "148 Cornus mas L.jpg",
           "author": "Amédée Masclef",
+          "source": "Wikimedia Commons",
+          "organ": "leaves_closeup"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Cornus_mas_%28leaves%29_in_Jardin_des_Plantes_de_Toulouse.jpg/960px-Cornus_mas_%28leaves%29_in_Jardin_des_Plantes_de_Toulouse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Cornus mas (leaves) in Jardin des Plantes de Toulouse.jpg",
+          "author": "Krzysztof Golik",
           "source": "Wikimedia Commons",
           "organ": "leaves_closeup"
         }
@@ -3371,6 +3378,27 @@
       ],
       "unclassified": [
         {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Kornelkirsche_Bl%C3%BCten%2C_Cornus_mas.jpg/960px-Kornelkirsche_Bl%C3%BCten%2C_Cornus_mas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Kornelkirsche Blüten, Cornus mas.jpg",
+          "author": "AndersenAnders",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Spring_blossom_-_Flickr_-_Stiller_Beobachter.jpg/960px-Spring_blossom_-_Flickr_-_Stiller_Beobachter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Spring blossom - Flickr - Stiller Beobachter.jpg",
+          "author": "Stiller Beobachter from Ansbach, Germany",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Cornus_berries.jpg/960px-Cornus_berries.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Cornus berries.jpg",
+          "author": "Urutseg",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Cornus_mas_-_Prof._Dr._Thome-s_Flora_von_Deutschland_..._%28Pl._391%29_clean.jpg/960px-Cornus_mas_-_Prof._Dr._Thome-s_Flora_von_Deutschland_..._%28Pl._391%29_clean.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Cornus mas - Prof. Dr. Thome-s Flora von Deutschland ... (Pl. 391) clean.jpg",
           "author": "Migula, Walter; Thomé, Otto W.",
@@ -3388,13 +3416,6 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Cornus_mas_%E2%80%94_Flora_Batava_%E2%80%94_Volume_v17.jpg/960px-Cornus_mas_%E2%80%94_Flora_Batava_%E2%80%94_Volume_v17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Cornus mas — Flora Batava — Volume v17.jpg",
           "author": "Jan Kops",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Cornus_mas_%28leaves%29_in_Jardin_des_Plantes_de_Toulouse.jpg/960px-Cornus_mas_%28leaves%29_in_Jardin_des_Plantes_de_Toulouse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Cornus mas (leaves) in Jardin des Plantes de Toulouse.jpg",
-          "author": "Krzysztof Golik",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
@@ -3553,27 +3574,6 @@
           "organ": "unclassified"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Spring_blossom_-_Flickr_-_Stiller_Beobachter.jpg/960px-Spring_blossom_-_Flickr_-_Stiller_Beobachter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Spring blossom - Flickr - Stiller Beobachter.jpg",
-          "author": "Stiller Beobachter from Ansbach, Germany",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Cornelian_Dogwood_Berries_-_panoramio.jpg/960px-Cornelian_Dogwood_Berries_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Cornelian Dogwood Berries - panoramio.jpg",
-          "author": "Art Anderson",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Cornus_berries.jpg/960px-Cornus_berries.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Cornus berries.jpg",
-          "author": "Urutseg",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Corvus_corone_Cornus_mas_JdP.jpg/960px-Corvus_corone_Cornus_mas_JdP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Corvus corone Cornus mas JdP.jpg",
           "author": "Marie-Lan Taÿ Pamart",
@@ -3603,7 +3603,7 @@
     "clean_latin": "Cornus sanguinea",
     "family": "Cornaceae",
     "plant_type": "broadleaf",
-    "total_images": 16,
+    "total_images": 15,
     "images": {
       "premature_fruit": [
         {
@@ -3623,16 +3623,9 @@
       ],
       "seed_pot": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/GT_Dogwood_in_flower.jpg/960px-GT_Dogwood_in_flower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "GT Dogwood in flower.jpg",
-          "author": "Ian Alexander",
-          "source": "Wikimedia Commons",
-          "organ": "seed_pot"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/%28MHNT%29_Cornus_sanguinea_-_Inflorescence.jpg/960px-%28MHNT%29_Cornus_sanguinea_-_Inflorescence.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "(MHNT) Cornus sanguinea - Inflorescence.jpg",
-          "author": "Didier Descouens",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Cornus_sanguinea_berries.jpg/960px-Cornus_sanguinea_berries.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Cornus sanguinea berries.jpg",
+          "author": "Dominic Nelson",
           "source": "Wikimedia Commons",
           "organ": "seed_pot"
         }
@@ -3734,6 +3727,20 @@
         }
       ],
       "unclassified": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/GT_Dogwood_in_flower.jpg/960px-GT_Dogwood_in_flower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "GT Dogwood in flower.jpg",
+          "author": "Ian Alexander",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/%28MHNT%29_Cornus_sanguinea_-_Inflorescence.jpg/960px-%28MHNT%29_Cornus_sanguinea_-_Inflorescence.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "(MHNT) Cornus sanguinea - Inflorescence.jpg",
+          "author": "Didier Descouens",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Cornus_sanguinea_Sturm39.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "title": "Cornus sanguinea Sturm39.jpg",
@@ -3894,13 +3901,6 @@
           "author": "(c) vics86, some rights reserved (CC BY-NC)",
           "source": "iNaturalist",
           "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Cornus_sanguinea_berries.jpg/960px-Cornus_sanguinea_berries.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Cornus sanguinea berries.jpg",
-          "author": "Dominic Nelson",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
         }
       ]
     }
@@ -3911,7 +3911,7 @@
     "clean_latin": "Corylus avellana",
     "family": "Betulaceae",
     "plant_type": "broadleaf",
-    "total_images": 15,
+    "total_images": 14,
     "images": {
       "premature_fruit": [
         {
@@ -3930,13 +3930,6 @@
         }
       ],
       "seed_pot": [
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Hazelnut_leaf%2C_Rind%2C_Armenia.jpg/960px-Hazelnut_leaf%2C_Rind%2C_Armenia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Hazelnut leaf, Rind, Armenia.jpg",
-          "author": "Ավետիսյան91",
-          "source": "Wikimedia Commons",
-          "organ": "seed_pot"
-        },
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Katjes_van_een_hazelaar_%28Corylus_avellana%29._26-01-2021._%28actm.%29_01.jpg/960px-Katjes_van_een_hazelaar_%28Corylus_avellana%29._26-01-2021._%28actm.%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Katjes van een hazelaar (Corylus avellana). 26-01-2021. (actm.) 01.jpg",
@@ -4035,6 +4028,13 @@
         }
       ],
       "unclassified": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Hazelnut_leaf%2C_Rind%2C_Armenia.jpg/960px-Hazelnut_leaf%2C_Rind%2C_Armenia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Hazelnut leaf, Rind, Armenia.jpg",
+          "author": "Ավետիսյան91",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Harry_Lauder%E2%80%99s_Walking_Stick_%E2%80%98Contorta%E2%80%99_Corylus_avellana_%E2%80%98Contorta%E2%80%99_bark_winter.jpg/960px-Harry_Lauder%E2%80%99s_Walking_Stick_%E2%80%98Contorta%E2%80%99_Corylus_avellana_%E2%80%98Contorta%E2%80%99_bark_winter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Harry Lauder’s Walking Stick ‘Contorta’ Corylus avellana ‘Contorta’ bark winter.jpg",
@@ -4149,13 +4149,20 @@
     "clean_latin": "Crataegus monogyna",
     "family": "Rosaceae",
     "plant_type": "broadleaf",
-    "total_images": 12,
+    "total_images": 13,
     "images": {
       "premature_fruit": [
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Wei%C3%9Fdornbl%C3%BCte_Crataegus_monogyna_-20220509-RM-104145.jpg/960px-Wei%C3%9Fdornbl%C3%BCte_Crataegus_monogyna_-20220509-RM-104145.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Weißdornblüte Crataegus monogyna -20220509-RM-104145.jpg",
           "author": "Ermell",
+          "source": "Wikimedia Commons",
+          "organ": "premature_fruit"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Blooming_hawthorn_%28Crataegus_monogyna%29.jpg/960px-Blooming_hawthorn_%28Crataegus_monogyna%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Blooming hawthorn (Crataegus monogyna).jpg",
+          "author": "Ввласенко",
           "source": "Wikimedia Commons",
           "organ": "premature_fruit"
         }
@@ -4203,9 +4210,9 @@
       ],
       "tree_shape": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Blooming_hawthorn_%28Crataegus_monogyna%29.jpg/960px-Blooming_hawthorn_%28Crataegus_monogyna%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Blooming hawthorn (Crataegus monogyna).jpg",
-          "author": "Ввласенко",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Leaves_of_Crataegus_monogyna.jpg/960px-Leaves_of_Crataegus_monogyna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Leaves of Crataegus monogyna.jpg",
+          "author": "Krzysztof Golik",
           "source": "Wikimedia Commons",
           "organ": "tree_shape"
         }
@@ -4253,23 +4260,16 @@
       ],
       "unclassified": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Medlar_rootstock.jpg/960px-Medlar_rootstock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Medlar rootstock.jpg",
-          "author": "totnesmartin",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Leaves_of_Crataegus_monogyna.jpg/960px-Leaves_of_Crataegus_monogyna.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Leaves of Crataegus monogyna.jpg",
-          "author": "Krzysztof Golik",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Mainz_-_Bl%C3%A4tter_eines_eingriffeligen_Wei%C3%9Fdorns.jpg/960px-Mainz_-_Bl%C3%A4tter_eines_eingriffeligen_Wei%C3%9Fdorns.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Mainz - Blätter eines eingriffeligen Weißdorns.jpg",
           "author": "ManuelB701",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Medlar_rootstock.jpg/960px-Medlar_rootstock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Medlar rootstock.jpg",
+          "author": "totnesmartin",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
@@ -4511,8 +4511,8 @@
           "organ": "tree_shape"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Old_tree_bark_patterns%2C_Beech_%28Fagus_sylvatica%29%2C_Anderson%27s_Mount%2C_Stewarton.jpg/960px-Old_tree_bark_patterns%2C_Beech_%28Fagus_sylvatica%29%2C_Anderson%27s_Mount%2C_Stewarton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Old tree bark patterns, Beech (Fagus sylvatica), Anderson's Mount, Stewarton.jpg",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Beech_tree_canopy%2C_Chapeltoun%2C_North_Ayrshire.jpg/960px-Beech_tree_canopy%2C_Chapeltoun%2C_North_Ayrshire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Beech tree canopy, Chapeltoun, North Ayrshire.jpg",
           "author": "Rosser1954",
           "source": "Wikimedia Commons",
           "organ": "tree_shape"
@@ -4560,6 +4560,13 @@
         }
       ],
       "unclassified": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Old_tree_bark_patterns%2C_Beech_%28Fagus_sylvatica%29%2C_Anderson%27s_Mount%2C_Stewarton.jpg/960px-Old_tree_bark_patterns%2C_Beech_%28Fagus_sylvatica%29%2C_Anderson%27s_Mount%2C_Stewarton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Old tree bark patterns, Beech (Fagus sylvatica), Anderson's Mount, Stewarton.jpg",
+          "author": "Rosser1954",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Fagus_sylvatica_single_leaf_-_HLABG.png/960px-Fagus_sylvatica_single_leaf_-_HLABG.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Fagus sylvatica single leaf - HLABG.png",
@@ -4743,13 +4750,6 @@
           "organ": "unclassified"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Beech_tree_canopy%2C_Chapeltoun%2C_North_Ayrshire.jpg/960px-Beech_tree_canopy%2C_Chapeltoun%2C_North_Ayrshire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Beech tree canopy, Chapeltoun, North Ayrshire.jpg",
-          "author": "Rosser1954",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Nienhagen%2C_Gespensterwald_--_2024_--_5076.jpg/960px-Nienhagen%2C_Gespensterwald_--_2024_--_5076.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Nienhagen, Gespensterwald -- 2024 -- 5076.jpg",
           "author": "Dietmar Rabich",
@@ -4765,7 +4765,7 @@
     "clean_latin": "Fraxinus excelsior",
     "family": "Oleaceae",
     "plant_type": "broadleaf",
-    "total_images": 15,
+    "total_images": 13,
     "images": {
       "premature_fruit": [
         {
@@ -4788,13 +4788,6 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Fraxinus_excelsior_seed_illustration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "title": "Fraxinus excelsior seed illustration.jpg",
           "author": "G.Bernetti/EUFORGEN",
-          "source": "Wikimedia Commons",
-          "organ": "seed_pot"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Fraxinus_excelsior_%28Ash_tree%29_flowers_developing%2C_East_Ayrshire%2C_Scotland.jpg/960px-Fraxinus_excelsior_%28Ash_tree%29_flowers_developing%2C_East_Ayrshire%2C_Scotland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Fraxinus excelsior (Ash tree) flowers developing, East Ayrshire, Scotland.jpg",
-          "author": "Rosser1954",
           "source": "Wikimedia Commons",
           "organ": "seed_pot"
         }
@@ -4833,15 +4826,8 @@
       ],
       "tree_shape": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Ash_tree_male_flowers%2C_North_Ayrshire.jpg/960px-Ash_tree_male_flowers%2C_North_Ayrshire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Ash tree male flowers, North Ayrshire.jpg",
-          "author": "Rosser1954",
-          "source": "Wikimedia Commons",
-          "organ": "tree_shape"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Male_ash_tree_flowers%2C_Chapeltoun%2C_North_Ayrshire.jpg/960px-Male_ash_tree_flowers%2C_Chapeltoun%2C_North_Ayrshire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Male ash tree flowers, Chapeltoun, North Ayrshire.jpg",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Ash_tree_canopy%2C_Chapeltoun%2C_North_Ayrshire.jpg/960px-Ash_tree_canopy%2C_Chapeltoun%2C_North_Ayrshire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Ash tree canopy, Chapeltoun, North Ayrshire.jpg",
           "author": "Rosser1954",
           "source": "Wikimedia Commons",
           "organ": "tree_shape"
@@ -4889,6 +4875,34 @@
         }
       ],
       "unclassified": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Knoppen_van_een_es_%28Fraxinus_excelsior%29._03-03-2026._%28actm.%29_01.jpg/960px-Knoppen_van_een_es_%28Fraxinus_excelsior%29._03-03-2026._%28actm.%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Knoppen van een es (Fraxinus excelsior). 03-03-2026. (actm.) 01.jpg",
+          "author": "Agnes Monkelbaan",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Fraxinus_excelsior_%28Ash_tree%29_flowers_developing%2C_East_Ayrshire%2C_Scotland.jpg/960px-Fraxinus_excelsior_%28Ash_tree%29_flowers_developing%2C_East_Ayrshire%2C_Scotland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Fraxinus excelsior (Ash tree) flowers developing, East Ayrshire, Scotland.jpg",
+          "author": "Rosser1954",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Ash_tree_male_flowers%2C_North_Ayrshire.jpg/960px-Ash_tree_male_flowers%2C_North_Ayrshire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Ash tree male flowers, North Ayrshire.jpg",
+          "author": "Rosser1954",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Male_ash_tree_flowers%2C_Chapeltoun%2C_North_Ayrshire.jpg/960px-Male_ash_tree_flowers%2C_Chapeltoun%2C_North_Ayrshire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Male ash tree flowers, Chapeltoun, North Ayrshire.jpg",
+          "author": "Rosser1954",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
         {
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738266302/large.jpg",
           "title": "Fraxinus excelsior Observation #402173404",
@@ -5044,23 +5058,9 @@
           "organ": "unclassified"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Knoppen_van_een_es_%28Fraxinus_excelsior%29._03-03-2026._%28actm.%29_01.jpg/960px-Knoppen_van_een_es_%28Fraxinus_excelsior%29._03-03-2026._%28actm.%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Knoppen van een es (Fraxinus excelsior). 03-03-2026. (actm.) 01.jpg",
-          "author": "Agnes Monkelbaan",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Lamiales_-_Fraxinus_excelsior_1.jpg/960px-Lamiales_-_Fraxinus_excelsior_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Lamiales - Fraxinus excelsior 1.jpg",
           "author": "Dénes Emőke",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Ash_tree_canopy%2C_Chapeltoun%2C_North_Ayrshire.jpg/960px-Ash_tree_canopy%2C_Chapeltoun%2C_North_Ayrshire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Ash tree canopy, Chapeltoun, North Ayrshire.jpg",
-          "author": "Rosser1954",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
@@ -5094,16 +5094,9 @@
     "clean_latin": "Ginkgo biloba",
     "family": "Ginkgoaceae",
     "plant_type": "conifer",
-    "total_images": 14,
+    "total_images": 11,
     "images": {
       "premature_fruit": [
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/A_ginkgo_biloba_fruit_on_dark_rocky_background.png/960px-A_ginkgo_biloba_fruit_on_dark_rocky_background.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "A ginkgo biloba fruit on dark rocky background.png",
-          "author": "Leo219",
-          "source": "Wikimedia Commons",
-          "organ": "premature_fruit"
-        },
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Ginkgo_biloba_leaves_in_radial_arrangement_-_2019-10-25_focus_stack.jpg/960px-Ginkgo_biloba_leaves_in_radial_arrangement_-_2019-10-25_focus_stack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Ginkgo biloba leaves in radial arrangement - 2019-10-25 focus stack.jpg",
@@ -5114,16 +5107,16 @@
       ],
       "seed_pot": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/2021-03-04_11_02_43_Ginkgo_bark_along_Elderberry_Place_in_the_Franklin_Glen_section_of_Chantilly%2C_Fairfax_County%2C_Virginia.jpg/960px-2021-03-04_11_02_43_Ginkgo_bark_along_Elderberry_Place_in_the_Franklin_Glen_section_of_Chantilly%2C_Fairfax_County%2C_Virginia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "2021-03-04 11 02 43 Ginkgo bark along Elderberry Place in the Franklin Glen section of Chantilly, Fairfax County, Virginia.jpg",
-          "author": "Famartin",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Ginkgo_pollen_cone_wm.jpg/960px-Ginkgo_pollen_cone_wm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Ginkgo pollen cone wm.jpg",
+          "author": "Copyright by Curtis Clark, licensed as noted",
           "source": "Wikimedia Commons",
           "organ": "seed_pot"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Ginkgo_pollen_cone_wm.jpg/960px-Ginkgo_pollen_cone_wm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Ginkgo pollen cone wm.jpg",
-          "author": "Copyright by Curtis Clark, licensed as noted",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Ginkgo_biloba_fruit_on_a_branch_02.jpg/960px-Ginkgo_biloba_fruit_on_a_branch_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Ginkgo biloba fruit on a branch 02.jpg",
+          "author": "小石川人晃",
           "source": "Wikimedia Commons",
           "organ": "seed_pot"
         }
@@ -5151,27 +5144,13 @@
           "author": "MONGO",
           "source": "Wikimedia Commons",
           "organ": "bark_closeup"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Ginkgo_biloba_fruit_on_a_branch_02.jpg/960px-Ginkgo_biloba_fruit_on_a_branch_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Ginkgo biloba fruit on a branch 02.jpg",
-          "author": "小石川人晃",
-          "source": "Wikimedia Commons",
-          "organ": "bark_closeup"
         }
       ],
       "tree_shape": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Ginkgo_Tree_Ginkgo_biloba_Trunk_Bark_2000px.jpg/960px-Ginkgo_Tree_Ginkgo_biloba_Trunk_Bark_2000px.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Ginkgo Tree Ginkgo biloba Trunk Bark 2000px.jpg",
-          "author": "Photo (c)2007 Derek Ramsey (Ram-Man)",
-          "source": "Wikimedia Commons",
-          "organ": "tree_shape"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Ginkgo_Tree_Ginkgo_biloba_Leaf_Rock_3008px.jpg/960px-Ginkgo_Tree_Ginkgo_biloba_Leaf_Rock_3008px.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Ginkgo Tree Ginkgo biloba Leaf Rock 3008px.jpg",
-          "author": "Photo (c)2007 Derek Ramsey (Ram-Man)",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/2020-11-07_16_50_50_View_up_into_the_canopy_of_a_Ginkgo_during_late_autumn_along_Elderberry_Place_in_the_Franklin_Glen_section_of_Chantilly%2C_Fairfax_County%2C_Virginia.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "2020-11-07 16 50 50 View up into the canopy of a Ginkgo during late autumn along Elderberry Place in the Franklin Glen section of Chantilly, Fairfax County, Virginia.jpg",
+          "author": "Famartin",
           "source": "Wikimedia Commons",
           "organ": "tree_shape"
         }
@@ -5211,6 +5190,34 @@
         }
       ],
       "unclassified": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Ginkgo_Tree_Ginkgo_biloba_Trunk_Bark_2000px.jpg/960px-Ginkgo_Tree_Ginkgo_biloba_Trunk_Bark_2000px.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Ginkgo Tree Ginkgo biloba Trunk Bark 2000px.jpg",
+          "author": "Photo (c)2007 Derek Ramsey (Ram-Man)",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Ginkgo_Tree_Ginkgo_biloba_Leaf_Rock_3008px.jpg/960px-Ginkgo_Tree_Ginkgo_biloba_Leaf_Rock_3008px.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Ginkgo Tree Ginkgo biloba Leaf Rock 3008px.jpg",
+          "author": "Photo (c)2007 Derek Ramsey (Ram-Man)",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/2021-03-04_11_02_43_Ginkgo_bark_along_Elderberry_Place_in_the_Franklin_Glen_section_of_Chantilly%2C_Fairfax_County%2C_Virginia.jpg/960px-2021-03-04_11_02_43_Ginkgo_bark_along_Elderberry_Place_in_the_Franklin_Glen_section_of_Chantilly%2C_Fairfax_County%2C_Virginia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "2021-03-04 11 02 43 Ginkgo bark along Elderberry Place in the Franklin Glen section of Chantilly, Fairfax County, Virginia.jpg",
+          "author": "Famartin",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/A_ginkgo_biloba_fruit_on_dark_rocky_background.png/960px-A_ginkgo_biloba_fruit_on_dark_rocky_background.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "A ginkgo biloba fruit on dark rocky background.png",
+          "author": "Leo219",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Ginkgo_embryo_and_gametophyte.jpg/960px-Ginkgo_embryo_and_gametophyte.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Ginkgo embryo and gametophyte.jpg",
@@ -5392,13 +5399,6 @@
           "author": "(c) gerry_jenkison, some rights reserved (CC BY-NC)",
           "source": "iNaturalist",
           "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/2020-11-07_16_50_50_View_up_into_the_canopy_of_a_Ginkgo_during_late_autumn_along_Elderberry_Place_in_the_Franklin_Glen_section_of_Chantilly%2C_Fairfax_County%2C_Virginia.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "2020-11-07 16 50 50 View up into the canopy of a Ginkgo during late autumn along Elderberry Place in the Franklin Glen section of Chantilly, Fairfax County, Virginia.jpg",
-          "author": "Famartin",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
         }
       ]
     }
@@ -5429,16 +5429,16 @@
       ],
       "seed_pot": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Macro_image_-_Walnut_Leaf_-_Venation_Structure.jpg/960px-Macro_image_-_Walnut_Leaf_-_Venation_Structure.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Macro image - Walnut Leaf - Venation Structure.jpg",
-          "author": "Cristian V.",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Pod_tem_orehom_je_bil_odlikovan_dvanajstletni_A._M._Slom%C5%A1ek_ob_prvi_%C5%A1olski_sku%C5%A1nji_l._1812.jpg/960px-Pod_tem_orehom_je_bil_odlikovan_dvanajstletni_A._M._Slom%C5%A1ek_ob_prvi_%C5%A1olski_sku%C5%A1nji_l._1812.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Pod tem orehom je bil odlikovan dvanajstletni A. M. Slomšek ob prvi šolski skušnji l. 1812.jpg",
+          "author": "Miran Hladnik",
           "source": "Wikimedia Commons",
           "organ": "seed_pot"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Walnut_leaves_-_Flickr_-_Stiller_Beobachter.jpg/960px-Walnut_leaves_-_Flickr_-_Stiller_Beobachter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Walnut leaves - Flickr - Stiller Beobachter.jpg",
-          "author": "Stiller Beobachter from Ansbach, Germany",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Common_Walnut_in_France%2C_Berry_2018.jpg/960px-Common_Walnut_in_France%2C_Berry_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Common Walnut in France, Berry 2018.jpg",
+          "author": "Yhaou",
           "source": "Wikimedia Commons",
           "organ": "seed_pot"
         }
@@ -5449,6 +5449,13 @@
           "title": "Juglans regia Observation #401971996",
           "author": "(c) Sokolov Yuriy Ivanovich, some rights reserved (CC BY-NC)",
           "source": "iNaturalist",
+          "organ": "leaves_closeup"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Macro_image_-_Walnut_Leaf_-_Venation_Structure.jpg/960px-Macro_image_-_Walnut_Leaf_-_Venation_Structure.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Macro image - Walnut Leaf - Venation Structure.jpg",
+          "author": "Cristian V.",
+          "source": "Wikimedia Commons",
           "organ": "leaves_closeup"
         }
       ],
@@ -5469,13 +5476,6 @@
         }
       ],
       "tree_shape": [
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Pod_tem_orehom_je_bil_odlikovan_dvanajstletni_A._M._Slom%C5%A1ek_ob_prvi_%C5%A1olski_sku%C5%A1nji_l._1812.jpg/960px-Pod_tem_orehom_je_bil_odlikovan_dvanajstletni_A._M._Slom%C5%A1ek_ob_prvi_%C5%A1olski_sku%C5%A1nji_l._1812.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Pod tem orehom je bil odlikovan dvanajstletni A. M. Slomšek ob prvi šolski skušnji l. 1812.jpg",
-          "author": "Miran Hladnik",
-          "source": "Wikimedia Commons",
-          "organ": "tree_shape"
-        },
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/2026-03-07_D500-2004_Achim-Lammerts_Juglans-regia.jpg/960px-2026-03-07_D500-2004_Achim-Lammerts_Juglans-regia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "2026-03-07 D500-2004 Achim-Lammerts Juglans-regia.jpg",
@@ -5526,6 +5526,20 @@
         }
       ],
       "unclassified": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Walnut_leaves_-_Flickr_-_Stiller_Beobachter.jpg/960px-Walnut_leaves_-_Flickr_-_Stiller_Beobachter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Walnut leaves - Flickr - Stiller Beobachter.jpg",
+          "author": "Stiller Beobachter from Ansbach, Germany",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Juglans_regia_MHNT.BOT.2018.28.42.jpg/960px-Juglans_regia_MHNT.BOT.2018.28.42.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Juglans regia MHNT.BOT.2018.28.42.jpg",
+          "author": "Roger Culos",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Juglans_regia_K%C3%B6z%C3%B6ns%C3%A9ges_di%C3%B3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "title": "Juglans regia Közönséges dió.jpg",
@@ -5716,13 +5730,6 @@
           "organ": "unclassified"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Common_Walnut_in_France%2C_Berry_2018.jpg/960px-Common_Walnut_in_France%2C_Berry_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Common Walnut in France, Berry 2018.jpg",
-          "author": "Yhaou",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Funchal_%28Madeira%2C_Portugal%29%2C_Mercado_dos_Lavradores_--_2025_--_0962.jpg/960px-Funchal_%28Madeira%2C_Portugal%29%2C_Mercado_dos_Lavradores_--_2025_--_0962.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Funchal (Madeira, Portugal), Mercado dos Lavradores -- 2025 -- 0962.jpg",
           "author": "Dietmar Rabich",
@@ -5740,13 +5747,6 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Juglans_regia_2009_G2.jpg/960px-Juglans_regia_2009_G2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Juglans regia 2009 G2.jpg",
           "author": "George Chernilevsky",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Juglans_regia_MHNT.BOT.2018.28.42.jpg/960px-Juglans_regia_MHNT.BOT.2018.28.42.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Juglans regia MHNT.BOT.2018.28.42.jpg",
-          "author": "Roger Culos",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
@@ -5891,13 +5891,6 @@
       ],
       "unclassified": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Juniperus_communis_pollen_illustration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "title": "Juniperus communis pollen illustration.jpg",
-          "author": "C.Giordano/EUFORGEN",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Young_juniper_needles.jpg/960px-Young_juniper_needles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Young juniper needles.jpg",
           "author": "W.carter",
@@ -5922,6 +5915,20 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Young_juniper_needles_art_version.jpg/960px-Young_juniper_needles_art_version.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Young juniper needles art version.jpg",
           "author": "W.carter",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Juniperus_communis_pollen_illustration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "title": "Juniperus communis pollen illustration.jpg",
+          "author": "C.Giordano/EUFORGEN",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Juniperus_communis_fruits_-_Keila.jpg/960px-Juniperus_communis_fruits_-_Keila.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Juniperus communis fruits - Keila.jpg",
+          "author": "Ivar Leidus",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
@@ -6066,13 +6073,6 @@
           "organ": "unclassified"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Juniperus_communis_fruits_-_Keila.jpg/960px-Juniperus_communis_fruits_-_Keila.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Juniperus communis fruits - Keila.jpg",
-          "author": "Ivar Leidus",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Juniperus_communis_in_Yyteri_2.jpg/960px-Juniperus_communis_in_Yyteri_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Juniperus communis in Yyteri 2.jpg",
           "author": "kallerna",
@@ -6095,7 +6095,7 @@
     "clean_latin": "Larix decidua",
     "family": "Pinaceae",
     "plant_type": "conifer",
-    "total_images": 16,
+    "total_images": 15,
     "images": {
       "premature_fruit": [
         {
@@ -6163,16 +6163,9 @@
       ],
       "tree_shape": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Lenticels_on_a_larch_tree_bark%2C_Perrygrove_Farm%2C_Coleford%2C_Forest_of_Dean.jpg/960px-Lenticels_on_a_larch_tree_bark%2C_Perrygrove_Farm%2C_Coleford%2C_Forest_of_Dean.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Lenticels on a larch tree bark, Perrygrove Farm, Coleford, Forest of Dean.jpg",
-          "author": "Rosser1954",
-          "source": "Wikimedia Commons",
-          "organ": "tree_shape"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Alpine_European_Larch_flowering_-_Larix_decidua_var._decidua.jpg/960px-Alpine_European_Larch_flowering_-_Larix_decidua_var._decidua.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Alpine European Larch flowering - Larix decidua var. decidua.jpg",
-          "author": "Thomas Fuhrmann",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Larch_female_flower.jpg/960px-Larch_female_flower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Larch female flower.jpg",
+          "author": "Sandy Rae",
           "source": "Wikimedia Commons",
           "organ": "tree_shape"
         }
@@ -6227,6 +6220,13 @@
       ],
       "unclassified": [
         {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Lenticels_on_a_larch_tree_bark%2C_Perrygrove_Farm%2C_Coleford%2C_Forest_of_Dean.jpg/960px-Lenticels_on_a_larch_tree_bark%2C_Perrygrove_Farm%2C_Coleford%2C_Forest_of_Dean.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Lenticels on a larch tree bark, Perrygrove Farm, Coleford, Forest of Dean.jpg",
+          "author": "Rosser1954",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Gfp-pine-tree-needles.jpg/960px-Gfp-pine-tree-needles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Gfp-pine-tree-needles.jpg",
           "author": "Yinan Chen",
@@ -6244,6 +6244,20 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/New_larch_needles_%2814017284911%29.jpg/960px-New_larch_needles_%2814017284911%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "New larch needles (14017284911).jpg",
           "author": "James Petts from London, England",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Alpine_European_Larch_flowering_-_Larix_decidua_var._decidua.jpg/960px-Alpine_European_Larch_flowering_-_Larix_decidua_var._decidua.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Alpine European Larch flowering - Larix decidua var. decidua.jpg",
+          "author": "Thomas Fuhrmann",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Larix_decidua_male_cones.JPG/960px-Larix_decidua_male_cones.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Larix decidua male cones.JPG",
+          "author": "Rosser1954 Roger Griffith",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
@@ -6374,20 +6388,6 @@
           "organ": "unclassified"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Larch_female_flower.jpg/960px-Larch_female_flower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Larch female flower.jpg",
-          "author": "Sandy Rae",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Larix_decidua_male_cones.JPG/960px-Larix_decidua_male_cones.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Larix decidua male cones.JPG",
-          "author": "Rosser1954 Roger Griffith",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Bergtocht_van_Peio_Paese_naar_Lago_Covel_in_het_Nationaal_park_Stelvio_%28Itali%C3%AB%29._Wond_van_een_afgebroken_tak._Europese_larix_%28Larix_decidua%29_02.jpg/960px-Bergtocht_van_Peio_Paese_naar_Lago_Covel_in_het_Nationaal_park_Stelvio_%28Itali%C3%AB%29._Wond_van_een_afgebroken_tak._Europese_larix_%28Larix_decidua%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Bergtocht van Peio Paese naar Lago Covel in het Nationaal park Stelvio (Italië). Wond van een afgebroken tak. Europese larix (Larix decidua) 02.jpg",
           "author": "Dominicus Johannes Bergsma",
@@ -6417,20 +6417,13 @@
     "clean_latin": "Larix kaempferi",
     "family": "Pinaceae",
     "plant_type": "conifer",
-    "total_images": 15,
+    "total_images": 13,
     "images": {
       "premature_fruit": [
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Flowers_of_Japanese_larch_emerging.jpg/960px-Flowers_of_Japanese_larch_emerging.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Flowers of Japanese larch emerging.jpg",
           "author": "Wikimedia Commons",
-          "source": "Wikimedia Commons",
-          "organ": "premature_fruit"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Japanese_Larch_Larix_kaempferi_Cone_2000px.jpg/960px-Japanese_Larch_Larix_kaempferi_Cone_2000px.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Japanese Larch Larix kaempferi Cone 2000px.jpg",
-          "author": "Photo (c)2007 Derek Ramsey (Ram-Man)",
           "source": "Wikimedia Commons",
           "organ": "premature_fruit"
         }
@@ -6477,13 +6470,6 @@
         }
       ],
       "tree_shape": [
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/2023-11-14_13_35_32_Bark_on_a_Larch_tree_on_the_edge_of_Ann_M._Banchoff_Park_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg/960px-2023-11-14_13_35_32_Bark_on_a_Larch_tree_on_the_edge_of_Ann_M._Banchoff_Park_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "2023-11-14 13 35 32 Bark on a Larch tree on the edge of Ann M. Banchoff Park in the Mountainview section of Ewing Township, Mercer County, New Jersey.jpg",
-          "author": "Famartin",
-          "source": "Wikimedia Commons",
-          "organ": "tree_shape"
-        },
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/2024-12-14_14_28_53_View_up_into_the_canopy_of_a_Larch_tree_changing_color_in_late_autumn_along_Mountain_View_Road_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "2024-12-14 14 28 53 View up into the canopy of a Larch tree changing color in late autumn along Mountain View Road in the Mountainview section of Ewing Township, Mercer County, New Jersey.jpg",
@@ -6542,16 +6528,44 @@
       ],
       "unclassified": [
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Larix_kaempferi_SZ105.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "title": "Larix kaempferi SZ105.png",
-          "author": "Philipp Franz von Siebold and Joseph Gerhard Zuccarini",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Larix_kaempferi_needles.jpg/960px-Larix_kaempferi_needles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Larix kaempferi needles.jpg",
+          "author": "William (Ned) Friedman",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Larix_kaempferi_needles.jpg/960px-Larix_kaempferi_needles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Larix kaempferi needles.jpg",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Japanese_Larch_pollen_cone%2C_Cardiff%2C_Wales.jpg/960px-Japanese_Larch_pollen_cone%2C_Cardiff%2C_Wales.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Japanese Larch pollen cone, Cardiff, Wales.jpg",
+          "author": "No machine-readable author provided. Yummifruitbat assumed (based on copyright c",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Larix_kaempferi_male_cones.jpg/960px-Larix_kaempferi_male_cones.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Larix kaempferi male cones.jpg",
           "author": "William (Ned) Friedman",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Japanese_Larch_Larix_kaempferi_Cone_2000px.jpg/960px-Japanese_Larch_Larix_kaempferi_Cone_2000px.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Japanese Larch Larix kaempferi Cone 2000px.jpg",
+          "author": "Photo (c)2007 Derek Ramsey (Ram-Man)",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/2023-11-14_13_35_32_Bark_on_a_Larch_tree_on_the_edge_of_Ann_M._Banchoff_Park_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg/960px-2023-11-14_13_35_32_Bark_on_a_Larch_tree_on_the_edge_of_Ann_M._Banchoff_Park_in_the_Mountainview_section_of_Ewing_Township%2C_Mercer_County%2C_New_Jersey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "2023-11-14 13 35 32 Bark on a Larch tree on the edge of Ann M. Banchoff Park in the Mountainview section of Ewing Township, Mercer County, New Jersey.jpg",
+          "author": "Famartin",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Larix_kaempferi_SZ105.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "title": "Larix kaempferi SZ105.png",
+          "author": "Philipp Franz von Siebold and Joseph Gerhard Zuccarini",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
@@ -6640,20 +6654,6 @@
           "organ": "unclassified"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Japanese_Larch_pollen_cone%2C_Cardiff%2C_Wales.jpg/960px-Japanese_Larch_pollen_cone%2C_Cardiff%2C_Wales.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Japanese Larch pollen cone, Cardiff, Wales.jpg",
-          "author": "No machine-readable author provided. Yummifruitbat assumed (based on copyright c",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Larix_kaempferi_male_cones.jpg/960px-Larix_kaempferi_male_cones.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Larix kaempferi male cones.jpg",
-          "author": "William (Ned) Friedman",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/718383291/large.jpg",
           "title": "Larix kaempferi Observation #392024265",
           "author": "(c) shingha4223, some rights reserved (CC BY-NC)",
@@ -6676,20 +6676,13 @@
     "clean_latin": "Larix x",
     "family": "Pinaceae",
     "plant_type": "conifer",
-    "total_images": 12,
+    "total_images": 11,
     "images": {
       "premature_fruit": [
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Larix-x-marschlinsii-cone.JPG/960px-Larix-x-marschlinsii-cone.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Larix-x-marschlinsii-cone.JPG",
           "author": "Sten Porse",
-          "source": "Wikimedia Commons",
-          "organ": "premature_fruit"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Larix_x_marschlinsii_cone_-_2.jpg/960px-Larix_x_marschlinsii_cone_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Larix x marschlinsii cone - 2.jpg",
-          "author": "Pudelek",
           "source": "Wikimedia Commons",
           "organ": "premature_fruit"
         }
@@ -6779,6 +6772,13 @@
         }
       ],
       "unclassified": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Larix_x_marschlinsii_cone_-_2.jpg/960px-Larix_x_marschlinsii_cone_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Larix x marschlinsii cone - 2.jpg",
+          "author": "Pudelek",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
         {
           "url": "https://static.inaturalist.org/photos/666567349/large.jpg",
           "title": "Larix x Observation #365106296",
@@ -7277,6 +7277,13 @@
       ],
       "unclassified": [
         {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Malus_sylvestris_fruit%2C_Vosseslag.jpg/960px-Malus_sylvestris_fruit%2C_Vosseslag.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Malus sylvestris fruit, Vosseslag.jpg",
+          "author": "(Hans Hillewaert)",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
           "url": "https://static.inaturalist.org/photos/737844580/large.jpg",
           "title": "Malus sylvestris Observation #401964302",
           "author": "(c) Brandon Chase, all rights reserved",
@@ -7436,13 +7443,6 @@
           "author": "Stefan.lefnaer",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Malus_sylvestris_fruit%2C_Vosseslag.jpg/960px-Malus_sylvestris_fruit%2C_Vosseslag.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Malus sylvestris fruit, Vosseslag.jpg",
-          "author": "(Hans Hillewaert)",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
         }
       ]
     }
@@ -7453,7 +7453,7 @@
     "clean_latin": "Picea abies",
     "family": "Pinaceae",
     "plant_type": "conifer",
-    "total_images": 14,
+    "total_images": 13,
     "images": {
       "premature_fruit": [
         {
@@ -7510,13 +7510,6 @@
           "author": "Sten Porse",
           "source": "Wikimedia Commons",
           "organ": "bark_closeup"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Picea_abies_shoot_and_buds_3800.jpg/960px-Picea_abies_shoot_and_buds_3800.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Picea abies shoot and buds 3800.jpg",
-          "author": "JJ Harrison (https://www.jjharrison.com.au/)",
-          "source": "Wikimedia Commons",
-          "organ": "bark_closeup"
         }
       ],
       "tree_shape": [
@@ -7571,6 +7564,41 @@
       ],
       "unclassified": [
         {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Picea_abies_seeds_and_samaras_or_wings._Norway_Spruce._Lambroughton_Woods%2C_North_Ayrshire.jpg/960px-Picea_abies_seeds_and_samaras_or_wings._Norway_Spruce._Lambroughton_Woods%2C_North_Ayrshire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Picea abies seeds and samaras or wings. Norway Spruce. Lambroughton Woods, North Ayrshire.jpg",
+          "author": "Rosser1954",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Picea_abies_shoot_and_buds_3800.jpg/960px-Picea_abies_shoot_and_buds_3800.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Picea abies shoot and buds 3800.jpg",
+          "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Picea_abies_male_flower.JPG/960px-Picea_abies_male_flower.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Picea abies male flower.JPG",
+          "author": "Per Vetlesen",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Norway_Spruce_cones_%28Picea_abies%29.jpg/960px-Norway_Spruce_cones_%28Picea_abies%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Norway Spruce cones (Picea abies).jpg",
+          "author": "MrPanyGoff",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Picea_abies_%28cultivated%29%2C_hanging_pine_cones.jpg/960px-Picea_abies_%28cultivated%29%2C_hanging_pine_cones.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Picea abies (cultivated), hanging pine cones.jpg",
+          "author": "Martin Ehrensberger",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737978129/large.jpg",
           "title": "Picea abies Observation #402033595",
           "author": "(c) Urszula Wojciechowska, some rights reserved (CC BY-NC)",
@@ -7617,34 +7645,6 @@
           "title": "Picea abies Observation #402205595",
           "author": "(c) Karol Łanocha, some rights reserved (CC BY-NC)",
           "source": "iNaturalist",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Picea_abies_male_flower.JPG/960px-Picea_abies_male_flower.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Picea abies male flower.JPG",
-          "author": "Per Vetlesen",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Norway_Spruce_cones_%28Picea_abies%29.jpg/960px-Norway_Spruce_cones_%28Picea_abies%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Norway Spruce cones (Picea abies).jpg",
-          "author": "MrPanyGoff",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Picea_abies_%28cultivated%29%2C_hanging_pine_cones.jpg/960px-Picea_abies_%28cultivated%29%2C_hanging_pine_cones.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Picea abies (cultivated), hanging pine cones.jpg",
-          "author": "Martin Ehrensberger",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Picea_abies_seeds_and_samaras_or_wings._Norway_Spruce._Lambroughton_Woods%2C_North_Ayrshire.jpg/960px-Picea_abies_seeds_and_samaras_or_wings._Norway_Spruce._Lambroughton_Woods%2C_North_Ayrshire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Picea abies seeds and samaras or wings. Norway Spruce. Lambroughton Woods, North Ayrshire.jpg",
-          "author": "Rosser1954",
-          "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
         {
@@ -7781,13 +7781,6 @@
       ],
       "unclassified": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Resin_bleeding_on_a_Sitka_Spruce.jpg/960px-Resin_bleeding_on_a_Sitka_Spruce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Resin bleeding on a Sitka Spruce.jpg",
-          "author": "Rosser1954",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Sitka_Spruce_Needles_with_ruler_for_scale.jpg/960px-Sitka_Spruce_Needles_with_ruler_for_scale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Sitka Spruce Needles with ruler for scale.jpg",
           "author": "WindBorneListener",
@@ -7798,6 +7791,13 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Sitka_spruce_needles_-_Flickr_-_brewbooks.jpg/960px-Sitka_spruce_needles_-_Flickr_-_brewbooks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Sitka spruce needles - Flickr - brewbooks.jpg",
           "author": "brewbooks from near Seattle, USA",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Resin_bleeding_on_a_Sitka_Spruce.jpg/960px-Resin_bleeding_on_a_Sitka_Spruce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Resin bleeding on a Sitka Spruce.jpg",
+          "author": "Rosser1954",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
@@ -7966,13 +7966,6 @@
           "author": "Axel Kristinsson from Reykjavík, Iceland",
           "source": "Wikimedia Commons",
           "organ": "premature_fruit"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Male_cone_of_lodgepole_pine.jpg/960px-Male_cone_of_lodgepole_pine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Male cone of lodgepole pine.jpg",
-          "author": "User:Geographer",
-          "source": "Wikimedia Commons",
-          "organ": "premature_fruit"
         }
       ],
       "seed_pot": [
@@ -7996,6 +7989,13 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Big_lodgepole_on_rock.jpg/960px-Big_lodgepole_on_rock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Big lodgepole on rock.jpg",
           "author": "DavetheMage (talk · contribs)",
+          "source": "Wikimedia Commons",
+          "organ": "leaves_closeup"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Pinus_contorta_latifolia_foliage.JPG/960px-Pinus_contorta_latifolia_foliage.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Pinus contorta latifolia foliage.JPG",
+          "author": "Crusier",
           "source": "Wikimedia Commons",
           "organ": "leaves_closeup"
         }
@@ -8061,6 +8061,13 @@
       ],
       "unclassified": [
         {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Male_cone_of_lodgepole_pine.jpg/960px-Male_cone_of_lodgepole_pine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Male cone of lodgepole pine.jpg",
+          "author": "User:Geographer",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/One_Big_Rock%2C_Dome_in_Yosemite_5-15_%2822959525329%29.jpg/960px-One_Big_Rock%2C_Dome_in_Yosemite_5-15_%2822959525329%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "One Big Rock, Dome in Yosemite 5-15 (22959525329).jpg",
           "author": "Don Graham from Redlands, CA, USA - God bless it!",
@@ -8071,13 +8078,6 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Pinus_contorta_2766.jpg/960px-Pinus_contorta_2766.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Pinus contorta 2766.jpg",
           "author": "Chris Light",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Pinus_contorta_latifolia_foliage.JPG/960px-Pinus_contorta_latifolia_foliage.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Pinus contorta latifolia foliage.JPG",
-          "author": "Crusier",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
@@ -8558,16 +8558,16 @@
       ],
       "unclassified": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Pinus_nigra_JPG4Ad.jpg/960px-Pinus_nigra_JPG4Ad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Pinus nigra JPG4Ad.jpg",
-          "author": "Jean-Pol GRANDMONT",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Pinus_nigra_pollen_illustration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "title": "Pinus nigra pollen illustration.jpg",
+          "author": "C.Giordano/EUFORGEN",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
         {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Pinus_nigra_pollen_illustration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "title": "Pinus nigra pollen illustration.jpg",
-          "author": "C.Giordano/EUFORGEN",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Pinus_nigra_JPG4Ad.jpg/960px-Pinus_nigra_JPG4Ad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Pinus nigra JPG4Ad.jpg",
+          "author": "Jean-Pol GRANDMONT",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
@@ -12793,16 +12793,16 @@
       ],
       "seed_pot": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Fleur_m%C3%A2le_If_commun_Taxus_baccata_11_mars_2016_Lamiot6.JPG/960px-Fleur_m%C3%A2le_If_commun_Taxus_baccata_11_mars_2016_Lamiot6.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Fleur mâle If commun Taxus baccata 11 mars 2016 Lamiot6.JPG",
-          "author": "Lamiot",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Fruit_of_common_yew_%28Taxus_baccata%29.jpg/960px-Fruit_of_common_yew_%28Taxus_baccata%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Fruit of common yew (Taxus baccata).jpg",
+          "author": "hedera.baltica",
           "source": "Wikimedia Commons",
           "organ": "seed_pot"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Taxus_baccata_MHNT_flowers_male.jpg/960px-Taxus_baccata_MHNT_flowers_male.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Taxus baccata MHNT flowers male.jpg",
-          "author": "Didier Descouens",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Taxus_baccata_fruit_illustration.jpg/960px-Taxus_baccata_fruit_illustration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Taxus baccata fruit illustration.jpg",
+          "author": "C.Giordano/EUFORGEN",
           "source": "Wikimedia Commons",
           "organ": "seed_pot"
         }
@@ -12890,6 +12890,20 @@
         }
       ],
       "unclassified": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Taxus_baccata_MHNT_flowers_male.jpg/960px-Taxus_baccata_MHNT_flowers_male.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Taxus baccata MHNT flowers male.jpg",
+          "author": "Didier Descouens",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Fleur_m%C3%A2le_If_commun_Taxus_baccata_11_mars_2016_Lamiot6.JPG/960px-Fleur_m%C3%A2le_If_commun_Taxus_baccata_11_mars_2016_Lamiot6.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Fleur mâle If commun Taxus baccata 11 mars 2016 Lamiot6.JPG",
+          "author": "Lamiot",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Taxus_baccata-3-bsi-yercaud-salem-India.JPG/960px-Taxus_baccata-3-bsi-yercaud-salem-India.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Taxus baccata-3-bsi-yercaud-salem-India.JPG",
@@ -13045,23 +13059,9 @@
           "organ": "unclassified"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Fruit_of_common_yew_%28Taxus_baccata%29.jpg/960px-Fruit_of_common_yew_%28Taxus_baccata%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Fruit of common yew (Taxus baccata).jpg",
-          "author": "hedera.baltica",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Taxus_baccata_Lviv.JPG/960px-Taxus_baccata_Lviv.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Taxus baccata Lviv.JPG",
           "author": "Mykola Swarnyk",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Taxus_baccata_fruit_illustration.jpg/960px-Taxus_baccata_fruit_illustration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Taxus baccata fruit illustration.jpg",
-          "author": "C.Giordano/EUFORGEN",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         }
@@ -13074,16 +13074,9 @@
     "clean_latin": "Thuja occidentalis",
     "family": "Cupressaceae",
     "plant_type": "conifer",
-    "total_images": 15,
+    "total_images": 14,
     "images": {
       "premature_fruit": [
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Thuja_occidentalis_-_cone_1_%28aka%29.jpg/960px-Thuja_occidentalis_-_cone_1_%28aka%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Thuja occidentalis - cone 1 (aka).jpg",
-          "author": "André Karwath aka Aka",
-          "source": "Wikimedia Commons",
-          "organ": "premature_fruit"
-        },
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Thuja_occidentalis_15-p.bot-thuja.occi-04.jpg/960px-Thuja_occidentalis_15-p.bot-thuja.occi-04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Thuja occidentalis 15-p.bot-thuja.occi-04.jpg",
@@ -13199,6 +13192,20 @@
       ],
       "unclassified": [
         {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Thuja_occidentalis_foliage.jpg/960px-Thuja_occidentalis_foliage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Thuja occidentalis foliage.jpg",
+          "author": "File:Cedar_Needles.JPG: Nomadluap\nderivative work: MPF (talk)",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Thuja_occidentalis_-_cone_1_%28aka%29.jpg/960px-Thuja_occidentalis_-_cone_1_%28aka%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Thuja occidentalis - cone 1 (aka).jpg",
+          "author": "André Karwath aka Aka",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Thuja_occidentalis%2C_North_Liberty%2C_Indiana_7168.jpg/960px-Thuja_occidentalis%2C_North_Liberty%2C_Indiana_7168.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Thuja occidentalis, North Liberty, Indiana 7168.jpg",
           "author": "Chris Light",
@@ -13223,13 +13230,6 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Thuja_occidentalis_teddy_%286%29.JPG/960px-Thuja_occidentalis_teddy_%286%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Thuja occidentalis teddy (6).JPG",
           "author": "This illustration was made by Rašo. \nAn email to \n\nRašo would be appreciat",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Thuja_occidentalis_foliage.jpg/960px-Thuja_occidentalis_foliage.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Thuja occidentalis foliage.jpg",
-          "author": "File:Cedar_Needles.JPG: Nomadluap\nderivative work: MPF (talk)",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
@@ -13745,6 +13745,27 @@
       ],
       "unclassified": [
         {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Tilia_cordata_fruits%2C_winter.jpg/960px-Tilia_cordata_fruits%2C_winter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Tilia cordata fruits, winter.jpg",
+          "author": "Gmihail at Serbian Wikipedia",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Tilia_cordata_fruits.jpg/960px-Tilia_cordata_fruits.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Tilia cordata fruits.jpg",
+          "author": "Gmihail at Serbian Wikipedia",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Tilia_cordata_MHNT.BOT.2004.0.780.jpg/960px-Tilia_cordata_MHNT.BOT.2004.0.780.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Tilia cordata MHNT.BOT.2004.0.780.jpg",
+          "author": "Didier Descouens",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737742327/large.jpg",
           "title": "Tilia cordata Observation #401915829",
           "author": "(c) Дмитрий Власов, some rights reserved (CC BY-NC)",
@@ -13878,27 +13899,6 @@
           "organ": "unclassified"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Tilia_cordata_MHNT.BOT.2004.0.780.jpg/960px-Tilia_cordata_MHNT.BOT.2004.0.780.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Tilia cordata MHNT.BOT.2004.0.780.jpg",
-          "author": "Didier Descouens",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Tilia_cordata_fruits%2C_winter.jpg/960px-Tilia_cordata_fruits%2C_winter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Tilia cordata fruits, winter.jpg",
-          "author": "Gmihail at Serbian Wikipedia",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Tilia_cordata_fruits.jpg/960px-Tilia_cordata_fruits.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Tilia cordata fruits.jpg",
-          "author": "Gmihail at Serbian Wikipedia",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/PS_L%C3%ADpa_u_Hl%C3%A1sn%C3%A9_T%C5%99eban%C4%9B%2C_koruna_stromu.jpg/960px-PS_L%C3%ADpa_u_Hl%C3%A1sn%C3%A9_T%C5%99eban%C4%9B%2C_koruna_stromu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "PS Lípa u Hlásné Třebaně, koruna stromu.jpg",
           "author": "Juandev",
@@ -13948,16 +13948,16 @@
       ],
       "seed_pot": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Tilleul_en_fleur_03.jpg/960px-Tilleul_en_fleur_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Tilleul en fleur 03.jpg",
-          "author": "No machine-readable author provided. Grondin assumed (based on copyright claims)",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Tilia_platyphyllos_Owoce_lipy_656.jpg/960px-Tilia_platyphyllos_Owoce_lipy_656.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Tilia platyphyllos Owoce lipy 656.jpg",
+          "author": "Pleple2000",
           "source": "Wikimedia Commons",
           "organ": "seed_pot"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Tilia_platyphyllos_Owoce_lipy_656.jpg/960px-Tilia_platyphyllos_Owoce_lipy_656.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Tilia platyphyllos Owoce lipy 656.jpg",
-          "author": "Pleple2000",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Tilia_platyphyllos_fruit.jpg/960px-Tilia_platyphyllos_fruit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Tilia platyphyllos fruit.jpg",
+          "author": "MurielBendel",
           "source": "Wikimedia Commons",
           "organ": "seed_pot"
         }
@@ -13980,9 +13980,9 @@
       ],
       "bark_closeup": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Tilleul_%C3%A0_grandes_feuilles_du_d%C3%A9sert_de_Retz_04.jpg/960px-Tilleul_%C3%A0_grandes_feuilles_du_d%C3%A9sert_de_Retz_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Tilleul à grandes feuilles du désert de Retz 04.jpg",
-          "author": "Rémih",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Tilia_platyphyllos_inflorescence_after_flowering.jpg/960px-Tilia_platyphyllos_inflorescence_after_flowering.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Tilia platyphyllos inflorescence after flowering.jpg",
+          "author": "Gmihail at Serbian Wikipedia",
           "source": "Wikimedia Commons",
           "organ": "bark_closeup"
         }
@@ -14052,6 +14052,27 @@
         }
       ],
       "unclassified": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Tilleul_en_fleur_03.jpg/960px-Tilleul_en_fleur_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Tilleul en fleur 03.jpg",
+          "author": "No machine-readable author provided. Grondin assumed (based on copyright claims)",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Tilia_platyphyllos_fruits.jpg/960px-Tilia_platyphyllos_fruits.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Tilia platyphyllos fruits.jpg",
+          "author": "Gmihail at Serbian Wikipedia",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Tilleul_%C3%A0_grandes_feuilles_du_d%C3%A9sert_de_Retz_04.jpg/960px-Tilleul_%C3%A0_grandes_feuilles_du_d%C3%A9sert_de_Retz_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Tilleul à grandes feuilles du désert de Retz 04.jpg",
+          "author": "Rémih",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Tilia_platyphyllos_-_Conjoux_1.jpg/960px-Tilia_platyphyllos_-_Conjoux_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Tilia platyphyllos - Conjoux 1.jpg",
@@ -14221,27 +14242,6 @@
           "organ": "unclassified"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Tilia_platyphyllos_fruit.jpg/960px-Tilia_platyphyllos_fruit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Tilia platyphyllos fruit.jpg",
-          "author": "MurielBendel",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Tilia_platyphyllos_fruits.jpg/960px-Tilia_platyphyllos_fruits.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Tilia platyphyllos fruits.jpg",
-          "author": "Gmihail at Serbian Wikipedia",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Tilia_platyphyllos_inflorescence_after_flowering.jpg/960px-Tilia_platyphyllos_inflorescence_after_flowering.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Tilia platyphyllos inflorescence after flowering.jpg",
-          "author": "Gmihail at Serbian Wikipedia",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Tilia_platyphyllos%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "title": "Tilia platyphyllos(01).jpg",
           "author": "Wikimedia Commons",
@@ -14264,7 +14264,7 @@
     "clean_latin": "Tilia x",
     "family": "Malvaceae",
     "plant_type": "broadleaf",
-    "total_images": 14,
+    "total_images": 13,
     "images": {
       "premature_fruit": [
         {
@@ -14283,13 +14283,6 @@
         }
       ],
       "seed_pot": [
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Tilia_x_europea_flowers%2C_Hollandse_linde_bloemen_%281%29.jpg/960px-Tilia_x_europea_flowers%2C_Hollandse_linde_bloemen_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Tilia x europea flowers, Hollandse linde bloemen (1).jpg",
-          "author": "Rasbak",
-          "source": "Wikimedia Commons",
-          "organ": "seed_pot"
-        },
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/%E6%AD%90%E6%B4%B2%E6%A4%B4_Tilia_x_europaea_-%E8%8D%B7%E8%98%AD%E6%B5%B7%E7%89%99_Rijswijk%2C_Holland-_%289216096664%29.jpg/960px-%E6%AD%90%E6%B4%B2%E6%A4%B4_Tilia_x_europaea_-%E8%8D%B7%E8%98%AD%E6%B5%B7%E7%89%99_Rijswijk%2C_Holland-_%289216096664%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "歐洲椴 Tilia x europaea -荷蘭海牙 Rijswijk, Holland- (9216096664).jpg",
@@ -14381,6 +14374,13 @@
         }
       ],
       "unclassified": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Tilia_x_europea_flowers%2C_Hollandse_linde_bloemen_%281%29.jpg/960px-Tilia_x_europea_flowers%2C_Hollandse_linde_bloemen_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Tilia x europea flowers, Hollandse linde bloemen (1).jpg",
+          "author": "Rasbak",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Tilia_x_vulgaris_parklind.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "title": "Tilia x vulgaris parklind.jpg",
@@ -14523,13 +14523,20 @@
     "clean_latin": "Tsuga canadensis",
     "family": "Pinaceae",
     "plant_type": "conifer",
-    "total_images": 13,
+    "total_images": 14,
     "images": {
       "premature_fruit": [
         {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/%28ms%29_Tsuga_canadensis_3.jpg/960px-%28ms%29_Tsuga_canadensis_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "(ms) Tsuga canadensis 3.jpg",
           "author": "Hladac",
+          "source": "Wikimedia Commons",
+          "organ": "premature_fruit"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Tsuga_canadensis%2C_female_and_male_strobili.jpg/960px-Tsuga_canadensis%2C_female_and_male_strobili.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Tsuga canadensis, female and male strobili.jpg",
+          "author": "Gmihail at Serbian Wikipedia",
           "source": "Wikimedia Commons",
           "organ": "premature_fruit"
         }
@@ -14543,9 +14550,9 @@
           "organ": "seed_pot"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Tsuga_canadensis%2C_female_and_male_strobili.jpg/960px-Tsuga_canadensis%2C_female_and_male_strobili.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Tsuga canadensis, female and male strobili.jpg",
-          "author": "Gmihail at Serbian Wikipedia",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Tsuga_canadensis_cone_100_0015.JPG/960px-Tsuga_canadensis_cone_100_0015.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Tsuga canadensis cone 100 0015.JPG",
+          "author": "Hmbascom",
           "source": "Wikimedia Commons",
           "organ": "seed_pot"
         }
@@ -14634,13 +14641,6 @@
       ],
       "unclassified": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Canadian_Hemlock_Tsuga_canadensis_Bark_Vertical.jpg/960px-Canadian_Hemlock_Tsuga_canadensis_Bark_Vertical.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Canadian Hemlock Tsuga canadensis Bark Vertical.jpg",
-          "author": "Photo by and (c)2016 Derek Ramsey (Ram-Man)",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Tsuga-canadensis-needles-close.JPG/960px-Tsuga-canadensis-needles-close.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Tsuga-canadensis-needles-close.JPG",
           "author": "Sten Porse",
@@ -14651,6 +14651,27 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Tsuga_canadensis_%28needles%29.jpg/960px-Tsuga_canadensis_%28needles%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Tsuga canadensis (needles).jpg",
           "author": "Photo by and (c)2007 Jina Lee",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Canadian_Hemlock_Tsuga_canadensis_Bark_Vertical.jpg/960px-Canadian_Hemlock_Tsuga_canadensis_Bark_Vertical.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Canadian Hemlock Tsuga canadensis Bark Vertical.jpg",
+          "author": "Photo by and (c)2016 Derek Ramsey (Ram-Man)",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/2004-09-05-TSUGA-DU-CANADA-fruit.jpg/960px-2004-09-05-TSUGA-DU-CANADA-fruit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "2004-09-05-TSUGA-DU-CANADA-fruit.jpg",
+          "author": "Moosh",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Spreading_Canopy_%288484176924%29.jpg/960px-Spreading_Canopy_%288484176924%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Spreading Canopy (8484176924).jpg",
+          "author": "Nicholas A. Tonelli from Northeast Pennsylvania, USA",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
@@ -14837,30 +14858,9 @@
           "organ": "unclassified"
         },
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Tsuga_canadensis_cone_100_0015.JPG/960px-Tsuga_canadensis_cone_100_0015.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Tsuga canadensis cone 100 0015.JPG",
-          "author": "Hmbascom",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/2004-09-05-TSUGA-DU-CANADA-fruit.jpg/960px-2004-09-05-TSUGA-DU-CANADA-fruit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "2004-09-05-TSUGA-DU-CANADA-fruit.jpg",
-          "author": "Moosh",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Huron_National_Forest_Big_Trees_MI.jpg/960px-Huron_National_Forest_Big_Trees_MI.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Huron National Forest Big Trees MI.jpg",
           "author": "Zapatosunidos",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Spreading_Canopy_%288484176924%29.jpg/960px-Spreading_Canopy_%288484176924%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Spreading Canopy (8484176924).jpg",
-          "author": "Nicholas A. Tonelli from Northeast Pennsylvania, USA",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         }
@@ -14873,7 +14873,7 @@
     "clean_latin": "Ulmus glabra",
     "family": "Ulmaceae",
     "plant_type": "broadleaf",
-    "total_images": 16,
+    "total_images": 15,
     "images": {
       "premature_fruit": [
         {
@@ -14928,13 +14928,6 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Ulmus_glabra_Wych_Elm_bark.jpg/960px-Ulmus_glabra_Wych_Elm_bark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "Ulmus glabra Wych Elm bark.jpg",
           "author": "T.Voekler",
-          "source": "Wikimedia Commons",
-          "organ": "bark_closeup"
-        },
-        {
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Wych_elm_bark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "title": "Wych elm bark.jpg",
-          "author": "Ptelea",
           "source": "Wikimedia Commons",
           "organ": "bark_closeup"
         }
@@ -15004,6 +14997,34 @@
         }
       ],
       "unclassified": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Wych_elm_bark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "title": "Wych elm bark.jpg",
+          "author": "Ptelea",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Ulmus_glabra_seed_01.jpg/960px-Ulmus_glabra_seed_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Ulmus glabra seed 01.jpg",
+          "author": "Meneerke bloem",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Ulmus_glabra_fruit.JPG/960px-Ulmus_glabra_fruit.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Ulmus glabra fruit.JPG",
+          "author": "Ydigresse",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Ulmus_glabra_in_Golden_Valley_Tree_Park%2C_May_2022.jpg/960px-Ulmus_glabra_in_Golden_Valley_Tree_Park%2C_May_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Ulmus glabra in Golden Valley Tree Park, May 2022.jpg",
+          "author": "Calistemon",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Ulmus_glabra_nf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "title": "Ulmus glabra nf.jpg",
@@ -15150,27 +15171,6 @@
           "author": "(c) Malgorzata Domagala, some rights reserved (CC BY-NC)",
           "source": "iNaturalist",
           "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Ulmus_glabra_fruit.JPG/960px-Ulmus_glabra_fruit.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Ulmus glabra fruit.JPG",
-          "author": "Ydigresse",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Ulmus_glabra_seed_01.jpg/960px-Ulmus_glabra_seed_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Ulmus glabra seed 01.jpg",
-          "author": "Meneerke bloem",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Ulmus_glabra_in_Golden_Valley_Tree_Park%2C_May_2022.jpg/960px-Ulmus_glabra_in_Golden_Valley_Tree_Park%2C_May_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Ulmus glabra in Golden Valley Tree Park, May 2022.jpg",
-          "author": "Calistemon",
-          "source": "Wikimedia Commons",
-          "organ": "unclassified"
         }
       ]
     }
@@ -15181,7 +15181,7 @@
     "clean_latin": "Viburnum opulus",
     "family": "Adoxaceae",
     "plant_type": "broadleaf",
-    "total_images": 14,
+    "total_images": 13,
     "images": {
       "premature_fruit": [
         {
@@ -15201,16 +15201,9 @@
       ],
       "seed_pot": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Ruhland%2C_Rudolf-Breitscheid-Str._13%2C_Gew%C3%B6hnlicher_Schneeball%2C_Bl%C3%BCtenstand%2C_Fr%C3%BChling%2C_03.jpg/960px-Ruhland%2C_Rudolf-Breitscheid-Str._13%2C_Gew%C3%B6hnlicher_Schneeball%2C_Bl%C3%BCtenstand%2C_Fr%C3%BChling%2C_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Ruhland, Rudolf-Breitscheid-Str. 13, Gewöhnlicher Schneeball, Blütenstand, Frühling, 03.jpg",
-          "author": "Wilhelm Zimmerling PAR",
-          "source": "Wikimedia Commons",
-          "organ": "seed_pot"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Viburnum_opulus_flower%2C_Guelder-rose_with_sterile_flowers.jpg/960px-Viburnum_opulus_flower%2C_Guelder-rose_with_sterile_flowers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Viburnum opulus flower, Guelder-rose with sterile flowers.jpg",
-          "author": "Rosser1954",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Viburnum_opulus_fruits_-_Keila.jpg/960px-Viburnum_opulus_fruits_-_Keila.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Viburnum opulus fruits - Keila.jpg",
+          "author": "Ivar Leidus",
           "source": "Wikimedia Commons",
           "organ": "seed_pot"
         }
@@ -15254,13 +15247,6 @@
           "author": "Lestat (Jan Mehlich)",
           "source": "Wikimedia Commons",
           "organ": "tree_shape"
-        },
-        {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Viburnum_opulus_fruits_-_Keila.jpg/960px-Viburnum_opulus_fruits_-_Keila.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Viburnum opulus fruits - Keila.jpg",
-          "author": "Ivar Leidus",
-          "source": "Wikimedia Commons",
-          "organ": "tree_shape"
         }
       ],
       "bark": [
@@ -15268,6 +15254,13 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/%28ms%29_Viburnum_opulus_10.jpg/960px-%28ms%29_Viburnum_opulus_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "title": "(ms) Viburnum opulus 10.jpg",
           "author": "Hladac",
+          "source": "Wikimedia Commons",
+          "organ": "bark"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Viburnum_young_bark_kz.jpg/960px-Viburnum_young_bark_kz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Viburnum young bark kz.jpg",
+          "author": "Krzysztof Ziarnek (Kenraiz)",
           "source": "Wikimedia Commons",
           "organ": "bark"
         }
@@ -15299,9 +15292,16 @@
       ],
       "unclassified": [
         {
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Viburnum_young_bark_kz.jpg/960px-Viburnum_young_bark_kz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "Viburnum young bark kz.jpg",
-          "author": "Krzysztof Ziarnek (Kenraiz)",
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Viburnum_opulus_flower%2C_Guelder-rose_with_sterile_flowers.jpg/960px-Viburnum_opulus_flower%2C_Guelder-rose_with_sterile_flowers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Viburnum opulus flower, Guelder-rose with sterile flowers.jpg",
+          "author": "Rosser1954",
+          "source": "Wikimedia Commons",
+          "organ": "unclassified"
+        },
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Ruhland%2C_Rudolf-Breitscheid-Str._13%2C_Gew%C3%B6hnlicher_Schneeball%2C_Bl%C3%BCtenstand%2C_Fr%C3%BChling%2C_03.jpg/960px-Ruhland%2C_Rudolf-Breitscheid-Str._13%2C_Gew%C3%B6hnlicher_Schneeball%2C_Bl%C3%BCtenstand%2C_Fr%C3%BChling%2C_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "Ruhland, Rudolf-Breitscheid-Str. 13, Gewöhnlicher Schneeball, Blütenstand, Frühling, 03.jpg",
+          "author": "Wilhelm Zimmerling PAR",
           "source": "Wikimedia Commons",
           "organ": "unclassified"
         },
