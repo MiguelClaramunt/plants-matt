@@ -1,18 +1,19 @@
 const fs = require('fs');
 const https = require('https');
-const http = require('http');
+const path = require('path');
 const jpeg = require('jpeg-js');
 const { PNG } = require('pngjs');
 
 // Load plants database
-const dataPath = './plants_data.json';
+const dataPath = path.join(__dirname, '..', 'data', 'plants_data.json');
+const jsPath = path.join(__dirname, '..', 'data', 'plants_data.js');
 const plants = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 
 // Fetch buffer with redirect handling
 function fetchBuffer(url) {
   return new Promise((resolve) => {
     const client = url.startsWith('https') ? https : http;
-    const req = client.get(url, { headers: { 'User-Agent': 'SLU-BotanicalApp/2.0 (botany educational filter; contact: curator@slu.se)' } }, (res) => {
+    const req = client.get(url, { headers: { 'User-Agent': 'TreeMemorizationApp/2.0 (botany educational filter; contact: bot@example.org)' } }, (res) => {
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
         return fetchBuffer(res.headers.location).then(resolve);
       }
@@ -176,11 +177,10 @@ async function main() {
   // Save updated databases
   fs.writeFileSync(dataPath, JSON.stringify(plants, null, 2), 'utf8');
 
-  const jsContent = `// PhytoMemo Botanical Database — Full-Color Verified Image Repository\nwindow.PLANT_DATABASE = ${JSON.stringify(plants, null, 2)};\n`;
-  fs.writeFileSync('./plants_data.js', jsContent, 'utf8');
-  fs.writeFileSync('./src/data/plantRepository.json', JSON.stringify(plants, null, 2), 'utf8');
+  const jsContent = `// Plant Database — Full-Color Verified Image Repository\nwindow.PLANT_DATABASE = ${JSON.stringify(plants, null, 2)};\n`;
+  fs.writeFileSync(jsPath, jsContent, 'utf8');
 
-  console.log('Successfully saved cleaned full-color database to plants_data.json, plants_data.js, and src/data/plantRepository.json!');
+  console.log('Successfully saved cleaned full-color database to data/plants_data.json and data/plants_data.js!');
 }
 
 main();

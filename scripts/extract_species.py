@@ -436,6 +436,8 @@ SPECIES_DATA = [
 
 if __name__ == "__main__":
     print(f"Total species: {len(SPECIES_DATA)}")
-    with open("bi1452_species.json", "w", encoding="utf-8") as f:
+    data_dir = os.path.join(os.path.dirname(__file__), "..", "data")
+    out_file = os.path.join(data_dir, "species_list.json")
+    with open(out_file, "w", encoding="utf-8") as f:
         json.dump(SPECIES_DATA, f, indent=2, ensure_ascii=False)
-    print("Saved bi1452_species.json successfully.")
+    print("Saved species_list.json successfully.")

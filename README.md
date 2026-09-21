@@ -103,10 +103,29 @@ python3 -m http.server 8000
 
 ## 📂 File Structure
 
-- [index.html](file:///home/mca/git/plants-matt/index.html) — Main application user interface.
-- [app.js](file:///home/mca/git/plants-matt/app.js) — Quiz engine, interactive species filter, fuzzy matcher, scoring, and atlas logic.
-- [plants_data.js](file:///home/mca/git/plants-matt/plants_data.js) — Pre-compiled verified repository of 61 species and 2,015+ images (loads in `<script>` tag, works offline and on `file://`).
-- [plants_data.json](file:///home/mca/git/plants-matt/plants_data.json) — Standard JSON database format.
-- [discarded_images.js](file:///home/mca/git/plants-matt/discarded_images.js) — Registry of 1,305 discarded images loaded client-side to prevent discarded photos from reappearing during live searches.
-- [discarded_images.json](file:///home/mca/git/plants-matt/discarded_images.json) — Discarded images registry used by Python harvesting scripts to skip unwanted images permanently.
-- `scripts/` — Automated data harvesting and enrichment scripts with automatic discarded image skipping.
+```
+plants-matt/
+├── index.html                   # Main application entry point for GitHub Pages
+├── .nojekyll                    # GitHub Pages bypass for Jekyll
+├── css/
+│   └── style.css                # Application styles and font bindings
+├── js/
+│   └── app.js                   # Application logic, quiz engine, anti-cheat cropping, atlas
+├── data/
+│   ├── plants_data.js           # Verified botanical image repository (loaded by app)
+│   ├── plants_data.json         # Standard JSON database format
+│   ├── discarded_images.js      # Discarded images registry (loaded client-side)
+│   ├── discarded_images.json    # Discarded images registry (loaded by scrapers)
+│   └── species_list.json        # Clean reference list of 61 species
+├── docs/
+│   └── reference_curriculum.pdf # Curriculum reference document
+└── scripts/                     # Automated data harvesting, enrichment, and cleanup tools
+    ├── enrich_database.py
+    ├── build_full_repository.py
+    ├── generate_all_plants.py
+    ├── harvest_images.py
+    ├── extract_species.py
+    ├── deduplicate.cjs
+    ├── deduplicate_by_author.cjs
+    └── remove_bw_images.cjs
+```

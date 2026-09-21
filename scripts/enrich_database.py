@@ -7,10 +7,11 @@ import re
 from concurrent.futures import ThreadPoolExecutor
 
 HEADERS = {
-    'User-Agent': 'SLU-BotanicalApp/2.0 (BI1452 tree identification; high quality educational enrichment; contact: curator@slu.se)'
+    'User-Agent': 'TreeMemorizationApp/2.0 (Plant identification database enrichment; contact: bot@example.org)'
 }
 
-DISCARDED_PATH = os.path.join(os.path.dirname(__file__), '..', 'discarded_images.json')
+DATA_DIR = os.path.join(os.path.dirname(__file__), '..', 'data')
+DISCARDED_PATH = os.path.join(DATA_DIR, 'discarded_images.json')
 DISCARDED_URLS = set()
 if os.path.exists(DISCARDED_PATH):
     try:
@@ -246,7 +247,8 @@ def enrich_species(sp_item):
     }
 
 def main():
-    with open('bi1452_species.json', 'r', encoding='utf-8') as f:
+    species_file = os.path.join(DATA_DIR, 'species_list.json')
+    with open(species_file, 'r', encoding='utf-8') as f:
         species_list = json.load(f)
 
     print(f"Enriching database with large image sets for all {len(species_list)} species...")
@@ -263,22 +265,19 @@ def main():
     print(f"\nCompleted enrichment in {time.time()-t0:.2f}s!")
     print(f"Total images collected: {total_images_all} (Average: {avg_images:.1f} imgs/species, Min: {min_images}, Max: {max_images})")
 
-    # Save to plants_data.json
-    with open('plants_data.json', 'w', encoding='utf-8') as f:
+    # Save to data/plants_data.json
+    out_json = os.path.join(DATA_DIR, 'plants_data.json')
+    with open(out_json, 'w', encoding='utf-8') as f:
         json.dump(enriched_results, f, indent=2, ensure_ascii=False)
 
-    # Save to plants_data.js
-    js_content = "// PhytoMemo Botanical Database — Verified & Enriched Image Repository\n"
+    # Save to data/plants_data.js
+    out_js = os.path.join(DATA_DIR, 'plants_data.js')
+    js_content = "// Botanical Database — Verified & Enriched Image Repository\n"
     js_content += f"window.PLANT_DATABASE = {json.dumps(enriched_results, indent=2, ensure_ascii=False)};\n"
-    with open('plants_data.js', 'w', encoding='utf-8') as f:
+    with open(out_js, 'w', encoding='utf-8') as f:
         f.write(js_content)
 
-    # Save to src/data/plantRepository.json
-    os.makedirs('src/data', exist_ok=True)
-    with open('src/data/plantRepository.json', 'w', encoding='utf-8') as f:
-        json.dump(enriched_results, f, indent=2, ensure_ascii=False)
-
-    print("Saved enriched data to plants_data.json, plants_data.js, and src/data/plantRepository.json successfully!")
+    print("Saved enriched data to data/plants_data.json and data/plants_data.js successfully!")
 
 if __name__ == '__main__':
     main()

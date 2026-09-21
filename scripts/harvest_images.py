@@ -9,7 +9,8 @@ HEADERS = {
     'User-Agent': 'TreeMemorizationApp/2.0 (Plant identification database harvester; contact: bot@example.org)'
 }
 
-DISCARDED_PATH = os.path.join(os.path.dirname(__file__), '..', 'discarded_images.json')
+DATA_DIR = os.path.join(os.path.dirname(__file__), '..', 'data')
+DISCARDED_PATH = os.path.join(DATA_DIR, 'discarded_images.json')
 DISCARDED_URLS = set()
 if os.path.exists(DISCARDED_PATH):
     try:

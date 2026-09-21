@@ -1,9 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const dataPath = path.join(__dirname, '..', 'plants_data.json');
-const repoPath = path.join(__dirname, '..', 'src', 'data', 'plantRepository.json');
-const jsPath = path.join(__dirname, '..', 'plants_data.js');
+const dataPath = path.join(__dirname, '..', 'data', 'plants_data.json');
+const jsPath = path.join(__dirname, '..', 'data', 'plants_data.js');
 
 const rawData = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
 
@@ -132,9 +131,6 @@ console.log('Highest 5 species counts:', report.slice(-5));
 
 // Write back to files
 fs.writeFileSync(dataPath, JSON.stringify(cleanedData, null, 2), 'utf-8');
-if (fs.existsSync(repoPath)) {
-  fs.writeFileSync(repoPath, JSON.stringify(cleanedData, null, 2), 'utf-8');
-}
 fs.writeFileSync(jsPath, `window.PLANT_DATABASE = ${JSON.stringify(cleanedData, null, 2)};\n`, 'utf-8');
 
-console.log('Successfully updated plants_data.json, src/data/plantRepository.json, and plants_data.js!');
+console.log('Successfully updated data/plants_data.json and data/plants_data.js!');

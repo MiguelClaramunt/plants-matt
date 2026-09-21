@@ -90,7 +90,7 @@ async function initDatabase() {
     allSpecies = [...window.PLANT_DATABASE];
   } else {
     try {
-      const resp = await fetch('plants_data.json');
+      const resp = await fetch('data/plants_data.json');
       allSpecies = await resp.json();
     } catch (e) {
       console.error('Failed to load database:', e);
@@ -99,7 +99,7 @@ async function initDatabase() {
   }
 
   // Check for custom added species in localStorage
-  const savedCustom = localStorage.getItem('phytomemo_custom_plants');
+  const savedCustom = localStorage.getItem('plantquiz_custom_plants') || localStorage.getItem('phytomemo_custom_plants');
   if (savedCustom) {
     try {
       const customList = JSON.parse(savedCustom);
@@ -1439,7 +1439,7 @@ function initDiscardedStorage() {
   }
 
   // 2. Load user session discards from localStorage
-  const saved = localStorage.getItem('phytomemo_discarded_images');
+  const saved = localStorage.getItem('plantquiz_discarded_images') || localStorage.getItem('phytomemo_discarded_images');
   if (saved) {
     try {
       const localDiscards = JSON.parse(saved);
@@ -1466,7 +1466,7 @@ function initDiscardedStorage() {
 }
 
 function saveDiscardedStorage() {
-  localStorage.setItem('phytomemo_discarded_images', JSON.stringify(discardedImages));
+  localStorage.setItem('plantquiz_discarded_images', JSON.stringify(discardedImages));
   discardedUrlSet = new Set(discardedImages.map(d => d.url));
   updateDiscardedBadgeCount();
 }
@@ -2325,9 +2325,9 @@ async function importTaxonLive(taxonId, latinName, commonName) {
     selectedSpeciesIds.add(newRecord.id);
 
     // Persist in localStorage
-    const savedCustom = JSON.parse(localStorage.getItem('phytomemo_custom_plants') || '[]');
+    const savedCustom = JSON.parse(localStorage.getItem('plantquiz_custom_plants') || localStorage.getItem('phytomemo_custom_plants') || '[]');
     savedCustom.push(newRecord);
-    localStorage.setItem('phytomemo_custom_plants', JSON.stringify(savedCustom));
+    localStorage.setItem('plantquiz_custom_plants', JSON.stringify(savedCustom));
 
     alert(`Successfully added ${latinName} with ${tPhotos.length} photos!`);
     statusEl.textContent = `Added ${latinName} to your library!`;

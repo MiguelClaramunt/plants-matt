@@ -10,7 +10,8 @@ HEADERS = {
     'User-Agent': 'TreeMemorizationApp/2.0 (Plant identification database generator; contact: bot@example.org)'
 }
 
-DISCARDED_PATH = os.path.join(os.path.dirname(__file__), '..', 'discarded_images.json')
+DATA_DIR = os.path.join(os.path.dirname(__file__), '..', 'data')
+DISCARDED_PATH = os.path.join(DATA_DIR, 'discarded_images.json')
 DISCARDED_URLS = set()
 if os.path.exists(DISCARDED_PATH):
     try:
@@ -252,7 +253,8 @@ def process_species(sp_item):
     }
 
 def main():
-    with open('bi1452_species.json', 'r', encoding='utf-8') as f:
+    species_file = os.path.join(DATA_DIR, 'species_list.json')
+    with open(species_file, 'r', encoding='utf-8') as f:
         species_list = json.load(f)
         
     print(f"Resolving images for all {len(species_list)} species concurrently...")
@@ -263,20 +265,17 @@ def main():
         
     print(f"Finished resolution in {time.time()-t0:.2f}s!")
     
-    # Save to plants_data.json
-    with open('plants_data.json', 'w', encoding='utf-8') as f:
+    # Save to data/plants_data.json
+    out_json = os.path.join(DATA_DIR, 'plants_data.json')
+    with open(out_json, 'w', encoding='utf-8') as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
         
     # Also save as JS file for direct inclusion in index.html (bypasses any browser CORS on file://)
+    out_js = os.path.join(DATA_DIR, 'plants_data.js')
     js_content = "// Plant Database — Verified Image Repository\n"
     js_content += f"window.PLANT_DATABASE = {json.dumps(results, indent=2, ensure_ascii=False)};\n"
-    with open('plants_data.js', 'w', encoding='utf-8') as f:
+    with open(out_js, 'w', encoding='utf-8') as f:
         f.write(js_content)
-        
-    # Also save to src/data for completeness
-    os.makedirs('src/data', exist_ok=True)
-    with open('src/data/plantRepository.json', 'w', encoding='utf-8') as f:
-        json.dump(results, f, indent=2, ensure_ascii=False)
         
     total_all_images = sum(r['total_images'] for r in results)
     print(f"Saved {len(results)} species with {total_all_images} verified images across all organs!")

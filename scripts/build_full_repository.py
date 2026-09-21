@@ -9,7 +9,8 @@ HEADERS = {
     'User-Agent': 'TreeMemorizationApp/2.0 (Plant identification database builder; contact: bot@example.org)'
 }
 
-DISCARDED_PATH = os.path.join(os.path.dirname(__file__), '..', 'discarded_images.json')
+DATA_DIR = os.path.join(os.path.dirname(__file__), '..', 'data')
+DISCARDED_PATH = os.path.join(DATA_DIR, 'discarded_images.json')
 DISCARDED_URLS = set()
 if os.path.exists(DISCARDED_PATH):
     try:
@@ -198,12 +199,11 @@ def harvest_species(sp_item):
     }
 
 def main():
-    with open('bi1452_species.json', 'r', encoding='utf-8') as f:
+    species_file = os.path.join(DATA_DIR, 'species_list.json')
+    with open(species_file, 'r', encoding='utf-8') as f:
         species_list = json.load(f)
         
-    out_dir = 'src/data'
-    os.makedirs(out_dir, exist_ok=True)
-    out_file = os.path.join(out_dir, 'plantRepository.json')
+    out_file = os.path.join(DATA_DIR, 'plants_data.json')
     
     existing = {}
     if os.path.exists(out_file):
