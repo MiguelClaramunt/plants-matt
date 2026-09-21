@@ -622,8 +622,7 @@ function revealAdditionalClue() {
 
   const card = document.createElement('div');
   card.className = 'relative bg-stone-900 border border-stone-800 rounded-lg overflow-hidden group cursor-pointer hover:border-emerald-600 transition';
-  const organLabel = clue.organ ? formatOrganName(clue.organ) : 'Diagnostic Clue';
-  card.onclick = () => openLightbox(clue.url, `Diagnostic Clue • ${organLabel}`, clue.author, shouldCropImage(clue), true);
+  card.onclick = () => openLightbox(clue.url, '', '', shouldCropImage(clue), true);
   card.innerHTML = `
     <img src="${clue.url}" alt="Diagnostic Clue" class="h-24 w-full object-cover group-hover:scale-105 transition" />
     <div class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition flex items-center justify-center opacity-0 group-hover:opacity-100">
@@ -2494,35 +2493,16 @@ function openLightbox(url, title, author, autoCrop = false, isQuiz = false) {
   lbImg.src = url;
 
   if (isQuizActive) {
-    // In quiz mode: NEVER reveal species or Latin scientific name
-    let cleanTitle = title || 'Diagnostic Specimen (Zoom)';
-    if (currentQuestion && currentQuestion.species) {
-      cleanTitle = safeStripSpeciesName(cleanTitle, currentQuestion.species);
-    }
-    if (activeReplacementQuestion && activeReplacementQuestion.species) {
-      cleanTitle = safeStripSpeciesName(cleanTitle, activeReplacementQuestion.species);
-    }
-    cleanTitle = cleanTitle.replace(/^[•\s\-_]+|[•\s\-_]+$/g, '').trim();
-    if (!cleanTitle) cleanTitle = 'Diagnostic Specimen (Zoom)';
-    if (titleEl) titleEl.textContent = cleanTitle;
-
-    // Sanitize author attribution to prevent leaking species names
-    let cleanAuthor = author || '';
-    if (currentQuestion && currentQuestion.species) {
-      cleanAuthor = safeStripSpeciesName(cleanAuthor, currentQuestion.species);
-    }
-    if (activeReplacementQuestion && activeReplacementQuestion.species) {
-      cleanAuthor = safeStripSpeciesName(cleanAuthor, activeReplacementQuestion.species);
-    }
-    cleanAuthor = cleanAuthor.trim();
-    if (authorEl) authorEl.textContent = cleanAuthor ? `Credit: ${cleanAuthor}` : '';
-
-    // Hide original repository link in quiz mode so hovering/inspecting doesn't leak URL filename
+    // In quiz mode: do NOT show anything (no title, no organ, no species, no author, no link)
+    if (titleEl) titleEl.textContent = '';
+    if (authorEl) authorEl.textContent = '';
     if (linkEl) {
       linkEl.classList.add('hidden');
       linkEl.removeAttribute('href');
     }
-    lbImg.alt = 'Botanical specimen zoom view';
+    const footerEl = document.getElementById('lightbox-footer');
+    if (footerEl) footerEl.classList.add('hidden');
+    lbImg.alt = '';
   } else {
     // Regular viewing mode (Atlas, Slideshow, Results Review)
     if (titleEl) titleEl.textContent = title || '';
@@ -2531,6 +2511,8 @@ function openLightbox(url, title, author, autoCrop = false, isQuiz = false) {
       linkEl.classList.remove('hidden');
       linkEl.href = url;
     }
+    const footerEl = document.getElementById('lightbox-footer');
+    if (footerEl) footerEl.classList.remove('hidden');
     lbImg.alt = title || 'High resolution botanical view';
   }
 
@@ -2582,14 +2564,10 @@ function discardLightboxPhoto() {
 function openCurrentPhotoLightbox() {
   if (!currentQuestion || !currentQuestion.primaryImage) return;
   const autoCrop = currentCropBottom > 0;
-  const organLabel = currentQuestion.primaryImage.organ 
-    ? formatOrganName(currentQuestion.primaryImage.organ) 
-    : (currentQuestion.organ ? formatOrganName(currentQuestion.organ) : '');
-  const title = organLabel ? `Diagnostic Specimen • ${organLabel}` : 'Diagnostic Specimen (Zoom)';
   openLightbox(
     currentQuestion.primaryImage.url,
-    title,
-    currentQuestion.primaryImage.author,
+    '',
+    '',
     autoCrop,
     true
   );
@@ -2598,11 +2576,10 @@ function openCurrentPhotoLightbox() {
 function openReplacementPhotoLightbox() {
   if (!activeReplacementQuestion || !activeReplacementQuestion.image) return;
   const autoCrop = activeReplacementQuestion.requiresCrop;
-  const organLabel = activeReplacementQuestion.image.organ ? formatOrganName(activeReplacementQuestion.image.organ) : 'Replacement Specimen';
   openLightbox(
     activeReplacementQuestion.image.url,
-    `Replacement Specimen • ${organLabel}`,
-    activeReplacementQuestion.image.author,
+    '',
+    '',
     autoCrop,
     true
   );
