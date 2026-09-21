@@ -112,9 +112,10 @@ async function initDatabase() {
   document.getElementById('export-species-count').textContent = allSpecies.length;
 }
 
-// Setup Organ Checkboxes in UI
+// Setup Organ Checkboxes in UI (Safely handles optional selector)
 function setupOrganCheckboxes() {
   const container = document.getElementById('organ-checkboxes-container');
+  if (!container) return;
   container.innerHTML = '';
   
   Object.entries(ORGAN_METADATA).forEach(([key, meta]) => {
@@ -136,10 +137,10 @@ function setupOrganCheckboxes() {
 function onOrganToggle(key, isChecked, parentEl) {
   if (isChecked) {
     activeOrganFilters.add(key);
-    parentEl.className = 'flex items-center gap-2 p-2 rounded-xl border text-xs cursor-pointer transition bg-stone-950 border-emerald-800/80 text-emerald-300';
+    if (parentEl) parentEl.className = 'flex items-center gap-2 p-2 rounded-xl border text-xs cursor-pointer transition bg-stone-950 border-emerald-800/80 text-emerald-300';
   } else {
     activeOrganFilters.delete(key);
-    parentEl.className = 'flex items-center gap-2 p-2 rounded-xl border text-xs cursor-pointer transition bg-stone-950/40 border-stone-800 text-stone-400';
+    if (parentEl) parentEl.className = 'flex items-center gap-2 p-2 rounded-xl border text-xs cursor-pointer transition bg-stone-950/40 border-stone-800 text-stone-400';
   }
 }
 
@@ -348,14 +349,9 @@ function startQuiz(customSpeciesSubset = null) {
     return;
   }
 
-  if (activeOrganFilters.size === 0) {
-    alert('Please select at least 1 botanical organ type to examine.');
-    return;
-  }
-
   // Read settings
-  clueMode = document.getElementById('clue-mode-select').value;
-  fuzzyTolerance = document.getElementById('fuzzy-spelling-checkbox').checked;
+  clueMode = document.getElementById('clue-mode-select')?.value || 'progressive';
+  fuzzyTolerance = document.getElementById('fuzzy-spelling-checkbox')?.checked ?? true;
   const answerRadio = document.querySelector('input[name="answer-type"]:checked');
   answerType = answerRadio ? answerRadio.value : 'latin';
 
@@ -370,47 +366,23 @@ function startQuiz(customSpeciesSubset = null) {
   const selectedSubset = shuffledSpecies.slice(0, count);
 
   selectedSubset.forEach(species => {
-    // Pick available organs for this species that are in activeOrganFilters
-    const validOrgans = Object.keys(species.images || {}).filter(organKey => {
-      return activeOrganFilters.has(organKey) && (species.images[organKey] || []).length > 0;
-    });
-
-    let chosenOrgan = 'leaves_top';
-    let chosenImg = null;
-
-    if (validOrgans.length > 0) {
-      chosenOrgan = validOrgans[Math.floor(Math.random() * validOrgans.length)];
-      const imgList = species.images[chosenOrgan];
-      chosenImg = imgList[Math.floor(Math.random() * imgList.length)];
-    } else {
-      // Fallback: pick any available image from any organ
-      const allImages = [];
-      Object.entries(species.images || {}).forEach(([k, imgs]) => {
-        imgs.forEach(im => allImages.push({ organ: k, ...im }));
-      });
-      if (allImages.length > 0) {
-        const pick = allImages[Math.floor(Math.random() * allImages.length)];
-        chosenOrgan = pick.organ;
-        chosenImg = pick;
-      }
-    }
-
-    // Collect extra images for clues/hints
-    const otherOrganClues = [];
+    // Gather all verified diagnostic photos for this species
+    const allImages = [];
     Object.entries(species.images || {}).forEach(([k, imgs]) => {
-      if (k !== chosenOrgan && imgs.length > 0) {
-        otherOrganClues.push({
-          organ: k,
-          ...imgs[0]
-        });
-      }
+      imgs.forEach(im => allImages.push({ organ: k, ...im }));
     });
+
+    if (allImages.length === 0) return;
+
+    // Shuffle and pick primary image + extra clue images
+    const shuffledImgs = [...allImages].sort(() => 0.5 - Math.random());
+    const chosenImg = shuffledImgs[0];
+    const otherClues = shuffledImgs.slice(1);
 
     quizQuestions.push({
       species,
-      primaryOrgan: chosenOrgan,
       primaryImage: chosenImg,
-      otherOrganClues: otherOrganClues.sort(() => 0.5 - Math.random()),
+      otherOrganClues: otherClues,
       revealedExtraClues: []
     });
   });
@@ -505,24 +477,15 @@ function renderCurrentQuestion() {
     document.getElementById('quiz-live-score').textContent = `${quizUserScore} / ${currentQuestionIndex} (${currentPct}%)`;
   }
 
-  // Display Image with Anti-Cheat Detection
-  const organMeta = ORGAN_METADATA[currentQuestion.primaryOrgan] || { label: 'Organ', icon: '🌿' };
-  document.getElementById('quiz-organ-badge').innerHTML = `${organMeta.icon} ${organMeta.label}`;
-  
+  // Display Image with Transparent Anti-Cheat Detection
   const imgEl = document.getElementById('quiz-primary-img');
   if (currentQuestion.primaryImage && currentQuestion.primaryImage.url) {
     imgEl.src = currentQuestion.primaryImage.url;
     document.getElementById('quiz-image-source').textContent = currentQuestion.primaryImage.source || 'Wikimedia Commons';
     
-    // Auto-detect botanical illustrations or plates containing plant names
-    const requiresCrop = shouldCropImage(currentQuestion.primaryImage, currentQuestion.primaryOrgan);
-    if (requiresCrop) {
-      applyInteractiveCrop(14);
-      document.getElementById('anti-cheat-crop-status').textContent = 'Botanical plate label cropped (Anti-Cheat)';
-    } else {
-      applyInteractiveCrop(0);
-      document.getElementById('anti-cheat-crop-status').textContent = 'Uncropped full image';
-    }
+    // Auto-detect botanical illustrations or plates containing plant names - transparently clip text
+    const requiresCrop = shouldCropImage(currentQuestion.primaryImage);
+    applyInteractiveCrop(requiresCrop ? 14 : 0);
   } else {
     imgEl.src = '';
     document.getElementById('quiz-image-source').textContent = 'Repository Image';
@@ -639,7 +602,7 @@ function confirmSubmitExamEarly() {
 
 function revealAdditionalClue() {
   if (!currentQuestion || currentQuestion.otherOrganClues.length === 0) {
-    alert('No additional organ photos available for this species.');
+    alert('No additional diagnostic photos available for this species.');
     return;
   }
 
@@ -650,20 +613,19 @@ function revealAdditionalClue() {
   const extraGrid = document.getElementById('quiz-extra-clues-grid');
   extraContainer.classList.remove('hidden');
 
-  const meta = ORGAN_METADATA[clue.organ] || { label: clue.organ, icon: '🌿' };
   const card = document.createElement('div');
-  card.className = 'relative bg-stone-900 border border-stone-800 rounded-lg overflow-hidden group cursor-pointer';
-  card.onclick = () => openLightbox(clue.url, `${meta.icon} ${meta.label}`, clue.title, clue.author);
+  card.className = 'relative bg-stone-900 border border-stone-800 rounded-lg overflow-hidden group cursor-pointer hover:border-emerald-600 transition';
+  card.onclick = () => openLightbox(clue.url, currentQuestion.species.latin, clue.author);
   card.innerHTML = `
-    <img src="${clue.url}" alt="${meta.label}" class="h-24 w-full object-cover group-hover:scale-105 transition" />
-    <span class="absolute bottom-1 left-1 px-1.5 py-0.5 bg-black/80 rounded text-[9px] font-bold text-emerald-300">
-      ${meta.icon} ${meta.label}
-    </span>
+    <img src="${clue.url}" alt="${currentQuestion.species.latin}" class="h-24 w-full object-cover group-hover:scale-105 transition" />
+    <div class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition flex items-center justify-center opacity-0 group-hover:opacity-100">
+      <span class="text-white text-xs drop-shadow">🔍</span>
+    </div>
   `;
   extraGrid.appendChild(card);
 
   if (currentQuestion.otherOrganClues.length === 0) {
-    document.getElementById('reveal-hint-btn').classList.add('hidden');
+    document.getElementById('reveal-hint-btn')?.classList.add('hidden');
   }
 }
 
@@ -829,31 +791,47 @@ function evaluateAnswer(userText) {
   const famEl = document.getElementById('feedback-family');
   if (famEl) famEl.textContent = species.family;
 
-  // Fill Mini Gallery
-  const gallery = document.getElementById('feedback-all-organs-gallery');
-  gallery.innerHTML = '';
-  
-  Object.entries(species.images || {}).forEach(([orgKey, imgs]) => {
-    if (imgs.length > 0) {
-      const meta = ORGAN_METADATA[orgKey] || { label: orgKey, icon: '🌿' };
-      const img = imgs[0];
-      const thumb = document.createElement('div');
-      thumb.className = 'relative rounded-lg overflow-hidden bg-stone-900 border border-stone-800 cursor-pointer group';
-      thumb.onclick = () => openLightbox(img.url, `${meta.icon} ${meta.label}`, `${species.latin} - ${meta.label}`, img.author);
-      thumb.innerHTML = `
-        <img src="${img.url}" alt="${meta.label}" class="h-16 w-full object-cover group-hover:scale-105 transition" />
-        <span class="absolute bottom-0 inset-x-0 bg-black/80 text-[8px] font-bold text-center py-0.5 text-stone-200 truncate px-1">
-          ${meta.icon} ${meta.label}
-        </span>
-      `;
-      gallery.appendChild(thumb);
-    }
+  // Fill Study Photo Gallery & Quick Slideshow Action
+  const totalSpeciesImgs = [];
+  Object.values(species.images || {}).forEach(list => {
+    list.forEach(img => totalSpeciesImgs.push(img));
   });
 
-  // Uncrop image so student can study the original plate and text label
+  const countBadge = document.getElementById('feedback-photos-count');
+  if (countBadge) countBadge.textContent = totalSpeciesImgs.length;
+
+  const quickSlideshowBtn = document.getElementById('feedback-slideshow-quick-btn');
+  if (quickSlideshowBtn) {
+    quickSlideshowBtn.innerHTML = `<span>📸</span> <span>Slideshow (${totalSpeciesImgs.length})</span>`;
+    if (!isMatch) {
+      quickSlideshowBtn.className = 'px-4 py-2.5 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-bold text-xs shadow-md transition flex items-center gap-1.5 ring-2 ring-emerald-400/50 animate-pulse';
+    } else {
+      quickSlideshowBtn.className = 'px-4 py-2.5 rounded-xl bg-stone-800 hover:bg-stone-700 text-emerald-400 hover:text-emerald-300 border border-emerald-900/60 font-bold text-xs shadow transition flex items-center gap-1.5';
+    }
+  }
+
+  const gallery = document.getElementById('feedback-all-photos-gallery');
+  if (gallery) {
+    gallery.innerHTML = '';
+    // Show up to 18 photos for instant visual study
+    const previewList = totalSpeciesImgs.slice(0, 18);
+    previewList.forEach((img, pIdx) => {
+      const thumb = document.createElement('div');
+      thumb.className = 'relative rounded-lg overflow-hidden bg-stone-900 border border-stone-800 cursor-pointer group hover:border-emerald-500 transition';
+      thumb.title = `Click to study ${species.latin} in slideshow`;
+      thumb.onclick = () => openFeedbackSpeciesSlideshow(pIdx);
+      thumb.innerHTML = `
+        <img src="${img.url}" alt="${species.latin}" class="h-16 w-full object-cover group-hover:scale-110 transition duration-200" />
+        <div class="absolute inset-0 bg-black/30 group-hover:bg-transparent transition flex items-center justify-center opacity-0 group-hover:opacity-100">
+          <span class="text-white text-xs drop-shadow">🔍</span>
+        </div>
+      `;
+      gallery.appendChild(thumb);
+    });
+  }
+
+  // Uncrop image so student can study the full illustration plate if desired
   applyInteractiveCrop(0);
-  const statusEl = document.getElementById('anti-cheat-crop-status');
-  if (statusEl) statusEl.textContent = 'Label revealed to verify answer';
 
   // Switch to feedback view
   document.getElementById('quiz-input-section').classList.add('hidden');
@@ -861,6 +839,11 @@ function evaluateAnswer(userText) {
 
   // Focus Next button
   setTimeout(() => document.getElementById('next-question-btn')?.focus(), 50);
+}
+
+function openFeedbackSpeciesSlideshow(startIndex = 0) {
+  if (!currentQuestion || !currentQuestion.species) return;
+  startSlideshowForSpecies(currentQuestion.species.id, startIndex);
 }
 
 function proceedToNextQuestion() {
@@ -897,14 +880,21 @@ function initKeyListeners() {
       } else if (e.key === 'd' || e.key === 'D' || e.key === 'Delete' || e.key === 'Backspace') {
         e.preventDefault();
         discardCurrentSlideshowImage();
-      } else if (e.key === 'c' || e.key === 'C') {
-        e.preventDefault();
-        toggleSlideshowCrop();
       } else if (e.key === 'Escape') {
         e.preventDefault();
         closeSlideshow();
       }
       return;
+    }
+
+    // 'S' shortcut to launch slideshow in quiz feedback
+    if (e.key === 's' || e.key === 'S') {
+      const feedbackSection = document.getElementById('quiz-feedback-section');
+      if (feedbackSection && !feedbackSection.classList.contains('hidden')) {
+        e.preventDefault();
+        openFeedbackSpeciesSlideshow();
+        return;
+      }
     }
 
     // Modal Escape shortcuts
@@ -951,7 +941,6 @@ function finishQuiz() {
       quizAnswersRecord.push({
         questionNumber: idx + 1,
         species,
-        organTested: q.primaryOrgan,
         imageShown: q.primaryImage,
         userAnswer: userText,
         correctAnswer: targetAnswer,
@@ -976,46 +965,26 @@ function finishQuiz() {
   else if (pct >= 50) rank = 'Apprentice Botanist 🌱';
   document.getElementById('results-rank-title').textContent = rank;
 
-  // Missed species count badge
+  // Missed species action controls
   const missedRecords = quizAnswersRecord.filter(a => !a.isCorrect);
-  document.getElementById('missed-count-badge').textContent = missedRecords.length;
+  const missedCountBadge = document.getElementById('missed-count-badge');
+  if (missedCountBadge) missedCountBadge.textContent = missedRecords.length;
+  const missedSlideshowBadge = document.getElementById('missed-slideshow-count-badge');
+  if (missedSlideshowBadge) missedSlideshowBadge.textContent = missedRecords.length;
+
   const drillBtn = document.getElementById('drill-missed-btn');
+  const missedSlideshowBtn = document.getElementById('slideshow-missed-btn');
   if (missedRecords.length === 0) {
-    drillBtn.classList.add('hidden');
+    if (drillBtn) drillBtn.classList.add('hidden');
+    if (missedSlideshowBtn) missedSlideshowBtn.classList.add('hidden');
   } else {
-    drillBtn.classList.remove('hidden');
+    if (drillBtn) drillBtn.classList.remove('hidden');
+    if (missedSlideshowBtn) missedSlideshowBtn.classList.remove('hidden');
   }
-
-  // Organ Performance Breakdown
-  const organStats = {};
-  quizAnswersRecord.forEach(rec => {
-    const o = rec.organTested;
-    if (!organStats[o]) organStats[o] = { total: 0, correct: 0 };
-    organStats[o].total++;
-    if (rec.isCorrect) organStats[o].correct++;
-  });
-
-  const organBreakdownContainer = document.getElementById('results-organ-breakdown-grid');
-  organBreakdownContainer.innerHTML = Object.entries(organStats).map(([orgKey, stats]) => {
-    const meta = ORGAN_METADATA[orgKey] || { label: orgKey, icon: '🌿' };
-    const orgPct = Math.round((stats.correct / stats.total) * 100);
-    return `
-      <div class="bg-stone-950 p-3 rounded-xl border border-stone-800">
-        <div class="flex items-center justify-between text-xs font-semibold text-stone-300 mb-1.5">
-          <span>${meta.icon} ${meta.label}</span>
-          <span class="${orgPct >= 70 ? 'text-emerald-400' : 'text-amber-400'}">${orgPct}% (${stats.correct}/${stats.total})</span>
-        </div>
-        <div class="w-full bg-stone-800 h-1.5 rounded-full overflow-hidden">
-          <div class="h-full rounded-full ${orgPct >= 70 ? 'bg-emerald-500' : 'bg-amber-500'}" style="width: ${orgPct}%"></div>
-        </div>
-      </div>
-    `;
-  }).join('');
 
   // Detailed Review Table
   const reviewTable = document.getElementById('results-review-table');
   reviewTable.innerHTML = quizAnswersRecord.map(rec => {
-    const meta = ORGAN_METADATA[rec.organTested] || { label: rec.organTested, icon: '🌿' };
     const statusBg = rec.isCorrect 
       ? (rec.isClose ? 'bg-amber-950/30 border-amber-800/60' : 'bg-emerald-950/30 border-emerald-800/60')
       : 'bg-rose-950/30 border-rose-900/60';
@@ -1023,18 +992,18 @@ function finishQuiz() {
     const statusTextClass = rec.isCorrect ? (rec.isClose ? 'text-amber-400' : 'text-emerald-400') : 'text-rose-400';
 
     return `
-      <div class="p-3 rounded-xl border ${statusBg} flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs">
-        <div class="flex items-center gap-3">
+      <div class="p-3.5 rounded-xl border ${statusBg} flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs">
+        <div class="flex items-center gap-3 min-w-0">
           <img 
             src="${rec.imageShown?.url || ''}" 
-            alt="Question Image" 
-            class="w-14 h-14 rounded-lg object-cover bg-stone-800 cursor-pointer shrink-0 border border-stone-700" 
-            onclick="openLightbox('${rec.imageShown?.url || ''}', '${meta.icon} ${meta.label}', '${rec.species.latin}', '${rec.imageShown?.author || ''}')"
+            alt="${rec.species.latin}" 
+            class="w-16 h-16 rounded-lg object-cover bg-stone-800 cursor-pointer shrink-0 border border-stone-700 hover:scale-105 transition" 
+            title="Click to launch slideshow for ${rec.species.latin}"
+            onclick="startSlideshowForSpecies('${rec.species.id}')"
           />
-          <div>
+          <div class="min-w-0">
             <div class="flex items-center gap-2 mb-0.5">
-              <span class="font-bold font-botanical italic text-stone-100 text-sm">${rec.species.latin}</span>
-              <span class="px-1.5 py-0.5 rounded bg-stone-800 text-[10px] text-stone-300">${meta.icon} ${meta.label}</span>
+              <span class="font-bold font-botanical italic text-stone-100 text-sm truncate">${rec.species.latin}</span>
             </div>
             <div class="text-stone-400 text-[11px] font-mono">
               Family: ${rec.species.family}
@@ -1048,7 +1017,15 @@ function finishQuiz() {
           </div>
         </div>
 
-        <div class="shrink-0 flex sm:flex-col items-end gap-1">
+        <div class="shrink-0 flex items-center gap-2 self-end sm:self-center">
+          <button 
+            type="button" 
+            onclick="startSlideshowForSpecies('${rec.species.id}')" 
+            class="px-3 py-1.5 rounded-xl bg-stone-800 hover:bg-stone-700 text-emerald-400 text-xs font-semibold flex items-center gap-1.5 border border-stone-700 hover:border-emerald-700/60 transition shadow-sm"
+            title="Open interactive slideshow with all photos of ${rec.species.latin}"
+          >
+            <span>📸</span> <span>Slideshow</span>
+          </button>
           <span class="px-2.5 py-1 rounded-full text-xs font-bold ${statusTextClass} bg-stone-900 border border-stone-800">
             ${statusIcon}
           </span>
@@ -1056,6 +1033,42 @@ function finishQuiz() {
       </div>
     `;
   }).join('');
+}
+
+function startMissedSpeciesSlideshow() {
+  const missedSpeciesMap = new Map();
+  quizAnswersRecord.forEach(a => {
+    if (!a.isCorrect) {
+      missedSpeciesMap.set(a.species.id, a.species);
+    }
+  });
+
+  const missedList = Array.from(missedSpeciesMap.values());
+  if (missedList.length === 0) {
+    alert('No missed species to review in slideshow!');
+    return;
+  }
+
+  const allMissedImages = [];
+  missedList.forEach(sp => {
+    Object.entries(sp.images || {}).forEach(([orgKey, list]) => {
+      list.forEach(img => {
+        allMissedImages.push({
+          url: img.url,
+          speciesLatin: sp.latin,
+          family: sp.family,
+          speciesId: sp.id,
+          organ: orgKey,
+          title: img.title || '',
+          author: img.author || '',
+          source: img.source || ''
+        });
+      });
+    });
+  });
+
+  if (allMissedImages.length === 0) return;
+  openSlideshow(allMissedImages, 0);
 }
 
 function startMissedDrillQuiz() {
@@ -1149,7 +1162,7 @@ function discardImage(url, speciesLatin, organ, title, author, source, silent = 
   saveDiscardedStorage();
 
   if (!silent) {
-    showToast(`Discarded image from ${record.speciesLatin} (${ORGAN_METADATA[record.organ]?.label || record.organ})`, 'Undo', () => {
+    showToast(`Discarded image from ${record.speciesLatin}`, 'Undo', () => {
       restoreImage(url);
     });
   }
@@ -1172,8 +1185,8 @@ function discardImage(url, speciesLatin, organ, title, author, source, silent = 
   if (activeSpeciesModalId && (!document.getElementById('species-modal')?.classList.contains('hidden'))) {
     const activeSp = allSpecies.find(s => s.id === activeSpeciesModalId);
     if (activeSp) {
-      renderSpeciesModalOrganTabs(activeSp);
-      document.getElementById('species-modal-count').textContent = `${activeSp.total_images || 0} photos`;
+      const countEl = document.getElementById('species-modal-image-count') || document.getElementById('species-modal-count');
+      if (countEl) countEl.textContent = activeSp.total_images || 0;
     }
     renderSpeciesModalGallery();
   }
@@ -1229,8 +1242,8 @@ function restoreImage(url) {
   if (activeSpeciesModalId) {
     const activeSp = allSpecies.find(s => s.id === activeSpeciesModalId);
     if (activeSp) {
-      renderSpeciesModalOrganTabs(activeSp);
-      document.getElementById('species-modal-count').textContent = `${activeSp.total_images || 0} photos`;
+      const countEl = document.getElementById('species-modal-image-count') || document.getElementById('species-modal-count');
+      if (countEl) countEl.textContent = activeSp.total_images || 0;
     }
     renderSpeciesModalGallery();
   }
@@ -1292,7 +1305,6 @@ function renderTrashModal() {
   }
 
   grid.innerHTML = discardedImages.map(item => {
-    const meta = ORGAN_METADATA[item.organ] || { label: item.organ, icon: '🌿' };
     const cleanUrl = item.url.replace(/'/g, "\\'");
     return `
       <div class="bg-stone-900 border border-stone-800 rounded-xl p-2.5 flex items-center justify-between gap-3 group shadow-sm">
@@ -1300,7 +1312,6 @@ function renderTrashModal() {
           <img src="${item.url}" alt="${item.speciesLatin}" class="w-12 h-12 rounded-lg object-cover bg-stone-950 shrink-0 border border-stone-800" />
           <div class="min-w-0">
             <div class="font-bold font-botanical italic text-stone-200 text-xs truncate">${item.speciesLatin}</div>
-            <div class="text-[10px] text-stone-400 truncate">${meta.icon} ${meta.label}</div>
             <div class="text-[9px] text-stone-500 truncate">${item.title || item.source || ''}</div>
           </div>
         </div>
@@ -1403,11 +1414,6 @@ function renderAtlasList() {
       }
     }
 
-    const organChips = Object.entries(sp.images || {}).filter(([k, v]) => v.length > 0).map(([k, v]) => {
-      const m = ORGAN_METADATA[k] || { icon: '🌿', label: k };
-      return `<span class="px-1.5 py-0.5 bg-stone-800 text-[10px] rounded text-stone-300">${m.icon} ${v.length}</span>`;
-    }).join('');
-
     return `
       <div class="bg-stone-950 border border-stone-800 rounded-2xl overflow-hidden hover:border-emerald-700 transition flex flex-col justify-between group shadow">
         <div>
@@ -1417,7 +1423,7 @@ function renderAtlasList() {
               ${sp.family}
             </span>
             <span class="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-black/80 text-[10px] text-emerald-400 font-bold">
-              ${sp.total_images || 0} images
+              ${sp.total_images || 0} photos
             </span>
           </div>
           <div class="p-4">
@@ -1429,10 +1435,7 @@ function renderAtlasList() {
             </div>
           </div>
         </div>
-        <div class="p-4 pt-0 border-t border-stone-800/60 mt-2 space-y-2">
-          <div class="flex flex-wrap gap-1 mt-2">
-            ${organChips}
-          </div>
+        <div class="p-4 pt-0 border-t border-stone-800/60 mt-2">
           <div class="grid grid-cols-2 gap-2 mt-3">
             <button onclick="openSpeciesModal('${sp.id}')" class="py-1.5 px-2 rounded-lg bg-stone-800 hover:bg-stone-700 text-xs font-semibold text-stone-200 transition flex items-center justify-center gap-1">
               <span>🖼️</span> <span>All Photos</span>
@@ -1463,45 +1466,6 @@ function setupGalleryFilters() {
     });
   }
 
-  const organCounts = {};
-  let totalImgs = 0;
-  allSpecies.forEach(sp => {
-    Object.entries(sp.images).forEach(([org, imgs]) => {
-      organCounts[org] = (organCounts[org] || 0) + imgs.length;
-      totalImgs += imgs.length;
-    });
-  });
-
-  const pillsContainer = document.getElementById('gallery-organ-pills');
-  if (pillsContainer) {
-    let html = `
-      <button 
-        onclick="setGalleryOrganFilter('ALL')" 
-        class="px-2.5 py-1 rounded-lg text-xs font-semibold transition ${galleryActiveOrgan === 'ALL' ? 'bg-emerald-600 text-white' : 'bg-stone-900 border border-stone-800 text-stone-400 hover:text-stone-200'}"
-      >
-        All Organs (${totalImgs})
-      </button>
-    `;
-    Object.entries(ORGAN_METADATA).forEach(([orgKey, meta]) => {
-      const count = organCounts[orgKey] || 0;
-      const isActive = galleryActiveOrgan === orgKey;
-      html += `
-        <button 
-          onclick="setGalleryOrganFilter('${orgKey}')" 
-          class="px-2.5 py-1 rounded-lg text-xs font-semibold transition ${isActive ? 'bg-emerald-600 text-white' : 'bg-stone-900 border border-stone-800 text-stone-400 hover:text-stone-200'}"
-        >
-          ${meta.icon} ${meta.label} (${count})
-        </button>
-      `;
-    });
-    pillsContainer.innerHTML = html;
-  }
-}
-
-function setGalleryOrganFilter(organKey) {
-  galleryActiveOrgan = organKey;
-  setupGalleryFilters();
-  filterGalleryImages();
 }
 
 function filterGalleryImages() {
@@ -1514,8 +1478,6 @@ function filterGalleryImages() {
     if (spVal !== 'ALL' && sp.latin !== spVal) return;
 
     Object.entries(sp.images).forEach(([orgKey, imgs]) => {
-      if (galleryActiveOrgan !== 'ALL' && orgKey !== galleryActiveOrgan) return;
-
       imgs.forEach(img => {
         if (srcVal === 'Wikimedia' && !img.source?.includes('Wikimedia')) return;
         if (srcVal === 'iNaturalist' && !img.source?.includes('iNaturalist')) return;
@@ -1523,8 +1485,7 @@ function filterGalleryImages() {
         if (textVal) {
           const match = sp.latin.toLowerCase().includes(textVal) ||
                         sp.family.toLowerCase().includes(textVal) ||
-                        (img.title || '').toLowerCase().includes(textVal) ||
-                        orgKey.toLowerCase().includes(textVal);
+                        (img.title || '').toLowerCase().includes(textVal);
           if (!match) return;
         }
 
@@ -1566,7 +1527,6 @@ function renderGalleryGrid() {
   const pageSlice = galleryFilteredImages.slice(start, end);
 
   container.innerHTML = pageSlice.map((item, idx) => {
-    const meta = ORGAN_METADATA[item.organ] || { label: item.organ, icon: '🌿' };
     const cleanUrl = item.url.replace(/'/g, "\\'");
     const cleanLatin = item.speciesLatin.replace(/'/g, "\\'");
     const cleanTitle = (item.title || '').replace(/'/g, "\\'");
@@ -1580,9 +1540,6 @@ function renderGalleryGrid() {
             loading="lazy" 
             class="w-full h-full object-cover group-hover:scale-105 transition duration-200" 
           />
-          <span class="absolute top-1.5 left-1.5 px-2 py-0.5 rounded-full bg-black/80 backdrop-blur-sm border border-stone-700 text-[10px] font-semibold text-stone-200">
-            ${meta.icon} ${meta.label}
-          </span>
           <button 
             type="button" 
             onclick="event.stopPropagation(); discardImage('${cleanUrl}', '${cleanLatin}', '${item.organ}', '${cleanTitle}', '${(item.author || '').replace(/'/g, "\\'")}', '${(item.source || '').replace(/'/g, "\\'")}')" 
@@ -1651,9 +1608,9 @@ function openSpeciesModal(speciesId) {
 
   document.getElementById('species-modal-latin').textContent = sp.latin;
   document.getElementById('species-modal-family').textContent = sp.family;
-  document.getElementById('species-modal-count').textContent = `${sp.total_images || 0} photos`;
+  const countEl = document.getElementById('species-modal-image-count') || document.getElementById('species-modal-count');
+  if (countEl) countEl.textContent = sp.total_images || 0;
 
-  renderSpeciesModalOrganTabs(sp);
   renderSpeciesModalGallery();
 
   document.getElementById('species-modal')?.classList.remove('hidden');
@@ -1664,43 +1621,6 @@ function closeSpeciesModal() {
   activeSpeciesModalId = null;
 }
 
-function renderSpeciesModalOrganTabs(sp) {
-  const container = document.getElementById('species-modal-organ-tabs');
-  if (!container) return;
-
-  let html = `
-    <button 
-      onclick="setSpeciesModalOrgan('ALL')" 
-      class="px-2.5 py-1 rounded-lg text-xs font-semibold transition ${speciesModalActiveOrgan === 'ALL' ? 'bg-emerald-600 text-white' : 'bg-stone-800 text-stone-300 hover:bg-stone-700'}"
-    >
-      All (${sp.total_images})
-    </button>
-  `;
-
-  Object.entries(sp.images).forEach(([orgKey, imgs]) => {
-    if (imgs.length === 0) return;
-    const meta = ORGAN_METADATA[orgKey] || { label: orgKey, icon: '🌿' };
-    const isActive = speciesModalActiveOrgan === orgKey;
-    html += `
-      <button 
-        onclick="setSpeciesModalOrgan('${orgKey}')" 
-        class="px-2.5 py-1 rounded-lg text-xs font-semibold transition ${isActive ? 'bg-emerald-600 text-white' : 'bg-stone-800 text-stone-300 hover:bg-stone-700'}"
-      >
-        ${meta.icon} ${meta.label} (${imgs.length})
-      </button>
-    `;
-  });
-
-  container.innerHTML = html;
-}
-
-function setSpeciesModalOrgan(orgKey) {
-  speciesModalActiveOrgan = orgKey;
-  const sp = allSpecies.find(s => s.id === activeSpeciesModalId);
-  if (sp) renderSpeciesModalOrganTabs(sp);
-  renderSpeciesModalGallery();
-}
-
 function renderSpeciesModalGallery() {
   const container = document.getElementById('species-modal-gallery-grid');
   const sp = allSpecies.find(s => s.id === activeSpeciesModalId);
@@ -1708,12 +1628,12 @@ function renderSpeciesModalGallery() {
 
   const images = [];
   Object.entries(sp.images).forEach(([orgKey, list]) => {
-    if (speciesModalActiveOrgan !== 'ALL' && orgKey !== speciesModalActiveOrgan) return;
     list.forEach(img => {
       images.push({
         url: img.url,
         speciesLatin: sp.latin,
         family: sp.family,
+        speciesId: sp.id,
         organ: orgKey,
         title: img.title || '',
         author: img.author || '',
@@ -1723,12 +1643,11 @@ function renderSpeciesModalGallery() {
   });
 
   if (images.length === 0) {
-    container.innerHTML = '<div class="col-span-full py-8 text-center text-stone-500 text-xs">No images in this category.</div>';
+    container.innerHTML = '<div class="col-span-full py-8 text-center text-stone-500 text-xs">No images in this collection.</div>';
     return;
   }
 
   container.innerHTML = images.map((item, idx) => {
-    const meta = ORGAN_METADATA[item.organ] || { label: item.organ, icon: '🌿' };
     const cleanUrl = item.url.replace(/'/g, "\\'");
     const cleanLatin = item.speciesLatin.replace(/'/g, "\\'");
     const cleanTitle = (item.title || '').replace(/'/g, "\\'");
@@ -1736,10 +1655,7 @@ function renderSpeciesModalGallery() {
     return `
       <div class="relative bg-stone-950 border border-stone-800 rounded-xl overflow-hidden hover:border-emerald-600 transition group flex flex-col justify-between">
         <div class="relative h-32 bg-stone-900 cursor-pointer" onclick="openSlideshowFromSpeciesModalImage(${idx})">
-          <img src="${item.url}" alt="${meta.label}" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-200" />
-          <span class="absolute top-1 left-1 px-1.5 py-0.5 rounded bg-black/80 text-[9px] font-bold text-stone-200">
-            ${meta.icon} ${meta.label}
-          </span>
+          <img src="${item.url}" alt="${item.speciesLatin}" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-200" />
           <button 
             type="button" 
             onclick="event.stopPropagation(); discardImage('${cleanUrl}', '${cleanLatin}', '${item.organ}', '${cleanTitle}', '${(item.author || '').replace(/'/g, "\\'")}', '${(item.source || '').replace(/'/g, "\\'")}')" 
@@ -1750,65 +1666,35 @@ function renderSpeciesModalGallery() {
           </button>
         </div>
         <div class="p-2 bg-stone-950 text-[10px] text-stone-400 truncate">
-          ${item.title || item.source || meta.label}
+          ${item.title || item.source || item.speciesLatin}
         </div>
       </div>
     `;
   }).join('');
 }
 
-function startSlideshowFromSpeciesModal() {
-  const sp = allSpecies.find(s => s.id === activeSpeciesModalId);
-  if (!sp) return;
-  const images = [];
-  Object.entries(sp.images).forEach(([orgKey, list]) => {
-    list.forEach(img => {
-      images.push({
-        url: img.url,
-        speciesLatin: sp.latin,
-        family: sp.family,
-        organ: orgKey,
-        title: img.title || '',
-        author: img.author || '',
-        source: img.source || ''
-      });
-    });
-  });
-  if (images.length === 0) return;
-  openSlideshow(images, 0);
-}
-
 function openSlideshowFromSpeciesModalImage(index) {
   const sp = allSpecies.find(s => s.id === activeSpeciesModalId);
   if (!sp) return;
-  const images = [];
-  Object.entries(sp.images).forEach(([orgKey, list]) => {
-    if (speciesModalActiveOrgan !== 'ALL' && orgKey !== speciesModalActiveOrgan) return;
-    list.forEach(img => {
-      images.push({
-        url: img.url,
-        speciesLatin: sp.latin,
-        family: sp.family,
-        organ: orgKey,
-        title: img.title || '',
-        author: img.author || '',
-        source: img.source || ''
-      });
-    });
-  });
-  openSlideshow(images, index);
+  startSlideshowForSpecies(sp.id, index);
 }
 
-function startSlideshowForSpecies(speciesId) {
-  const sp = allSpecies.find(s => s.id === speciesId);
+function startSlideshowFromSpeciesModal() {
+  const sp = allSpecies.find(s => s.id === activeSpeciesModalId);
+  if (!sp) return;
+  startSlideshowForSpecies(sp.id, 0);
+}
+function startSlideshowForSpecies(speciesId, startIndex = 0) {
+  const sp = allSpecies.find(s => s.id === speciesId || s.latin === speciesId);
   if (!sp) return;
   const images = [];
-  Object.entries(sp.images).forEach(([orgKey, list]) => {
+  Object.entries(sp.images || {}).forEach(([orgKey, list]) => {
     list.forEach(img => {
       images.push({
         url: img.url,
         speciesLatin: sp.latin,
         family: sp.family,
+        speciesId: sp.id,
         organ: orgKey,
         title: img.title || '',
         author: img.author || '',
@@ -1817,7 +1703,7 @@ function startSlideshowForSpecies(speciesId) {
     });
   });
   if (images.length === 0) return;
-  openSlideshow(images, 0);
+  openSlideshow(images, startIndex);
 }
 
 // ==========================================
@@ -1848,9 +1734,7 @@ function renderCurrentSlide() {
   }
 
   const cur = slideshowActiveList[slideshowCurrentIndex];
-  const meta = ORGAN_METADATA[cur.organ] || { label: cur.organ, icon: '🌿' };
 
-  document.getElementById('slideshow-organ-badge').textContent = `${meta.icon} ${meta.label}`;
   document.getElementById('slideshow-species-latin').textContent = cur.speciesLatin;
   document.getElementById('slideshow-species-family').textContent = cur.family || '';
 
@@ -1860,7 +1744,9 @@ function renderCurrentSlide() {
   const imgEl = document.getElementById('slideshow-main-img');
   imgEl.src = cur.url;
 
-  applySlideshowCropStyle();
+  // Auto-detect botanical plate / illustration and silently crop bottom text transparently
+  const isPlate = shouldCropImage(cur);
+  imgEl.style.setProperty('--slideshow-crop-bottom', isPlate ? '14%' : '0%');
 
   document.getElementById('slideshow-photo-author').textContent = cur.author ? `Credit: ${cur.author}` : (cur.title || '');
   const linkEl = document.getElementById('slideshow-photo-link');
@@ -1869,27 +1755,6 @@ function renderCurrentSlide() {
   }
 
   renderSlideshowFilmstrip();
-}
-
-function applySlideshowCropStyle() {
-  const imgEl = document.getElementById('slideshow-main-img');
-  const maskOverlay = document.getElementById('slideshow-mask-overlay');
-  const cropLabel = document.getElementById('slideshow-crop-label');
-
-  if (slideshowCropBottom > 0) {
-    imgEl.style.setProperty('--slideshow-crop-bottom', `${slideshowCropBottom}%`);
-    maskOverlay?.classList.remove('hidden');
-    if (cropLabel) cropLabel.textContent = `Mask Active (${slideshowCropBottom}%)`;
-  } else {
-    imgEl.style.setProperty('--slideshow-crop-bottom', '0%');
-    maskOverlay?.classList.add('hidden');
-    if (cropLabel) cropLabel.textContent = 'Anti-Cheat Mask';
-  }
-}
-
-function toggleSlideshowCrop() {
-  slideshowCropBottom = slideshowCropBottom > 0 ? 0 : 14;
-  applySlideshowCropStyle();
 }
 
 function slideshowNext() {
@@ -2116,58 +1981,46 @@ function importDatabaseJSON(event) {
 let currentCropBottom = 0;
 let lightboxCropActive = false;
 
-function shouldCropImage(imageItem, organKey) {
-  if (organKey === 'botanical_illustration') return true;
-  if (!imageItem || !imageItem.title) return false;
-  const t = imageItem.title.toLowerCase();
+function shouldCropImage(imageItem) {
+  if (!imageItem) return false;
+  const str = `${imageItem.title || ''} ${imageItem.url || ''} ${imageItem.organ || ''}`.toLowerCase();
   return (
-    t.includes('illustration') ||
-    t.includes('plate') ||
-    t.includes('drawing') ||
-    t.includes('tafel') ||
-    t.includes('planche') ||
-    t.includes('herbarium') ||
-    t.includes('flora') ||
-    t.includes('lindman') ||
-    t.includes('thome')
+    str.includes('botanical_illustration') ||
+    str.includes('illustration') ||
+    str.includes('plate') ||
+    str.includes('drawing') ||
+    str.includes('tafel') ||
+    str.includes('planche') ||
+    str.includes('flora') ||
+    str.includes('lindman') ||
+    str.includes('thome') ||
+    str.includes('kops') ||
+    str.includes('masclef') ||
+    str.includes('woodville') ||
+    str.includes('curtis') ||
+    str.includes('sowerby') ||
+    str.includes('duhamel') ||
+    str.includes('medizinal') ||
+    str.includes('deutschland') ||
+    str.includes('icones')
   );
 }
 
 function applyInteractiveCrop(percent) {
   currentCropBottom = Math.max(0, Math.min(35, parseInt(percent, 10) || 0));
-  const slider = document.getElementById('interactive-crop-slider');
-  if (slider) slider.value = currentCropBottom;
-  const valDisplay = document.getElementById('interactive-crop-val');
-  if (valDisplay) valDisplay.textContent = `${currentCropBottom}%`;
-
   const imgEl = document.getElementById('quiz-primary-img');
-  const maskOverlay = document.getElementById('crop-mask-overlay');
-  const statusEl = document.getElementById('anti-cheat-crop-status');
-
   if (imgEl) {
     imgEl.style.setProperty('--crop-bottom', `${currentCropBottom}%`);
   }
-
-  if (currentCropBottom > 0) {
-    if (maskOverlay) {
-      maskOverlay.classList.remove('hidden');
-      maskOverlay.style.height = `${currentCropBottom}%`;
-    }
-    if (statusEl) statusEl.textContent = `Bottom ${currentCropBottom}% hidden (Anti-Cheat active)`;
-  } else {
-    if (maskOverlay) maskOverlay.classList.add('hidden');
-    if (statusEl) statusEl.textContent = 'Showing full uncropped photo';
-  }
-}
-
-function setInteractiveCropPreset(percent) {
-  applyInteractiveCrop(percent);
 }
 
 function handleImageLoadError(imgEl) {
   if (!currentQuestion) return;
-  const organ = currentQuestion.primaryOrgan;
-  const pool = (currentQuestion.species?.images?.[organ] || []).filter(im => im.url !== imgEl.src);
+  const allImgs = [];
+  Object.values(currentQuestion.species?.images || {}).forEach(list => {
+    list.forEach(im => allImgs.push(im));
+  });
+  const pool = allImgs.filter(im => im.url !== imgEl.src);
   if (pool.length > 0) {
     const backup = pool[0];
     imgEl.src = backup.url;
@@ -2176,51 +2029,27 @@ function handleImageLoadError(imgEl) {
   }
 }
 
-function toggleLightboxCrop() {
-  const lbImg = document.getElementById('lightbox-img');
-  const lbMask = document.getElementById('lightbox-mask-overlay');
-  const lbText = document.getElementById('lightbox-crop-text');
-  
-  lightboxCropActive = !lightboxCropActive;
-  if (lightboxCropActive) {
-    lbImg.style.setProperty('--lightbox-crop-bottom', '14%');
-    lbMask.classList.remove('hidden');
-    lbMask.style.height = '14%';
-    lbText.textContent = 'Crop Active (14%)';
-  } else {
-    lbImg.style.setProperty('--lightbox-crop-bottom', '0%');
-    lbMask.classList.add('hidden');
-    lbText.textContent = 'Reveal Full (0%)';
-  }
-}
-
 // ==========================================
 // LIGHTBOX VIEWER
 // ==========================================
 
-function openLightbox(url, organLabel, title, author, autoCrop = false) {
+function openLightbox(url, title, author, autoCrop = false) {
   if (!url) return;
   const modal = document.getElementById('lightbox-modal');
   const lbImg = document.getElementById('lightbox-img');
-  const lbMask = document.getElementById('lightbox-mask-overlay');
-  const lbText = document.getElementById('lightbox-crop-text');
 
   lbImg.src = url;
-  document.getElementById('lightbox-organ').textContent = organLabel || 'Plant Detail';
-  document.getElementById('lightbox-title').textContent = title || '';
-  document.getElementById('lightbox-author').textContent = author ? `Credit: ${author}` : '';
-  document.getElementById('lightbox-link').href = url;
+  const titleEl = document.getElementById('lightbox-title');
+  if (titleEl) titleEl.textContent = title || '';
+  const authorEl = document.getElementById('lightbox-author');
+  if (authorEl) authorEl.textContent = author ? `Credit: ${author}` : '';
+  const linkEl = document.getElementById('lightbox-link');
+  if (linkEl) linkEl.href = url;
 
-  lightboxCropActive = autoCrop;
   if (autoCrop) {
     lbImg.style.setProperty('--lightbox-crop-bottom', '14%');
-    lbMask.classList.remove('hidden');
-    lbMask.style.height = '14%';
-    if (lbText) lbText.textContent = 'Crop Active (14%)';
   } else {
     lbImg.style.setProperty('--lightbox-crop-bottom', '0%');
-    lbMask.classList.add('hidden');
-    if (lbText) lbText.textContent = 'Uncropped (0%)';
   }
 
   modal.classList.remove('hidden');
@@ -2228,12 +2057,10 @@ function openLightbox(url, organLabel, title, author, autoCrop = false) {
 
 function openCurrentPhotoLightbox() {
   if (!currentQuestion || !currentQuestion.primaryImage) return;
-  const meta = ORGAN_METADATA[currentQuestion.primaryOrgan] || { label: 'Organ', icon: '🌿' };
   const autoCrop = currentCropBottom > 0;
   openLightbox(
     currentQuestion.primaryImage.url,
-    `${meta.icon} ${meta.label}`,
-    `${currentQuestion.species.latin} (${meta.label})`,
+    currentQuestion.species.latin,
     currentQuestion.primaryImage.author,
     autoCrop
   );
