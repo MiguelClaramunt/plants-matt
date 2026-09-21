@@ -4,19 +4,21 @@
 // ==========================================
 
 const ORGAN_METADATA = {
-  bark: { label: 'Bark', icon: '🪵', order: 1 },
-  botanical_illustration: { label: 'Botanical Illustration', icon: '🎨', order: 2 },
-  buds_winter: { label: 'Winter Buds & Buds', icon: '❄️', order: 3 },
-  leaves_top: { label: 'Leaves (Top / Needles)', icon: '🍃', order: 4 },
-  leaves_underside: { label: 'Leaves (Underside)', icon: '🍃', order: 5 },
-  flowers: { label: 'Flowers & Catkins', icon: '🌸', order: 6 },
-  fruits_seeds: { label: 'Fruits, Cones & Seeds', icon: '🌰', order: 7 },
-  stem_branch: { label: 'Twigs & Branches', icon: '🌿', order: 8 },
-  tree_shape: { label: 'Tree Habit & Shape', icon: '🌲', order: 9 }
+  premature_fruit: { label: 'Premature Fruit', icon: '🍏', order: 1 },
+  seed_pot: { label: 'Seed Pot', icon: '🌰', order: 2 },
+  leaves_closeup: { label: 'Closeup of Leaves', icon: '🍃', order: 3 },
+  bark_closeup: { label: 'Closeup of Bark', icon: '🪵', order: 4 },
+  tree_shape: { label: 'Shape of Tree', icon: '🌲', order: 5 },
+  bark: { label: 'Bark', icon: '🌳', order: 6 },
+  buds: { label: 'Buds', icon: '🌱', order: 7 },
+  leaves_underside: { label: 'Closeup of Leaf Underside', icon: '🌿', order: 8 }
 };
+
+const TARGET_ORGAN_KEYS = Object.keys(ORGAN_METADATA);
 
 function formatOrganName(key) {
   if (!key) return '';
+  if (key === 'unclassified') return 'Unclassified Candidate';
   return ORGAN_METADATA[key]?.label || String(key).replace(/_/g, ' ');
 }
 
@@ -89,17 +91,31 @@ function updateFeedbackTimingSelection() {
   }
 }
 
-// Load Database (window.PLANT_DATABASE or fetch)
+// Load Database (localStorage cache, window.PLANT_DATABASE, or fetch)
 async function initDatabase() {
-  if (window.PLANT_DATABASE && Array.isArray(window.PLANT_DATABASE)) {
-    allSpecies = [...window.PLANT_DATABASE];
-  } else {
+  const savedDb = localStorage.getItem('plantquiz_curated_database');
+  if (savedDb) {
     try {
-      const resp = await fetch('data/plants_data.json');
-      allSpecies = await resp.json();
+      const parsed = JSON.parse(savedDb);
+      if (Array.isArray(parsed) && parsed.length > 0) {
+        allSpecies = parsed;
+      }
     } catch (e) {
-      console.error('Failed to load database:', e);
-      allSpecies = [];
+      console.warn('Could not parse plantquiz_curated_database:', e);
+    }
+  }
+
+  if (allSpecies.length === 0) {
+    if (window.PLANT_DATABASE && Array.isArray(window.PLANT_DATABASE)) {
+      allSpecies = [...window.PLANT_DATABASE];
+    } else {
+      try {
+        const resp = await fetch('data/plants_data.json');
+        allSpecies = await resp.json();
+      } catch (e) {
+        console.error('Failed to load database:', e);
+        allSpecies = [];
+      }
     }
   }
 
@@ -117,6 +133,14 @@ async function initDatabase() {
   // By default, select all species
   selectedSpeciesIds = new Set(allSpecies.map(s => s.id));
   document.getElementById('export-species-count').textContent = allSpecies.length;
+}
+
+function saveDatabaseToLocalStorage() {
+  try {
+    localStorage.setItem('plantquiz_curated_database', JSON.stringify(allSpecies));
+  } catch (err) {
+    console.warn('LocalStorage save failed:', err);
+  }
 }
 
 // Setup Organ Checkboxes in UI (Safely handles optional selector)
@@ -373,10 +397,16 @@ function startQuiz(customSpeciesSubset = null) {
   const selectedSubset = shuffledSpecies.slice(0, count);
 
   selectedSubset.forEach(species => {
-    // Gather all verified diagnostic photos for this species
+    // Gather verified diagnostic photos strictly from active categories matching activeOrganFilters
     const allImages = [];
-    Object.entries(species.images || {}).forEach(([k, imgs]) => {
-      imgs.forEach(im => allImages.push({ organ: k, ...im }));
+    TARGET_ORGAN_KEYS.forEach(k => {
+      if (!activeOrganFilters.has(k)) return;
+      const imgs = species.images?.[k] || [];
+      imgs.forEach(im => {
+        if (!discardedUrlSet.has(im.url)) {
+          allImages.push({ organ: k, ...im });
+        }
+      });
     });
 
     if (allImages.length === 0) return;
@@ -650,15 +680,23 @@ function discardCurrentQuizPhoto() {
   if (currentQuestion.otherOrganClues && currentQuestion.otherOrganClues.length > 0) {
     newImg = currentQuestion.otherOrganClues.shift();
   } else {
-    // Gather all valid remaining images for this species from database
+    // Gather all valid remaining images for this species from active categories
     const remaining = [];
-    Object.entries(sp.images || {}).forEach(([orgKey, list]) => {
-      list.forEach(im => {
+    TARGET_ORGAN_KEYS.forEach(orgKey => {
+      (sp.images?.[orgKey] || []).forEach(im => {
         if (im.url !== oldImg.url && !discardedUrlSet.has(im.url)) {
           remaining.push({ organ: orgKey, ...im });
         }
       });
     });
+    // Fallback to unclassified candidates if all active categories exhausted
+    if (remaining.length === 0) {
+      (sp.images?.unclassified || []).forEach(im => {
+        if (im.url !== oldImg.url && !discardedUrlSet.has(im.url)) {
+          remaining.push({ organ: 'unclassified', ...im });
+        }
+      });
+    }
     if (remaining.length > 0) {
       newImg = remaining[Math.floor(Math.random() * remaining.length)];
     }
@@ -1233,13 +1271,20 @@ function openReplacementQuestionModal(recIdx) {
 
   const sp = allSpecies.find(s => s.latin === rec.species.latin || s.id === rec.species.id) || rec.species;
   const unusedImgs = [];
-  Object.entries(sp.images || {}).forEach(([org, list]) => {
-    list.forEach(im => {
+  TARGET_ORGAN_KEYS.forEach(org => {
+    (sp.images?.[org] || []).forEach(im => {
       if (!discardedUrlSet.has(im.url) && im.url !== rec.imageShown?.url) {
         unusedImgs.push({ organ: org, ...im });
       }
     });
   });
+  if (unusedImgs.length === 0) {
+    (sp.images?.unclassified || []).forEach(im => {
+      if (!discardedUrlSet.has(im.url) && im.url !== rec.imageShown?.url) {
+        unusedImgs.push({ organ: 'unclassified', ...im });
+      }
+    });
+  }
 
   let repSp = sp;
   let repImg = null;
@@ -1254,11 +1299,18 @@ function openReplacementQuestionModal(recIdx) {
       : allSpecies.find(s => (s.total_images || 0) > 0);
 
     const altImgs = [];
-    Object.entries(repSp.images || {}).forEach(([org, list]) => {
-      list.forEach(im => {
-        if (!discardedUrlSet.has(im.url)) altImgs.push({ organ: org, ...im });
+    if (repSp) {
+      TARGET_ORGAN_KEYS.forEach(org => {
+        (repSp.images?.[org] || []).forEach(im => {
+          if (!discardedUrlSet.has(im.url)) altImgs.push({ organ: org, ...im });
+        });
       });
-    });
+      if (altImgs.length === 0) {
+        (repSp.images?.unclassified || []).forEach(im => {
+          if (!discardedUrlSet.has(im.url)) altImgs.push({ organ: 'unclassified', ...im });
+        });
+      }
+    }
     if (altImgs.length > 0) {
       repImg = altImgs[Math.floor(Math.random() * altImgs.length)];
     }
@@ -1304,13 +1356,20 @@ function discardReplacementModalPhoto() {
   discardImage(oldImg.url, sp.latin, oldImg.organ, oldImg.title, oldImg.author, oldImg.source, true);
 
   const remaining = [];
-  Object.entries(sp.images || {}).forEach(([org, list]) => {
-    list.forEach(im => {
+  TARGET_ORGAN_KEYS.forEach(org => {
+    (sp.images?.[org] || []).forEach(im => {
       if (!discardedUrlSet.has(im.url) && im.url !== oldImg.url) {
         remaining.push({ organ: org, ...im });
       }
     });
   });
+  if (remaining.length === 0) {
+    (sp.images?.unclassified || []).forEach(im => {
+      if (!discardedUrlSet.has(im.url) && im.url !== oldImg.url) {
+        remaining.push({ organ: 'unclassified', ...im });
+      }
+    });
+  }
 
   if (remaining.length > 0) {
     const nextImg = remaining[Math.floor(Math.random() * remaining.length)];
@@ -1770,8 +1829,8 @@ function renderAtlasList() {
 
   container.innerHTML = list.map(sp => {
     let coverPhoto = '';
-    for (const k of ['botanical_illustration', 'tree_shape', 'leaves_top', 'bark']) {
-      if ((sp.images[k] || []).length > 0) {
+    for (const k of ['tree_shape', 'leaves_closeup', 'premature_fruit', 'bark', 'seed_pot', 'buds', 'leaves_underside', 'bark_closeup']) {
+      if ((sp.images?.[k] || []).length > 0) {
         coverPhoto = sp.images[k][0].url;
         break;
       }
@@ -1833,6 +1892,7 @@ function setupGalleryFilters() {
 
 function filterGalleryImages() {
   const spVal = document.getElementById('gallery-species-select')?.value || 'ALL';
+  const catVal = document.getElementById('gallery-organ-select')?.value || 'ALL';
   const srcVal = document.getElementById('gallery-source-select')?.value || 'ALL';
   const textVal = (document.getElementById('gallery-text-filter')?.value || '').toLowerCase().trim();
 
@@ -1840,7 +1900,19 @@ function filterGalleryImages() {
   allSpecies.forEach(sp => {
     if (spVal !== 'ALL' && sp.latin !== spVal) return;
 
-    Object.entries(sp.images).forEach(([orgKey, imgs]) => {
+    Object.entries(sp.images || {}).forEach(([orgKey, imgs]) => {
+      if (!Array.isArray(imgs)) return;
+
+      // Category filtering
+      if (catVal === 'ALL') {
+        // Default: active diagnostic categories (1–2 per cat)
+        if (orgKey === 'unclassified') return;
+      } else if (catVal === 'ALL_INCLUDING_CANDIDATES') {
+        // Show everything
+      } else if (catVal !== orgKey) {
+        return;
+      }
+
       imgs.forEach(img => {
         if (srcVal === 'Wikimedia' && !img.source?.includes('Wikimedia')) return;
         if (srcVal === 'iNaturalist' && !img.source?.includes('iNaturalist')) return;
@@ -1916,6 +1988,9 @@ function appendNextGalleryBatch() {
     const cleanTitle = (item.title || '').replace(/'/g, "\\'");
     const cleanAuthor = (item.author || '').replace(/'/g, "\\'");
     const cleanSource = (item.source || '').replace(/'/g, "\\'");
+    const isCandidate = item.organ === 'unclassified';
+    const catLabel = formatOrganName(item.organ);
+    const catIcon = ORGAN_METADATA[item.organ]?.icon || (isCandidate ? '⚠️' : '📷');
 
     const card = document.createElement('div');
     card.className = 'relative bg-stone-950 border border-stone-800 rounded-xl overflow-hidden hover:border-emerald-600 transition group flex flex-col justify-between shadow-sm';
@@ -1932,7 +2007,7 @@ function appendNextGalleryBatch() {
           type="button" 
           onclick="event.stopPropagation(); discardImage('${cleanUrl}', '${cleanLatin}', '${item.organ}', '${cleanTitle}', '${cleanAuthor}', '${cleanSource}')" 
           class="absolute top-1.5 right-1.5 w-7 h-7 rounded-full bg-black/80 hover:bg-rose-600 text-stone-300 hover:text-white flex items-center justify-center transition border border-stone-700 shadow-md"
-          title="Discard this image (B&W, lineart, or bad)"
+          title="Discard this photo"
         >
           🗑️
         </button>
@@ -1947,9 +2022,23 @@ function appendNextGalleryBatch() {
             ${item.family}
           </div>
         </div>
-        <div class="text-[9px] text-stone-500 truncate mt-1 flex items-center justify-between">
-          <span class="truncate">${item.source?.includes('Wikimedia') ? 'Commons' : 'iNat'}</span>
-          <span class="text-stone-400 hover:text-emerald-400 cursor-pointer" onclick="openSlideshowAtFilteredIndex(${globalIdx})">Inspect →</span>
+
+        <div class="mt-2 space-y-1.5 pt-1.5 border-t border-stone-800/60">
+          <div class="flex items-center justify-between text-[10px]">
+            <span class="truncate ${isCandidate ? 'text-amber-400 font-semibold' : 'text-stone-300 font-medium'}">
+              ${catIcon} ${catLabel}
+            </span>
+            <span class="text-[9px] text-stone-500 font-mono">${item.source?.includes('Wikimedia') ? 'Commons' : 'iNat'}</span>
+          </div>
+          <select 
+            onchange="reclassifyImage('${item.speciesId}', '${cleanUrl}', '${item.organ}', this.value)" 
+            class="w-full bg-stone-900 border border-stone-800 hover:border-emerald-500 rounded px-1.5 py-1 text-[10px] text-stone-200 focus:outline-none focus:border-emerald-500 cursor-pointer transition"
+            title="Reclassify or move image"
+          >
+            <option value="${item.organ}" selected>✓ ${catLabel}</option>
+            ${TARGET_ORGAN_KEYS.filter(c => c !== item.organ).map(c => `<option value="${c}">Move: ${ORGAN_METADATA[c].label}</option>`).join('')}
+            ${!isCandidate ? '<option value="unclassified">Demote to Candidates</option>' : ''}
+          </select>
         </div>
       </div>
     `;
@@ -2043,51 +2132,260 @@ function renderSpeciesModalGallery() {
   const sp = allSpecies.find(s => s.id === activeSpeciesModalId);
   if (!container || !sp) return;
 
+  const unclassifiedList = sp.images?.unclassified || [];
+
+  let html = `
+    <!-- Top Information Bar -->
+    <div class="mb-5 p-3.5 bg-stone-900/90 border border-stone-800 rounded-xl flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs text-stone-300">
+      <div>
+        <span class="font-bold text-emerald-400">Classified Categories (1–2 photos max per category)</span>
+        <span class="text-stone-400 block text-[11px] mt-0.5">Strictly curated diagnostic specimens. Reassign or demote anytime using the dropdowns.</span>
+      </div>
+      <div class="flex items-center gap-2 text-[11px] font-mono">
+        <span class="px-2.5 py-1 rounded-lg bg-emerald-950/80 border border-emerald-800/80 text-emerald-300 font-bold">${sp.total_images} Active Photos</span>
+        <span class="px-2.5 py-1 rounded-lg bg-stone-800 text-stone-300">${unclassifiedList.length} Candidates</span>
+      </div>
+    </div>
+
+    <!-- Active 8 Diagnostic Categories Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 mb-6">
+  `;
+
+  TARGET_ORGAN_KEYS.forEach(catKey => {
+    const meta = ORGAN_METADATA[catKey];
+    const catImages = sp.images?.[catKey] || [];
+    const count = catImages.length;
+    const badgeColor = count === 2 
+      ? 'bg-emerald-950/80 border-emerald-800 text-emerald-300' 
+      : count === 1 
+        ? 'bg-sky-950/80 border-sky-800 text-sky-300' 
+        : 'bg-stone-900 border-stone-800 text-stone-500';
+
+    html += `
+      <div class="bg-stone-900/90 border border-stone-800 rounded-xl p-3 flex flex-col justify-between space-y-2.5 shadow-sm">
+        <div class="flex items-center justify-between border-b border-stone-800/80 pb-2">
+          <span class="text-xs font-bold text-stone-200 flex items-center gap-1.5 truncate">
+            <span>${meta.icon}</span> <span class="truncate">${meta.label}</span>
+          </span>
+          <span class="px-2 py-0.5 rounded text-[10px] font-mono font-bold border ${badgeColor}">
+            ${count}/2
+          </span>
+        </div>
+
+        <div class="grid grid-cols-2 gap-2 flex-1 items-start min-h-[140px]">
+    `;
+
+    if (count === 0) {
+      html += `
+        <div class="col-span-2 flex flex-col items-center justify-center p-4 border border-dashed border-stone-800 rounded-lg text-stone-500 text-[11px] text-center min-h-[130px] bg-stone-950/30">
+          <span class="font-medium text-stone-400">Empty (0/2)</span>
+          <span class="text-[10px] text-stone-500 mt-1">Assign from Candidates below</span>
+        </div>
+      `;
+    } else {
+      catImages.forEach(img => {
+        const cleanUrl = img.url.replace(/'/g, "\\'");
+        const cleanLatin = sp.latin.replace(/'/g, "\\'");
+        const cleanTitle = (img.title || '').replace(/'/g, "\\'");
+
+        html += `
+          <div class="relative bg-stone-950 border border-stone-800 rounded-lg overflow-hidden flex flex-col justify-between group shadow-sm">
+            <div class="relative h-24 bg-stone-900 cursor-pointer overflow-hidden" onclick="openSlideshowForSpecificUrl('${cleanUrl}', '${sp.id}')">
+              <img src="${img.url}" alt="${cleanLatin}" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-200" />
+              <button 
+                type="button" 
+                onclick="event.stopPropagation(); discardImage('${cleanUrl}', '${cleanLatin}', '${catKey}', '${cleanTitle}', '${(img.author || '').replace(/'/g, "\\'")}', '${(img.source || '').replace(/'/g, "\\'")}')" 
+                class="absolute top-1 right-1 w-5 h-5 rounded-full bg-black/80 hover:bg-rose-600 text-stone-300 hover:text-white flex items-center justify-center text-[10px] transition border border-stone-700 shadow"
+                title="Discard photo"
+              >
+                🗑️
+              </button>
+            </div>
+            <div class="p-1.5 bg-stone-950 space-y-1">
+              <div class="text-[9px] text-stone-400 truncate" title="${img.title || img.source}">
+                ${img.title || img.source}
+              </div>
+              <select 
+                onchange="reclassifyImage('${sp.id}', '${cleanUrl}', '${catKey}', this.value)" 
+                class="w-full bg-stone-900 border border-stone-800 hover:border-emerald-500 rounded px-1 py-0.5 text-[10px] text-stone-200 focus:outline-none focus:border-emerald-500 cursor-pointer transition"
+                title="Move image to another category"
+              >
+                <option value="${catKey}" selected>✓ ${meta.label}</option>
+                ${TARGET_ORGAN_KEYS.filter(c => c !== catKey).map(c => `<option value="${c}">Move: ${ORGAN_METADATA[c].label}</option>`).join('')}
+                <option value="unclassified">Demote to Candidates</option>
+              </select>
+            </div>
+          </div>
+        `;
+      });
+
+      if (count === 1) {
+        html += `
+          <div class="flex flex-col items-center justify-center p-2 border border-dashed border-stone-800/80 rounded-lg text-stone-500 text-[10px] text-center min-h-[130px] bg-stone-950/20">
+            <span>1 slot open</span>
+            <span class="text-[9px] text-stone-500 mt-0.5">Assign below</span>
+          </div>
+        `;
+      }
+    }
+
+    html += `
+        </div>
+      </div>
+    `;
+  });
+
+  html += `</div>`;
+
+  // Candidates & Surplus Pool Section
+  html += `
+    <div class="border-t border-stone-800 pt-5 mt-4">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+        <div class="flex items-center gap-2">
+          <span class="text-sm font-bold text-stone-200">Candidates & Surplus Pool</span>
+          <span class="px-2.5 py-0.5 rounded-full bg-stone-800 text-[10px] text-stone-300 font-mono font-bold">${unclassifiedList.length} photos</span>
+        </div>
+        <div class="text-[11px] text-stone-400">
+          Select category in the dropdown to assign any photo (category limit strictly enforced at 2).
+        </div>
+      </div>
+  `;
+
+  if (unclassifiedList.length === 0) {
+    html += `
+      <div class="p-6 bg-stone-900/40 border border-stone-800/60 rounded-xl text-center text-xs text-stone-500">
+        No candidate photos in surplus pool for this species.
+      </div>
+    `;
+  } else {
+    html += `
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+    `;
+
+    unclassifiedList.forEach(img => {
+      const cleanUrl = img.url.replace(/'/g, "\\'");
+      const cleanLatin = sp.latin.replace(/'/g, "\\'");
+      const cleanTitle = (img.title || '').replace(/'/g, "\\'");
+
+      html += `
+        <div class="relative bg-stone-950 border border-stone-800/80 rounded-xl overflow-hidden flex flex-col justify-between group shadow-sm">
+          <div class="relative h-24 bg-stone-900 cursor-pointer overflow-hidden" onclick="openSlideshowForSpecificUrl('${cleanUrl}', '${sp.id}')">
+            <img src="${img.url}" alt="${cleanLatin}" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-200" />
+            <button 
+              type="button" 
+              onclick="event.stopPropagation(); discardImage('${cleanUrl}', '${cleanLatin}', 'unclassified', '${cleanTitle}', '${(img.author || '').replace(/'/g, "\\'")}', '${(img.source || '').replace(/'/g, "\\'")}')" 
+              class="absolute top-1 right-1 w-5 h-5 rounded-full bg-black/80 hover:bg-rose-600 text-stone-300 hover:text-white flex items-center justify-center text-[10px] transition border border-stone-700 shadow"
+              title="Discard candidate"
+            >
+              🗑️
+            </button>
+          </div>
+          <div class="p-2 bg-stone-950 space-y-1.5">
+            <div class="text-[9px] text-stone-400 truncate" title="${img.title || img.source}">
+              ${img.title || img.source}
+            </div>
+            <select 
+              onchange="reclassifyImage('${sp.id}', '${cleanUrl}', 'unclassified', this.value)" 
+              class="w-full bg-stone-900 border border-stone-700/80 hover:border-emerald-500 rounded px-1.5 py-1 text-[10px] text-emerald-400 font-semibold focus:outline-none focus:border-emerald-500 transition cursor-pointer"
+            >
+              <option value="" selected>+ Assign Category...</option>
+              ${TARGET_ORGAN_KEYS.map(c => `<option value="${c}">${ORGAN_METADATA[c].icon} ${ORGAN_METADATA[c].label} (${(sp.images?.[c] || []).length}/2)</option>`).join('')}
+            </select>
+          </div>
+        </div>
+      `;
+    });
+
+    html += `</div>`;
+  }
+
+  html += `</div>`;
+
+  container.innerHTML = html;
+}
+
+function reclassifyImage(speciesId, imageUrl, fromCategory, toCategory) {
+  if (!toCategory || fromCategory === toCategory) return;
+  const sp = allSpecies.find(s => s.id === speciesId || s.latin === speciesId);
+  if (!sp || !sp.images) return;
+
+  // Find and remove from fromCategory
+  const fromList = sp.images[fromCategory] || [];
+  const idx = fromList.findIndex(im => im.url === imageUrl);
+  if (idx === -1) return;
+  const [imgObj] = fromList.splice(idx, 1);
+  imgObj.organ = toCategory;
+
+  // Add to toCategory
+  if (!sp.images[toCategory]) sp.images[toCategory] = [];
+
+  // Enforce strict limit: if destination is one of the 8 active categories and already has 2 images:
+  if (TARGET_ORGAN_KEYS.includes(toCategory) && sp.images[toCategory].length >= 2) {
+    // Demote the 2nd image to unclassified
+    const displaced = sp.images[toCategory].pop();
+    displaced.organ = 'unclassified';
+    if (!sp.images.unclassified) sp.images.unclassified = [];
+    sp.images.unclassified.unshift(displaced);
+    showToast(`Category limit (2) reached: moved displaced photo to Candidates pool.`);
+  }
+
+  sp.images[toCategory].push(imgObj);
+
+  // Recalculate total_images
+  sp.total_images = TARGET_ORGAN_KEYS.reduce((sum, c) => sum + (sp.images[c] || []).length, 0);
+
+  // Save changes to localStorage
+  saveDatabaseToLocalStorage();
+
+  // Re-render species modal if open
+  if (activeSpeciesModalId === sp.id) {
+    renderSpeciesModalGallery();
+    const countBadge = document.getElementById('species-modal-image-count') || document.getElementById('species-modal-count');
+    if (countBadge) countBadge.textContent = sp.total_images;
+  }
+
+  // Update catalog or gallery if visible
+  if (atlasMode === 'catalog') renderSpeciesGrid();
+  if (atlasMode === 'gallery') filterGalleryImages();
+
+  showToast(`Moved photo to ${formatOrganName(toCategory)}`);
+}
+
+function openSlideshowForSpecificUrl(url, speciesId) {
+  const sp = allSpecies.find(s => s.id === speciesId || s.latin === speciesId);
+  if (!sp) return;
+
   const images = [];
-  Object.entries(sp.images).forEach(([orgKey, list]) => {
-    list.forEach(img => {
+  TARGET_ORGAN_KEYS.forEach(c => {
+    (sp.images?.[c] || []).forEach(img => {
       images.push({
         url: img.url,
         speciesLatin: sp.latin,
         family: sp.family,
         speciesId: sp.id,
-        organ: orgKey,
+        organ: c,
         title: img.title || '',
         author: img.author || '',
         source: img.source || ''
       });
     });
   });
+  (sp.images?.unclassified || []).forEach(img => {
+    images.push({
+      url: img.url,
+      speciesLatin: sp.latin,
+      family: sp.family,
+      speciesId: sp.id,
+      organ: 'unclassified',
+      title: img.title || '',
+      author: img.author || '',
+      source: img.source || ''
+    });
+  });
 
-  if (images.length === 0) {
-    container.innerHTML = '<div class="col-span-full py-8 text-center text-stone-500 text-xs">No images in this collection.</div>';
-    return;
-  }
-
-  container.innerHTML = images.map((item, idx) => {
-    const cleanUrl = item.url.replace(/'/g, "\\'");
-    const cleanLatin = item.speciesLatin.replace(/'/g, "\\'");
-    const cleanTitle = (item.title || '').replace(/'/g, "\\'");
-
-    return `
-      <div class="relative bg-stone-950 border border-stone-800 rounded-xl overflow-hidden hover:border-emerald-600 transition group flex flex-col justify-between">
-        <div class="relative h-32 bg-stone-900 cursor-pointer" onclick="openSlideshowFromSpeciesModalImage(${idx})">
-          <img src="${item.url}" alt="${item.speciesLatin}" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-200" />
-          <button 
-            type="button" 
-            onclick="event.stopPropagation(); discardImage('${cleanUrl}', '${cleanLatin}', '${item.organ}', '${cleanTitle}', '${(item.author || '').replace(/'/g, "\\'")}', '${(item.source || '').replace(/'/g, "\\'")}')" 
-            class="absolute top-1 right-1 w-6 h-6 rounded-full bg-black/80 hover:bg-rose-600 text-stone-300 hover:text-white flex items-center justify-center transition border border-stone-700 shadow"
-            title="Discard this image"
-          >
-            🗑️
-          </button>
-        </div>
-        <div class="p-2 bg-stone-950 text-[10px] text-stone-400 truncate">
-          ${item.title || item.source || item.speciesLatin}
-        </div>
-      </div>
-    `;
-  }).join('');
+  let targetIdx = images.findIndex(im => im.url === url);
+  if (targetIdx === -1) targetIdx = 0;
+  openSlideshow(images, targetIdx);
 }
 
 function openSlideshowFromSpeciesModalImage(index) {
@@ -2101,25 +2399,42 @@ function startSlideshowFromSpeciesModal() {
   if (!sp) return;
   startSlideshowForSpecies(sp.id, 0);
 }
+
 function startSlideshowForSpecies(speciesId, startIndex = 0) {
   const sp = allSpecies.find(s => s.id === speciesId || s.latin === speciesId);
   if (!sp) return;
   const images = [];
-  Object.entries(sp.images || {}).forEach(([orgKey, list]) => {
-    list.forEach(img => {
+  TARGET_ORGAN_KEYS.forEach(c => {
+    (sp.images?.[c] || []).forEach(img => {
       images.push({
         url: img.url,
         speciesLatin: sp.latin,
         family: sp.family,
         speciesId: sp.id,
-        organ: orgKey,
+        organ: c,
         title: img.title || '',
         author: img.author || '',
         source: img.source || ''
       });
     });
   });
-  if (images.length === 0) return;
+  (sp.images?.unclassified || []).forEach(img => {
+    images.push({
+      url: img.url,
+      speciesLatin: sp.latin,
+      family: sp.family,
+      speciesId: sp.id,
+      organ: 'unclassified',
+      title: img.title || '',
+      author: img.author || '',
+      source: img.source || ''
+    });
+  });
+
+  if (images.length === 0) {
+    alert('No photos available for this species.');
+    return;
+  }
   openSlideshow(images, startIndex);
 }
 
@@ -2289,15 +2604,15 @@ async function importTaxonLive(taxonId, latinName, commonName) {
     const taxon = detailData.results?.[0];
 
     const organBuckets = {
+      premature_fruit: [],
+      seed_pot: [],
+      leaves_closeup: [],
+      bark_closeup: [],
+      tree_shape: [],
       bark: [],
-      botanical_illustration: [],
-      leaves_top: [],
+      buds: [],
       leaves_underside: [],
-      buds_winter: [],
-      stem_branch: [],
-      flowers: [],
-      fruits_seeds: [],
-      tree_shape: []
+      unclassified: []
     };
 
     const tPhotos = taxon?.taxon_photos || [];
@@ -2306,14 +2621,25 @@ async function importTaxonLive(taxonId, latinName, commonName) {
       if (mUrl) {
         const largeUrl = mUrl.replace('/medium.', '/large.');
         if (discardedUrlSet.has(largeUrl)) return;
-        const organKeys = Object.keys(organBuckets);
-        const assignedOrgan = organKeys[i % organKeys.length];
-        organBuckets[assignedOrgan].push({
-          title: `${latinName} Observation`,
-          url: largeUrl,
-          source: 'iNaturalist',
-          author: tp.photo?.attribution || 'iNaturalist'
-        });
+        const targetKeys = TARGET_ORGAN_KEYS;
+        const targetKey = targetKeys[i % targetKeys.length];
+        if (organBuckets[targetKey].length < 2) {
+          organBuckets[targetKey].push({
+            title: `${latinName} Observation`,
+            url: largeUrl,
+            source: 'iNaturalist',
+            author: tp.photo?.attribution || 'iNaturalist',
+            organ: targetKey
+          });
+        } else {
+          organBuckets.unclassified.push({
+            title: `${latinName} Observation`,
+            url: largeUrl,
+            source: 'iNaturalist',
+            author: tp.photo?.attribution || 'iNaturalist',
+            organ: 'unclassified'
+          });
+        }
       }
     });
 
@@ -2322,7 +2648,7 @@ async function importTaxonLive(taxonId, latinName, commonName) {
       latin: latinName,
       family: taxon?.iconic_taxon_name || 'Plantae',
       plant_type: 'broadleaf',
-      total_images: tPhotos.length,
+      total_images: TARGET_ORGAN_KEYS.reduce((sum, c) => sum + organBuckets[c].length, 0),
       images: organBuckets
     };
 

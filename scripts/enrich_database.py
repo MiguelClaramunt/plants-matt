@@ -24,32 +24,29 @@ if os.path.exists(DISCARDED_PATH):
         print(f"Warning: could not load discarded_images.json: {e}")
 
 ORGAN_CONFIG = {
-    'bark': [
-        'bark', 'trunk', 'cortex'
+    'premature_fruit': [
+        'young cone', 'female cone', 'unripe', 'immature', 'green fruit', 'catkin', 'flower', 'blossom', 'inflorescence'
     ],
-    'botanical_illustration': [
-        'illustration', 'plate', 'Lindman', 'Thome', 'Bilder ur Nordens Flora'
+    'seed_pot': [
+        'seed', 'seeds', 'fruit', 'fruits', 'cone', 'cones', 'pod', 'pot', 'samara', 'acorn', 'drupe', 'berry', 'capsule'
     ],
-    'buds_winter': [
-        'bud', 'buds', 'winter bud', 'Knospen', 'knopp'
+    'leaves_closeup': [
+        'leaf', 'leaves', 'foliage', 'needle', 'needles', 'leaf close'
     ],
-    'leaves_top': [
-        'leaf', 'leaves', 'foliage', 'needles'
-    ],
-    'leaves_underside': [
-        'leaf underside', 'abaxial', 'stomata', 'leaves under'
-    ],
-    'flowers': [
-        'flower', 'flowers', 'blossom', 'catkin', 'catkins', 'inflorescence', 'strobili'
-    ],
-    'fruits_seeds': [
-        'fruit', 'fruits', 'seed', 'seeds', 'cone', 'cones', 'samara', 'acorn', 'berry', 'drupe', 'nut'
-    ],
-    'stem_branch': [
-        'twig', 'twigs', 'branch', 'branches', 'shoot', 'branchlet'
+    'bark_closeup': [
+        'bark detail', 'bark close', 'trunk texture', 'bark slice', 'bark macro', 'cortex'
     ],
     'tree_shape': [
-        'tree', 'habit', 'silhouette', 'solitary', 'canopy'
+        'tree', 'habit', 'silhouette', 'solitary', 'canopy', 'arbre', 'baum'
+    ],
+    'bark': [
+        'bark', 'trunk', 'rinde', 'borke'
+    ],
+    'buds': [
+        'bud', 'buds', 'winter bud', 'knospe', 'knopp', 'knop', 'gemma'
+    ],
+    'leaves_underside': [
+        'leaf underside', 'abaxial', 'stomata', 'leaves under', 'unterseite'
     ]
 }
 

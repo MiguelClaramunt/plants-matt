@@ -258,6 +258,17 @@
               </label>
             </div>
 
+            <!-- Diagnostic Categories to Test -->
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <label class="text-sm font-semibold text-stone-200">Diagnostic Categories (1–2 Photos per Species)</label>
+                <button type="button" onclick="toggleAllOrgans()" class="text-[11px] text-emerald-400 hover:underline">Toggle All</button>
+              </div>
+              <div id="organ-checkboxes-container" class="grid grid-cols-2 gap-2">
+                <!-- Injected via JS -->
+              </div>
+            </div>
+
             <!-- Start Quiz Button -->
             <button 
               onclick="startQuiz()" 
@@ -660,7 +671,7 @@
         <div id="atlas-gallery-panel" class="hidden mt-6 space-y-4">
           <!-- Gallery Filter Toolbar -->
           <div class="bg-stone-950/80 border border-stone-800 rounded-xl p-4 space-y-3">
-            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
               <!-- Species Selector -->
               <div>
                 <label class="block text-[11px] font-semibold text-stone-400 mb-1">Filter by Species</label>
@@ -671,6 +682,28 @@
                 >
                   <option value="ALL">All 61 Species</option>
                   <!-- Injected via JS -->
+                </select>
+              </div>
+
+              <!-- Category / Organ Selector -->
+              <div>
+                <label class="block text-[11px] font-semibold text-stone-400 mb-1">Filter by Category</label>
+                <select 
+                  id="gallery-organ-select" 
+                  onchange="filterGalleryImages()" 
+                  class="w-full bg-stone-900 border border-stone-800 rounded-xl px-3 py-1.5 text-xs text-stone-200 focus:outline-none focus:border-emerald-500"
+                >
+                  <option value="ALL">Active Categories (1–2 per cat)</option>
+                  <option value="ALL_INCLUDING_CANDIDATES">All Photos (Including Candidates)</option>
+                  <option value="premature_fruit">🍏 Premature Fruit</option>
+                  <option value="seed_pot">🌰 Seed Pot</option>
+                  <option value="leaves_closeup">🍃 Closeup of Leaves</option>
+                  <option value="bark_closeup">🪵 Closeup of Bark</option>
+                  <option value="tree_shape">🌲 Shape of Tree</option>
+                  <option value="bark">🌳 Bark</option>
+                  <option value="buds">🌱 Buds</option>
+                  <option value="leaves_underside">🌿 Closeup of Leaf Underside</option>
+                  <option value="unclassified">⚠️ Unclassified Candidates Pool</option>
                 </select>
               </div>
 
