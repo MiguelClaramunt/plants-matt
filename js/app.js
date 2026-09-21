@@ -15,6 +15,11 @@ const ORGAN_METADATA = {
   tree_shape: { label: 'Tree Habit & Shape', icon: '🌲', order: 9 }
 };
 
+function formatOrganName(key) {
+  if (!key) return '';
+  return ORGAN_METADATA[key]?.label || String(key).replace(/_/g, ' ');
+}
+
 // Global App State
 let allSpecies = [];
 let selectedSpeciesIds = new Set();
@@ -617,9 +622,10 @@ function revealAdditionalClue() {
 
   const card = document.createElement('div');
   card.className = 'relative bg-stone-900 border border-stone-800 rounded-lg overflow-hidden group cursor-pointer hover:border-emerald-600 transition';
-  card.onclick = () => openLightbox(clue.url, currentQuestion.species.latin, clue.author);
+  const organLabel = clue.organ ? formatOrganName(clue.organ) : 'Diagnostic Clue';
+  card.onclick = () => openLightbox(clue.url, `Diagnostic Clue • ${organLabel}`, clue.author, shouldCropImage(clue), true);
   card.innerHTML = `
-    <img src="${clue.url}" alt="${currentQuestion.species.latin}" class="h-24 w-full object-cover group-hover:scale-105 transition" />
+    <img src="${clue.url}" alt="Diagnostic Clue" class="h-24 w-full object-cover group-hover:scale-105 transition" />
     <div class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition flex items-center justify-center opacity-0 group-hover:opacity-100">
       <span class="text-white text-xs drop-shadow">🔍</span>
     </div>
@@ -2231,7 +2237,7 @@ async function searchLiveBotanicalDatabases() {
   const resultsContainer = document.getElementById('live-search-results-grid');
   
   statusEl.classList.remove('hidden');
-  statusEl.textContent = `Searching iNaturalist Research Grade & Wikimedia Commons for "${query}"...`;
+  statusEl.textContent = `Searching iNaturalist & Wikimedia Commons for "${query}"...`;
   resultsContainer.innerHTML = '';
 
   try {
@@ -2306,7 +2312,7 @@ async function importTaxonLive(taxonId, latinName, commonName) {
         organBuckets[assignedOrgan].push({
           title: `${latinName} Observation`,
           url: largeUrl,
-          source: 'iNaturalist Research Grade',
+          source: 'iNaturalist',
           author: tp.photo?.attribution || 'iNaturalist'
         });
       }
@@ -2448,19 +2454,85 @@ function handleImageLoadError(imgEl) {
 
 let lightboxCurrentPhoto = null;
 
-function openLightbox(url, title, author, autoCrop = false) {
+function isQuizActiveQuestion() {
+  const quizView = document.getElementById('quiz-view');
+  if (quizView && !quizView.classList.contains('hidden')) {
+    const feedbackSec = document.getElementById('quiz-feedback-section');
+    if (feedbackSec && !feedbackSec.classList.contains('hidden')) {
+      return false; // Answer is already revealed in practice feedback view
+    }
+    return true; // Active question in exam or practice mode
+  }
+  const repModal = document.getElementById('replacement-question-modal');
+  if (repModal && !repModal.classList.contains('hidden')) {
+    return true; // Active replacement question
+  }
+  return false;
+}
+
+function safeStripSpeciesName(text, speciesObj) {
+  if (!text || !speciesObj) return text || '';
+  let res = String(text);
+  const targets = [speciesObj.latin, speciesObj.clean_latin, speciesObj.swedish, speciesObj.english].filter(Boolean);
+  targets.forEach(tgt => {
+    const escaped = tgt.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    res = res.replace(new RegExp(escaped, 'gi'), '');
+  });
+  return res;
+}
+
+function openLightbox(url, title, author, autoCrop = false, isQuiz = false) {
   if (!url) return;
-  lightboxCurrentPhoto = { url, title, author };
+  const isQuizActive = isQuiz || isQuizActiveQuestion();
+  lightboxCurrentPhoto = { url, title, author, isQuizActive };
   const modal = document.getElementById('lightbox-modal');
   const lbImg = document.getElementById('lightbox-img');
+  const titleEl = document.getElementById('lightbox-title');
+  const authorEl = document.getElementById('lightbox-author');
+  const linkEl = document.getElementById('lightbox-link');
 
   lbImg.src = url;
-  const titleEl = document.getElementById('lightbox-title');
-  if (titleEl) titleEl.textContent = title || '';
-  const authorEl = document.getElementById('lightbox-author');
-  if (authorEl) authorEl.textContent = author ? `Credit: ${author}` : '';
-  const linkEl = document.getElementById('lightbox-link');
-  if (linkEl) linkEl.href = url;
+
+  if (isQuizActive) {
+    // In quiz mode: NEVER reveal species or Latin scientific name
+    let cleanTitle = title || 'Diagnostic Specimen (Zoom)';
+    if (currentQuestion && currentQuestion.species) {
+      cleanTitle = safeStripSpeciesName(cleanTitle, currentQuestion.species);
+    }
+    if (activeReplacementQuestion && activeReplacementQuestion.species) {
+      cleanTitle = safeStripSpeciesName(cleanTitle, activeReplacementQuestion.species);
+    }
+    cleanTitle = cleanTitle.replace(/^[•\s\-_]+|[•\s\-_]+$/g, '').trim();
+    if (!cleanTitle) cleanTitle = 'Diagnostic Specimen (Zoom)';
+    if (titleEl) titleEl.textContent = cleanTitle;
+
+    // Sanitize author attribution to prevent leaking species names
+    let cleanAuthor = author || '';
+    if (currentQuestion && currentQuestion.species) {
+      cleanAuthor = safeStripSpeciesName(cleanAuthor, currentQuestion.species);
+    }
+    if (activeReplacementQuestion && activeReplacementQuestion.species) {
+      cleanAuthor = safeStripSpeciesName(cleanAuthor, activeReplacementQuestion.species);
+    }
+    cleanAuthor = cleanAuthor.trim();
+    if (authorEl) authorEl.textContent = cleanAuthor ? `Credit: ${cleanAuthor}` : '';
+
+    // Hide original repository link in quiz mode so hovering/inspecting doesn't leak URL filename
+    if (linkEl) {
+      linkEl.classList.add('hidden');
+      linkEl.removeAttribute('href');
+    }
+    lbImg.alt = 'Botanical specimen zoom view';
+  } else {
+    // Regular viewing mode (Atlas, Slideshow, Results Review)
+    if (titleEl) titleEl.textContent = title || '';
+    if (authorEl) authorEl.textContent = author ? `Credit: ${author}` : '';
+    if (linkEl) {
+      linkEl.classList.remove('hidden');
+      linkEl.href = url;
+    }
+    lbImg.alt = title || 'High resolution botanical view';
+  }
 
   if (autoCrop) {
     lbImg.style.setProperty('--lightbox-crop-bottom', '14%');
@@ -2479,6 +2551,13 @@ function discardLightboxPhoto() {
   if (currentQuestion && currentQuestion.primaryImage && currentQuestion.primaryImage.url === url) {
     closeLightbox();
     discardCurrentQuizPhoto();
+    return;
+  }
+
+  // If this was the active replacement question photo
+  if (activeReplacementQuestion && activeReplacementQuestion.image && activeReplacementQuestion.image.url === url) {
+    closeLightbox();
+    discardReplacementModalPhoto();
     return;
   }
 
@@ -2503,11 +2582,29 @@ function discardLightboxPhoto() {
 function openCurrentPhotoLightbox() {
   if (!currentQuestion || !currentQuestion.primaryImage) return;
   const autoCrop = currentCropBottom > 0;
+  const organLabel = currentQuestion.primaryImage.organ 
+    ? formatOrganName(currentQuestion.primaryImage.organ) 
+    : (currentQuestion.organ ? formatOrganName(currentQuestion.organ) : '');
+  const title = organLabel ? `Diagnostic Specimen • ${organLabel}` : 'Diagnostic Specimen (Zoom)';
   openLightbox(
     currentQuestion.primaryImage.url,
-    currentQuestion.species.latin,
+    title,
     currentQuestion.primaryImage.author,
-    autoCrop
+    autoCrop,
+    true
+  );
+}
+
+function openReplacementPhotoLightbox() {
+  if (!activeReplacementQuestion || !activeReplacementQuestion.image) return;
+  const autoCrop = activeReplacementQuestion.requiresCrop;
+  const organLabel = activeReplacementQuestion.image.organ ? formatOrganName(activeReplacementQuestion.image.organ) : 'Replacement Specimen';
+  openLightbox(
+    activeReplacementQuestion.image.url,
+    `Replacement Specimen • ${organLabel}`,
+    activeReplacementQuestion.image.author,
+    autoCrop,
+    true
   );
 }
 

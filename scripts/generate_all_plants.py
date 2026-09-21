@@ -138,7 +138,7 @@ def fetch_inaturalist_taxon_and_photos(clean_name):
                             photos.append({
                                 'title': f"{clean_name} Observation",
                                 'url': large_url,
-                                'source': 'iNaturalist Research Grade',
+                                'source': 'iNaturalist',
                                 'author': p.get('attribution', 'iNaturalist')
                             })
                 return taxon, photos

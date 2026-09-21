@@ -63,103 +63,103 @@ window.PLANT_DATABASE = [
         {
           "title": "Abies grandis Observation #401998298",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737914631/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Jason R Dong, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Abies grandis Observation #401983997",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737885569/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Dale Swedberg, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Abies grandis Observation #401890100",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737696298/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Helen Pratt, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Abies grandis Observation #401770012",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737461379/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Tess Doornink, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Abies grandis Observation #401740709",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737400975/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Abies grandis Observation #401722937",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737364228/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Bryan Vroom, some rights reserved (CC BY)"
         },
         {
           "title": "Abies grandis Observation #401704705",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737327159/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Suzy Cooper, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Abies grandis Observation #401703779",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737324956/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) macrumley, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Abies grandis Observation #401703654",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737324615/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) babblingbrooke24, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Abies grandis Observation #401703490",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737324312/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ren Deru, some rights reserved (CC BY-NC-SA)"
         },
         {
           "title": "Abies grandis Observation #401688092",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737293604/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ethan Shepheard, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Abies grandis Observation #401632021",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737158417/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) ben_mcpheeters, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Abies grandis Observation #401423641",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736780955/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) J. W. Nelson, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Abies grandis Observation #401416131",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736762678/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) leewarren, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Abies grandis Observation #401406618",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736746207/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Francis J. Golden, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Abies grandis Observation #401403918",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736741000/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Corvi Zeman, some rights reserved (CC BY)"
         },
         {
           "title": "Abies grandis Observation #401311647",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736557649/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Matt Tomlinson, some rights reserved (CC BY-NC)"
         }
       ],
@@ -167,7 +167,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Abies grandis Observation #402114468",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738150993/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) bg, some rights reserved (CC BY-NC)"
         }
       ],
@@ -175,13 +175,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Abies grandis Observation #402082788",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738088772/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Grigory Heaton, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Abies grandis Observation #402056106",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738037171/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) n8richardson, some rights reserved (CC BY-NC)"
         }
       ],
@@ -195,7 +195,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Abies grandis Observation #402031110",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737975221/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Daughter Dad, some rights reserved (CC BY)"
         }
       ],
@@ -209,7 +209,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Abies grandis Observation #402031102",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737975159/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Daughter Dad, some rights reserved (CC BY)"
         }
       ],
@@ -294,115 +294,115 @@ window.PLANT_DATABASE = [
         {
           "title": "Acer campestre Observation #401965269",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737846550/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Xymene iv, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer campestre Observation #401959966",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737833067/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) hajo, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer campestre Observation #401959021",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737834016/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Magdalena Podziewska, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer campestre Observation #401932594",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737771094/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Dirk Mezger, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer campestre Observation #401920444",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737755282/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Koray Öğreten, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer campestre Observation #401913554",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737743473/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) derefonzie, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer campestre Observation #401909353",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737734092/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) angela_husfeld, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer campestre Observation #401908509",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737731976/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) twin_42, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer campestre Observation #401890103",
           "url": "https://static.inaturalist.org/photos/737696096/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) asterix21, all rights reserved"
         },
         {
           "title": "Acer campestre Observation #401868056",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737654338/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) ransum, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer campestre Observation #401865219",
           "url": "https://static.inaturalist.org/photos/737648424/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Lukasz Pulawski, all rights reserved"
         },
         {
           "title": "Acer campestre Observation #401858073",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737634823/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Albert Idema, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer campestre Observation #401855926",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737630600/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Paolo Ciofetta, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer campestre Observation #401855347",
           "url": "https://static.inaturalist.org/photos/737629613/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Oliver Webb, all rights reserved"
         },
         {
           "title": "Acer campestre Observation #401843409",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737607822/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Federico Ferrante, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer campestre Observation #401840204",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737598527/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) David Elrington, some rights reserved (CC BY)"
         },
         {
           "title": "Acer campestre Observation #401837359",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737594862/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) nicolas-kawerau, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer campestre Observation #401837223",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737594523/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Guillaume Martin, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer campestre Observation #401836739",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737593451/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Adrián Gabilondo, some rights reserved (CC BY-NC)"
         }
       ],
@@ -410,7 +410,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Acer campestre Observation #402175984",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738270645/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Gary Griffith, some rights reserved (CC BY-NC-SA)"
         }
       ],
@@ -418,13 +418,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Acer campestre Observation #402169232",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738258071/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Martin Scheidleder, some rights reserved (CC BY)"
         },
         {
           "title": "Acer campestre Observation #402135609",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738191560/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) vics86, some rights reserved (CC BY-NC)"
         }
       ],
@@ -432,13 +432,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Acer campestre Observation #402122973",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738167832/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Brent Franklin, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer campestre Observation #402104833",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738131521/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) krezga, some rights reserved (CC BY-NC)"
         }
       ],
@@ -544,103 +544,103 @@ window.PLANT_DATABASE = [
         {
           "title": "Acer platanoides Observation #402187111",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738292061/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Michal Svit, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer platanoides Observation #402162341",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738246014/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Сергей, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer platanoides Observation #402150231",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738221025/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Георгий Виноградов (Georgy Vinogradov), some rights reserved (CC BY)"
         },
         {
           "title": "Acer platanoides Observation #402149741",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738217038/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Марина Садыкова, some rights reserved (CC BY)"
         },
         {
           "title": "Acer platanoides Observation #402118723",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738158087/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Yaroslav Magazov, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer platanoides Observation #402101107",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738111743/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Александр, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer platanoides Observation #402093156",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738107800/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) shadow_385, some rights reserved (CC BY)"
         },
         {
           "title": "Acer platanoides Observation #402030826",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737981378/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) tanichols2, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer platanoides Observation #401981775",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737871301/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Eduard Garin, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer platanoides Observation #401981215",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737880511/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Jade, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer platanoides Observation #401979623",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737876795/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Jonathan Bratt Carle, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer platanoides Observation #401965995",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737848055/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) tapiola_anton8e, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer platanoides Observation #401959949",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737832687/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) hajo, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer platanoides Observation #401959253",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737813207/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Станислав, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer platanoides Observation #401956260",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737820728/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Arseniy T, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer platanoides Observation #401953562",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737823944/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Tatyana Yu G, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer platanoides Observation #401949146",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737773913/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Nate Hartley, some rights reserved (CC BY-NC)"
         }
       ],
@@ -648,7 +648,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Acer platanoides Observation #402205425",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738325839/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Miroslav Stamenov, some rights reserved (CC BY-NC)"
         }
       ],
@@ -782,91 +782,91 @@ window.PLANT_DATABASE = [
         {
           "title": "Acer pseudoplatanus Observation #402108679",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738138840/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Yurii VO, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer pseudoplatanus Observation #401970071",
           "url": "https://static.inaturalist.org/photos/737856810/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Wander (Jayce) Grant, all rights reserved"
         },
         {
           "title": "Acer pseudoplatanus Observation #401951927",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737820234/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) ettieapple, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer pseudoplatanus Observation #401939110",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737794577/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Dave, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer pseudoplatanus Observation #401927718",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737772068/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) rostubbi, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer pseudoplatanus Observation #401922857",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737757938/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sepp Schmid, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer pseudoplatanus Observation #401922692",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737761336/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Dominik Rabl, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer pseudoplatanus Observation #401920557",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737757168/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Acer pseudoplatanus Observation #401904724",
           "url": "https://static.inaturalist.org/photos/737724723/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) pic7, all rights reserved"
         },
         {
           "title": "Acer pseudoplatanus Observation #401904319",
           "url": "https://static.inaturalist.org/photos/737724069/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Catie Gutmann Roberts, all rights reserved"
         },
         {
           "title": "Acer pseudoplatanus Observation #401900367",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737715703/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Pheonix_M, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer pseudoplatanus Observation #401886117",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737688812/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Andrea Sereno, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer pseudoplatanus Observation #401879633",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737676816/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Piotr_sss, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer pseudoplatanus Observation #401868615",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737654831/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Victoria R. Williams, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer pseudoplatanus Observation #401861863",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737642590/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) navatnybe, some rights reserved (CC BY-NC)"
         }
       ],
@@ -874,19 +874,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Acer pseudoplatanus Observation #402176237",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738271151/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) machova_k, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer pseudoplatanus Observation #402172767",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738265147/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) rosieyeats, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer pseudoplatanus Observation #402172349",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738264400/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) James, some rights reserved (CC BY-NC)"
         }
       ],
@@ -894,19 +894,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Acer pseudoplatanus Observation #402170431",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738260447/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) marcohai, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer pseudoplatanus Observation #402167156",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738254529/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Očkay Albín, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer pseudoplatanus Observation #402128542",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738178435/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Karol Łanocha, some rights reserved (CC BY-NC)"
         }
       ],
@@ -920,13 +920,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Acer pseudoplatanus Observation #402119987",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738161649/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Tim, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer pseudoplatanus Observation #402109931",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738141456/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Yurii VO, some rights reserved (CC BY-NC)"
         }
       ],
@@ -1032,103 +1032,103 @@ window.PLANT_DATABASE = [
         {
           "title": "Acer saccharum Observation #402072277",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738067229/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Heather Haughn, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer saccharum Observation #402069417",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738060892/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Daniel Araoz, some rights reserved (CC BY-ND)"
         },
         {
           "title": "Acer saccharum Observation #402057991",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738037311/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) evngrne, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer saccharum Observation #402049035",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738018410/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Alison Forde, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer saccharum Observation #402031127",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737975326/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Daughter Dad, some rights reserved (CC BY)"
         },
         {
           "title": "Acer saccharum Observation #401980957",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737879881/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) ginbro, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer saccharum Observation #401962810",
           "url": "https://static.inaturalist.org/photos/737818439/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) nichole.palacio, all rights reserved"
         },
         {
           "title": "Acer saccharum Observation #401939478",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737795465/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) renewendell, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer saccharum Observation #401927284",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737771014/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) arizz16, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer saccharum Observation #401892393",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737700661/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Andrew Skrzypczak, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer saccharum Observation #401859445",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737637581/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Tim axford, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer saccharum Observation #401845890",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737611851/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Erin Healy, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer saccharum Observation #401720705",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737360498/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Kate!, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer saccharum Observation #401717645",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737354464/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) François Plourde - Renard frak, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer saccharum Observation #401713281",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737345111/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) naomi_stock, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer saccharum Observation #401700903",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737227910/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ruta, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer saccharum Observation #401692203",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737301617/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Matthew Thompson, some rights reserved (CC BY-NC)"
         }
       ],
@@ -1136,13 +1136,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Acer saccharum Observation #402186642",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738288842/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Andrew Gray, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer saccharum Observation #402152058",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738225276/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Russell Parsons, some rights reserved (CC BY)"
         }
       ],
@@ -1151,13 +1151,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Acer saccharum Observation #402113386",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738148449/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) bazile, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Acer saccharum Observation #402077085",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738077150/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Anne-Marie B, some rights reserved (CC BY-NC)"
         }
       ],
@@ -1251,145 +1251,145 @@ window.PLANT_DATABASE = [
         {
           "title": "Aesculus hippocastanum Observation #402173326",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738265876/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) bh90726, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Aesculus hippocastanum Observation #402143578",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738207711/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) sunflowersuefr, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Aesculus hippocastanum Observation #402110083",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738141787/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Yurii VO, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Aesculus hippocastanum Observation #402080025",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738082351/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Bill Moore, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Aesculus hippocastanum Observation #402053782",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738028089/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Keetan Ner, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Aesculus hippocastanum Observation #402047805",
           "url": "https://static.inaturalist.org/photos/738016103/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Rylee Robinson, all rights reserved"
         },
         {
           "title": "Aesculus hippocastanum Observation #402043954",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738008281/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Flora M., some rights reserved (CC BY-NC)"
         },
         {
           "title": "Aesculus hippocastanum Observation #402017379",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737951768/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) finn, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Aesculus hippocastanum Observation #402001197",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737896672/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Clara Casabona, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Aesculus hippocastanum Observation #401959024",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737811113/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Станислав, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Aesculus hippocastanum Observation #401951936",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737820380/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) emma_kulavskaya, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Aesculus hippocastanum Observation #401941668",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737800261/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) naturebug007, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Aesculus hippocastanum Observation #401857428",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737631342/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Bob Kirkland, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Aesculus hippocastanum Observation #401834177",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737588821/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Stephen Hodges, some rights reserved (CC BY)"
         },
         {
           "title": "Aesculus hippocastanum Observation #401833906",
           "url": "https://static.inaturalist.org/photos/737588218/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) יובל ונגה לוי, all rights reserved"
         },
         {
           "title": "Aesculus hippocastanum Observation #401833868",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737588862/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Owen and Carol Fawcett., some rights reserved (CC BY)"
         },
         {
           "title": "Aesculus hippocastanum Observation #401828808",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737578374/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sam Hambly, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Aesculus hippocastanum Observation #401822573",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737566213/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) herder5b, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Aesculus hippocastanum Observation #401799359",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737521452/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Thomas ARMAND, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Aesculus hippocastanum Observation #401714232",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737347293/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) mat200529, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Aesculus hippocastanum Observation #401676680",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737270134/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Илья Руденко, some rights reserved (CC BY)"
         },
         {
           "title": "Aesculus hippocastanum Observation #401658736",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737229873/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Janek, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Aesculus hippocastanum Observation #401647952",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737214217/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) David Flood, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Aesculus hippocastanum Observation #401600684",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737122672/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) janewalkingfree, some rights reserved (CC BY-NC)"
         }
       ],
@@ -1504,115 +1504,115 @@ window.PLANT_DATABASE = [
         {
           "title": "Alnus glutinosa Observation #402171801",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738263587/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Očkay Albín, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Alnus glutinosa Observation #402164636",
           "url": "https://static.inaturalist.org/photos/738249922/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Michal Vávra, all rights reserved"
         },
         {
           "title": "Alnus glutinosa Observation #402154309",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738229993/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Robert Wernerehl, some rights reserved (CC BY-NC-SA)"
         },
         {
           "title": "Alnus glutinosa Observation #402139370",
           "url": "https://static.inaturalist.org/photos/738199072/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Andrzej K, all rights reserved"
         },
         {
           "title": "Alnus glutinosa Observation #402132605",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738185992/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Igor Balashov, some rights reserved (CC BY)"
         },
         {
           "title": "Alnus glutinosa Observation #402132029",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738181865/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Yaroslav Magazov, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Alnus glutinosa Observation #402103888",
           "url": "https://static.inaturalist.org/photos/738129562/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Maria Dolores Matas Matas, all rights reserved"
         },
         {
           "title": "Alnus glutinosa Observation #402057083",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738035456/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Kaitlyn Plastino, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Alnus glutinosa Observation #402043899",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738008121/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Laurel Ladwig, some rights reserved (CC BY-NC-SA)"
         },
         {
           "title": "Alnus glutinosa Observation #402015691",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737948381/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) purple_frog, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Alnus glutinosa Observation #402013076",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737944030/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Scott Shanks, some rights reserved (CC BY)"
         },
         {
           "title": "Alnus glutinosa Observation #402012601",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737942859/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Alnus glutinosa Observation #401974672",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737866517/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) sam9254, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Alnus glutinosa Observation #401937742",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737779827/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Станислав, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Alnus glutinosa Observation #401895545",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737706672/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sam Hambly, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Alnus glutinosa Observation #401846571",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737613174/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) shorty1961, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Alnus glutinosa Observation #401844310",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737608552/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) cowship, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Alnus glutinosa Observation #401838249",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737596727/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) victoriahames, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Alnus glutinosa Observation #401829997",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737592919/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) martapar, some rights reserved (CC BY-NC)"
         }
       ],
@@ -1620,7 +1620,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Alnus glutinosa Observation #402173912",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738267186/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ермолаева Ольга, some rights reserved (CC BY-NC)"
         }
       ],
@@ -1654,7 +1654,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Alnus glutinosa Observation #402172467",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738264610/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Očkay Albín, some rights reserved (CC BY-NC)"
         }
       ],
@@ -1777,133 +1777,133 @@ window.PLANT_DATABASE = [
         {
           "title": "Alnus incana Observation #402154309",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738230061/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Robert Wernerehl, some rights reserved (CC BY-NC-SA)"
         },
         {
           "title": "Alnus incana Observation #402132029",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738181865/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Yaroslav Magazov, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Alnus incana Observation #402103888",
           "url": "https://static.inaturalist.org/photos/738129562/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Maria Dolores Matas Matas, all rights reserved"
         },
         {
           "title": "Alnus incana Observation #402057083",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738035456/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Kaitlyn Plastino, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Alnus incana Observation #402043899",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738008121/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Laurel Ladwig, some rights reserved (CC BY-NC-SA)"
         },
         {
           "title": "Alnus incana Observation #402015691",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737948381/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) purple_frog, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Alnus incana Observation #402012601",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737942859/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Alnus incana Observation #401974672",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737866517/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) sam9254, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Alnus incana Observation #401937742",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737779827/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Станислав, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Alnus incana Observation #401685015",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737287480/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Don Sutherland, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Alnus incana Observation #401564833",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737056139/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) phoenix123, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Alnus incana Observation #401547639",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737025354/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Peter Oehler, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Alnus incana Observation #401500751",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736934952/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Catherine Dion, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Alnus incana Observation #401384175",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736696980/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Brenda Martinson, some rights reserved (CC BY-NC-SA)"
         },
         {
           "title": "Alnus incana Observation #401304548",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736544730/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Полина Полежанкина, some rights reserved (CC BY)"
         },
         {
           "title": "Alnus incana Observation #401304120",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736543589/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) goosesgreenguys, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Alnus incana Observation #401261342",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736462557/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) maria_sadykova, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Alnus incana Observation #401250633",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736443362/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Maxmilián Kudláček, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Alnus incana Observation #401199085",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736347603/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Piotr Panek, some rights reserved (CC BY)"
         },
         {
           "title": "Alnus incana Observation #401129620",
           "url": "https://static.inaturalist.org/photos/736212545/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Gabriella Rossetto Harris, all rights reserved"
         },
         {
           "title": "Alnus incana Observation #401109388",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736171854/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) TanyaV, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Alnus incana Observation #401063612",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736082270/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Karol Łanocha, some rights reserved (CC BY-NC)"
         }
       ],
@@ -1911,7 +1911,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Alnus incana Observation #402173912",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738267186/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ермолаева Ольга, some rights reserved (CC BY-NC)"
         }
       ],
@@ -2086,85 +2086,85 @@ window.PLANT_DATABASE = [
         {
           "title": "Betula pendula Observation #401959278",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737813455/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Станислав, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Betula pendula Observation #401952441",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737818114/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Denys Davydov, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Betula pendula Observation #401905773",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737726480/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Betula pendula Observation #401852763",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737624644/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Karol Łanocha, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Betula pendula Observation #401805425",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737533161/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Егор Тихоновский, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Betula pendula Observation #401798556",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737519555/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Феодор Басилашвили, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Betula pendula Observation #401774144",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737462284/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Timofey Zalutsky, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Betula pendula Observation #401682515",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737282540/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) lmattes, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Betula pendula Observation #401654138",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737225783/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) hajo, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Betula pendula Observation #401502585",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736946200/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Przemek, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Betula pendula Observation #401460291",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736855179/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Наталья Савельева, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Betula pendula Observation #401335737",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736604330/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) lukaswalas, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Betula pendula Observation #401311485",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736556900/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) mariamatersheva, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Betula pendula Observation #401286580",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736510680/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Oleg Kosterin, some rights reserved (CC BY)"
         }
       ],
@@ -2172,19 +2172,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Betula pendula Observation #402205275",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738313132/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Miroslav Stamenov, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Betula pendula Observation #402184885",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738287522/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Евгений Маринкин, some rights reserved (CC BY)"
         },
         {
           "title": "Betula pendula Observation #402159300",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738239902/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Анна Митрошенкова, some rights reserved (CC BY)"
         }
       ],
@@ -2198,13 +2198,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Betula pendula Observation #402084988",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738092694/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Oleg Kosterin, some rights reserved (CC BY)"
         },
         {
           "title": "Betula pendula Observation #401981746",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737881346/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Olivier Lacan, some rights reserved (CC BY-NC)"
         }
       ],
@@ -2347,109 +2347,109 @@ window.PLANT_DATABASE = [
         {
           "title": "Betula pubescens Observation #401285843",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736515404/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) stevennoyes, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Betula pubescens Observation #401267081",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736469714/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Michelle Goerdel, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Betula pubescens Observation #401226046",
           "url": "https://static.inaturalist.org/photos/736399367/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Nancy Kricorian, all rights reserved"
         },
         {
           "title": "Betula pubescens Observation #400998050",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735952383/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) mogensthornberg, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Betula pubescens Observation #400579293",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735120853/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) yesrat, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Betula pubescens Observation #400416526",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734792418/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Zolotukhina Irina, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Betula pubescens Observation #400416002",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734790871/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Степанова Ксения, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Betula pubescens Observation #400385083",
           "url": "https://static.inaturalist.org/photos/734728419/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) sandraophorst, all rights reserved"
         },
         {
           "title": "Betula pubescens Observation #400298656",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734539042/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Javier Marcos Martínez, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Betula pubescens Observation #400219816",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734384914/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Lewin Aniol, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Betula pubescens Observation #400130753",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734207795/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) joppel, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Betula pubescens Observation #399888248",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/733729468/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sam Griffin, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Betula pubescens Observation #399751516",
           "url": "https://static.inaturalist.org/photos/733455904/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Michael Gallo, all rights reserved"
         },
         {
           "title": "Betula pubescens Observation #399631893",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/733208977/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Олександр Гриб, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Betula pubescens Observation #399607428",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/733113575/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Anonimous Pug, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Betula pubescens Observation #399351461",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/732675545/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) johnclink, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Betula pubescens Observation #399331012",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/732630619/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Anastasiia Merkulova, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Betula pubescens Observation #398975771",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/731954368/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) pinguino_veritas, some rights reserved (CC BY-NC)"
         }
       ],
@@ -2463,7 +2463,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Betula pubescens Observation #402118695",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738157859/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Yaroslav Magazov, some rights reserved (CC BY-NC)"
         }
       ],
@@ -2471,13 +2471,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Betula pubescens Observation #401852570",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737624245/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Yurii Basov, some rights reserved (CC BY)"
         },
         {
           "title": "Betula pubescens Observation #401656236",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737230935/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Фёдор Хоменко, some rights reserved (CC BY-NC)"
         }
       ],
@@ -2485,7 +2485,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Betula pubescens Observation #401468199",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736870277/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Puzankov Aleksei, some rights reserved (CC BY-NC)"
         }
       ],
@@ -2639,121 +2639,121 @@ window.PLANT_DATABASE = [
         {
           "title": "Carpinus betulus Observation #402171928",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738263661/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) davidcarrier, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Carpinus betulus Observation #402158494",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738237181/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) fex1, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Carpinus betulus Observation #402137580",
           "url": "https://static.inaturalist.org/photos/738195409/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Gela8292, all rights reserved"
         },
         {
           "title": "Carpinus betulus Observation #402129724",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738180618/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) James, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Carpinus betulus Observation #401987170",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737879071/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) olmagon, some rights reserved (CC BY)"
         },
         {
           "title": "Carpinus betulus Observation #401954140",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737824791/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ralf Schwab, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Carpinus betulus Observation #401902380",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737719964/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Igor Balashov, some rights reserved (CC BY)"
         },
         {
           "title": "Carpinus betulus Observation #401874913",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737667180/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Carpinus betulus Observation #401852428",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737623864/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Benjamin Schedl, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Carpinus betulus Observation #401844928",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737609716/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) shorty1961, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Carpinus betulus Observation #401843865",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737607742/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Oleg, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Carpinus betulus Observation #401825589",
           "url": "https://static.inaturalist.org/photos/737571795/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Andrew Moore, all rights reserved"
         },
         {
           "title": "Carpinus betulus Observation #401811697",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737540267/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Alexander Baransky, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Carpinus betulus Observation #401789171",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737493840/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) J.R. Kuethe, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Carpinus betulus Observation #401656246",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737231013/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) finn, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Carpinus betulus Observation #401565162",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737056814/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) phisch123, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Carpinus betulus Observation #401533800",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736998342/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Jack Arnold, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Carpinus betulus Observation #401479597",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736874818/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Alain Roujas, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Carpinus betulus Observation #401441887",
           "url": "https://static.inaturalist.org/photos/736817716/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Elena Perez, all rights reserved"
         },
         {
           "title": "Carpinus betulus Observation #401440452",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736814827/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Elio Giacone, some rights reserved (CC BY-NC)"
         }
       ],
@@ -2761,7 +2761,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Carpinus betulus Observation #402175819",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738270333/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Gary Griffith, some rights reserved (CC BY-NC-SA)"
         }
       ],
@@ -2948,127 +2948,127 @@ window.PLANT_DATABASE = [
         {
           "title": "Cornus mas Observation #401960860",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737837950/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) andrwitm, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus mas Observation #401914682",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737745217/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Оля Пискарёва, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus mas Observation #401896195",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737707730/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) armskaap, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus mas Observation #401860526",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736530847/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Nikolay Knorre, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus mas Observation #401843496",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737606823/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) glareola, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus mas Observation #401838901",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737597895/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ермолаева Ольга, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus mas Observation #401837207",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737594483/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Guillaume Martin, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus mas Observation #401784266",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737489341/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Наталья Гамова, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus mas Observation #401611980",
           "url": "https://static.inaturalist.org/photos/737144226/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Martin Matus, all rights reserved"
         },
         {
           "title": "Cornus mas Observation #401552400",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737033490/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) warrenmickley, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus mas Observation #401490320",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736914521/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) plymouthjimin, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus mas Observation #401480353",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736895361/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Paul Wolf, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus mas Observation #401406679",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736746322/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Dr. M. P. Griggs, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus mas Observation #401250287",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736442899/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) moxensis, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus mas Observation #400955619",
           "url": "https://static.inaturalist.org/photos/735871661/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) morethanhuman, all rights reserved"
         },
         {
           "title": "Cornus mas Observation #400926769",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735813711/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) nawi7a2, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus mas Observation #400916191",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735792420/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) The Naturalist, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus mas Observation #400778434",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735511935/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) iva kocova, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus mas Observation #400643861",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735255657/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) stmrtom, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus mas Observation #400617894",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735201598/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) nonavianry, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus mas Observation #400476422",
           "url": "https://static.inaturalist.org/photos/734908629/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) itay berger, all rights reserved"
         }
       ],
@@ -3076,13 +3076,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Cornus mas Observation #402124680",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738163114/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Martin A. Prinz, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus mas Observation #402120108",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738161970/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) finn, some rights reserved (CC BY-NC)"
         }
       ],
@@ -3090,13 +3090,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Cornus mas Observation #402118788",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738159485/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sebastian Pilloni, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus mas Observation #402104979",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738131784/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) AlojzyMichnicki, some rights reserved (CC BY-NC)"
         }
       ],
@@ -3257,115 +3257,115 @@ window.PLANT_DATABASE = [
         {
           "title": "Cornus sanguinea Observation #402115395",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738152848/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) bg, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus sanguinea Observation #402113123",
           "url": "https://static.inaturalist.org/photos/738147918/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) passerd, all rights reserved"
         },
         {
           "title": "Cornus sanguinea Observation #402010436",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737929371/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) hennig, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus sanguinea Observation #401952291",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737820119/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Dr. Huszár Orsolya, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus sanguinea Observation #401932669",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737771939/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Dirk Mezger, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus sanguinea Observation #401927201",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737763736/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) M. B., some rights reserved (CC BY-NC-ND)"
         },
         {
           "title": "Cornus sanguinea Observation #401924528",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737765428/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) hroyer, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus sanguinea Observation #401906144",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737727329/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Cornus sanguinea Observation #401864000",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737646110/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Marko Slatki, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus sanguinea Observation #401860539",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736531880/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Nikolay Knorre, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus sanguinea Observation #401855140",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737629290/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Dominik Simakowski, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus sanguinea Observation #401831714",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737584181/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Guillaume Martin, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus sanguinea Observation #401830074",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737580803/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) cora egli, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus sanguinea Observation #401830042",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737580675/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) ilst, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus sanguinea Observation #401819592",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737560939/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) vladislav-21, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus sanguinea Observation #401808649",
           "url": "https://static.inaturalist.org/photos/737539067/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Lina, all rights reserved"
         },
         {
           "title": "Cornus sanguinea Observation #401790798",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737498727/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Javier Marcos Martínez, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus sanguinea Observation #401789175",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737493901/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) J.R. Kuethe, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Cornus sanguinea Observation #401690198",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737296496/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sepp Schmid, some rights reserved (CC BY-NC)"
         }
       ],
@@ -3373,19 +3373,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Cornus sanguinea Observation #402159946",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738239113/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Louis Aureglia, some rights reserved (CC BY)"
         },
         {
           "title": "Cornus sanguinea Observation #402156782",
           "url": "https://static.inaturalist.org/photos/738234418/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Tina Weise, all rights reserved"
         },
         {
           "title": "Cornus sanguinea Observation #402136208",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738192738/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) vics86, some rights reserved (CC BY-NC)"
         }
       ],
@@ -3399,7 +3399,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Cornus sanguinea Observation #402121020",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738159671/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) shumkovaoa, some rights reserved (CC BY-NC)"
         }
       ],
@@ -3407,7 +3407,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Cornus sanguinea Observation #402115520",
           "url": "https://static.inaturalist.org/photos/738153150/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Zoltán Hudák, all rights reserved"
         }
       ],
@@ -3519,61 +3519,61 @@ window.PLANT_DATABASE = [
         {
           "title": "Corylus avellana Observation #402136290",
           "url": "https://static.inaturalist.org/photos/738192877/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Frank Joisten, all rights reserved"
         },
         {
           "title": "Corylus avellana Observation #402132578",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738185948/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Juha Kinnunen, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Corylus avellana Observation #402121291",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738164443/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) ikelman, some rights reserved (CC BY)"
         },
         {
           "title": "Corylus avellana Observation #402094665",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738111109/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Анна Митрошенкова, some rights reserved (CC BY)"
         },
         {
           "title": "Corylus avellana Observation #401985989",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737883952/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Alexander Baransky, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Corylus avellana Observation #401984374",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737881462/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Miroslav Stamenov, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Corylus avellana Observation #401959315",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737813876/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Станислав, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Corylus avellana Observation #401951648",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737819564/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ánxela Miguéns, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Corylus avellana Observation #401923334",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737762691/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Dominik Rabl, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Corylus avellana Observation #401920870",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737757266/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Amedeo Nannini, some rights reserved (CC BY-NC)"
         }
       ],
@@ -3581,13 +3581,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Corylus avellana Observation #402193589",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738303458/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Miroslav Stamenov, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Corylus avellana Observation #402172082",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738263909/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Gary Griffith, some rights reserved (CC BY-NC-SA)"
         }
       ],
@@ -3595,13 +3595,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Corylus avellana Observation #402149739",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738217033/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Марина Садыкова, some rights reserved (CC BY)"
         },
         {
           "title": "Corylus avellana Observation #402147117",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738217414/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Igor Balashov, some rights reserved (CC BY)"
         }
       ],
@@ -3732,121 +3732,121 @@ window.PLANT_DATABASE = [
         {
           "title": "Crataegus monogyna Observation #402127817",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738177027/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Močiliak Filip, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Crataegus monogyna Observation #402126117",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738173498/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) jltasset, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Crataegus monogyna Observation #402106357",
           "url": "https://static.inaturalist.org/photos/738134392/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sanny Grew, all rights reserved"
         },
         {
           "title": "Crataegus monogyna Observation #402070174",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738062405/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) olivesz, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Crataegus monogyna Observation #402017551",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737952120/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Juliana, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Crataegus monogyna Observation #401987389",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737892598/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Andrew, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Crataegus monogyna Observation #401944281",
           "url": "https://static.inaturalist.org/photos/737805454/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) stongey, all rights reserved"
         },
         {
           "title": "Crataegus monogyna Observation #401942178",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737801411/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) burkardleitner, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Crataegus monogyna Observation #401931996",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737780276/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) João Lima, some rights reserved (CC BY)"
         },
         {
           "title": "Crataegus monogyna Observation #401858751",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737631051/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Franc-Christophe Baurens, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Crataegus monogyna Observation #401856379",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737631334/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) ACC S, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Crataegus monogyna Observation #401851160",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737621461/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) meithew909, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Crataegus monogyna Observation #401847115",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737614043/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) shorty1961, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Crataegus monogyna Observation #401835224",
           "url": "https://static.inaturalist.org/photos/737590699/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Drew Roberts, all rights reserved"
         },
         {
           "title": "Crataegus monogyna Observation #401832029",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737584955/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Guillaume Martin, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Crataegus monogyna Observation #401823798",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737568363/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) youngnaturalist13, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Crataegus monogyna Observation #401799517",
           "url": "https://static.inaturalist.org/photos/737521162/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Paulo Pascoal, all rights reserved"
         },
         {
           "title": "Crataegus monogyna Observation #401796225",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737514589/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Simon Lomas, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Crataegus monogyna Observation #401792058",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737506508/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) carum, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Crataegus monogyna Observation #401790802",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737498753/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Javier Marcos Martínez, some rights reserved (CC BY-NC)"
         }
       ],
@@ -3854,13 +3854,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Crataegus monogyna Observation #402190346",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738297838/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) witchfinder, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Crataegus monogyna Observation #402159934",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738238760/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Louis Aureglia, some rights reserved (CC BY)"
         }
       ],
@@ -3868,7 +3868,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Crataegus monogyna Observation #402135893",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738192133/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) vics86, some rights reserved (CC BY-NC)"
         }
       ],
@@ -3993,145 +3993,145 @@ window.PLANT_DATABASE = [
         {
           "title": "Fagus sylvatica Observation #402206204",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738327810/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Gabriela2110, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fagus sylvatica Observation #402175924",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738270533/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Gary Griffith, some rights reserved (CC BY-NC-SA)"
         },
         {
           "title": "Fagus sylvatica Observation #402157756",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738236468/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) thornyian, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fagus sylvatica Observation #402155698",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738232367/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) keepercodie, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fagus sylvatica Observation #402128408",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738178191/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Laurent Barthe, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fagus sylvatica Observation #402105014",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738131825/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) krezga, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fagus sylvatica Observation #402024055",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737966899/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Scott Shanks, some rights reserved (CC BY)"
         },
         {
           "title": "Fagus sylvatica Observation #402010344",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737938451/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Richard Alward, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fagus sylvatica Observation #402002469",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737922904/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) bramleyt, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fagus sylvatica Observation #401996419",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737910299/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sairus Patel, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fagus sylvatica Observation #401987139",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737878893/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) olmagon, some rights reserved (CC BY)"
         },
         {
           "title": "Fagus sylvatica Observation #401983576",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737884468/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) bg, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fagus sylvatica Observation #401978118",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737873328/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) mikee84, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fagus sylvatica Observation #401969594",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737827627/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) captainnik, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fagus sylvatica Observation #401958860",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737833813/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Magdalena Podziewska, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fagus sylvatica Observation #401947152",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737811558/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Noé Fleury Frouart, some rights reserved (CC BY)"
         },
         {
           "title": "Fagus sylvatica Observation #401945059",
           "url": "https://static.inaturalist.org/photos/737806550/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) naysayer, all rights reserved"
         },
         {
           "title": "Fagus sylvatica Observation #401942656",
           "url": "https://static.inaturalist.org/photos/737802533/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) laura martini, all rights reserved"
         },
         {
           "title": "Fagus sylvatica Observation #401923744",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737763553/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) fryers, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fagus sylvatica Observation #401923368",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737762770/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) piotrzaniewski, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fagus sylvatica Observation #401920860",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737758402/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Fagus sylvatica Observation #401918325",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737751213/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Dirk Mezger, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fagus sylvatica Observation #401916426",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737748610/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) MJDapifer, some rights reserved (CC BY)"
         },
         {
           "title": "Fagus sylvatica Observation #401907351",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737728386/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sepp Schmid, some rights reserved (CC BY-NC)"
         }
       ],
@@ -4261,139 +4261,139 @@ window.PLANT_DATABASE = [
         {
           "title": "Fraxinus excelsior Observation #402175952",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738270582/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Gary Griffith, some rights reserved (CC BY-NC-SA)"
         },
         {
           "title": "Fraxinus excelsior Observation #402173404",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738266302/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Očkay Albín, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fraxinus excelsior Observation #402129683",
           "url": "https://static.inaturalist.org/photos/738180548/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Alex Ross, all rights reserved"
         },
         {
           "title": "Fraxinus excelsior Observation #401971017",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737858636/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) lausc2, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fraxinus excelsior Observation #401933123",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737782938/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) sunflowersuefr, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fraxinus excelsior Observation #401922739",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737761440/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Dominik Rabl, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fraxinus excelsior Observation #401920038",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737756109/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sam Hambly, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fraxinus excelsior Observation #401918345",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737751315/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Dirk Mezger, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fraxinus excelsior Observation #401914917",
           "url": "https://static.inaturalist.org/photos/737745729/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Piotr Gadawski, all rights reserved"
         },
         {
           "title": "Fraxinus excelsior Observation #401912089",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737740077/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) derefonzie, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fraxinus excelsior Observation #401899355",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737713662/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Trarieux79FR, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fraxinus excelsior Observation #401883859",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737685279/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Gael Evans, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fraxinus excelsior Observation #401869486",
           "url": "https://static.inaturalist.org/photos/737656415/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) pic7, all rights reserved"
         },
         {
           "title": "Fraxinus excelsior Observation #401868301",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737654320/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) angela_husfeld, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fraxinus excelsior Observation #401863220",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737644878/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Stephen Hodges, some rights reserved (CC BY)"
         },
         {
           "title": "Fraxinus excelsior Observation #401855861",
           "url": "https://static.inaturalist.org/photos/737628973/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Nicolas Alric, all rights reserved"
         },
         {
           "title": "Fraxinus excelsior Observation #401852584",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737624232/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Clémence Garcia, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fraxinus excelsior Observation #401848944",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737617181/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) moff0201, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fraxinus excelsior Observation #401848189",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737615888/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) egoshina, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fraxinus excelsior Observation #401845075",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737610021/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) cowship, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fraxinus excelsior Observation #401844531",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737608962/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) shorty1961, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fraxinus excelsior Observation #401838885",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737597700/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Claudia Luca, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Fraxinus excelsior Observation #401825498",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737571688/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Juha Kinnunen, some rights reserved (CC BY-NC)"
         }
       ],
@@ -4588,139 +4588,139 @@ window.PLANT_DATABASE = [
         {
           "title": "Ginkgo biloba Observation #402017175",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737951356/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) xspidertotheflyx, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ginkgo biloba Observation #401886782",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737689752/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) badger-berge, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ginkgo biloba Observation #401780917",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737484032/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) kingwrap, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ginkgo biloba Observation #401704172",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737325836/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) KabelR, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ginkgo biloba Observation #401624099",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737168494/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) K-Pop Butterfly Hunter, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ginkgo biloba Observation #401597110",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737116431/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) davidhine, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ginkgo biloba Observation #401585876",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737096302/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ansis Opmanis, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ginkgo biloba Observation #401559318",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737045961/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Morten Christensen, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ginkgo biloba Observation #401538878",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737008499/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Diana Bubnikova, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ginkgo biloba Observation #401487516",
           "url": "https://static.inaturalist.org/photos/736908386/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Moung In Young, all rights reserved"
         },
         {
           "title": "Ginkgo biloba Observation #401425783",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736784948/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) HakoHako, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ginkgo biloba Observation #401425657",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736784824/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) 정예서, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ginkgo biloba Observation #401416463",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736766731/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) mcas06, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ginkgo biloba Observation #401362828",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736657363/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ellart vreugdenhil, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ginkgo biloba Observation #401292305",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736521872/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) bete_spider, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ginkgo biloba Observation #401224513",
           "url": "https://static.inaturalist.org/photos/736396847/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) R Gabriel, all rights reserved"
         },
         {
           "title": "Ginkgo biloba Observation #401194434",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736338631/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) FMubing, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ginkgo biloba Observation #401180351",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736310448/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Bürge Turan Demircan, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ginkgo biloba Observation #401154866",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736261669/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Yuljashenka, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ginkgo biloba Observation #401082096",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736118266/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) kitty, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ginkgo biloba Observation #401007136",
           "url": "https://static.inaturalist.org/photos/735969147/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Kareem A. Dieng, all rights reserved"
         },
         {
           "title": "Ginkgo biloba Observation #400989827",
           "url": "https://static.inaturalist.org/photos/735936806/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Philippe Grohan, all rights reserved"
         },
         {
           "title": "Ginkgo biloba Observation #400964125",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735887705/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) gerry_jenkison, some rights reserved (CC BY-NC)"
         }
       ],
@@ -4728,7 +4728,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Ginkgo biloba Observation #402126474",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738172298/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) David Paloch, some rights reserved (CC BY-NC)"
         }
       ],
@@ -4836,127 +4836,127 @@ window.PLANT_DATABASE = [
         {
           "title": "Juglans regia Observation #401971996",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737860503/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sokolov Yuriy Ivanovich, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Juglans regia Observation #401969987",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737856548/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) lausc2, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Juglans regia Observation #401883409",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737683135/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Dietmar K. L. Moser, some rights reserved (CC BY)"
         },
         {
           "title": "Juglans regia Observation #401873366",
           "url": "https://static.inaturalist.org/photos/737663909/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Stanisław Sroka, all rights reserved"
         },
         {
           "title": "Juglans regia Observation #401855901",
           "url": "https://static.inaturalist.org/photos/737629160/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Nicolas Alric, all rights reserved"
         },
         {
           "title": "Juglans regia Observation #401839684",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737595876/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Gabriele La Grasta, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Juglans regia Observation #401804531",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737531605/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Alan Douglas, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Juglans regia Observation #401789106",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737500395/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) finn, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Juglans regia Observation #401777896",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737476911/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Przemek, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Juglans regia Observation #401766498",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737453777/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Elio Giacone, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Juglans regia Observation #401655224",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737230657/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Leandro M, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Juglans regia Observation #401654719",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737199794/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Juglans regia Observation #401614912",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737149749/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) aga_l_, some rights reserved (CC BY)"
         },
         {
           "title": "Juglans regia Observation #401582104",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737089152/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) oshua_o, some rights reserved (CC BY-NC-SA)"
         },
         {
           "title": "Juglans regia Observation #401540343",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737011096/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) clemjufa, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Juglans regia Observation #401491510",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736917090/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Szczepan, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Juglans regia Observation #401469260",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736870495/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Marcin Dyderski, some rights reserved (CC BY)"
         },
         {
           "title": "Juglans regia Observation #401449718",
           "url": "https://static.inaturalist.org/photos/736835890/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Teagan Hayes, all rights reserved"
         },
         {
           "title": "Juglans regia Observation #401370458",
           "url": "https://static.inaturalist.org/photos/736672696/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) larrel planter, all rights reserved"
         },
         {
           "title": "Juglans regia Observation #401324462",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736582966/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Michal Ducháček, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Juglans regia Observation #401310921",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736556160/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) lydrie, some rights reserved (CC BY-NC)"
         }
       ],
@@ -4965,19 +4965,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Juglans regia Observation #402137738",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738195585/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Aurelian Olaru, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Juglans regia Observation #402134472",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738187441/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) shumkovaoa, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Juglans regia Observation #402115536",
           "url": "https://static.inaturalist.org/photos/738153180/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Zoltán Hudák, all rights reserved"
         }
       ],
@@ -5169,109 +5169,109 @@ window.PLANT_DATABASE = [
         {
           "title": "Juniperus communis Observation #402135329",
           "url": "https://static.inaturalist.org/photos/738191416/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ellen Lee, all rights reserved"
         },
         {
           "title": "Juniperus communis Observation #402132148",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738185032/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) jamestalon, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Juniperus communis Observation #402114066",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738120378/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Лавріненко Катерина, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Juniperus communis Observation #402105892",
           "url": "https://static.inaturalist.org/photos/738115239/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sarah Hirtle, all rights reserved"
         },
         {
           "title": "Juniperus communis Observation #402066773",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738039021/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Alexander R., some rights reserved (CC BY-NC)"
         },
         {
           "title": "Juniperus communis Observation #402062455",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738046454/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Robert W. Harding, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Juniperus communis Observation #402051075",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738022356/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Jukka Jantunen, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Juniperus communis Observation #402041405",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738003188/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Alison Forde, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Juniperus communis Observation #402036484",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737992941/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Oliver Stringham, some rights reserved (CC BY)"
         },
         {
           "title": "Juniperus communis Observation #402034437",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737988838/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Peter L Achuff, some rights reserved (CC BY)"
         },
         {
           "title": "Juniperus communis Observation #402024417",
           "url": "https://static.inaturalist.org/photos/737967676/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Сергей Сосенушкин, all rights reserved"
         },
         {
           "title": "Juniperus communis Observation #402002659",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737872753/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ángel Fernández Cancio, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Juniperus communis Observation #401993109",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737891932/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Tina, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Juniperus communis Observation #401990088",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737897944/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Carson B, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Juniperus communis Observation #401987905",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737893819/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Dominik Rabl, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Juniperus communis Observation #401979850",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737877400/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Polynár János, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Juniperus communis Observation #401976145",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737869035/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Marc Jalbert, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Juniperus communis Observation #401959281",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737813464/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Станислав, some rights reserved (CC BY-NC)"
         }
       ],
@@ -5279,13 +5279,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Juniperus communis Observation #402170185",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738260249/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Martin Scheuch, some rights reserved (CC BY)"
         },
         {
           "title": "Juniperus communis Observation #402141100",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738202562/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) kaleksik, some rights reserved (CC BY-NC)"
         }
       ],
@@ -5293,13 +5293,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Juniperus communis Observation #402139053",
           "url": "https://static.inaturalist.org/photos/738198305/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Andrzej K, all rights reserved"
         },
         {
           "title": "Juniperus communis Observation #402138287",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738196891/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) NatalyaRK, some rights reserved (CC BY-NC)"
         }
       ],
@@ -5467,109 +5467,109 @@ window.PLANT_DATABASE = [
         {
           "title": "Larix decidua Observation #401827372",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737575286/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) silvia_selnekovic, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix decidua Observation #401597849",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737117347/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Alexandra Hunault, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix decidua Observation #401521241",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736974677/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Franz Schantl, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix decidua Observation #401517085",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736966460/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Lumpy Custard, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix decidua Observation #401498563",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736931415/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Mattis, some rights reserved (CC BY)"
         },
         {
           "title": "Larix decidua Observation #401456999",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736848254/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Danielle Frohlich, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix decidua Observation #401452637",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736838979/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ralf Schwab, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix decidua Observation #401441924",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736792063/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Wolfgang Bacher, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix decidua Observation #401341493",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736615165/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ela, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix decidua Observation #401323783",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736581508/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) James Maunder, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix decidua Observation #401307623",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736550100/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) hyphal, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix decidua Observation #401054516",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736062983/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Niiskuneiti69, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix decidua Observation #401027382",
           "url": "https://static.inaturalist.org/photos/736008227/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Nathalie, all rights reserved"
         },
         {
           "title": "Larix decidua Observation #400971962",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735902825/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) James Cunningham, some rights reserved (CC BY)"
         },
         {
           "title": "Larix decidua Observation #400930386",
           "url": "https://static.inaturalist.org/photos/735822807/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Teagan Hayes, all rights reserved"
         },
         {
           "title": "Larix decidua Observation #400913548",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735787018/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Elio Giacone, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix decidua Observation #400747424",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735449949/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) jolanda_bih, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix decidua Observation #400711846",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735374598/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) rupicapra, some rights reserved (CC BY-NC)"
         }
       ],
@@ -5577,13 +5577,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Larix decidua Observation #402140367",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738201027/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Bas Engels, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix decidua Observation #401980791",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737879497/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sairus Patel, some rights reserved (CC BY-NC)"
         }
       ],
@@ -5591,7 +5591,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Larix decidua Observation #401973067",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737856118/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Attila Lengyel, some rights reserved (CC BY-NC)"
         }
       ],
@@ -5605,7 +5605,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Larix decidua Observation #401929693",
           "url": "https://static.inaturalist.org/photos/737775858/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ale, all rights reserved"
         }
       ],
@@ -5741,73 +5741,73 @@ window.PLANT_DATABASE = [
         {
           "title": "Larix kaempferi Observation #390246704",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/714920592/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Jon Aull, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix kaempferi Observation #389385519",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/713241596/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Austin R. Kelly, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix kaempferi Observation #387572393",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/709721569/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Stefan Grote, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix kaempferi Observation #387475664",
           "url": "https://static.inaturalist.org/photos/709538664/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Georges Kunstler, all rights reserved"
         },
         {
           "title": "Larix kaempferi Observation #382824987",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/700616708/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) cayley_buckner, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix kaempferi Observation #381272822",
           "url": "https://static.inaturalist.org/photos/697621344/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Hovan Windraya, all rights reserved"
         },
         {
           "title": "Larix kaempferi Observation #381197618",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/697473321/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Daniel Petersen och Peter Sullivan, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix kaempferi Observation #377884894",
           "url": "https://static.inaturalist.org/photos/691073636/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) YOULI HAWAII PHOTOGRAPHY, all rights reserved"
         },
         {
           "title": "Larix kaempferi Observation #377087766",
           "url": "https://static.inaturalist.org/photos/689533239/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Teruya Enomoto, all rights reserved"
         },
         {
           "title": "Larix kaempferi Observation #376454839",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688308782/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) 政策, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix kaempferi Observation #375232228",
           "url": "https://static.inaturalist.org/photos/685937180/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Slávek Machacek, all rights reserved"
         },
         {
           "title": "Larix kaempferi Observation #375170908",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/685799152/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) changchih-yi, some rights reserved (CC BY-NC)"
         }
       ],
@@ -5815,13 +5815,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Larix kaempferi Observation #401528373",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736988718/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) janeascending, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix kaempferi Observation #394974100",
           "url": "https://static.inaturalist.org/photos/724156143/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Shadow, all rights reserved"
         }
       ],
@@ -5829,7 +5829,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Larix kaempferi Observation #392512751",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/719338577/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Stephan Pflume, some rights reserved (CC BY-NC)"
         }
       ],
@@ -5877,13 +5877,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Larix kaempferi Observation #392024265",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/718383291/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) shingha4223, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix kaempferi Observation #391375635",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/717056010/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Suyoung Jung, some rights reserved (CC BY-NC)"
         }
       ],
@@ -5935,103 +5935,103 @@ window.PLANT_DATABASE = [
         {
           "title": "Larix x Observation #366711785",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/669621645/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Elka, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix x Observation #365106296",
           "url": "https://static.inaturalist.org/photos/666567349/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Dinesh Patel, all rights reserved"
         },
         {
           "title": "Larix x Observation #348244192",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/635091737/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Andrew Tree, some rights reserved (CC BY)"
         },
         {
           "title": "Larix x Observation #331571749",
           "url": "https://static.inaturalist.org/photos/601532780/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) David Vilasís Boix, all rights reserved"
         },
         {
           "title": "Larix x Observation #318681864",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/575986644/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) ospreysview, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix x Observation #299007808",
           "url": "https://static.inaturalist.org/photos/538658046/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) larrel planter, all rights reserved"
         },
         {
           "title": "Larix x Observation #288789203",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519373565/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Thomas Nogatz, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix x Observation #271935436",
           "url": "https://static.inaturalist.org/photos/489202706/large.jpeg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) English Lissy, all rights reserved"
         },
         {
           "title": "Larix x Observation #261467596",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469743273/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) apout, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix x Observation #249333225",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/445684952/large.jpeg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) David Hocken, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix x Observation #227096012",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/402831715/large.jpeg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Kazekf, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix x Observation #195170162",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/343278467/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Илья Руденко, some rights reserved (CC BY)"
         },
         {
           "title": "Larix x Observation #162841939",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/281602540/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) David Ashcroft, some rights reserved (CC BY)"
         },
         {
           "title": "Larix x Observation #132461994",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/225560564/large.jpeg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Susan Marley, some rights reserved (CC BY)"
         },
         {
           "title": "Larix x Observation #84943144",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/139678660/large.jpeg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) David Earl, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix x Observation #78440153",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/128374047/large.jpeg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Daba, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix x Observation #68412159",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110768608/large.jpeg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) anenkhonov, some rights reserved (CC BY-NC)"
         }
       ],
@@ -6039,19 +6039,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Larix x Observation #385240165",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/705265243/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) mcmillanteaghlach, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Larix x Observation #383585909",
           "url": "https://static.inaturalist.org/photos/702082316/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Jordan Wilson, all rights reserved"
         },
         {
           "title": "Larix x Observation #380625196",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/696368296/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Moira FitzPatrick, some rights reserved (CC BY-NC)"
         }
       ],
@@ -6059,7 +6059,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Larix x Observation #376835094",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/689045581/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) David Hocken, some rights reserved (CC BY-NC)"
         }
       ],
@@ -6067,7 +6067,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Larix x Observation #374305844",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/684143636/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         }
       ],
@@ -6101,7 +6101,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Larix x Observation #367069805",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/670311934/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Carl Farmer, some rights reserved (CC BY-NC)"
         }
       ],
@@ -6127,13 +6127,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Lonicera xylosteum Observation #402171966",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738263711/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Gary Griffith, some rights reserved (CC BY-NC-SA)"
         },
         {
           "title": "Lonicera xylosteum Observation #402149778",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738217424/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Марина Садыкова, some rights reserved (CC BY)"
         }
       ],
@@ -6185,61 +6185,61 @@ window.PLANT_DATABASE = [
         {
           "title": "Lonicera xylosteum Observation #401449653",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736827549/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Miroslav Stamenov, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Lonicera xylosteum Observation #401446759",
           "url": "https://static.inaturalist.org/photos/736827120/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Teagan Hayes, all rights reserved"
         },
         {
           "title": "Lonicera xylosteum Observation #401320437",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736569700/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Margarita Gafurova, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Lonicera xylosteum Observation #401311191",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736556691/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Полина Полежанкина, some rights reserved (CC BY)"
         },
         {
           "title": "Lonicera xylosteum Observation #401188123",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736320190/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Alexander Iosipenko, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Lonicera xylosteum Observation #401041801",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736037793/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Lonicera xylosteum Observation #400962977",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735870220/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Eduard Garin, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Lonicera xylosteum Observation #400776530",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735494022/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Станислав, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Lonicera xylosteum Observation #400741078",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735437766/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Aliaksandr Mialik, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Lonicera xylosteum Observation #400543980",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735043226/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) M. B., some rights reserved (CC BY-NC-ND)"
         }
       ],
@@ -6247,13 +6247,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Lonicera xylosteum Observation #401984409",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737884245/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Miroslav Stamenov, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Lonicera xylosteum Observation #401932637",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737771336/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Dirk Mezger, some rights reserved (CC BY-NC)"
         }
       ],
@@ -6261,19 +6261,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Lonicera xylosteum Observation #401930546",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737774710/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Margarita Gafurova, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Lonicera xylosteum Observation #401672732",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737262679/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) finn, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Lonicera xylosteum Observation #401593746",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737108105/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sepp Schmid, some rights reserved (CC BY-NC)"
         }
       ],
@@ -6287,7 +6287,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Lonicera xylosteum Observation #401489620",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736912941/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Liliya Kulishova, some rights reserved (CC BY-NC)"
         }
       ],
@@ -6387,121 +6387,121 @@ window.PLANT_DATABASE = [
         {
           "title": "Malus sylvestris Observation #401970212",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737842438/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Eduard Garin, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Malus sylvestris Observation #401964302",
           "url": "https://static.inaturalist.org/photos/737844580/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Brandon Chase, all rights reserved"
         },
         {
           "title": "Malus sylvestris Observation #401933153",
           "url": "https://static.inaturalist.org/photos/737782688/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Kate L, all rights reserved"
         },
         {
           "title": "Malus sylvestris Observation #401816008",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737551926/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Наталья Гамова, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Malus sylvestris Observation #401648516",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737215054/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) lrreidsm, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Malus sylvestris Observation #401614255",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737148180/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Andrew Sebastian, some rights reserved (CC BY)"
         },
         {
           "title": "Malus sylvestris Observation #401599376",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737118180/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) brian stahls, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Malus sylvestris Observation #401585673",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737095803/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Christian Girard, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Malus sylvestris Observation #401584939",
           "url": "https://static.inaturalist.org/photos/737094119/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Viktoria Fisher, all rights reserved"
         },
         {
           "title": "Malus sylvestris Observation #401477113",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736888925/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Серафим, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Malus sylvestris Observation #401426789",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736786846/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) josharmo, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Malus sylvestris Observation #401343061",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736618379/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) milsennius, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Malus sylvestris Observation #401334592",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736606481/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Wendy Herniman, some rights reserved (CC BY)"
         },
         {
           "title": "Malus sylvestris Observation #401324148",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736580665/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Noam Markus, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Malus sylvestris Observation #401320407",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736569182/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Margarita Gafurova, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Malus sylvestris Observation #401259896",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736457650/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Malus sylvestris Observation #401190581",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736330679/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) \n\n\n, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Malus sylvestris Observation #401176593",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736303249/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) eliseychik, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Malus sylvestris Observation #401116510",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736187232/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Thomas Weir, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Malus sylvestris Observation #401070128",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736102064/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ondřej Křivan, some rights reserved (CC BY)"
         }
       ],
@@ -6515,7 +6515,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Malus sylvestris Observation #402085655",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738094385/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Radu Scurtescu, some rights reserved (CC BY-NC-ND)"
         }
       ],
@@ -6523,19 +6523,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Malus sylvestris Observation #402065626",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738053849/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Keetan Ner, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Malus sylvestris Observation #402018736",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737954721/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) jwvargo13, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Malus sylvestris Observation #401981650",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737866444/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Eduard Garin, some rights reserved (CC BY-NC)"
         }
       ],
@@ -6647,37 +6647,37 @@ window.PLANT_DATABASE = [
         {
           "title": "Picea abies Observation #402033595",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737978129/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Urszula Wojciechowska, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Picea abies Observation #401981647",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737866261/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Eduard Garin, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Picea abies Observation #401980756",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737879355/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sairus Patel, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Picea abies Observation #401969610",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737827924/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) captainnik, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Picea abies Observation #401959344",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737814145/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Станислав, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Picea abies Observation #401953751",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737824238/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Tatyana Yu G, some rights reserved (CC BY-NC)"
         }
       ],
@@ -6685,13 +6685,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Picea abies Observation #402206286",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738328255/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) d7826, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Picea abies Observation #402205595",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738326926/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Karol Łanocha, some rights reserved (CC BY-NC)"
         }
       ],
@@ -6699,13 +6699,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Picea abies Observation #402176010",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738270738/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) machova_k, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Picea abies Observation #402156580",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738233964/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Георгий Виноградов (Georgy Vinogradov), some rights reserved (CC BY)"
         }
       ],
@@ -6773,19 +6773,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Picea abies Observation #402149756",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738217262/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Марина Садыкова, some rights reserved (CC BY)"
         },
         {
           "title": "Picea abies Observation #402131950",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738181530/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Yaroslav Magazov, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Picea abies Observation #402087833",
           "url": "https://static.inaturalist.org/photos/738097967/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Denver, all rights reserved"
         }
       ]
@@ -6860,121 +6860,121 @@ window.PLANT_DATABASE = [
         {
           "title": "Picea sitchensis Observation #401708967",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737330789/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) John D Reynolds, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Picea sitchensis Observation #401699884",
           "url": "https://static.inaturalist.org/photos/737317640/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) ellement, all rights reserved"
         },
         {
           "title": "Picea sitchensis Observation #401480436",
           "url": "https://static.inaturalist.org/photos/736895389/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) riverdancer9, all rights reserved"
         },
         {
           "title": "Picea sitchensis Observation #401403070",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736739465/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Stephen Cox, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Picea sitchensis Observation #401337114",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736607114/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Andy Frank, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Picea sitchensis Observation #401263227",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736466297/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) mushroomwatcher5000, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Picea sitchensis Observation #401119169",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736192243/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) AC, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Picea sitchensis Observation #401097628",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736148487/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Picea sitchensis Observation #401092473",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736139786/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Christopher Janousek, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Picea sitchensis Observation #401075673",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736105349/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Andy Lazere, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Picea sitchensis Observation #401045695",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735811559/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Taylor Justason, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Picea sitchensis Observation #401037131",
           "url": "https://static.inaturalist.org/photos/736028869/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Axel Jurgens, all rights reserved"
         },
         {
           "title": "Picea sitchensis Observation #401009346",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735974015/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) John E. Riutta, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Picea sitchensis Observation #400908869",
           "url": "https://static.inaturalist.org/photos/735777437/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Donald W. Grimm, Ph.D., all rights reserved"
         },
         {
           "title": "Picea sitchensis Observation #400853360",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735662605/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Suzy Cooper, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Picea sitchensis Observation #400814418",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735585574/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) bbiesele, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Picea sitchensis Observation #400786789",
           "url": "https://static.inaturalist.org/photos/735516358/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sam C, all rights reserved"
         },
         {
           "title": "Picea sitchensis Observation #400777264",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735509931/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) samu_eli, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Picea sitchensis Observation #400651551",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735271126/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) ashitaka12, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Picea sitchensis Observation #400636646",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735239665/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) IDClaire, some rights reserved (CC BY)"
         }
       ],
@@ -6982,13 +6982,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Picea sitchensis Observation #402129601",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738180361/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) ikelman, some rights reserved (CC BY)"
         },
         {
           "title": "Picea sitchensis Observation #401883811",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737685275/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) johiphophead, some rights reserved (CC BY-NC)"
         }
       ],
@@ -6996,7 +6996,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Picea sitchensis Observation #401815745",
           "url": "https://static.inaturalist.org/photos/737552741/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Donald W. Grimm, Ph.D., all rights reserved"
         }
       ],
@@ -7010,7 +7010,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Picea sitchensis Observation #401717972",
           "url": "https://static.inaturalist.org/photos/737355203/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Daniel LaPoint, all rights reserved"
         }
       ],
@@ -7058,7 +7058,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Picea sitchensis Observation #401709029",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737331309/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) John D Reynolds, some rights reserved (CC BY-NC)"
         }
       ]
@@ -7133,85 +7133,85 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus contorta Observation #401695220",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737308022/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Caleb Catto, some rights reserved (CC BY)"
         },
         {
           "title": "Pinus contorta Observation #401684536",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737290310/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) brotha_nature, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus contorta Observation #401659078",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737235984/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ren Deru, some rights reserved (CC BY-NC-SA)"
         },
         {
           "title": "Pinus contorta Observation #401651151",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737221056/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Lisa H. Robinson, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus contorta Observation #401575426",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737076480/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Big Year, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus contorta Observation #401456552",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736847252/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Mike Schijf, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus contorta Observation #401377024",
           "url": "https://static.inaturalist.org/photos/736686015/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Maxime Gouyou Beauchamps, all rights reserved"
         },
         {
           "title": "Pinus contorta Observation #401308750",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736552039/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Kathy Dickson, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus contorta Observation #401169160",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736281091/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Kurt Rademacher, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus contorta Observation #401163020",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736278087/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) oeylia, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus contorta Observation #401124727",
           "url": "https://static.inaturalist.org/photos/736202352/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) wildlifeduke, all rights reserved"
         },
         {
           "title": "Pinus contorta Observation #401091844",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736137598/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Suzy Cooper, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus contorta Observation #401014617",
           "url": "https://static.inaturalist.org/photos/735979711/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sam C, all rights reserved"
         },
         {
           "title": "Pinus contorta Observation #401000270",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735956179/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Brian Keller, some rights reserved (CC BY-NC-SA)"
         }
       ],
@@ -7219,13 +7219,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus contorta Observation #402052018",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738024552/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Jukka Jantunen, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus contorta Observation #402049482",
           "url": "https://static.inaturalist.org/photos/738019319/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) A Johnson, all rights reserved"
         }
       ],
@@ -7233,7 +7233,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus contorta Observation #402043484",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738007344/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Laurel Ladwig, some rights reserved (CC BY-NC-SA)"
         }
       ],
@@ -7241,19 +7241,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus contorta Observation #401930012",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737776315/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Theresa Houlihan, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus contorta Observation #401743326",
           "url": "https://static.inaturalist.org/photos/737405326/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Brennan Popovic, all rights reserved"
         },
         {
           "title": "Pinus contorta Observation #401717515",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737352407/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Matt Berger, some rights reserved (CC BY)"
         }
       ],
@@ -7287,13 +7287,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus contorta Observation #401712457",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737343312/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sean Cozart, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus contorta Observation #401711588",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737341772/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) mattkitchen21, some rights reserved (CC BY-NC)"
         }
       ],
@@ -7301,7 +7301,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus contorta Observation #401695534",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737308648/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Caleb Catto, some rights reserved (CC BY)"
         }
       ]
@@ -7331,7 +7331,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus mugo Observation #402085419",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738093811/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) jasonleyda, some rights reserved (CC BY-NC)"
         }
       ],
@@ -7365,73 +7365,73 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus mugo Observation #402085402",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738093770/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) jasonleyda, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus mugo Observation #401827412",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737575370/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) silvia_selnekovic, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus mugo Observation #401116541",
           "url": "https://static.inaturalist.org/photos/736187273/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Joe Rizzi, all rights reserved"
         },
         {
           "title": "Pinus mugo Observation #401088806",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736120161/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Wolfgang Bacher, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus mugo Observation #401050526",
           "url": "https://static.inaturalist.org/photos/736054944/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) lanzbaumann, all rights reserved"
         },
         {
           "title": "Pinus mugo Observation #400917033",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735794512/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Elio Giacone, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus mugo Observation #400679678",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735317815/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) W31R4X, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus mugo Observation #400674866",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735307983/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ana Marina Rodriguez, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus mugo Observation #400674669",
           "url": "https://static.inaturalist.org/photos/735307527/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Laura Alonso de Román, all rights reserved"
         },
         {
           "title": "Pinus mugo Observation #400549976",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735061128/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) philiprd, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus mugo Observation #400469809",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734895575/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Víctor García, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus mugo Observation #400414483",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734789154/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Daniele Baroni, some rights reserved (CC BY-NC)"
         }
       ],
@@ -7439,13 +7439,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus mugo Observation #401801531",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737525787/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Alexei Lis, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus mugo Observation #401615056",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737144449/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Wolfgang Bacher, some rights reserved (CC BY-NC)"
         }
       ],
@@ -7453,7 +7453,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus mugo Observation #401615055",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737144025/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Wolfgang Bacher, some rights reserved (CC BY-NC)"
         }
       ],
@@ -7461,13 +7461,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus mugo Observation #401521734",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736975718/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Franz Schantl, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus mugo Observation #401456894",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736848052/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Danielle Frohlich, some rights reserved (CC BY-NC)"
         }
       ],
@@ -7475,7 +7475,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus mugo Observation #401441922",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736791891/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Wolfgang Bacher, some rights reserved (CC BY-NC)"
         }
       ],
@@ -7483,13 +7483,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus mugo Observation #401332401",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736597690/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) lukaswalas, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus mugo Observation #401302414",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736540468/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) myskamiska, some rights reserved (CC BY-NC)"
         }
       ],
@@ -7497,7 +7497,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus mugo Observation #401248371",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736439551/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Maxmilián Kudláček, some rights reserved (CC BY-NC)"
         }
       ]
@@ -7567,73 +7567,73 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus nigra Observation #402126191",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738173594/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) bg, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus nigra Observation #398171242",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/730378217/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) gsp_q2n_rotbauchunke, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus nigra Observation #398118216",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/730278749/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Marie A., some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus nigra Observation #397933566",
           "url": "https://static.inaturalist.org/photos/729914129/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Luning Chen, all rights reserved"
         },
         {
           "title": "Pinus nigra Observation #397907726",
           "url": "https://static.inaturalist.org/photos/729860569/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) kimberley taylor, all rights reserved"
         },
         {
           "title": "Pinus nigra Observation #397905907",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/729856949/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ondřej Křivan, some rights reserved (CC BY)"
         },
         {
           "title": "Pinus nigra Observation #397835156",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/729715374/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Clemens Pachschwöll, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus nigra Observation #397675829",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/729417514/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Victor C, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus nigra Observation #397375463",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/728827664/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) celiiafdezz, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus nigra Observation #397143711",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/728378267/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Pinus nigra Observation #396935065",
           "url": "https://static.inaturalist.org/photos/727963502/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Alain Cervantes, all rights reserved"
         },
         {
           "title": "Pinus nigra Observation #396850252",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/727801096/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Alex Fergus, some rights reserved (CC BY-NC)"
         }
       ],
@@ -7641,13 +7641,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus nigra Observation #401636146",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737191062/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) I❤️ Nature and Reptiles, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus nigra Observation #401073289",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736100519/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ondřej Křivan, some rights reserved (CC BY)"
         }
       ],
@@ -7655,13 +7655,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus nigra Observation #401038729",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736030840/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) philippwogowitsch, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus nigra Observation #400930776",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735823858/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Marko Ćosić, some rights reserved (CC BY-NC)"
         }
       ],
@@ -7669,19 +7669,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus nigra Observation #400462204",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734881166/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sergio López Castelo, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus nigra Observation #400450645",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734339450/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ángel Fernández Cancio, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus nigra Observation #400125830",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734197672/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Martin A. Prinz, some rights reserved (CC BY-NC)"
         }
       ],
@@ -7689,19 +7689,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus nigra Observation #399852090",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/733659774/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Paul Wolf, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus nigra Observation #399473372",
           "url": "https://static.inaturalist.org/photos/732919973/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) garf, all rights reserved"
         },
         {
           "title": "Pinus nigra Observation #399338461",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/732649908/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) benjamin_petra_schattanek-wiesmair, some rights reserved (CC BY-NC)"
         }
       ],
@@ -7709,7 +7709,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus nigra Observation #398366533",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/730773367/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Andreas Jäger, some rights reserved (CC BY-NC)"
         }
       ],
@@ -7717,7 +7717,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus nigra Observation #398174429",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/730385208/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) pedro_fonseca_alverca, some rights reserved (CC BY-NC)"
         }
       ]
@@ -7735,19 +7735,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus ponderosa Observation #402058301",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738038062/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) n8richardson, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus ponderosa Observation #402007468",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737933218/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Pinus ponderosa Observation #401960208",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737836870/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) brotha_nature, some rights reserved (CC BY-NC)"
         }
       ],
@@ -7756,43 +7756,43 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus ponderosa Observation #401959816",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737835953/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) brotha_nature, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus ponderosa Observation #401704907",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737328373/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) matrushka1, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus ponderosa Observation #401665953",
           "url": "https://static.inaturalist.org/photos/737249789/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Madison, all rights reserved"
         },
         {
           "title": "Pinus ponderosa Observation #401604651",
           "url": "https://static.inaturalist.org/photos/737163541/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Steven Jeffrey, all rights reserved"
         },
         {
           "title": "Pinus ponderosa Observation #401576053",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737077148/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Pinus ponderosa Observation #401425058",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736783593/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) tinawiley, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus ponderosa Observation #401422908",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736779359/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Francis J. Golden, some rights reserved (CC BY-NC)"
         }
       ],
@@ -7800,7 +7800,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus ponderosa Observation #401959429",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737834945/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) brotha_nature, some rights reserved (CC BY-NC)"
         }
       ],
@@ -7808,7 +7808,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus ponderosa Observation #401958597",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737834086/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) brotha_nature, some rights reserved (CC BY-NC)"
         }
       ],
@@ -7816,7 +7816,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus ponderosa Observation #401958043",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737832248/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) brotha_nature, some rights reserved (CC BY-NC)"
         }
       ],
@@ -7824,7 +7824,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus ponderosa Observation #401957867",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737831843/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) brotha_nature, some rights reserved (CC BY-NC)"
         }
       ],
@@ -7832,19 +7832,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus ponderosa Observation #401941248",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737799121/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) j_kirley, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus ponderosa Observation #401917093",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737749961/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) gardenhen, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus ponderosa Observation #401727751",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737373632/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Barrett Coller Jr., some rights reserved (CC BY)"
         }
       ],
@@ -7852,19 +7852,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus ponderosa Observation #401727751",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737373668/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Barrett Coller Jr., some rights reserved (CC BY)"
         },
         {
           "title": "Pinus ponderosa Observation #401717303",
           "url": "https://static.inaturalist.org/photos/737353701/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) cassie mapolski, all rights reserved"
         },
         {
           "title": "Pinus ponderosa Observation #401704907",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737328085/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) matrushka1, some rights reserved (CC BY-NC)"
         }
       ]
@@ -7882,7 +7882,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus strobus Observation #402132343",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738185490/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) iboulard, some rights reserved (CC BY-NC)"
         }
       ],
@@ -7891,67 +7891,67 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus strobus Observation #402097396",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738116677/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) wez, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus strobus Observation #402017788",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737952743/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) kktoast, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus strobus Observation #402011461",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737940819/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) phoenix123, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus strobus Observation #402007118",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737932432/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Lisa Proulx, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus strobus Observation #401988882",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737895816/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) tfriesein, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus strobus Observation #401955338",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737826948/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Cathy Bester, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus strobus Observation #401953660",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737827077/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) dora_la_exploradora, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus strobus Observation #401947587",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737810680/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) skylar0524, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus strobus Observation #401944074",
           "url": "https://static.inaturalist.org/photos/737805052/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Joseph Walewski, all rights reserved"
         },
         {
           "title": "Pinus strobus Observation #401941253",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737799129/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) gabrieloliver, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus strobus Observation #401938975",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737794164/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) ada_ersu, some rights reserved (CC BY-NC)"
         }
       ],
@@ -7959,13 +7959,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus strobus Observation #402087960",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738090394/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Michael, Antoni and Nihat Hinczewski, some rights reserved (CC BY)"
         },
         {
           "title": "Pinus strobus Observation #402078262",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738079210/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) max990022, some rights reserved (CC BY-NC)"
         }
       ],
@@ -7973,13 +7973,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus strobus Observation #402072220",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738067038/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Heather Haughn, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus strobus Observation #402068494",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738059059/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Owen Clarkin, some rights reserved (CC BY-NC)"
         }
       ],
@@ -7987,7 +7987,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus strobus Observation #402066789",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738039226/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Alexander R., some rights reserved (CC BY-NC)"
         }
       ],
@@ -7995,13 +7995,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus strobus Observation #402060435",
           "url": "https://static.inaturalist.org/photos/738042431/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Emily Delfosse, all rights reserved"
         },
         {
           "title": "Pinus strobus Observation #402058252",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738049123/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Anita Payne De Gaia, some rights reserved (CC BY-NC)"
         }
       ],
@@ -8009,13 +8009,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus strobus Observation #402044924",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738010116/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) gracerosa, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus strobus Observation #402043406",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737995981/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) molegagirl, some rights reserved (CC BY-NC)"
         }
       ],
@@ -8023,13 +8023,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus strobus Observation #402030187",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737979894/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Jessica Sory, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus strobus Observation #402023486",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737965411/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) trisha_s, some rights reserved (CC BY-NC)"
         }
       ]
@@ -8047,13 +8047,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus sylvestris Observation #402159560",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738239368/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Oleg Kosterin, some rights reserved (CC BY)"
         },
         {
           "title": "Pinus sylvestris Observation #402155893",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738232789/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) shadow_385, some rights reserved (CC BY)"
         }
       ],
@@ -8062,43 +8062,43 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus sylvestris Observation #402153672",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738228513/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Георгий Виноградов (Georgy Vinogradov), some rights reserved (CC BY)"
         },
         {
           "title": "Pinus sylvestris Observation #402144126",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738208758/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) kaleksik, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus sylvestris Observation #402131974",
           "url": "https://static.inaturalist.org/photos/738184851/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Mariya Selivanova ( Sosnina), all rights reserved"
         },
         {
           "title": "Pinus sylvestris Observation #401945217",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737806579/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) edvin55, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus sylvestris Observation #401942347",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737801780/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sergio López Castelo, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus sylvestris Observation #401937728",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737779645/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Станислав, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus sylvestris Observation #401913874",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737743719/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Martin Scheidleder, some rights reserved (CC BY)"
         }
       ],
@@ -8106,13 +8106,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus sylvestris Observation #402126500",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738173667/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Наталья Гамова, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus sylvestris Observation #402118668",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738157692/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Yaroslav Magazov, some rights reserved (CC BY-NC)"
         }
       ],
@@ -8120,19 +8120,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus sylvestris Observation #402112780",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738147299/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) janeascending, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus sylvestris Observation #402048590",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738017429/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Timur Bashinsky, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus sylvestris Observation #402010184",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737938147/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) phoenix123, some rights reserved (CC BY-NC)"
         }
       ],
@@ -8140,7 +8140,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus sylvestris Observation #401991015",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737896120/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Alexander Baransky, some rights reserved (CC BY-NC)"
         }
       ],
@@ -8148,19 +8148,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus sylvestris Observation #401986628",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737890665/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Veveris, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus sylvestris Observation #401970223",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737844422/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Eduard Garin, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pinus sylvestris Observation #401962388",
           "url": "https://static.inaturalist.org/photos/737840611/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Martin Taylor, all rights reserved"
         }
       ],
@@ -8168,13 +8168,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus sylvestris Observation #401962388",
           "url": "https://static.inaturalist.org/photos/737840612/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Martin Taylor, all rights reserved"
         },
         {
           "title": "Pinus sylvestris Observation #401959265",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737813306/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Станислав, some rights reserved (CC BY-NC)"
         }
       ],
@@ -8182,7 +8182,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Pinus sylvestris Observation #401954948",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737827113/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) julieslav, some rights reserved (CC BY-NC)"
         }
       ]
@@ -8200,13 +8200,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Platanus x Observation #401316932",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736568801/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Dmitry Trutsko, some rights reserved (CC BY)"
         },
         {
           "title": "Platanus x Observation #401238248",
           "url": "https://static.inaturalist.org/photos/736420911/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) David Whiteley, all rights reserved"
         }
       ],
@@ -8215,73 +8215,73 @@ window.PLANT_DATABASE = [
         {
           "title": "Platanus x Observation #400703657",
           "url": "https://static.inaturalist.org/photos/735365533/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Mar, all rights reserved"
         },
         {
           "title": "Platanus x Observation #396881193",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/727854174/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Dragonfyre, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Platanus x Observation #396764225",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/727616103/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Alex Press, some rights reserved (CC BY)"
         },
         {
           "title": "Platanus x Observation #396736169",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/727570386/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) yorkshiresoul, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Platanus x Observation #396354309",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/726874440/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Martin Sedlák, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Platanus x Observation #396339293",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/726845885/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Věra Kafková, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Platanus x Observation #396325832",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/726817977/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) jpmc_lydden, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Platanus x Observation #396127695",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/726403346/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) aurorapanizza, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Platanus x Observation #396104486",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/726379026/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) hannah_1124, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Platanus x Observation #394787269",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/723794254/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Platanus x Observation #394347554",
           "url": "https://static.inaturalist.org/photos/722939954/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Lea Marie Baumgartner, all rights reserved"
         },
         {
           "title": "Platanus x Observation #393545340",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/721350970/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) jamie-aa, some rights reserved (CC BY)"
         }
       ],
@@ -8289,13 +8289,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Platanus x Observation #400288067",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734521948/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) zebedeugalinha, some rights reserved (CC BY)"
         },
         {
           "title": "Platanus x Observation #400209346",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734363376/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) jamie-aa, some rights reserved (CC BY)"
         }
       ],
@@ -8304,7 +8304,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Platanus x Observation #400121499",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734190637/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) homointerrogans, some rights reserved (CC BY-NC)"
         }
       ],
@@ -8312,19 +8312,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Platanus x Observation #399824356",
           "url": "https://static.inaturalist.org/photos/733602756/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Jonathan Lesven, all rights reserved"
         },
         {
           "title": "Platanus x Observation #399524049",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/733015775/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) sharmy, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Platanus x Observation #399057310",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/732106837/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Věra Kafková, some rights reserved (CC BY-NC)"
         }
       ],
@@ -8332,7 +8332,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Platanus x Observation #398809208",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/731627165/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Marco Zaccaria Di Fraia, some rights reserved (CC BY)"
         }
       ],
@@ -8340,13 +8340,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Platanus x Observation #398735890",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/731465766/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Platanus x Observation #397145030",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/728377893/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Pere Pujol Font, some rights reserved (CC BY-NC)"
         }
       ]
@@ -8364,19 +8364,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Populus x Observation #402181852",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738281280/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sergio López Castelo, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus x Observation #402067617",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738051259/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) jack, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus x Observation #402046600",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737966976/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Jo Roberts, some rights reserved (CC BY)"
         }
       ],
@@ -8385,67 +8385,67 @@ window.PLANT_DATABASE = [
         {
           "title": "Populus x Observation #401610463",
           "url": "https://static.inaturalist.org/photos/737135424/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Maël Pierre, all rights reserved"
         },
         {
           "title": "Populus x Observation #401542682",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737016503/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) djmblair, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus x Observation #401429940",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736789969/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Martin A. Prinz, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus x Observation #401408370",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736750464/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) YCL, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus x Observation #401401255",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736735464/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Francis J. Golden, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus x Observation #401320420",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736569339/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Margarita Gafurova, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus x Observation #401263348",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736585080/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) krizz008, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus x Observation #401250306",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736435640/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) jack, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus x Observation #401172236",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736295525/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) lyric, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus x Observation #401153312",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736256735/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Gavin Skeen, some rights reserved (CC BY)"
         },
         {
           "title": "Populus x Observation #401147873",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736248669/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Daniel Hetzel, some rights reserved (CC BY-NC)"
         }
       ],
@@ -8453,13 +8453,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Populus x Observation #402002644",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737872490/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ángel Fernández Cancio, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus x Observation #401961380",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737839231/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Adrián Valdés, some rights reserved (CC BY-NC)"
         }
       ],
@@ -8467,7 +8467,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Populus x Observation #401918873",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737722357/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         }
       ],
@@ -8475,13 +8475,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Populus x Observation #401910072",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737735454/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Julius Simonelli, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus x Observation #401906056",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737727122/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) mikayab, some rights reserved (CC BY-NC)"
         }
       ],
@@ -8489,13 +8489,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Populus x Observation #401878014",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737669179/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Pere Barnola, some rights reserved (CC BY-SA)"
         },
         {
           "title": "Populus x Observation #401766065",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737450715/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) C. Mallory, some rights reserved (CC BY-NC)"
         }
       ],
@@ -8503,7 +8503,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Populus x Observation #401761865",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737445037/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Elijah S., some rights reserved (CC BY-NC)"
         }
       ],
@@ -8511,13 +8511,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Populus x Observation #401706402",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737330615/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) milosmith, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus x Observation #401610856",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737142343/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) ddepaolis, some rights reserved (CC BY-NC)"
         }
       ]
@@ -8535,37 +8535,37 @@ window.PLANT_DATABASE = [
         {
           "title": "Populus x wettsteinii Observation #401647499",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737213397/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Mikael Bauer, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus x wettsteinii Observation #359497746",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/655910541/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) tt2019, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus x wettsteinii Observation #285883861",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/513893380/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Siiri Inkilä, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus x wettsteinii (Hybrid Aspen) Obs #297377627",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/535541823/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Saara Salmela, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus x wettsteinii (Hybrid Aspen) Obs #294531207",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/530148979/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Mikko Heikkinen, some rights reserved (CC BY)"
         },
         {
           "title": "Populus x wettsteinii (Hybrid Aspen) Obs #127856405",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/217142667/large.jpeg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Mika E Laine, some rights reserved (CC BY-NC)"
         }
       ],
@@ -8574,25 +8574,25 @@ window.PLANT_DATABASE = [
         {
           "title": "Populus x wettsteinii Observation #263141631",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/472678330/large.jpeg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) sofiaathaandr, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus x wettsteinii (Hybrid Aspen) Obs #297377627",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/535541869/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Saara Salmela, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus x wettsteinii (Hybrid Aspen) Obs #294531209",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/530149830/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Mikko Heikkinen, some rights reserved (CC BY)"
         },
         {
           "title": "Populus x wettsteinii (Hybrid Aspen) Obs #127856405",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/217142141/large.jpeg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Mika E Laine, some rights reserved (CC BY-NC)"
         }
       ],
@@ -8600,19 +8600,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Populus x wettsteinii (Hybrid Aspen) Obs #297377627",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/535541884/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Saara Salmela, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus x wettsteinii (Hybrid Aspen) Obs #294531209",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/530148999/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Mikko Heikkinen, some rights reserved (CC BY)"
         },
         {
           "title": "Populus x wettsteinii (Hybrid Aspen) Obs #127856405",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/217108707/large.jpeg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Mika E Laine, some rights reserved (CC BY-NC)"
         }
       ],
@@ -8620,7 +8620,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Populus x wettsteinii (Hybrid Aspen) Obs #327010723",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/592359570/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Saara Salmela, some rights reserved (CC BY-NC)"
         }
       ],
@@ -8628,19 +8628,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Populus x wettsteinii (Hybrid Aspen) Obs #327010723",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/592359559/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Saara Salmela, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus x wettsteinii (Hybrid Aspen) Obs #297377627",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/535541744/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Saara Salmela, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus x wettsteinii (Hybrid Aspen) Obs #294531207",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/530148987/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Mikko Heikkinen, some rights reserved (CC BY)"
         }
       ],
@@ -8650,19 +8650,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Populus x wettsteinii (Hybrid Aspen) Obs #320198137",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/578894201/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Jere Kahanpää, some rights reserved (CC BY)"
         },
         {
           "title": "Populus x wettsteinii (Hybrid Aspen) Obs #297377627",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/537496261/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Saara Salmela, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus x wettsteinii (Hybrid Aspen) Obs #294531210",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/530149002/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Mikko Heikkinen, some rights reserved (CC BY)"
         }
       ]
@@ -8680,13 +8680,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Populus tremula Observation #402188380",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738293885/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Michal Svit, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus tremula Observation #402180259",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738278532/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Hazel Elmendorf, some rights reserved (CC BY-NC)"
         }
       ],
@@ -8695,55 +8695,55 @@ window.PLANT_DATABASE = [
         {
           "title": "Populus tremula Observation #402161769",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738269893/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) justin_lebeau, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus tremula Observation #402149725",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738216638/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Марина Садыкова, some rights reserved (CC BY)"
         },
         {
           "title": "Populus tremula Observation #402014326",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737945905/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Scott Shanks, some rights reserved (CC BY)"
         },
         {
           "title": "Populus tremula Observation #402007870",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737934019/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ree Laforet, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus tremula Observation #401992752",
           "url": "https://static.inaturalist.org/photos/737902596/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Aaron Guerra, all rights reserved"
         },
         {
           "title": "Populus tremula Observation #401981207",
           "url": "https://static.inaturalist.org/photos/737880643/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) doucesu, all rights reserved"
         },
         {
           "title": "Populus tremula Observation #401974850",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737853582/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) robert_thibault, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus tremula Observation #401973003",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737862722/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) ChloFlow, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus tremula Observation #401965616",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737850532/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Dale Swedberg, some rights reserved (CC BY-NC)"
         }
       ],
@@ -8751,7 +8751,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Populus tremula Observation #402148903",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738218869/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Anita Payne De Gaia, some rights reserved (CC BY-NC)"
         }
       ],
@@ -8759,13 +8759,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Populus tremula Observation #402131964",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738181630/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Yaroslav Magazov, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus tremula Observation #402103800",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738129356/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) pupa_babe, some rights reserved (CC BY-NC)"
         }
       ],
@@ -8773,13 +8773,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Populus tremula Observation #402084527",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738091481/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Oleg Kosterin, some rights reserved (CC BY)"
         },
         {
           "title": "Populus tremula Observation #402068802",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738059699/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) lucastaylor3, some rights reserved (CC BY-NC)"
         }
       ],
@@ -8787,13 +8787,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Populus tremula Observation #402068185",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738058433/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Eva Roethler, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus tremula Observation #402050444",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738028774/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) your_local_snake_nerd, some rights reserved (CC BY-NC)"
         }
       ],
@@ -8801,19 +8801,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Populus tremula Observation #402044836",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738010007/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) pes_c515, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Populus tremula Observation #402031657",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737982741/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Andrew Sebastian, some rights reserved (CC BY)"
         },
         {
           "title": "Populus tremula Observation #402031062",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737973530/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Daughter Dad, some rights reserved (CC BY)"
         }
       ],
@@ -8821,13 +8821,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Populus tremula Observation #402031055",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737973495/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Daughter Dad, some rights reserved (CC BY)"
         },
         {
           "title": "Populus tremula Observation #402018228",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737953777/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Big Year, some rights reserved (CC BY-NC)"
         }
       ]
@@ -8845,13 +8845,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Prunus avium Observation #402047361",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738014838/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Rainey Bellows, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus avium Observation #401957277",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737830602/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Aden Sommerville, some rights reserved (CC BY)"
         }
       ],
@@ -8860,61 +8860,61 @@ window.PLANT_DATABASE = [
         {
           "title": "Prunus avium Observation #401603398",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737127274/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) adelion, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus avium Observation #401582530",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737089880/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) oshua_o, some rights reserved (CC BY-NC-SA)"
         },
         {
           "title": "Prunus avium Observation #400919347",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735799055/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) jonnypetts, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus avium Observation #400911707",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735783070/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Marijana Hrastic-Colig, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus avium Observation #400840434",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735635679/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Viktor Strenada, some rights reserved (CC BY)"
         },
         {
           "title": "Prunus avium Observation #400798180",
           "url": "https://static.inaturalist.org/photos/735552928/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) johnbremer, all rights reserved"
         },
         {
           "title": "Prunus avium Observation #400697185",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735352541/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Prunus avium Observation #400565525",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735092695/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Remington Tengs Jackson, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus avium Observation #400499655",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734953935/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sepp Schmid, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus avium Observation #400125805",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734197572/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Martin A. Prinz, some rights reserved (CC BY-NC)"
         }
       ],
@@ -8922,19 +8922,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Prunus avium Observation #401283849",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736502972/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Prunus avium Observation #401280394",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736498376/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Mathis Vuillemin, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus avium Observation #401264956",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736452515/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Alex Press, some rights reserved (CC BY)"
         }
       ],
@@ -8942,19 +8942,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Prunus avium Observation #401246123",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736432890/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Prunus avium Observation #401243824",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736430871/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) pedawson, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus avium Observation #401221699",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736391422/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Andrian, some rights reserved (CC BY-NC)"
         }
       ],
@@ -8962,7 +8962,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Prunus avium Observation #401219820",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736388077/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Elise Garcia, some rights reserved (CC BY-NC)"
         }
       ],
@@ -8970,7 +8970,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Prunus avium Observation #401219550",
           "url": "https://static.inaturalist.org/photos/736389937/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) alloyd12, all rights reserved"
         }
       ],
@@ -8978,7 +8978,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Prunus avium Observation #401113043",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736179687/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) maidmarion, some rights reserved (CC BY-NC)"
         }
       ],
@@ -8986,19 +8986,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Prunus avium Observation #401087837",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736129838/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) honza_manousek, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus avium Observation #401079113",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736112665/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) maidmarion, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus avium Observation #400927349",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735820947/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Marco Pecoraro, some rights reserved (CC BY-NC)"
         }
       ]
@@ -9016,13 +9016,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Prunus padus Observation #402162400",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738243913/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Наталья Гамова, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus padus Observation #402150350",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738222432/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) mantis203, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9031,61 +9031,61 @@ window.PLANT_DATABASE = [
         {
           "title": "Prunus padus Observation #402118637",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738157344/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Yaroslav Magazov, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus padus Observation #401208588",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736365817/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Nora Duchene, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus padus Observation #401174105",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736297610/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Gennadiy Okatov, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus padus Observation #401144697",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736242494/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Igor, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus padus Observation #401129395",
           "url": "https://static.inaturalist.org/photos/736212133/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Helen Mary James, all rights reserved"
         },
         {
           "title": "Prunus padus Observation #401066407",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736081894/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) tt2019, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus padus Observation #400924646",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735809235/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Lubov and Gleb, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus padus Observation #400793191",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735541657/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) eugenezakharov, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus padus Observation #400773168",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735496513/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Alexander Iosipenko, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus padus Observation #400760384",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735475641/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) noctiluc3nt, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9093,13 +9093,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Prunus padus Observation #401984408",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737883737/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Miroslav Stamenov, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus padus Observation #401950930",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737817691/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Florentine Maier, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9107,13 +9107,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Prunus padus Observation #401855520",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737625437/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Prunus padus Observation #401782535",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737487337/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Наталья Савельева, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9121,13 +9121,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Prunus padus Observation #401778828",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737477445/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Gennadiy Okatov, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus padus Observation #401722950",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737053330/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) ocanire, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9135,19 +9135,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Prunus padus Observation #401628227",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737175566/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Jakub, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus padus Observation #401567585",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737061249/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) sergejseleznev, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus padus Observation #401458692",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736851876/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ivan Goryunov, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9155,7 +9155,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Prunus padus Observation #401449610",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736824331/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Miroslav Stamenov, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9163,13 +9163,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Prunus padus Observation #401247447",
           "url": "https://static.inaturalist.org/photos/736437848/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Stanisław Sroka, all rights reserved"
         },
         {
           "title": "Prunus padus Observation #401228307",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736403891/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) veronikahedera, some rights reserved (CC BY-NC)"
         }
       ]
@@ -9187,13 +9187,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Prunus spinosa Observation #402206551",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738328505/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Prunus spinosa Observation #402155316",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738223972/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) anton_abushin, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9202,49 +9202,49 @@ window.PLANT_DATABASE = [
         {
           "title": "Prunus spinosa Observation #402154641",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738222605/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) anton_abushin, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus spinosa Observation #402136189",
           "url": "https://static.inaturalist.org/photos/738192724/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Frank Joisten, all rights reserved"
         },
         {
           "title": "Prunus spinosa Observation #402129312",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738179750/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sokolov Yuriy Ivanovich, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus spinosa Observation #401873862",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737663779/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Pere Barnola, some rights reserved (CC BY-SA)"
         },
         {
           "title": "Prunus spinosa Observation #401870008",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737657412/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Prunus spinosa Observation #401854880",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738141150/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) dreampilgrim13, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus spinosa Observation #401852504",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737623960/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) tyla_and_the_creator, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus spinosa Observation #401852081",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737623367/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) pempy, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9252,13 +9252,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Prunus spinosa Observation #402128485",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738178304/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sokolov Yuriy Ivanovich, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus spinosa Observation #402120448",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738161469/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Martin A. Prinz, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9266,19 +9266,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Prunus spinosa Observation #402116581",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738155167/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Анна Митрошенкова, some rights reserved (CC BY)"
         },
         {
           "title": "Prunus spinosa Observation #402115565",
           "url": "https://static.inaturalist.org/photos/738153245/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Zoltán Hudák, all rights reserved"
         },
         {
           "title": "Prunus spinosa Observation #402107844",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738137184/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) chegessau, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9286,7 +9286,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Prunus spinosa Observation #402099467",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738120854/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Stipe Vujevic, some rights reserved (CC BY-NC-SA)"
         }
       ],
@@ -9294,13 +9294,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Prunus spinosa Observation #402049491",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738019297/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) rbartgis, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus spinosa Observation #401987747",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737893459/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         }
       ],
@@ -9308,19 +9308,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Prunus spinosa Observation #401985681",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737888489/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) pierrenoel, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus spinosa Observation #401955419",
           "url": "https://static.inaturalist.org/photos/737827107/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Jette Strasen (Grantilope), all rights reserved"
         },
         {
           "title": "Prunus spinosa Observation #401953414",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737823834/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ralf Schwab, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9328,19 +9328,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Prunus spinosa Observation #401942441",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737801979/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) burkardleitner, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus spinosa Observation #401939190",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737794687/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) johannesharder, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Prunus spinosa Observation #401932540",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737781465/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) sunflowersuefr, some rights reserved (CC BY-NC)"
         }
       ]
@@ -9358,13 +9358,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Pseudotsuga menziesii Observation #402058677",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738038066/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sarah Reid, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pseudotsuga menziesii Observation #402058572",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738038657/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) n8richardson, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9373,49 +9373,49 @@ window.PLANT_DATABASE = [
         {
           "title": "Pseudotsuga menziesii Observation #402055514",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738030182/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sarah Reid, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pseudotsuga menziesii Observation #401905769",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737726760/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Justine Moriarty, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pseudotsuga menziesii Observation #401877727",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737673222/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Alexis Tinker-Tsavalas, some rights reserved (CC BY)"
         },
         {
           "title": "Pseudotsuga menziesii Observation #401760665",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737433734/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) leewarren, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pseudotsuga menziesii Observation #401740058",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737399556/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Pseudotsuga menziesii Observation #401714540",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737348047/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) mat200529, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pseudotsuga menziesii Observation #401708419",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737335097/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) cheriththewoods, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pseudotsuga menziesii Observation #401706934",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737331747/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) River Wilder, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9423,13 +9423,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Pseudotsuga menziesii Observation #402042910",
           "url": "https://static.inaturalist.org/photos/738006333/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) robinf, all rights reserved"
         },
         {
           "title": "Pseudotsuga menziesii Observation #402039386",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737998138/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Kai Suzuki, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9437,19 +9437,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Pseudotsuga menziesii Observation #402039131",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737997682/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) daisyprado, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pseudotsuga menziesii Observation #402031077",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737973669/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Daughter Dad, some rights reserved (CC BY)"
         },
         {
           "title": "Pseudotsuga menziesii Observation #402030103",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737979696/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) batkity, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9457,19 +9457,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Pseudotsuga menziesii Observation #402019723",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737956938/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) p1geonmaster, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pseudotsuga menziesii Observation #401991612",
           "url": "https://static.inaturalist.org/photos/737900163/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ruth Curran, all rights reserved"
         },
         {
           "title": "Pseudotsuga menziesii Observation #401964035",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737843979/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Aden Sommerville, some rights reserved (CC BY)"
         }
       ],
@@ -9477,7 +9477,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Pseudotsuga menziesii Observation #401962501",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737841473/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Dale Swedberg, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9485,13 +9485,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Pseudotsuga menziesii Observation #401960752",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737837779/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) rikanishioka, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pseudotsuga menziesii Observation #401955149",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737826411/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Aden Sommerville, some rights reserved (CC BY)"
         }
       ],
@@ -9499,13 +9499,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Pseudotsuga menziesii Observation #401940424",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737797472/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Lisa Baile, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pseudotsuga menziesii Observation #401914582",
           "url": "https://static.inaturalist.org/photos/737745212/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) svengco, all rights reserved"
         }
       ]
@@ -9523,13 +9523,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Pyrus communis Observation #402107879",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738135975/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Наталія Кратасюк, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pyrus communis Observation #401963266",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737842712/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) joanmontagnes, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9538,55 +9538,55 @@ window.PLANT_DATABASE = [
         {
           "title": "Pyrus communis Observation #401940987",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737791252/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Margarita Gafurova, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pyrus communis Observation #401804290",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737531122/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) hibbsy37, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pyrus communis Observation #400956515",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735875599/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Denys Davydov, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pyrus communis Observation #400853615",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735662964/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) logxn, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pyrus communis Observation #400784922",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735524982/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Jackson Bird, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pyrus communis Observation #400770668",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735497764/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) hasenzahn, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pyrus communis Observation #400732112",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735422958/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) diakushenko, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pyrus communis Observation #400697650",
           "url": "https://static.inaturalist.org/photos/735353412/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Alain Cervantes, all rights reserved"
         },
         {
           "title": "Pyrus communis Observation #400656232",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735279630/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) ARSENIO GONZALEZ NAVARRO, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9594,19 +9594,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Pyrus communis Observation #401600681",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737122117/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) fkfhof, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pyrus communis Observation #401595408",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737103902/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Alexander Baransky, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pyrus communis Observation #401246602",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736436182/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) ianford0705, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9614,7 +9614,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Pyrus communis Observation #401246112",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736432744/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         }
       ],
@@ -9622,7 +9622,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Pyrus communis Observation #401096854",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736142610/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) ver_un_erizo, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9630,13 +9630,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Pyrus communis Observation #401093045",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736127053/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) ver_un_erizo, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Pyrus communis Observation #401070332",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736094964/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ondřej Křivan, some rights reserved (CC BY)"
         }
       ],
@@ -9644,13 +9644,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Pyrus communis Observation #401070332",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736095081/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ondřej Křivan, some rights reserved (CC BY)"
         },
         {
           "title": "Pyrus communis Observation #401017312",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735990006/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Andrii Bavol, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9658,7 +9658,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Pyrus communis Observation #400989469",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735936133/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Jakub Sůsa, some rights reserved (CC BY-NC)"
         }
       ]
@@ -9676,19 +9676,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Quercus petraea Observation #402145160",
           "url": "https://static.inaturalist.org/photos/738210829/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Paul Whitmarsh, all rights reserved"
         },
         {
           "title": "Quercus petraea Observation #401680018",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737277140/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) lmattes, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Quercus petraea Observation #401613924",
           "url": "https://static.inaturalist.org/photos/737147701/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Martin Matus, all rights reserved"
         }
       ],
@@ -9697,31 +9697,31 @@ window.PLANT_DATABASE = [
         {
           "title": "Quercus petraea Observation #401516358",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736965533/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Tadeáš Jan Vašut, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Quercus petraea Observation #400196707",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734339553/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Peter Phillips, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Quercus petraea Observation #400160727",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734267275/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) David Hocken, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Quercus petraea Observation #400145898",
           "url": "https://static.inaturalist.org/photos/734237583/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) freept, all rights reserved"
         },
         {
           "title": "Quercus petraea Observation #399982893",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/733905919/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Anil, some rights reserved (CC BY-NC-ND)"
         }
       ],
@@ -9729,13 +9729,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Quercus petraea Observation #401316035",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736566674/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Clem, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Quercus petraea Observation #401191748",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736333152/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Michal Ducháček, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9743,7 +9743,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Quercus petraea Observation #401048777",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736096781/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) hasenzahn, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9751,13 +9751,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Quercus petraea Observation #400969820",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735898569/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Cheryl, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Quercus petraea Observation #400960894",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735881527/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Xavier JAPIOT, some rights reserved (CC BY)"
         }
       ],
@@ -9765,13 +9765,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Quercus petraea Observation #400955964",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735920616/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) jon-av, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Quercus petraea Observation #400936667",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735835183/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Kyle Power, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9779,19 +9779,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Quercus petraea Observation #400773888",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735498477/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Dirk Mezger, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Quercus petraea Observation #400732054",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735421134/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) lisaftn857, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Quercus petraea Observation #400686888",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735331581/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) ahmedm, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9799,13 +9799,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Quercus petraea Observation #400423883",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734806907/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) David Hocken, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Quercus petraea Observation #400398946",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734757931/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) King, some rights reserved (CC BY-NC)"
         }
       ]
@@ -9823,19 +9823,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Quercus robur Observation #402206681",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738328765/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Quercus robur Observation #402206617",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738328953/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Igor Balashov, some rights reserved (CC BY)"
         },
         {
           "title": "Quercus robur Observation #402205274",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738312837/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Miroslav Stamenov, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9844,25 +9844,25 @@ window.PLANT_DATABASE = [
         {
           "title": "Quercus robur Observation #402205249",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738311382/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Miroslav Stamenov, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Quercus robur Observation #402175948",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738270585/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) machova_k, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Quercus robur Observation #402174478",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738268204/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) James, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Quercus robur Observation #401959246",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737813136/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Станислав, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9870,19 +9870,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Quercus robur Observation #402174286",
           "url": "https://static.inaturalist.org/photos/738267719/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) niall_gee, all rights reserved"
         },
         {
           "title": "Quercus robur Observation #402172371",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738264462/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) James, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Quercus robur Observation #402155041",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738231253/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) keepercodie, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9890,13 +9890,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Quercus robur Observation #402149711",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738216224/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Марина Садыкова, some rights reserved (CC BY)"
         },
         {
           "title": "Quercus robur Observation #402146397",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738213328/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Igor Balashov, some rights reserved (CC BY)"
         }
       ],
@@ -9904,19 +9904,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Quercus robur Observation #402135027",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738190266/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Анна Митрошенкова, some rights reserved (CC BY)"
         },
         {
           "title": "Quercus robur Observation #402132428",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738185776/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Igor Balashov, some rights reserved (CC BY)"
         },
         {
           "title": "Quercus robur Observation #402131952",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738181571/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Yaroslav Magazov, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9924,19 +9924,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Quercus robur Observation #402125630",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738172660/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Igor Balashov, some rights reserved (CC BY)"
         },
         {
           "title": "Quercus robur Observation #402118694",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738157883/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Yaroslav Magazov, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Quercus robur Observation #402107884",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738136041/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Наталія Кратасюк, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9944,19 +9944,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Quercus robur Observation #402050241",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738021301/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Timur Bashinsky, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Quercus robur Observation #401985335",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737887554/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) pierrenoel, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Quercus robur Observation #401984258",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737885740/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Veveris, some rights reserved (CC BY-NC)"
         }
       ],
@@ -9964,13 +9964,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Quercus robur Observation #401970131",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737835635/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Eduard Garin, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Quercus robur Observation #401959358",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737814188/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Станислав, some rights reserved (CC BY-NC)"
         }
       ]
@@ -9988,13 +9988,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Quercus rubra Observation #402198321",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738310679/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Allan MacMillan, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Quercus rubra Observation #402184453",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738286412/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Kelly McLean, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10003,73 +10003,73 @@ window.PLANT_DATABASE = [
         {
           "title": "Quercus rubra Observation #402180149",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738278300/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Hazel Elmendorf, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Quercus rubra Observation #402145927",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738212436/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Igor Balashov, some rights reserved (CC BY)"
         },
         {
           "title": "Quercus rubra Observation #402108398",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738138994/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Yurii VO, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Quercus rubra Observation #401974504",
           "url": "https://static.inaturalist.org/photos/737866246/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) greenwitch37, all rights reserved"
         },
         {
           "title": "Quercus rubra Observation #401959356",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737814189/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Станислав, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Quercus rubra Observation #401947629",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737810869/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) wldflwr, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Quercus rubra Observation #401932493",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737781359/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Quercus rubra Observation #401932419",
           "url": "https://static.inaturalist.org/photos/737781167/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Gary and Sheilagh Hall, all rights reserved"
         },
         {
           "title": "Quercus rubra Observation #401898913",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737712888/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) benoraistrick, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Quercus rubra Observation #401853270",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737625924/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) mfarr276, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Quercus rubra Observation #401853145",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737625608/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) wild_jonah, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Quercus rubra Observation #401805125",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737532592/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Thomas ARMAND, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10077,13 +10077,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Quercus rubra Observation #402105473",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738132574/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) solemay, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Quercus rubra Observation #402084582",
           "url": "https://static.inaturalist.org/photos/738092141/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Chris Dale, all rights reserved"
         }
       ],
@@ -10091,13 +10091,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Quercus rubra Observation #402072569",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738062468/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Heather Haughn, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Quercus rubra Observation #402029857",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737979184/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Jessica Sory, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10105,7 +10105,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Quercus rubra Observation #402020465",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737958725/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         }
       ],
@@ -10113,13 +10113,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Quercus rubra Observation #402011420",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737940825/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Claudiane Ouellet-Plamondon, some rights reserved (CC BY-ND)"
         },
         {
           "title": "Quercus rubra Observation #402011202",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737940268/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) phoenix123, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10127,7 +10127,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Quercus rubra Observation #401998975",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737916135/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) kjsytsma, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10135,7 +10135,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Quercus rubra Observation #401976963",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737867398/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Kevin Faccenda, some rights reserved (CC BY)"
         }
       ]
@@ -10153,19 +10153,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Ribes alpinum Observation #401041404",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736037023/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Наталья Колчанова, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ribes alpinum Observation #400963244",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735882694/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Марина Чарская, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ribes alpinum Observation #400921801",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735804631/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Juha Kinnunen, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10174,73 +10174,73 @@ window.PLANT_DATABASE = [
         {
           "title": "Ribes alpinum Observation #400459577",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734876046/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Leonid Kolchanov, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ribes alpinum Observation #400425423",
           "url": "https://static.inaturalist.org/photos/734810012/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Tuulia Aho, all rights reserved"
         },
         {
           "title": "Ribes alpinum Observation #400173428",
           "url": "https://static.inaturalist.org/photos/734292059/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Timofei Vychegzhanin, all rights reserved"
         },
         {
           "title": "Ribes alpinum Observation #396926203",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/727946256/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Yury Kvach, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ribes alpinum Observation #396867695",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/727835758/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) fwg, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ribes alpinum Observation #396828647",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/727757354/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) seblikescritters, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ribes alpinum Observation #396666188",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/727407217/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) lovarodin, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ribes alpinum Observation #395872584",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/725914206/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Aliaksandr Mialik, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ribes alpinum Observation #395767909",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/725711815/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Juha Kinnunen, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ribes alpinum Observation #395437075",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/725078279/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) lassi1234, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ribes alpinum Observation #395428092",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/725061644/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) luutarhuri, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ribes alpinum Observation #395413540",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/725034206/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Axel Amendolara, some rights reserved (CC BY)"
         }
       ],
@@ -10248,19 +10248,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Ribes alpinum Observation #399579850",
           "url": "https://static.inaturalist.org/photos/733120699/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Matt Palmquist, all rights reserved"
         },
         {
           "title": "Ribes alpinum Observation #399227172",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/732438143/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Juha Kinnunen, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ribes alpinum Observation #399041832",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/732075144/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) hobsandi, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10268,13 +10268,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Ribes alpinum Observation #399041806",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/732072759/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) aarni8e, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ribes alpinum Observation #398465992",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/730956997/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) alpinewolf, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10282,13 +10282,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Ribes alpinum Observation #398375266",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/730789457/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) sarnennn, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ribes alpinum Observation #398225458",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/730059423/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) A. Pine, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10296,7 +10296,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Ribes alpinum Observation #398115066",
           "url": "https://static.inaturalist.org/photos/730274455/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Mikko Voutilainen, all rights reserved"
         }
       ],
@@ -10304,7 +10304,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Ribes alpinum Observation #397725608",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/729506463/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) agrital, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10312,7 +10312,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Ribes alpinum Observation #397372542",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/728821588/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Vojtěch Vyskočil, some rights reserved (CC BY-NC)"
         }
       ]
@@ -10330,7 +10330,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Salix alba Observation #401993682",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737903555/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Martin de Jong, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10339,73 +10339,73 @@ window.PLANT_DATABASE = [
         {
           "title": "Salix alba Observation #401897867",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737709214/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Wildspur, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Salix alba Observation #400775331",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735464584/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Юрий, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Salix alba Observation #400654357",
           "url": "https://static.inaturalist.org/photos/735276143/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sylvie Esp., all rights reserved"
         },
         {
           "title": "Salix alba Observation #400514766",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734987797/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Katrin Simon, some rights reserved (CC BY)"
         },
         {
           "title": "Salix alba Observation #400510864",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734979793/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Jean Michel POUGNET, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Salix alba Observation #399979490",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/733898041/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) atp-absolute-team-power, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Salix alba Observation #399952089",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/733848502/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) lgrotwild, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Salix alba Observation #399800901",
           "url": "https://static.inaturalist.org/photos/733554849/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Alessandro Gementi, all rights reserved"
         },
         {
           "title": "Salix alba Observation #399650115",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/733250377/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Thomas Ebner, some rights reserved (CC BY)"
         },
         {
           "title": "Salix alba Observation #399564544",
           "url": "https://static.inaturalist.org/photos/733091105/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Tig, all rights reserved"
         },
         {
           "title": "Salix alba Observation #399491864",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/732955180/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Kirstin Poremba, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Salix alba Observation #399450704",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/732866893/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) John D Reynolds, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10413,13 +10413,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Salix alba Observation #401670320",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737257866/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) lmattes, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Salix alba Observation #401572203",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737065222/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Daniel Cahen, some rights reserved (CC BY)"
         }
       ],
@@ -10427,7 +10427,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Salix alba Observation #401517360",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736966911/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Наталья Пикалова, some rights reserved (CC BY)"
         }
       ],
@@ -10435,13 +10435,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Salix alba Observation #401320421",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736569456/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Margarita Gafurova, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Salix alba Observation #401304397",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736544360/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Samuel Büttler, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10449,7 +10449,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Salix alba Observation #401206046",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736360153/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Martin de Jong, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10457,19 +10457,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Salix alba Observation #401187337",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736324214/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Jeremy Labrecque, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Salix alba Observation #401143873",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736240870/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Samuel Büttler, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Salix alba Observation #400956490",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735864464/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Denys Davydov, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10488,7 +10488,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Salix caprea Observation #401998650",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737914963/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Martin de Jong, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10497,55 +10497,55 @@ window.PLANT_DATABASE = [
         {
           "title": "Salix caprea Observation #401959227",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737812859/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Станислав, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Salix caprea Observation #401017486",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735990386/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sokolov Yuriy Ivanovich, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Salix caprea Observation #400775254",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735462691/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Юрий, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Salix caprea Observation #400745959",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735447316/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) elenakuraeva, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Salix caprea Observation #400727587",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735412890/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) umbertopessolano, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Salix caprea Observation #400696805",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735351893/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Salix caprea Observation #400513018",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734983983/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) vorbild-msm, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Salix caprea Observation #400392670",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734744696/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) zipfelkaeferling, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Salix caprea Observation #400239133",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734422956/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Lewin Aniol, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10553,13 +10553,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Salix caprea Observation #401937554",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737776911/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Станислав, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Salix caprea Observation #401829275",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737579207/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Will J. Smith, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10567,19 +10567,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Salix caprea Observation #401691601",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737300295/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) darceyljones, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Salix caprea Observation #401642229",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737202540/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Natalia Pashkevych, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Salix caprea Observation #401612183",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737132579/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Станислав, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10587,13 +10587,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Salix caprea Observation #401603761",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737118311/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Станислав, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Salix caprea Observation #401367857",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736667502/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) endrehk, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10601,13 +10601,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Salix caprea Observation #401244863",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736432802/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Salix caprea Observation #401194999",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736338315/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Игорь Поспелов, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10615,7 +10615,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Salix caprea Observation #401165818",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736283233/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Mark Wilson, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10623,13 +10623,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Salix caprea Observation #401165818",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736283235/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Mark Wilson, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Salix caprea Observation #401032890",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736019216/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Viktoria, some rights reserved (CC BY-NC)"
         }
       ]
@@ -10647,19 +10647,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Sambucus nigra Observation #402155680",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738232322/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) keepercodie, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sambucus nigra Observation #402136135",
           "url": "https://static.inaturalist.org/photos/738192586/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Frank Joisten, all rights reserved"
         },
         {
           "title": "Sambucus nigra Observation #402134096",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738188701/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Simon Lomas, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10668,67 +10668,67 @@ window.PLANT_DATABASE = [
         {
           "title": "Sambucus nigra Observation #402123288",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738168372/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Rafael Carvalho, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sambucus nigra Observation #401935108",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737782880/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) sls42, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sambucus nigra Observation #401934153",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737796613/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) lucas_spagnuolo, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sambucus nigra Observation #401933519",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737783446/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Arrow Kempthorne, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sambucus nigra Observation #401932583",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737770865/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Dirk Mezger, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sambucus nigra Observation #401919981",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737755848/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Curious Questioner, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sambucus nigra Observation #401906935",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737729658/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) anitamodrusan1, some rights reserved (CC BY)"
         },
         {
           "title": "Sambucus nigra Observation #401905876",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737726702/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Sambucus nigra Observation #401891537",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737698795/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) caldwellone, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sambucus nigra Observation #401886414",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737689153/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) susanirving, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sambucus nigra Observation #401872765",
           "url": "https://static.inaturalist.org/photos/737662785/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) pic7, all rights reserved"
         }
       ],
@@ -10736,19 +10736,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Sambucus nigra Observation #402108370",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738138298/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Matthieu Ref, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sambucus nigra Observation #402091335",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738066988/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Shaun Michael, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sambucus nigra Observation #402086067",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738089804/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) IR, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10756,7 +10756,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Sambucus nigra Observation #402082516",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738088210/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ritch Pope, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10764,13 +10764,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Sambucus nigra Observation #402062036",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738023349/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Diego Tamayo, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sambucus nigra Observation #402050056",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738020748/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Echo, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10778,7 +10778,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Sambucus nigra Observation #402014505",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737946077/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) purple_frog, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10786,19 +10786,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Sambucus nigra Observation #401973902",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737865265/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Justin Cottrell, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sambucus nigra Observation #401960247",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737836732/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Magdalena Podziewska, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sambucus nigra Observation #401947453",
           "url": "https://static.inaturalist.org/photos/737813383/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Rie, all rights reserved"
         }
       ],
@@ -10817,7 +10817,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Sambucus racemosa Observation #402123808",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738169257/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Markus Ackermann, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10826,67 +10826,67 @@ window.PLANT_DATABASE = [
         {
           "title": "Sambucus racemosa Observation #402057282",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738035807/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Owen Clarkin, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sambucus racemosa Observation #401689075",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737295547/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Caleb Catto, some rights reserved (CC BY)"
         },
         {
           "title": "Sambucus racemosa Observation #401640531",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737200058/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Rosario Douglas, some rights reserved (CC BY)"
         },
         {
           "title": "Sambucus racemosa Observation #401534444",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736970469/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) John D Reynolds, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sambucus racemosa Observation #401514331",
           "url": "https://static.inaturalist.org/photos/736960724/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Will Evans, all rights reserved"
         },
         {
           "title": "Sambucus racemosa Observation #401510120",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736946587/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Lada Mazur, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sambucus racemosa Observation #401505882",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736945056/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Franz Schantl, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sambucus racemosa Observation #401491862",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736917813/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Матвей Соколов, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sambucus racemosa Observation #401413548",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736760981/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) maya1122, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sambucus racemosa Observation #401410296",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736749328/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Jasmine Janes, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sambucus racemosa Observation #401401389",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736735931/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Joshua Ekrut, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10894,19 +10894,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Sambucus racemosa Observation #401999904",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737917717/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) kat1003, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sambucus racemosa Observation #401990427",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737898526/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) clonefan25, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sambucus racemosa Observation #401973051",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737854958/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Attila Lengyel, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10914,13 +10914,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Sambucus racemosa Observation #401970990",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737858728/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) rikanishioka, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sambucus racemosa Observation #401954577",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737825906/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) emma_kulavskaya, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10928,7 +10928,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Sambucus racemosa Observation #401954467",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737811423/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Станислав, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10936,7 +10936,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Sambucus racemosa Observation #401951521",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737820237/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) emma_kulavskaya, some rights reserved (CC BY-NC)"
         }
       ],
@@ -10944,13 +10944,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Sambucus racemosa Observation #401879616",
           "url": "https://static.inaturalist.org/photos/737676855/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Donald W. Grimm, Ph.D., all rights reserved"
         },
         {
           "title": "Sambucus racemosa Observation #401777611",
           "url": "https://static.inaturalist.org/photos/737476323/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Richard Huang, all rights reserved"
         }
       ],
@@ -10958,13 +10958,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Sambucus racemosa Observation #401752146",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737424924/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) ziggyziggyziggy, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sambucus racemosa Observation #401690121",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737297933/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Caleb Catto, some rights reserved (CC BY)"
         }
       ]
@@ -10982,13 +10982,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Sorbus aucuparia Observation #402193607",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738303915/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Miroslav Stamenov, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sorbus aucuparia Observation #402176160",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738271010/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Gary Griffith, some rights reserved (CC BY-NC-SA)"
         }
       ],
@@ -10997,43 +10997,43 @@ window.PLANT_DATABASE = [
         {
           "title": "Sorbus aucuparia Observation #402156026",
           "url": "https://static.inaturalist.org/photos/738232987/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Anna, all rights reserved"
         },
         {
           "title": "Sorbus aucuparia Observation #402149712",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738216222/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Марина Садыкова, some rights reserved (CC BY)"
         },
         {
           "title": "Sorbus aucuparia Observation #401954977",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737812704/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Станислав, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sorbus aucuparia Observation #401953361",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737823581/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Tatyana Yu G, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sorbus aucuparia Observation #401952446",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737821336/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) wilsonnorman, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sorbus aucuparia Observation #401948164",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737812113/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) cs1234, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sorbus aucuparia Observation #401944606",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737805944/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Patrick de Cordoue, some rights reserved (CC BY-NC)"
         }
       ],
@@ -11041,13 +11041,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Sorbus aucuparia Observation #402142260",
           "url": "https://static.inaturalist.org/photos/738221890/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Hanna Chafey, all rights reserved"
         },
         {
           "title": "Sorbus aucuparia Observation #402139279",
           "url": "https://static.inaturalist.org/photos/738198891/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) SIG GIF, all rights reserved"
         }
       ],
@@ -11055,7 +11055,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Sorbus aucuparia Observation #402134419",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738189087/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Simon Lomas, some rights reserved (CC BY-NC)"
         }
       ],
@@ -11063,19 +11063,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Sorbus aucuparia Observation #402068983",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738060112/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Pierre Chevrier, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sorbus aucuparia Observation #402065666",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738053954/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Keetan Ner, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sorbus aucuparia Observation #401991615",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737900093/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Carson B, some rights reserved (CC BY-NC)"
         }
       ],
@@ -11083,19 +11083,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Sorbus aucuparia Observation #401969510",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737826468/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) captainnik, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sorbus aucuparia Observation #401965478",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737846917/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) tapiola_anton8e, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sorbus aucuparia Observation #401959234",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737812864/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Станислав, some rights reserved (CC BY-NC)"
         }
       ],
@@ -11103,7 +11103,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Sorbus aucuparia Observation #401959199",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737812683/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Станислав, some rights reserved (CC BY-NC)"
         }
       ],
@@ -11111,13 +11111,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Sorbus aucuparia Observation #401956855",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737829859/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) emma_kulavskaya, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sorbus aucuparia Observation #401955646",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737827407/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Kenya Anand, some rights reserved (CC BY-NC)"
         }
       ]
@@ -11135,19 +11135,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Sorbus intermedia Observation #402173857",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738267025/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Alexander Nyholm, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sorbus intermedia Observation #402150935",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738225277/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) jmsteiner, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sorbus intermedia Observation #401856570",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737631674/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         }
       ],
@@ -11156,67 +11156,67 @@ window.PLANT_DATABASE = [
         {
           "title": "Sorbus intermedia Observation #401796081",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737514277/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Simon Lomas, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sorbus intermedia Observation #399538681",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/733042622/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) gmu08141, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sorbus intermedia Observation #399502166",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/732975422/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) David Elrington, some rights reserved (CC BY)"
         },
         {
           "title": "Sorbus intermedia Observation #399233517",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/732450291/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Yvonne Engmann, some rights reserved (CC BY)"
         },
         {
           "title": "Sorbus intermedia Observation #399078749",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/732149466/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) chelsea1953, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sorbus intermedia Observation #399066371",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/732125739/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Edita Jakubauskaitė, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sorbus intermedia Observation #399021334",
           "url": "https://static.inaturalist.org/photos/732036211/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Kryštof Havelka, all rights reserved"
         },
         {
           "title": "Sorbus intermedia Observation #399014522",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/732018526/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Robert Biedermann, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sorbus intermedia Observation #398725602",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/731465821/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Kiebitz, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sorbus intermedia Observation #398528022",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/731073732/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Gleb Berloff, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sorbus intermedia Observation #398444203",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/730918447/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Наталья Колчанова, some rights reserved (CC BY-NC)"
         }
       ],
@@ -11224,7 +11224,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Sorbus intermedia Observation #401417027",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736768093/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) vesper, some rights reserved (CC BY-NC)"
         }
       ],
@@ -11232,7 +11232,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Sorbus intermedia Observation #401095155",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736142648/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Mateusz Ciechanowski, some rights reserved (CC BY-NC)"
         }
       ],
@@ -11240,19 +11240,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Sorbus intermedia Observation #401026289",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736006275/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Desmond Ney, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sorbus intermedia Observation #400952955",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735865855/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Kelly Tourle, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sorbus intermedia Observation #400482858",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734921619/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) vesper, some rights reserved (CC BY-NC)"
         }
       ],
@@ -11260,7 +11260,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Sorbus intermedia Observation #400195916",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734337967/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) KB, some rights reserved (CC BY-NC)"
         }
       ],
@@ -11268,13 +11268,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Sorbus intermedia Observation #399876704",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/733706891/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Hannah Woollaston, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Sorbus intermedia Observation #399868270",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/733690191/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) waltermeloon, some rights reserved (CC BY-NC)"
         }
       ],
@@ -11282,7 +11282,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Sorbus intermedia Observation #399603805",
           "url": "https://static.inaturalist.org/photos/733166655/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Andreas Clausen, all rights reserved"
         }
       ]
@@ -11339,121 +11339,121 @@ window.PLANT_DATABASE = [
         {
           "title": "Taxus baccata Observation #401911299",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737738187/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Joshua O’Leary, some rights reserved (CC BY)"
         },
         {
           "title": "Taxus baccata Observation #401901871",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737719030/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) humfree3, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Taxus baccata Observation #401893685",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737692286/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Augustin Soulard, some rights reserved (CC BY)"
         },
         {
           "title": "Taxus baccata Observation #401878089",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737676412/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Paul Molloy, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Taxus baccata Observation #401877412",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737672549/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ilja Schoenheinz, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Taxus baccata Observation #401873281",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737663661/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) carolinka_, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Taxus baccata Observation #401859422",
           "url": "https://static.inaturalist.org/photos/737637690/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Fanny Aschmann, all rights reserved"
         },
         {
           "title": "Taxus baccata Observation #401855116",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737629143/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) ManOnEarth, some rights reserved (CC BY)"
         },
         {
           "title": "Taxus baccata Observation #401845214",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737610344/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) shorty1961, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Taxus baccata Observation #401841819",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737603075/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Albert Idema, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Taxus baccata Observation #401828109",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737576873/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Will J. Smith, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Taxus baccata Observation #401821772",
           "url": "https://static.inaturalist.org/photos/737559247/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Isabelle Milford, all rights reserved"
         },
         {
           "title": "Taxus baccata Observation #401802361",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737527125/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Zop, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Taxus baccata Observation #401796168",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737514487/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Urs Scheidegger, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Taxus baccata Observation #401780820",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737483875/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) kingwrap, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Taxus baccata Observation #401778736",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737478900/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) chrisjdixon, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Taxus baccata Observation #401620899",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737162187/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Krista Dalby, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Taxus baccata Observation #401593476",
           "url": "https://static.inaturalist.org/photos/737109597/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Filippo, all rights reserved"
         },
         {
           "title": "Taxus baccata Observation #401573410",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737071905/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) tobias_kuehn, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Taxus baccata Observation #401563360",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737053139/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) phisch123, some rights reserved (CC BY-NC)"
         }
       ],
@@ -11461,13 +11461,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Taxus baccata Observation #402143040",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738206602/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) josephbray, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Taxus baccata Observation #402135542",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738191444/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) morvensmith, some rights reserved (CC BY-NC)"
         }
       ],
@@ -11475,7 +11475,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Taxus baccata Observation #401990177",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737898084/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) swift_fox, some rights reserved (CC BY-NC)"
         }
       ],
@@ -11655,103 +11655,103 @@ window.PLANT_DATABASE = [
         {
           "title": "Thuja occidentalis Observation #402139619",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738199685/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ashlea Viola, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Thuja occidentalis Observation #402108246",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738133569/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) solemay, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Thuja occidentalis Observation #402090497",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738102171/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) axel_hacker, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Thuja occidentalis Observation #402085623",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738094276/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) semarquis, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Thuja occidentalis Observation #402079411",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738081262/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) lmutzke, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Thuja occidentalis Observation #402078127",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738079119/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Kyle Chamberlain, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Thuja occidentalis Observation #402071590",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738065410/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Thuja occidentalis Observation #402068222",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738058834/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) treelogical, some rights reserved (CC BY)"
         },
         {
           "title": "Thuja occidentalis Observation #402066778",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738039077/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Alexander R., some rights reserved (CC BY-NC)"
         },
         {
           "title": "Thuja occidentalis Observation #402059869",
           "url": "https://static.inaturalist.org/photos/738041414/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Emily Delfosse, all rights reserved"
         },
         {
           "title": "Thuja occidentalis Observation #402048515",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738017395/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Alison Forde, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Thuja occidentalis Observation #402030232",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737978941/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Marlene Duhig, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Thuja occidentalis Observation #402022723",
           "url": "https://static.inaturalist.org/photos/737954262/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Chris Dale, all rights reserved"
         },
         {
           "title": "Thuja occidentalis Observation #402014424",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737945955/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) phoenix123, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Thuja occidentalis Observation #402012191",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737942236/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Claudiane Ouellet-Plamondon, some rights reserved (CC BY-ND)"
         },
         {
           "title": "Thuja occidentalis Observation #402008366",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737934911/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ree Laforet, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Thuja occidentalis Observation #402001205",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737896736/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Clara Casabona, some rights reserved (CC BY-NC)"
         }
       ],
@@ -11759,13 +11759,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Thuja occidentalis Observation #402172109",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738263930/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Mrs. C Watt, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Thuja occidentalis Observation #402140492",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738201307/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ashlea Viola, some rights reserved (CC BY-NC)"
         }
       ],
@@ -11773,7 +11773,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Thuja occidentalis Observation #402140423",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738201108/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ashlea Viola, some rights reserved (CC BY-NC)"
         }
       ],
@@ -11885,61 +11885,61 @@ window.PLANT_DATABASE = [
         {
           "title": "Thuja plicata Observation #402035663",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737991156/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) capital_regional_district, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Thuja plicata Observation #402027801",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737974850/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) alicedv22, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Thuja plicata Observation #402011496",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737934291/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) David Clements, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Thuja plicata Observation #402008572",
           "url": "https://static.inaturalist.org/photos/737935458/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Taniah, all rights reserved"
         },
         {
           "title": "Thuja plicata Observation #401992970",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737902973/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Nathan Earley, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Thuja plicata Observation #401766858",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737454481/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) jsnellen, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Thuja plicata Observation #401711135",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737340613/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) jseibel55, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Thuja plicata Observation #401708972",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737330786/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) John D Reynolds, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Thuja plicata Observation #401700814",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737319048/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Caleb Catto, some rights reserved (CC BY)"
         },
         {
           "title": "Thuja plicata Observation #401686980",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737291433/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Nick T., some rights reserved (CC BY-SA)"
         }
       ],
@@ -11947,13 +11947,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Thuja plicata Observation #402084155",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738091175/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Caleb Catto, some rights reserved (CC BY)"
         },
         {
           "title": "Thuja plicata Observation #402077387",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738073429/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         }
       ],
@@ -11961,19 +11961,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Thuja plicata Observation #402070228",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738062599/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) olivesz, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Thuja plicata Observation #402069479",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738061033/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Keetan Ner, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Thuja plicata Observation #402050550",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738021902/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         }
       ],
@@ -12122,103 +12122,103 @@ window.PLANT_DATABASE = [
         {
           "title": "Tilia cordata Observation #402094690",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738111227/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) shadow_385, some rights reserved (CC BY)"
         },
         {
           "title": "Tilia cordata Observation #401915829",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737742327/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Дмитрий Власов, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia cordata Observation #401888817",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737647581/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) snaily_naily, some rights reserved (CC BY)"
         },
         {
           "title": "Tilia cordata Observation #401722951",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737053840/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) ocanire, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia cordata Observation #401683630",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737275762/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) JVoelz, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia cordata Observation #401651052",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737220635/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Екатерина Гущина, some rights reserved (CC BY)"
         },
         {
           "title": "Tilia cordata Observation #401491215",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736916456/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Anastasiy _._, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia cordata Observation #401471907",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736877653/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Матвей Соколов, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia cordata Observation #401450203",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736833187/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Miroslav Stamenov, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia cordata Observation #401443692",
           "url": "https://static.inaturalist.org/photos/736820847/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ірина Леонідівна Павленко, all rights reserved"
         },
         {
           "title": "Tilia cordata Observation #401308599",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736551834/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Agurne Ruiz Sebastian, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia cordata Observation #401295785",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736528622/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Bobo-X, some rights reserved (CC BY)"
         },
         {
           "title": "Tilia cordata Observation #401292706",
           "url": "https://static.inaturalist.org/photos/736522627/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) N. Si., all rights reserved"
         },
         {
           "title": "Tilia cordata Observation #401261781",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736463449/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Benjamin Schedl, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia cordata Observation #401225475",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736398465/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) SzkalnyDzięcioł, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia cordata Observation #401221311",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736390676/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Diana, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia cordata Observation #401218061",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736384274/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) katecohen, some rights reserved (CC BY-NC)"
         }
       ],
@@ -12226,13 +12226,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Tilia cordata Observation #402131937",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738181480/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Yaroslav Magazov, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia cordata Observation #402120191",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738162169/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) finn, some rights reserved (CC BY-NC)"
         }
       ],
@@ -12240,7 +12240,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Tilia cordata Observation #402115132",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738151389/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Yaroslav Magazov, some rights reserved (CC BY-NC)"
         }
       ],
@@ -12378,133 +12378,133 @@ window.PLANT_DATABASE = [
         {
           "title": "Tilia platyphyllos Observation #400924848",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735803716/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Eduard Garin, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia platyphyllos Observation #400665594",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735297521/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) forstpflanzgarten, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia platyphyllos Observation #400459693",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734876263/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Gabriel Therasse, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia platyphyllos Observation #400151186",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734234184/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sylvain G, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia platyphyllos Observation #400142148",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734229898/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) aratrius, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia platyphyllos Observation #399901310",
           "url": "https://static.inaturalist.org/photos/733752818/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) celine, all rights reserved"
         },
         {
           "title": "Tilia platyphyllos Observation #399830390",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/733615550/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) phlox_helix, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia platyphyllos Observation #399018070",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/732030279/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Melissa Tison, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia platyphyllos Observation #398748588",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/731509116/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) livia7777, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia platyphyllos Observation #398651099",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/731326536/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) lisecoheur, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia platyphyllos Observation #398434335",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/730899935/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Antje, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia platyphyllos Observation #398306696",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/730649655/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Tony KM, some rights reserved (CC BY)"
         },
         {
           "title": "Tilia platyphyllos Observation #397496245",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/729060004/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) CARLOS CAMPOY GARCIA TREVIJANO, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia platyphyllos Observation #396877662",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/727854897/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Damien Ramos, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia platyphyllos Observation #396865333",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/727829669/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Andrea, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia platyphyllos Observation #396155541",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/726475930/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) machugo, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia platyphyllos Observation #395433959",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/725072543/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) pollenizeowen, some rights reserved (CC BY)"
         },
         {
           "title": "Tilia platyphyllos Observation #394437331",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/723112159/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Linzy L., some rights reserved (CC BY-SA)"
         },
         {
           "title": "Tilia platyphyllos Observation #394056598",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/722363672/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) hugo_746, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia platyphyllos Observation #393767925",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/721795019/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) lutra_lutra, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia platyphyllos Observation #393433577",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/721143953/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sajti Emese, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia platyphyllos Observation #393236165",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/720748994/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Sepp Schmid, some rights reserved (CC BY-NC)"
         }
       ],
@@ -12512,13 +12512,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Tilia platyphyllos Observation #402122482",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738166909/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) finn, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia platyphyllos Observation #401845145",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737610218/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) shorty1961, some rights reserved (CC BY-NC)"
         }
       ],
@@ -12700,85 +12700,85 @@ window.PLANT_DATABASE = [
         {
           "title": "Tilia x Observation #386231872",
           "url": "https://static.inaturalist.org/photos/707156302/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Nea Lepinkäinen, all rights reserved"
         },
         {
           "title": "Tilia x Observation #383947993",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/702717689/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Alex Press, some rights reserved (CC BY)"
         },
         {
           "title": "Tilia x Observation #379206747",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/693619076/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) jamie-aa, some rights reserved (CC BY)"
         },
         {
           "title": "Tilia x Observation #375185100",
           "url": "https://static.inaturalist.org/photos/685848198/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Patrick Kiely, all rights reserved"
         },
         {
           "title": "Tilia x Observation #369734177",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/675392662/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) colinjevons, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia x Observation #368279446",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/672635833/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) burgi_w, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia x Observation #367977094",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/672055273/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) David Hocken, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia x Observation #361982597",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/660649913/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "no rights reserved"
         },
         {
           "title": "Tilia x Observation #361499587",
           "url": "https://static.inaturalist.org/photos/659738605/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Tatu Paulaharju, all rights reserved"
         },
         {
           "title": "Tilia x Observation #360916327",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/658621726/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) aliumbongo, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia x Observation #360192825",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/657242658/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Zack K. Persson, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia x Observation #359852018",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/656594310/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Anders Dahl, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia x Observation #353802000",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/645488582/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Christine Delbouis, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tilia x Observation #338477934",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/615553377/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Jamie O'Neill, some rights reserved (CC BY)"
         }
       ],
@@ -12786,7 +12786,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Tilia x Observation #388303420",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/711151651/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) jamie-aa, some rights reserved (CC BY)"
         }
       ],
@@ -12944,127 +12944,127 @@ window.PLANT_DATABASE = [
         {
           "title": "Tsuga canadensis Observation #402072362",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738067389/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Heather Haughn, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tsuga canadensis Observation #402064723",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738048690/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Michael, Antoni and Nihat Hinczewski, some rights reserved (CC BY)"
         },
         {
           "title": "Tsuga canadensis Observation #402043427",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737996544/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) molegagirl, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tsuga canadensis Observation #402031419",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737982314/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) tanichols2, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tsuga canadensis Observation #402011917",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737941621/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Catherine Parrish, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tsuga canadensis Observation #402011139",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737940155/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Julian Rodriquez, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tsuga canadensis Observation #402010259",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737938223/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) phoenix123, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tsuga canadensis Observation #401999026",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737916229/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Lisa Proulx, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tsuga canadensis Observation #401986809",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737891227/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Deborah Mosher, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tsuga canadensis Observation #401980645",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737877193/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) tfriesein, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tsuga canadensis Observation #401954121",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737788626/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Alex Yu, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tsuga canadensis Observation #401953381",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737823547/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) jdevoe22, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tsuga canadensis Observation #401950964",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737817761/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Austen, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tsuga canadensis Observation #401945213",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737804533/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Parker Sullivan, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tsuga canadensis Observation #401913386",
           "url": "https://static.inaturalist.org/photos/737742618/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) raccoon_boy, all rights reserved"
         },
         {
           "title": "Tsuga canadensis Observation #401904632",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737724566/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Melinda Thompson, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tsuga canadensis Observation #401871759",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737658059/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Daniel McRae, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tsuga canadensis Observation #401868662",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737654898/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Barbara Katzenberg, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tsuga canadensis Observation #401825782",
           "url": "https://static.inaturalist.org/photos/737572282/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ed Michinski, all rights reserved"
         },
         {
           "title": "Tsuga canadensis Observation #401761538",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737444493/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) tarpinian, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tsuga canadensis Observation #401713300",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737345229/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) François Plourde - Renard frak, some rights reserved (CC BY-NC)"
         }
       ],
@@ -13078,13 +13078,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Tsuga canadensis Observation #402198351",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738310855/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Allan MacMillan, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Tsuga canadensis Observation #402148436",
           "url": "https://static.inaturalist.org/photos/738217900/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ed Michinski, all rights reserved"
         }
       ],
@@ -13092,7 +13092,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Tsuga canadensis Observation #402083989",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738083301/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Cole Wolf, some rights reserved (CC BY)"
         }
       ],
@@ -13266,115 +13266,115 @@ window.PLANT_DATABASE = [
         {
           "title": "Ulmus glabra Observation #401912939",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737741869/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Lubov and Gleb, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ulmus glabra Observation #401327291",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736580160/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Miroslav Stamenov, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ulmus glabra Observation #401299399",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736526880/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Margarita Gafurova, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ulmus glabra Observation #401251191",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736435350/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) guywallbanks, some rights reserved (CC BY)"
         },
         {
           "title": "Ulmus glabra Observation #401216511",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736381121/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Jessica Blenkin, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ulmus glabra Observation #401164822",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/736281176/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) charolais, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ulmus glabra Observation #401127416",
           "url": "https://static.inaturalist.org/photos/736208491/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ірина Леонідівна Павленко, all rights reserved"
         },
         {
           "title": "Ulmus glabra Observation #400991637",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735940097/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Laczik Dénes, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ulmus glabra Observation #400974116",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735908437/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) mogensthornberg, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ulmus glabra Observation #400952030",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735864294/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) hromada222, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ulmus glabra Observation #400933171",
           "url": "https://static.inaturalist.org/photos/735829225/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) veronikajune, all rights reserved"
         },
         {
           "title": "Ulmus glabra Observation #400911117",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735781964/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Viktor Strenada, some rights reserved (CC BY)"
         },
         {
           "title": "Ulmus glabra Observation #400869274",
           "url": "https://static.inaturalist.org/photos/735696568/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) K, all rights reserved"
         },
         {
           "title": "Ulmus glabra Observation #400776524",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735494025/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Станислав, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ulmus glabra Observation #400773876",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735498305/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Dirk Mezger, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ulmus glabra Observation #400702191",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735362522/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Carolyn Dixie 🌻, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ulmus glabra Observation #400630793",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735225697/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) idajonnea, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ulmus glabra Observation #400484598",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734925353/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) G Kitchen, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ulmus glabra Observation #400227284",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/734399817/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ralf Schwab, some rights reserved (CC BY-NC)"
         }
       ],
@@ -13382,13 +13382,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Ulmus glabra Observation #402205322",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738315921/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Miroslav Stamenov, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ulmus glabra Observation #402118154",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738158242/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) finn, some rights reserved (CC BY-NC)"
         }
       ],
@@ -13402,13 +13402,13 @@ window.PLANT_DATABASE = [
         {
           "title": "Ulmus glabra Observation #401955011",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737812945/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Станислав, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Ulmus glabra Observation #401915714",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737747266/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Malgorzata Domagala, some rights reserved (CC BY-NC)"
         }
       ],
@@ -13545,121 +13545,121 @@ window.PLANT_DATABASE = [
         {
           "title": "Viburnum opulus Observation #402153944",
           "url": "https://static.inaturalist.org/photos/738229574/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Mikko Voutilainen, all rights reserved"
         },
         {
           "title": "Viburnum opulus Observation #402149746",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738217197/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Марина Садыкова, some rights reserved (CC BY)"
         },
         {
           "title": "Viburnum opulus Observation #402139319",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738198999/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Aleksei Suvorov, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Viburnum opulus Observation #402133781",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738187893/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) finn, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Viburnum opulus Observation #402120360",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738162500/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Виктория Билоус, some rights reserved (CC BY)"
         },
         {
           "title": "Viburnum opulus Observation #402106700",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738134735/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) krezga, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Viburnum opulus Observation #402105477",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738132751/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Yurii VO, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Viburnum opulus Observation #402101108",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738111746/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Александр, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Viburnum opulus Observation #402097596",
           "url": "https://static.inaturalist.org/photos/738117358/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Caitlin MacDonald, all rights reserved"
         },
         {
           "title": "Viburnum opulus Observation #402095633",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738113043/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) grishumba, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Viburnum opulus Observation #402065686",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738053989/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Kira Milroy, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Viburnum opulus Observation #402062817",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738047245/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Deborah Mosher, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Viburnum opulus Observation #402050180",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738021148/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) tash07, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Viburnum opulus Observation #402022902",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737964006/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Wyatt Zacharias, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Viburnum opulus Observation #402021862",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737961610/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) judi47, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Viburnum opulus Observation #402017554",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737952130/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Jackson Withey, some rights reserved (CC BY)"
         },
         {
           "title": "Viburnum opulus Observation #402008986",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737936121/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Ree Laforet, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Viburnum opulus Observation #402007210",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737932576/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Meng Yuan, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Viburnum opulus Observation #402003242",
           "url": "https://static.inaturalist.org/photos/737924556/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Nadia Diakun-Thibault, all rights reserved"
         },
         {
           "title": "Viburnum opulus Observation #402002507",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737923047/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) meyerlondon, some rights reserved (CC BY-NC)"
         }
       ],
@@ -13667,19 +13667,19 @@ window.PLANT_DATABASE = [
         {
           "title": "Viburnum opulus Observation #402193587",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738303057/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Miroslav Stamenov, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Viburnum opulus Observation #402162108",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738245278/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) Kelly McLean, some rights reserved (CC BY-NC)"
         },
         {
           "title": "Viburnum opulus Observation #402162013",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738245077/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) beecharmer42, some rights reserved (CC BY-NC)"
         }
       ],
@@ -13687,7 +13687,7 @@ window.PLANT_DATABASE = [
         {
           "title": "Viburnum opulus Observation #402158745",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738237382/large.jpg",
-          "source": "iNaturalist (Research Grade)",
+          "source": "iNaturalist",
           "author": "(c) David McCorquodale, some rights reserved (CC BY-NC)"
         }
       ],

@@ -13,7 +13,7 @@ Easily hostable on **GitHub Pages** with zero build steps or external server dep
    - 15 Gymnosperms / Conifers and 46 Angiosperms / Broadleaf trees.
 
 2. **Organ-Categorized Verified Images (2,015+ Quality Images)**:
-   - Curated from **Wikimedia Commons** and **iNaturalist (Research Grade)**.
+   - Curated from **Wikimedia Commons** and **iNaturalist**.
    - Quality-filtered to eliminate non-diagnostic scans, stamps, information boards, or low-res files.
    - **Interactive Anti-Cheat Dynamic Cropping (Name Masking)**:
      - Automatically detects botanical illustrations and plates with printed binomials/labels.
@@ -64,7 +64,7 @@ Easily hostable on **GitHub Pages** with zero build steps or external server dep
    - Ability to discard any unwanted images at any time with persistent export/import.
 
 7. **Generalizable (Add Any Plant)**:
-   - Built-in live search connecting to iNaturalist Research Grade and Wikimedia Commons directly in your browser.
+   - Built-in live search connecting to iNaturalist and Wikimedia Commons directly in your browser.
    - Search any plant species on Earth (e.g. *Sequoiadendron giganteum*, *Eucalyptus*, *Monstera*) and add it to your custom deck.
    - Export and import custom decks as JSON.
 

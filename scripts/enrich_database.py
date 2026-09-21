@@ -130,7 +130,7 @@ def fetch_inat_research_photos(clean_name, limit=20):
                             photos.append({
                                 'title': f"{clean_name} Observation #{obs.get('id')}",
                                 'url': large_url,
-                                'source': 'iNaturalist (Research Grade)',
+                                'source': 'iNaturalist',
                                 'author': p.get('attribution') or obs.get('user', {}).get('login', 'iNaturalist Observer')
                             })
                 if photos:
@@ -218,7 +218,7 @@ def enrich_species(sp_item):
         habit += search_commons(f'{clean} tree', 4)
     add_imgs('tree_shape', habit)
 
-    # 10. Enrich and fill any sparse organs with high-res iNaturalist Research Grade photos
+    # 10. Enrich and fill any sparse organs with high-res iNaturalist photos
     inat_photos = fetch_inat_research_photos(clean, 25)
     if inat_photos:
         # Prioritize filling organs with < 3 images
