@@ -629,6 +629,112 @@ function revealAdditionalClue() {
   }
 }
 
+function discardCurrentQuizPhoto() {
+  if (!currentQuestion || !currentQuestion.primaryImage) return;
+
+  const oldImg = currentQuestion.primaryImage;
+  const sp = currentQuestion.species;
+
+  // Discard the photo permanently
+  discardImage(oldImg.url, sp.latin, oldImg.organ, oldImg.title, oldImg.author, oldImg.source, true);
+
+  // 1. Try to get another photo from this species remaining clues
+  let newImg = null;
+  if (currentQuestion.otherOrganClues && currentQuestion.otherOrganClues.length > 0) {
+    newImg = currentQuestion.otherOrganClues.shift();
+  } else {
+    // Gather all valid remaining images for this species from database
+    const remaining = [];
+    Object.entries(sp.images || {}).forEach(([orgKey, list]) => {
+      list.forEach(im => {
+        if (im.url !== oldImg.url && !discardedUrlSet.has(im.url)) {
+          remaining.push({ organ: orgKey, ...im });
+        }
+      });
+    });
+    if (remaining.length > 0) {
+      newImg = remaining[Math.floor(Math.random() * remaining.length)];
+    }
+  }
+
+  if (newImg) {
+    // Replace current question photo
+    currentQuestion.primaryImage = newImg;
+    
+    // Update live quiz display
+    const imgEl = document.getElementById('quiz-primary-img');
+    if (imgEl) imgEl.src = newImg.url;
+    const srcEl = document.getElementById('quiz-image-source');
+    if (srcEl) srcEl.textContent = newImg.source || 'Wikimedia Commons';
+
+    const requiresCrop = shouldCropImage(newImg);
+    applyInteractiveCrop(requiresCrop ? 14 : 0);
+
+    // If Lightbox is open, update it too
+    const lbModal = document.getElementById('lightbox-modal');
+    if (lbModal && !lbModal.classList.contains('hidden')) {
+      const lbImg = document.getElementById('lightbox-img');
+      if (lbImg) lbImg.src = newImg.url;
+    }
+
+    // If in Practice Feedback view, update feedback gallery as well
+    const feedbackSec = document.getElementById('quiz-feedback-section');
+    if (feedbackSec && !feedbackSec.classList.contains('hidden')) {
+      const totalSpeciesImgs = [];
+      Object.values(sp.images || {}).forEach(list => {
+        list.forEach(img => {
+          if (!discardedUrlSet.has(img.url)) totalSpeciesImgs.push(img);
+        });
+      });
+      const countBadge = document.getElementById('feedback-photos-count');
+      if (countBadge) countBadge.textContent = totalSpeciesImgs.length;
+    }
+
+    showToast(`Discarded photo • Replaced with another photo for ${sp.latin}`, 'Undo', () => {
+      restoreImage(oldImg.url);
+    });
+  } else {
+    // This species has no other photos left in database!
+    // Swap question with a substitute species from allSpecies not currently in quiz
+    const existingSpeciesIds = new Set(quizQuestions.map(q => q.species.id));
+    const candidateSpecies = allSpecies.filter(s => 
+      !existingSpeciesIds.has(s.id) && 
+      (s.total_images || 0) > 0 &&
+      (selectedSpeciesIds.length === 0 || selectedSpeciesIds.includes(s.id))
+    );
+
+    const replacementSp = candidateSpecies.length > 0 
+      ? candidateSpecies[Math.floor(Math.random() * candidateSpecies.length)]
+      : allSpecies.find(s => (s.total_images || 0) > 0);
+
+    if (replacementSp) {
+      const allImgs = [];
+      Object.entries(replacementSp.images || {}).forEach(([k, imgs]) => {
+        imgs.forEach(im => allImgs.push({ organ: k, ...im }));
+      });
+      const shuffled = allImgs.sort(() => 0.5 - Math.random());
+      const repImg = shuffled[0];
+      const otherClues = shuffled.slice(1);
+
+      currentQuestion.species = replacementSp;
+      currentQuestion.primaryImage = repImg;
+      currentQuestion.otherOrganClues = otherClues;
+      currentQuestion.revealedExtraClues = [];
+
+      // Reset Exam Mode answer for this question
+      if (feedbackTiming === 'end') {
+        userExamAnswers[currentQuestionIndex] = '';
+        renderExamNavigator();
+      }
+
+      renderCurrentQuestion();
+      showToast(`Species photos exhausted • Replaced question with ${replacementSp.latin}`);
+    } else {
+      showToast('Photo discarded. No replacement photos available in database.');
+    }
+  }
+}
+
 // Normalization & Fuzzy Match
 function normalizeAnswer(text) {
   return (text || '')
@@ -897,12 +1003,23 @@ function initKeyListeners() {
       }
     }
 
+    // 'D' / Delete shortcut to discard current quiz photo when viewing question
+    if (e.key === 'd' || e.key === 'D' || e.key === 'Delete') {
+      const quizView = document.getElementById('quiz-view');
+      if (quizView && !quizView.classList.contains('hidden')) {
+        e.preventDefault();
+        discardCurrentQuizPhoto();
+        return;
+      }
+    }
+
     // Modal Escape shortcuts
     if (e.key === 'Escape') {
       closeSpeciesModal();
       closeTrashModal();
       closeLightbox();
       toggleExportModal(false);
+      closeReplacementModal();
       return;
     }
 
@@ -950,6 +1067,10 @@ function finishQuiz() {
     });
   }
 
+  renderResultsSummary();
+}
+
+function renderResultsSummary() {
   const total = quizAnswersRecord.length;
   const correct = quizAnswersRecord.filter(a => a.isCorrect).length;
   const pct = total > 0 ? Math.round((correct / total) * 100) : 0;
@@ -966,7 +1087,7 @@ function finishQuiz() {
   document.getElementById('results-rank-title').textContent = rank;
 
   // Missed species action controls
-  const missedRecords = quizAnswersRecord.filter(a => !a.isCorrect);
+  const missedRecords = quizAnswersRecord.filter(a => !a.isCorrect && !a.photoDiscarded);
   const missedCountBadge = document.getElementById('missed-count-badge');
   if (missedCountBadge) missedCountBadge.textContent = missedRecords.length;
   const missedSlideshowBadge = document.getElementById('missed-slideshow-count-badge');
@@ -984,31 +1105,51 @@ function finishQuiz() {
 
   // Detailed Review Table
   const reviewTable = document.getElementById('results-review-table');
-  reviewTable.innerHTML = quizAnswersRecord.map(rec => {
-    const statusBg = rec.isCorrect 
-      ? (rec.isClose ? 'bg-amber-950/30 border-amber-800/60' : 'bg-emerald-950/30 border-emerald-800/60')
-      : 'bg-rose-950/30 border-rose-900/60';
-    const statusIcon = rec.isCorrect ? (rec.isClose ? '⚠️ Close' : '✅ Correct') : '❌ Incorrect';
-    const statusTextClass = rec.isCorrect ? (rec.isClose ? 'text-amber-400' : 'text-emerald-400') : 'text-rose-400';
+  reviewTable.innerHTML = quizAnswersRecord.map((rec, recIdx) => {
+    const isDiscarded = rec.photoDiscarded && !rec.wasReplaced;
+    let statusBg = 'bg-rose-950/30 border-rose-900/60';
+    let statusIcon = '❌ Incorrect';
+    let statusTextClass = 'text-rose-400';
+
+    if (rec.isCorrect) {
+      statusBg = rec.isClose ? 'bg-amber-950/30 border-amber-800/60' : 'bg-emerald-950/30 border-emerald-800/60';
+      statusIcon = rec.isClose ? '⚠️ Close' : '✅ Correct';
+      statusTextClass = rec.isClose ? 'text-amber-400' : 'text-emerald-400';
+    }
+
+    if (isDiscarded) {
+      statusBg = 'bg-stone-900 border-amber-800/80';
+      statusIcon = '⚠️ Photo Discarded';
+      statusTextClass = 'text-amber-300';
+    }
 
     return `
-      <div class="p-3.5 rounded-xl border ${statusBg} flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs">
-        <div class="flex items-center gap-3 min-w-0">
-          <img 
-            src="${rec.imageShown?.url || ''}" 
-            alt="${rec.species.latin}" 
-            class="w-16 h-16 rounded-lg object-cover bg-stone-800 cursor-pointer shrink-0 border border-stone-700 hover:scale-105 transition" 
-            title="Click to launch slideshow for ${rec.species.latin}"
-            onclick="startSlideshowForSpecies('${rec.species.id}')"
-          />
-          <div class="min-w-0">
-            <div class="flex items-center gap-2 mb-0.5">
+      <div class="p-3.5 rounded-xl border ${statusBg} flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs transition">
+        <div class="flex items-center gap-3 min-w-0 flex-1">
+          <div class="relative shrink-0">
+            <img 
+              src="${rec.imageShown?.url || ''}" 
+              alt="${rec.species.latin}" 
+              class="w-16 h-16 rounded-lg object-cover bg-stone-800 cursor-pointer border border-stone-700 hover:scale-105 transition" 
+              style="clip-path: inset(0% 0% ${shouldCropImage(rec.imageShown) ? '14%' : '0%'} 0%);"
+              title="Click to launch slideshow for ${rec.species.latin}"
+              onclick="startSlideshowForSpecies('${rec.species.id}')"
+            />
+            <span class="absolute bottom-0 left-0 bg-stone-900/90 text-[10px] font-mono px-1 rounded-tr text-stone-300 border-t border-r border-stone-700">
+              #${recIdx + 1}
+            </span>
+          </div>
+
+          <div class="min-w-0 flex-1">
+            <div class="flex items-center gap-2 mb-0.5 flex-wrap">
               <span class="font-bold font-botanical italic text-stone-100 text-sm truncate">${rec.species.latin}</span>
+              ${rec.wasReplaced ? '<span class="px-2 py-0.5 rounded bg-emerald-900/60 border border-emerald-700/60 text-emerald-300 text-[10px] font-medium">🔄 Valid Replacement Scored</span>' : ''}
+              ${isDiscarded ? '<span class="px-2 py-0.5 rounded bg-amber-950 border border-amber-700/80 text-amber-300 text-[10px] font-medium">Needs Valid Photo</span>' : ''}
             </div>
             <div class="text-stone-400 text-[11px] font-mono">
               Family: ${rec.species.family}
             </div>
-            <div class="mt-1">
+            <div class="mt-1 flex items-center gap-2 flex-wrap">
               <span class="text-stone-500">Your answer:</span> 
               <span class="font-mono font-medium ${rec.isCorrect ? 'text-stone-200' : 'text-rose-300 line-through'}">
                 "${rec.userAnswer}"
@@ -1017,7 +1158,27 @@ function finishQuiz() {
           </div>
         </div>
 
-        <div class="shrink-0 flex items-center gap-2 self-end sm:self-center">
+        <div class="shrink-0 flex items-center gap-2 self-end sm:self-center flex-wrap">
+          ${isDiscarded ? `
+            <button 
+              type="button" 
+              onclick="openReplacementQuestionModal(${recIdx})" 
+              class="px-3 py-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold flex items-center gap-1.5 shadow-md transition"
+              title="Answer a new valid photo to complete your exam score"
+            >
+              <span>🌱</span> <span>Answer Replacement Photo</span>
+            </button>
+          ` : `
+            <button 
+              type="button" 
+              onclick="discardReviewRowPhoto(${recIdx})" 
+              class="px-2.5 py-1.5 rounded-xl bg-stone-800 hover:bg-rose-950/60 text-rose-400 hover:text-rose-200 text-xs font-semibold flex items-center gap-1 border border-stone-700 hover:border-rose-700 transition shadow-sm"
+              title="Discard this photo as invalid and answer a replacement question to keep your exam valid"
+            >
+              <span>🗑️</span> <span>Discard & Swap</span>
+            </button>
+          `}
+
           <button 
             type="button" 
             onclick="startSlideshowForSpecies('${rec.species.id}')" 
@@ -1033,6 +1194,171 @@ function finishQuiz() {
       </div>
     `;
   }).join('');
+}
+
+let activeReplacementIndex = null;
+let activeReplacementQuestion = null;
+
+function discardReviewRowPhoto(recIdx) {
+  const rec = quizAnswersRecord[recIdx];
+  if (!rec || !rec.imageShown) return;
+
+  discardImage(
+    rec.imageShown.url, 
+    rec.species.latin, 
+    rec.imageShown.organ, 
+    rec.imageShown.title, 
+    rec.imageShown.author, 
+    rec.imageShown.source, 
+    true
+  );
+
+  rec.photoDiscarded = true;
+  rec.wasReplaced = false;
+
+  openReplacementQuestionModal(recIdx);
+}
+
+function openReplacementQuestionModal(recIdx) {
+  activeReplacementIndex = recIdx;
+  const rec = quizAnswersRecord[recIdx];
+  if (!rec) return;
+
+  const sp = allSpecies.find(s => s.latin === rec.species.latin || s.id === rec.species.id) || rec.species;
+  const unusedImgs = [];
+  Object.entries(sp.images || {}).forEach(([org, list]) => {
+    list.forEach(im => {
+      if (!discardedUrlSet.has(im.url) && im.url !== rec.imageShown?.url) {
+        unusedImgs.push({ organ: org, ...im });
+      }
+    });
+  });
+
+  let repSp = sp;
+  let repImg = null;
+
+  if (unusedImgs.length > 0) {
+    repImg = unusedImgs[Math.floor(Math.random() * unusedImgs.length)];
+  } else {
+    const examinedIds = new Set(quizAnswersRecord.map(r => r.species.id));
+    const alternates = allSpecies.filter(s => !examinedIds.has(s.id) && (s.total_images || 0) > 0);
+    repSp = alternates.length > 0 
+      ? alternates[Math.floor(Math.random() * alternates.length)]
+      : allSpecies.find(s => (s.total_images || 0) > 0);
+
+    const altImgs = [];
+    Object.entries(repSp.images || {}).forEach(([org, list]) => {
+      list.forEach(im => {
+        if (!discardedUrlSet.has(im.url)) altImgs.push({ organ: org, ...im });
+      });
+    });
+    if (altImgs.length > 0) {
+      repImg = altImgs[Math.floor(Math.random() * altImgs.length)];
+    }
+  }
+
+  if (!repImg) {
+    showToast('No valid replacement photos available in database.');
+    renderResultsSummary();
+    return;
+  }
+
+  activeReplacementQuestion = {
+    species: repSp,
+    image: repImg,
+    requiresCrop: shouldCropImage(repImg)
+  };
+
+  const modal = document.getElementById('replacement-question-modal');
+  const imgEl = document.getElementById('replacement-modal-img');
+  const inputEl = document.getElementById('replacement-user-input');
+  const subEl = document.getElementById('replacement-modal-subtitle');
+
+  if (subEl) {
+    subEl.textContent = `Previous photo for Question #${recIdx + 1} was discarded. Answer this replacement question to ensure a complete, valid exam:`;
+  }
+  if (imgEl) {
+    imgEl.src = repImg.url;
+    imgEl.style.setProperty('--replacement-crop-bottom', activeReplacementQuestion.requiresCrop ? '14%' : '0%');
+  }
+  if (inputEl) {
+    inputEl.value = '';
+  }
+
+  modal.classList.remove('hidden');
+  setTimeout(() => inputEl && inputEl.focus(), 80);
+}
+
+function discardReplacementModalPhoto() {
+  if (!activeReplacementQuestion || !activeReplacementQuestion.image) return;
+  const oldImg = activeReplacementQuestion.image;
+  const sp = activeReplacementQuestion.species;
+
+  discardImage(oldImg.url, sp.latin, oldImg.organ, oldImg.title, oldImg.author, oldImg.source, true);
+
+  const remaining = [];
+  Object.entries(sp.images || {}).forEach(([org, list]) => {
+    list.forEach(im => {
+      if (!discardedUrlSet.has(im.url) && im.url !== oldImg.url) {
+        remaining.push({ organ: org, ...im });
+      }
+    });
+  });
+
+  if (remaining.length > 0) {
+    const nextImg = remaining[Math.floor(Math.random() * remaining.length)];
+    activeReplacementQuestion.image = nextImg;
+    activeReplacementQuestion.requiresCrop = shouldCropImage(nextImg);
+
+    const imgEl = document.getElementById('replacement-modal-img');
+    if (imgEl) {
+      imgEl.src = nextImg.url;
+      imgEl.style.setProperty('--replacement-crop-bottom', activeReplacementQuestion.requiresCrop ? '14%' : '0%');
+    }
+    showToast('Photo discarded • Swapped with another replacement photo');
+  } else {
+    openReplacementQuestionModal(activeReplacementIndex);
+  }
+}
+
+function submitReplacementAnswer() {
+  if (activeReplacementIndex === null || !activeReplacementQuestion) return;
+  const inputEl = document.getElementById('replacement-user-input');
+  const userVal = inputEl ? inputEl.value.trim() : '';
+
+  if (!userVal) {
+    if (inputEl) inputEl.focus();
+    return;
+  }
+
+  const targetAnswer = activeReplacementQuestion.species.latin;
+  const { isMatch, isClose } = checkAnswerMatch(userVal, targetAnswer);
+
+  const rec = quizAnswersRecord[activeReplacementIndex];
+  rec.species = activeReplacementQuestion.species;
+  rec.imageShown = activeReplacementQuestion.image;
+  rec.userAnswer = userVal;
+  rec.correctAnswer = targetAnswer;
+  rec.isCorrect = isMatch;
+  rec.isClose = isClose;
+  rec.photoDiscarded = false;
+  rec.wasReplaced = true;
+
+  closeReplacementModal();
+  renderResultsSummary();
+
+  const total = quizAnswersRecord.length;
+  const correct = quizAnswersRecord.filter(a => a.isCorrect).length;
+  const pct = Math.round((correct / total) * 100);
+  showToast(`Question #${activeReplacementIndex + 1} updated! New Score: ${correct} / ${total} (${pct}%)`);
+}
+
+function closeReplacementModal() {
+  const modal = document.getElementById('replacement-question-modal');
+  if (modal) modal.classList.add('hidden');
+  activeReplacementIndex = null;
+  activeReplacementQuestion = null;
+  renderResultsSummary();
 }
 
 function startMissedSpeciesSlideshow() {
@@ -1139,12 +1465,24 @@ function discardImage(url, speciesLatin, organ, title, author, source, silent = 
   // Find species in allSpecies
   const sp = allSpecies.find(s => s.latin === speciesLatin || s.id === speciesLatin);
   let removedItem = null;
-  if (sp && sp.images[organ]) {
-    const idx = sp.images[organ].findIndex(img => img.url === url);
-    if (idx !== -1) {
-      removedItem = sp.images[organ].splice(idx, 1)[0];
-      sp.total_images = Object.values(sp.images).reduce((sum, list) => sum + list.length, 0);
+  if (sp && sp.images) {
+    if (organ && sp.images[organ]) {
+      const idx = sp.images[organ].findIndex(img => img.url === url);
+      if (idx !== -1) {
+        removedItem = sp.images[organ].splice(idx, 1)[0];
+      }
     }
+    if (!removedItem) {
+      for (const [orgKey, list] of Object.entries(sp.images)) {
+        const idx = list.findIndex(img => img.url === url);
+        if (idx !== -1) {
+          removedItem = list.splice(idx, 1)[0];
+          organ = orgKey;
+          break;
+        }
+      }
+    }
+    sp.total_images = Object.values(sp.images).reduce((sum, list) => sum + list.length, 0);
   }
 
   const record = {
@@ -2033,8 +2371,11 @@ function handleImageLoadError(imgEl) {
 // LIGHTBOX VIEWER
 // ==========================================
 
+let lightboxCurrentPhoto = null;
+
 function openLightbox(url, title, author, autoCrop = false) {
   if (!url) return;
+  lightboxCurrentPhoto = { url, title, author };
   const modal = document.getElementById('lightbox-modal');
   const lbImg = document.getElementById('lightbox-img');
 
@@ -2053,6 +2394,35 @@ function openLightbox(url, title, author, autoCrop = false) {
   }
 
   modal.classList.remove('hidden');
+}
+
+function discardLightboxPhoto() {
+  if (!lightboxCurrentPhoto || !lightboxCurrentPhoto.url) return;
+  const url = lightboxCurrentPhoto.url;
+
+  // If this was the current quiz question photo
+  if (currentQuestion && currentQuestion.primaryImage && currentQuestion.primaryImage.url === url) {
+    closeLightbox();
+    discardCurrentQuizPhoto();
+    return;
+  }
+
+  // Find which species owns this photo
+  let foundSp = null;
+  let foundOrg = null;
+  for (const sp of allSpecies) {
+    for (const [org, list] of Object.entries(sp.images || {})) {
+      if (list.some(im => im.url === url)) {
+        foundSp = sp;
+        foundOrg = org;
+        break;
+      }
+    }
+    if (foundSp) break;
+  }
+
+  closeLightbox();
+  discardImage(url, foundSp ? foundSp.latin : '', foundOrg, lightboxCurrentPhoto.title, lightboxCurrentPhoto.author);
 }
 
 function openCurrentPhotoLightbox() {
