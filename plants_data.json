@@ -5,27 +5,9 @@
     "clean_latin": "Abies grandis",
     "family": "Pinaceae",
     "plant_type": "conifer",
-    "total_images": 77,
+    "total_images": 65,
     "images": {
       "bark": [
-        {
-          "title": "1942. Balsam woolly adelgid (Chermes piceae). Detail of bark surface showing egg masses and wax-covered females on Abies grandis. Sample from Wilsonville, Oregon. (39314838184).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/1942._Balsam_woolly_adelgid_%28Chermes_piceae%29._Detail_of_bark_surface_showing_egg_masses_and_wax-covered_females_on_Abies_grandis._Sample_from_Wilsonville%2C_Oregon._%2839314838184%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "R6, State &amp; Private Forestry, Forest Health Protection"
-        },
-        {
-          "title": "1942. Balsam woolly adelgid (Chermes piceae; Adelges piceae). Detail of bark surface showing egg masses and wax-covered females on Abies grandis. Sample from Wilsonville, Oregon. (40024542061).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/1942._Balsam_woolly_adelgid_%28Chermes_piceae%3B_Adelges_piceae%29._Detail_of_bark_surface_showing_egg_masses_and_wax-covered_females_on_Abies_grandis._Sample_from_Wilsonville%2C_Oregon._%2840024542061%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "R6, State &amp; Private Forestry, Forest Health Protection"
-        },
-        {
-          "title": "1942. Balsam woolly adelgid (Chermes piceae; Adelges piceae). Detail of bark surface showing egg masses and wax-covered females on Abies grandis. Sample from Wilsonville, Oregon. (40024548771).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/1942._Balsam_woolly_adelgid_%28Chermes_piceae%3B_Adelges_piceae%29._Detail_of_bark_surface_showing_egg_masses_and_wax-covered_females_on_Abies_grandis._Sample_from_Wilsonville%2C_Oregon._%2840024548771%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "R6, State &amp; Private Forestry, Forest Health Protection"
-        },
         {
           "title": "Abies grandis bark.jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Abies_grandis_bark.jpg/960px-Abies_grandis_bark.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -41,12 +23,6 @@
       ],
       "botanical_illustration": [
         {
-          "title": "Abies grandis (1991).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Abies_grandis_%281991%29.jpg/960px-Abies_grandis_%281991%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Wikimedia Commons"
-        },
-        {
           "title": "Abies grandis JPG1a.jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Abies_grandis_JPG1a.jpg/960px-Abies_grandis_JPG1a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
@@ -57,12 +33,6 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Abies_grandis_JPG1b.jpg/960px-Abies_grandis_JPG1b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
           "author": "Jean-Pol GRANDMONT"
-        },
-        {
-          "title": "Bulletins on forest pathology - from Bulletin U.S.D.A., Washington, D.C., 1913-1925 (1913) (19884489523) (Abies grandis).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Bulletins_on_forest_pathology_-_from_Bulletin_U.S.D.A.%2C_Washington%2C_D.C.%2C_1913-1925_%281913%29_%2819884489523%29_%28Abies_grandis%29.jpg/960px-Bulletins_on_forest_pathology_-_from_Bulletin_U.S.D.A.%2C_Washington%2C_D.C.%2C_1913-1925_%281913%29_%2819884489523%29_%28Abies_grandis%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "United States. Dept. of Agriculture"
         }
       ],
       "leaves_top": [
@@ -377,12 +347,6 @@
       ],
       "buds_winter": [
         {
-          "title": "Forest trees of the Pacific slope (1908) (14593652590).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Forest_trees_of_the_Pacific_slope_%281908%29_%2814593652590%29.jpg/960px-Forest_trees_of_the_Pacific_slope_%281908%29_%2814593652590%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Internet Archive Book Images"
-        },
-        {
           "title": "Abies grandis Observation #402082788",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738088772/large.jpg",
           "source": "iNaturalist (Research Grade)",
@@ -423,12 +387,6 @@
           "author": "Chris Light"
         },
         {
-          "title": "Veitch's manual of the coniferae - containing a general review of the order, a synopsis of the species cultivated in Great Britain, their botanical history, economic properties, place and use in (14769772862).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Veitch%27s_manual_of_the_coniferae_-_containing_a_general_review_of_the_order%2C_a_synopsis_of_the_species_cultivated_in_Great_Britain%2C_their_botanical_history%2C_economic_properties%2C_place_and_use_in_%2814769772862%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Kent, Adolphus Henry;\nVeitch, James Herbert, 1868-1907;\n\nJames Veitch &amp; Sons"
-        },
-        {
           "title": "Abies grandis Observation #402031102",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737975159/large.jpg",
           "source": "iNaturalist (Research Grade)",
@@ -437,18 +395,6 @@
       ],
       "fruits_seeds": [
         {
-          "title": "Bulletins on forest pathology - from Bulletin U.S.D.A., Washington, D.C., 1913-1925 (1913) (20317032270).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Bulletins_on_forest_pathology_-_from_Bulletin_U.S.D.A.%2C_Washington%2C_D.C.%2C_1913-1925_%281913%29_%2820317032270%29.jpg/960px-Bulletins_on_forest_pathology_-_from_Bulletin_U.S.D.A.%2C_Washington%2C_D.C.%2C_1913-1925_%281913%29_%2820317032270%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "United States. Dept. of Agriculture"
-        },
-        {
-          "title": "The Gardeners' chronicle - a weekly illustrated journal of horticulture and allied subjects (1913) (14579647609).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/The_Gardeners%27_chronicle_-_a_weekly_illustrated_journal_of_horticulture_and_allied_subjects_%281913%29_%2814579647609%29.jpg/960px-The_Gardeners%27_chronicle_-_a_weekly_illustrated_journal_of_horticulture_and_allied_subjects_%281913%29_%2814579647609%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Internet Archive Book Images"
-        },
-        {
           "title": "Abies grandis Observation #401998298",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737914585/large.jpg",
           "source": "iNaturalist (Research Grade)",
@@ -456,24 +402,6 @@
         }
       ],
       "tree_shape": [
-        {
-          "title": "Vegetation of Oregon and Washington (1969) (20573889815).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Vegetation_of_Oregon_and_Washington_%281969%29_%2820573889815%29.jpg/960px-Vegetation_of_Oregon_and_Washington_%281969%29_%2820573889815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Franklin, Jerry F. cn;\n\nDyrness, C. T"
-        },
-        {
-          "title": "Abies grandis cross section.JPG",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Abies_grandis_cross_section.JPG/960px-Abies_grandis_cross_section.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Crusier"
-        },
-        {
-          "title": "Abies grandis crownoldtree.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Abies_grandis_crownoldtree.jpg/960px-Abies_grandis_crownoldtree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Chris Schnepf, University of Idaho, United States"
-        },
         {
           "title": "Abies grandis seedling.JPG",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Abies_grandis_seedling.JPG/960px-Abies_grandis_seedling.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -495,7 +423,7 @@
     "clean_latin": "Acer campestre",
     "family": "Sapindaceae",
     "plant_type": "broadleaf",
-    "total_images": 58,
+    "total_images": 56,
     "images": {
       "bark": [
         {
@@ -524,12 +452,6 @@
         }
       ],
       "botanical_illustration": [
-        {
-          "title": "Britishentomologyvolume5Plate328.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Britishentomologyvolume5Plate328.jpg/960px-Britishentomologyvolume5Plate328.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "John Curtis"
-        },
         {
           "title": "Acer campestre JPG1.jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Acer_campestre_JPG1.jpg/960px-Acer_campestre_JPG1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -801,12 +723,6 @@
       ],
       "fruits_seeds": [
         {
-          "title": "Moon's hardy trees and plants for every place and purpose (16765453662).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Moon%27s_hardy_trees_and_plants_for_every_place_and_purpose_%2816765453662%29.jpg/960px-Moon%27s_hardy_trees_and_plants_for_every_place_and_purpose_%2816765453662%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Moon, Samuel C. (Firm); Moon, William H. Co."
-        },
-        {
           "title": "Sapindales - Acer campestre 1.jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Sapindales_-_Acer_campestre_1.jpg/960px-Sapindales_-_Acer_campestre_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
@@ -871,7 +787,7 @@
     "clean_latin": "Acer platanoides",
     "family": "Sapindaceae",
     "plant_type": "broadleaf",
-    "total_images": 54,
+    "total_images": 44,
     "images": {
       "bark": [
         {
@@ -911,18 +827,6 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Acer_platanoides-cv._laciniatumAHA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "source": "Wikimedia Commons",
           "author": "Wikimedia Commons"
-        },
-        {
-          "title": "Acer platanoides -freigestellt- remixed.png",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Acer_platanoides_-freigestellt-_remixed.png/960px-Acer_platanoides_-freigestellt-_remixed.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "T. C. Woodeggs"
-        },
-        {
-          "title": "Acer platanoides watercolor.png",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Acer_platanoides_watercolor.png/960px-Acer_platanoides_watercolor.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Lisa Nicvert"
         }
       ],
       "leaves_top": [
@@ -1109,12 +1013,6 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Acer_platanoides_twig_and_buds.jpg/960px-Acer_platanoides_twig_and_buds.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
           "author": "Tgalos90"
-        },
-        {
-          "title": "Bulletin (Pennsylvania Department of Forestry), no. 11 (1901) (20314912470).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Bulletin_%28Pennsylvania_Department_of_Forestry%29%2C_no._11_%281901%29_%2820314912470%29.jpg/960px-Bulletin_%28Pennsylvania_Department_of_Forestry%29%2C_no._11_%281901%29_%2820314912470%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Internet Archive Book Images"
         }
       ],
       "stem_branch": [
@@ -1123,18 +1021,6 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Acer_platanoides_Klon_zwyczajny_2020-04-19_01.jpg/960px-Acer_platanoides_Klon_zwyczajny_2020-04-19_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
           "author": "Agnieszka Kwiecień, Nova"
-        },
-        {
-          "title": "Trees; a handbook of forest-botany for the woodlands and the laboratory (1904) (14756806416).jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Trees%3B_a_handbook_of_forest-botany_for_the_woodlands_and_the_laboratory_%281904%29_%2814756806416%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "Wikimedia Commons",
-          "author": "Internet Archive Book Images"
-        },
-        {
-          "title": "Trees; a handbook of forest-botany for the woodlands and the laboratory (1904) (14799669853).jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Trees%3B_a_handbook_of_forest-botany_for_the_woodlands_and_the_laboratory_%281904%29_%2814799669853%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "Wikimedia Commons",
-          "author": "Internet Archive Book Images"
         }
       ],
       "flowers": [
@@ -1171,30 +1057,6 @@
       ],
       "fruits_seeds": [
         {
-          "title": "Moon's hardy trees and plants for every place and purpose (16580343169).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Moon%27s_hardy_trees_and_plants_for_every_place_and_purpose_%2816580343169%29.jpg/960px-Moon%27s_hardy_trees_and_plants_for_every_place_and_purpose_%2816580343169%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Moon, Samuel C. (Firm); Moon, William H. Co."
-        },
-        {
-          "title": "2020 year. Herbarium. Acer platanoides. img-032.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/2020_year._Herbarium._Acer_platanoides._img-032.jpg/960px-2020_year._Herbarium._Acer_platanoides._img-032.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
-        {
-          "title": "2020 year. Herbarium. Acer platanoides. img-033.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/2020_year._Herbarium._Acer_platanoides._img-033.jpg/960px-2020_year._Herbarium._Acer_platanoides._img-033.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
-        {
-          "title": "2020 year. Herbarium. Acer platanoides. img-034.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/2020_year._Herbarium._Acer_platanoides._img-034.jpg/960px-2020_year._Herbarium._Acer_platanoides._img-034.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
-        {
           "title": "Acer platanoides fruit (Ab plant 146).jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Acer_platanoides_fruit_%28Ab_plant_146%29.jpg/960px-Acer_platanoides_fruit_%28Ab_plant_146%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
@@ -1202,12 +1064,6 @@
         }
       ],
       "tree_shape": [
-        {
-          "title": "The Queen's Green Canopy plaque, Blackbirds Moor, Boxmoor, August 2025.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/The_Queen%27s_Green_Canopy_plaque%2C_Blackbirds_Moor%2C_Boxmoor%2C_August_2025.jpg/960px-The_Queen%27s_Green_Canopy_plaque%2C_Blackbirds_Moor%2C_Boxmoor%2C_August_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "No Swan So Fine"
-        },
         {
           "title": "Yellow Canopy.jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Yellow_Canopy.jpg/960px-Yellow_Canopy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1223,7 +1079,7 @@
     "clean_latin": "Acer pseudoplatanus",
     "family": "Sapindaceae",
     "plant_type": "broadleaf",
-    "total_images": 53,
+    "total_images": 51,
     "images": {
       "bark": [
         {
@@ -1258,12 +1114,6 @@
         }
       ],
       "botanical_illustration": [
-        {
-          "title": "British Entomology Volume 7 (John Curtis) Plate 577.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/British_Entomology_Volume_7_%28John_Curtis%29_Plate_577.jpg/960px-British_Entomology_Volume_7_%28John_Curtis%29_Plate_577.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "John Curtis"
-        },
         {
           "title": "Acer pseudoplatanus 'Nizetii' c.jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Acer_pseudoplatanus_%27Nizetii%27_c.jpg/960px-Acer_pseudoplatanus_%27Nizetii%27_c.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1497,12 +1347,6 @@
       ],
       "flowers": [
         {
-          "title": "Eulen am Pestalozzi-Gymnasium München 01.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Eulen_am_Pestalozzi-Gymnasium_M%C3%BCnchen_01.jpg/960px-Eulen_am_Pestalozzi-Gymnasium_M%C3%BCnchen_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Burkhard Mücke"
-        },
-        {
           "title": "Knoppen van een esdoorn (Acer platanoides). 03-04-2023 (d.j.b.).jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Knoppen_van_een_esdoorn_%28Acer_platanoides%29._03-04-2023_%28d.j.b.%29.jpg/960px-Knoppen_van_een_esdoorn_%28Acer_platanoides%29._03-04-2023_%28d.j.b.%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
@@ -1569,7 +1413,7 @@
     "clean_latin": "Acer saccharum",
     "family": "Sapindaceae",
     "plant_type": "broadleaf",
-    "total_images": 52,
+    "total_images": 48,
     "images": {
       "bark": [
         {
@@ -1599,12 +1443,6 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Acer_saccharum_Leaves_-_Flickr_-_treegrow_%284%29.jpg/960px-Acer_saccharum_Leaves_-_Flickr_-_treegrow_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
           "author": "Katja Schulz from Washington, D. C., USA"
-        },
-        {
-          "title": "Autumn leaves (pantone).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Autumn_leaves_%28pantone%29.jpg/960px-Autumn_leaves_%28pantone%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Chris Glass, Cincinnati, USA"
         },
         {
           "title": "Acer saccharum Observation #402072277",
@@ -1825,14 +1663,7 @@
           "author": "(c) Russell Parsons, some rights reserved (CC BY)"
         }
       ],
-      "buds_winter": [
-        {
-          "title": "Bulletin (Pennsylvania Department of Forestry), no. 11 (1901) (20314918048).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Bulletin_%28Pennsylvania_Department_of_Forestry%29%2C_no._11_%281901%29_%2820314918048%29.jpg/960px-Bulletin_%28Pennsylvania_Department_of_Forestry%29%2C_no._11_%281901%29_%2820314918048%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Pennsylvania. Dept. of Forestry"
-        }
-      ],
+      "buds_winter": [],
       "stem_branch": [
         {
           "title": "Acer saccharum Observation #402152058",
@@ -1871,21 +1702,9 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Acer_saccharum_kz03.jpg/960px-Acer_saccharum_kz03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
           "author": "Krzysztof Ziarnek, Kenraiz"
-        },
-        {
-          "title": "The flower and the bee; plant life and pollination (1918) (14777114444).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/The_flower_and_the_bee%3B_plant_life_and_pollination_%281918%29_%2814777114444%29.jpg/960px-The_flower_and_the_bee%3B_plant_life_and_pollination_%281918%29_%2814777114444%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Internet Archive Book Images"
         }
       ],
       "fruits_seeds": [
-        {
-          "title": "Garden guide; the amateur gardeners' handbook. Profusely illustrated with over 275 teaching plans and diagrams and reproduced photographs, all made expressly for this standard text book (1920) (14763304365).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Garden_guide%3B_the_amateur_gardeners%27_handbook._Profusely_illustrated_with_over_275_teaching_plans_and_diagrams_and_reproduced_photographs%2C_all_made_expressly_for_this_standard_text_book_%281920%29_%2814763304365%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Internet Archive Book Images"
-        },
         {
           "title": "Acer saccharum seeds.jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Acer_saccharum_seeds.jpg/960px-Acer_saccharum_seeds.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1909,7 +1728,7 @@
     "clean_latin": "Aesculus hippocastanum",
     "family": "Sapindaceae",
     "plant_type": "broadleaf",
-    "total_images": 57,
+    "total_images": 49,
     "images": {
       "bark": [
         {
@@ -2116,19 +1935,7 @@
         },
         {
           "title": "Aesculus hippocastanum Observation #401714232",
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737347306/large.jpg",
-          "source": "iNaturalist (Research Grade)",
-          "author": "(c) mat200529, some rights reserved (CC BY-NC)"
-        },
-        {
-          "title": "Aesculus hippocastanum Observation #401714232",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737347293/large.jpg",
-          "source": "iNaturalist (Research Grade)",
-          "author": "(c) mat200529, some rights reserved (CC BY-NC)"
-        },
-        {
-          "title": "Aesculus hippocastanum Observation #401714232",
-          "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737347250/large.jpg",
           "source": "iNaturalist (Research Grade)",
           "author": "(c) mat200529, some rights reserved (CC BY-NC)"
         },
@@ -2164,46 +1971,8 @@
         }
       ],
       "leaves_underside": [],
-      "buds_winter": [
-        {
-          "title": "Bulletin (Pennsylvania Department of Forestry), no. 11 (1901) (19880341104).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Bulletin_%28Pennsylvania_Department_of_Forestry%29%2C_no._11_%281901%29_%2819880341104%29.jpg/960px-Bulletin_%28Pennsylvania_Department_of_Forestry%29%2C_no._11_%281901%29_%2819880341104%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Pennsylvania. Dept. of Forestry"
-        },
-        {
-          "title": "Bulletin (Pennsylvania Department of Forestry), no. 11 (1901) (20503016895).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Bulletin_%28Pennsylvania_Department_of_Forestry%29%2C_no._11_%281901%29_%2820503016895%29.jpg/960px-Bulletin_%28Pennsylvania_Department_of_Forestry%29%2C_no._11_%281901%29_%2820503016895%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Pennsylvania. Dept. of Forestry"
-        }
-      ],
-      "stem_branch": [
-        {
-          "title": "A Horse Chestnut with Grey Squirrel shoots damage, Lainshaw Woods, Stewarton, East Ayrshire.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/A_Horse_Chestnut_with_Grey_Squirrel_shoots_damage%2C_Lainshaw_Woods%2C_Stewarton%2C_East_Ayrshire.jpg/960px-A_Horse_Chestnut_with_Grey_Squirrel_shoots_damage%2C_Lainshaw_Woods%2C_Stewarton%2C_East_Ayrshire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Rosser1954"
-        },
-        {
-          "title": "Grey Squirrel damage on shoot of Horse Chestnut, Lainshaw Woods, Stewarton.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Grey_Squirrel_damage_on_shoot_of_Horse_Chestnut%2C_Lainshaw_Woods%2C_Stewarton.jpg/960px-Grey_Squirrel_damage_on_shoot_of_Horse_Chestnut%2C_Lainshaw_Woods%2C_Stewarton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Rosser1954"
-        },
-        {
-          "title": "Grey Squirrel damage on shoot of Horse Chestnut, Lainshaw Woods, and leaves Stewarton.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Grey_Squirrel_damage_on_shoot_of_Horse_Chestnut%2C_Lainshaw_Woods%2C_and_leaves_Stewarton.jpg/960px-Grey_Squirrel_damage_on_shoot_of_Horse_Chestnut%2C_Lainshaw_Woods%2C_and_leaves_Stewarton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Rosser1954"
-        },
-        {
-          "title": "Horse Chestnut with Grey Squirrel shoot damage, Lainshaw Woods, Stewarton, East Ayrshire.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Horse_Chestnut_with_Grey_Squirrel_shoot_damage%2C_Lainshaw_Woods%2C_Stewarton%2C_East_Ayrshire.jpg/960px-Horse_Chestnut_with_Grey_Squirrel_shoot_damage%2C_Lainshaw_Woods%2C_Stewarton%2C_East_Ayrshire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Rosser1954"
-        }
-      ],
+      "buds_winter": [],
+      "stem_branch": [],
       "flowers": [
         {
           "title": "-2021-05-31 Aesculus hippocastanum flowers, Bourne Lincolnshire.jpg",
@@ -2278,7 +2047,7 @@
     "clean_latin": "Alnus glutinosa",
     "family": "Betulaceae",
     "plant_type": "broadleaf",
-    "total_images": 71,
+    "total_images": 59,
     "images": {
       "bark": [
         {
@@ -2314,67 +2083,13 @@
       ],
       "botanical_illustration": [
         {
-          "title": "Britishentomologyvolume6Plate703.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Britishentomologyvolume6Plate703.jpg/960px-Britishentomologyvolume6Plate703.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Curtis"
-        },
-        {
           "title": "Alnus glutinosa 'Imperialis'.jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Alnus_glutinosa_%27Imperialis%27.jpg/960px-Alnus_glutinosa_%27Imperialis%27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
           "author": "Jean-Pol GRANDMONT"
-        },
-        {
-          "title": "Alnus glutinosa bud illustration.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Alnus_glutinosa_bud_illustration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "Wikimedia Commons",
-          "author": "G.Bernetti/EUFORGEN"
-        },
-        {
-          "title": "Alnus glutinosa cone illustration.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Alnus_glutinosa_cone_illustration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "Wikimedia Commons",
-          "author": "G.Bernetti/EUFORGEN"
-        },
-        {
-          "title": "Alnus glutinosa leaf illustration.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Alnus_glutinosa_leaf_illustration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "Wikimedia Commons",
-          "author": "G.Bernetti/EUFORGEN"
         }
       ],
       "leaves_top": [
-        {
-          "title": "2020 year. Herbarium. Alnus glutinosa. img-004.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/2020_year._Herbarium._Alnus_glutinosa._img-004.jpg/960px-2020_year._Herbarium._Alnus_glutinosa._img-004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
-        {
-          "title": "2020 year. Herbarium. Alnus glutinosa. img-011.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/2020_year._Herbarium._Alnus_glutinosa._img-011.jpg/960px-2020_year._Herbarium._Alnus_glutinosa._img-011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
-        {
-          "title": "2020 year. Herbarium. Alnus glutinosa. img-013.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/2020_year._Herbarium._Alnus_glutinosa._img-013.jpg/960px-2020_year._Herbarium._Alnus_glutinosa._img-013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
-        {
-          "title": "338 Cut Leaf Alder Alnus glutinosa Imperialis LEAF epidermis print.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/338_Cut_Leaf_Alder_Alnus_glutinosa_Imperialis_LEAF_epidermis_print.jpg/960px-338_Cut_Leaf_Alder_Alnus_glutinosa_Imperialis_LEAF_epidermis_print.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "ChrisInMilton"
-        },
-        {
-          "title": "Black alder twig and water ripples at Wolfsberger Mühle, 2019-06-29.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Black_alder_twig_and_water_ripples_at_Wolfsberger_M%C3%BChle%2C_2019-06-29.jpg/960px-Black_alder_twig_and_water_ripples_at_Wolfsberger_M%C3%BChle%2C_2019-06-29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Radomianin"
-        },
         {
           "title": "Alnus glutinosa Observation #402171801",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738263587/large.jpg",
@@ -2618,12 +2333,6 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Common_Alder_%28Alnus_glutinosa%29_twig_and_bud_%288256951383%29.jpg/960px-Common_Alder_%28Alnus_glutinosa%29_twig_and_bud_%288256951383%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
           "author": "Peter O'Connor aka anemoneprojectors from Stevenage, United Kingdom"
-        },
-        {
-          "title": "The elements of forestry, designed to afford information concerning the planting and care of forest trees for ornament or profit and giving suggestions upon the creation and care of woodlands with the (21065812410).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/The_elements_of_forestry%2C_designed_to_afford_information_concerning_the_planting_and_care_of_forest_trees_for_ornament_or_profit_and_giving_suggestions_upon_the_creation_and_care_of_woodlands_with_the_%2821065812410%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Hough, Franklin Benjamin, 1822-1885"
         }
       ],
       "stem_branch": [
@@ -2674,12 +2383,6 @@
           "author": "ines saraiva from Belgium / Portugal"
         },
         {
-          "title": "Moon's hardy trees and plants for every place and purpose (16765419602).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Moon%27s_hardy_trees_and_plants_for_every_place_and_purpose_%2816765419602%29.jpg/960px-Moon%27s_hardy_trees_and_plants_for_every_place_and_purpose_%2816765419602%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Moon, Samuel C. (Firm); Moon, William H. Co."
-        },
-        {
           "title": "(ms) Alnus glutinosa 8.jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/%28ms%29_Alnus_glutinosa_8.jpg/960px-%28ms%29_Alnus_glutinosa_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
@@ -2716,12 +2419,6 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Aulnaie-fr%C3%AAnaie_-_Castaignos-Souslens_%2840%29_-_2024-06-12_IMG_0063.jpg/960px-Aulnaie-fr%C3%AAnaie_-_Castaignos-Souslens_%2840%29_-_2024-06-12_IMG_0063.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
           "author": "BotaFlo"
-        },
-        {
-          "title": "European landscapes from the Miocene to the Holocene.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/European_landscapes_from_the_Miocene_to_the_Holocene.jpg/960px-European_landscapes_from_the_Miocene_to_the_Holocene.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Márton Zsoldos"
         }
       ]
     }
@@ -2732,7 +2429,7 @@
     "clean_latin": "Alnus incana",
     "family": "Betulaceae",
     "plant_type": "broadleaf",
-    "total_images": 77,
+    "total_images": 73,
     "images": {
       "bark": [
         {
@@ -2766,14 +2463,7 @@
           "author": "Гурьева Светлана (zooclub.ru)"
         }
       ],
-      "botanical_illustration": [
-        {
-          "title": "Alnus incana rugosa illustr.png",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Alnus_incana_rugosa_illustr.png/960px-Alnus_incana_rugosa_illustr.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "USDA-NRCS PLANTS Database / Britton, N.L., and A. Brown. 1913. An illustrated fl"
-        }
-      ],
+      "botanical_illustration": [],
       "leaves_top": [
         {
           "title": "Alnus-incana-leaves.JPG",
@@ -2798,12 +2488,6 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Alnus_serrulata_leaves.jpg/960px-Alnus_serrulata_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
           "author": "Wikimedia Commons"
-        },
-        {
-          "title": "Stellwaag 00044a01.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Stellwaag_00044a01.jpg/960px-Stellwaag_00044a01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Klaus Rassinger (Museum Wiesbaden)"
         },
         {
           "title": "Alnus incana Observation #402154309",
@@ -3106,12 +2790,6 @@
       ],
       "stem_branch": [
         {
-          "title": "The century book of gardening; a comprehensive work for every lover of the garden (1900) (20595987291).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/The_century_book_of_gardening%3B_a_comprehensive_work_for_every_lover_of_the_garden_%281900%29_%2820595987291%29.jpg/960px-The_century_book_of_gardening%3B_a_comprehensive_work_for_every_lover_of_the_garden_%281900%29_%2820595987291%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Internet Archive Book Images"
-        },
-        {
           "title": "Alnus incana Observation #402154309",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738229993/large.jpg",
           "source": "iNaturalist (Research Grade)",
@@ -3142,12 +2820,6 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Catkins_close_up_%282331636426%29.jpg/960px-Catkins_close_up_%282331636426%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
           "author": "Randi Hausken from Bærum, Norway"
-        },
-        {
-          "title": "The tree book - A popular guide to a knowledge of the trees of North America and to their uses and cultivation (1920) (14759930946).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/The_tree_book_-_A_popular_guide_to_a_knowledge_of_the_trees_of_North_America_and_to_their_uses_and_cultivation_%281920%29_%2814759930946%29.jpg/960px-The_tree_book_-_A_popular_guide_to_a_knowledge_of_the_trees_of_North_America_and_to_their_uses_and_cultivation_%281920%29_%2814759930946%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Internet Archive Book Images"
         }
       ],
       "fruits_seeds": [
@@ -3222,7 +2894,7 @@
     "clean_latin": "Betula pendula",
     "family": "Betulaceae",
     "plant_type": "broadleaf",
-    "total_images": 69,
+    "total_images": 61,
     "images": {
       "bark": [
         {
@@ -3258,12 +2930,6 @@
       ],
       "botanical_illustration": [
         {
-          "title": "Britishentomologyvolume5Plate434.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Britishentomologyvolume5Plate434.jpg/960px-Britishentomologyvolume5Plate434.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "John Curtis"
-        },
-        {
           "title": "Betula pendula bud illustration.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Betula_pendula_bud_illustration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "source": "Wikimedia Commons",
@@ -3296,22 +2962,10 @@
           "author": "Jiròni B."
         },
         {
-          "title": "Betula pendula Leaf epidermis print with stomata 400x.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Betula_pendula_Leaf_epidermis_print_with_stomata_400x.jpg/960px-Betula_pendula_Leaf_epidermis_print_with_stomata_400x.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "ChrisInMilton"
-        },
-        {
           "title": "Betula pendula laciniata speciae nova 2.jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Betula_pendula_laciniata_speciae_nova_2.jpg/960px-Betula_pendula_laciniata_speciae_nova_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
           "author": "SamiKullström"
-        },
-        {
-          "title": "Betula pendula leaf epidermis print and stomata 100x.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Betula_pendula_leaf_epidermis_print_and_stomata_100x.jpg/960px-Betula_pendula_leaf_epidermis_print_and_stomata_100x.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "ChrisInMilton"
         },
         {
           "title": "Leaf Microbiology.jpg",
@@ -3572,38 +3226,7 @@
           "author": "Syp"
         }
       ],
-      "flowers": [
-        {
-          "title": "Microscope view of Betula pendula flowers 02.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Microscope_view_of_Betula_pendula_flowers_02.jpg/960px-Microscope_view_of_Betula_pendula_flowers_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Korinna"
-        },
-        {
-          "title": "Microscope view of Betula pendula flowers 03.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Microscope_view_of_Betula_pendula_flowers_03.jpg/960px-Microscope_view_of_Betula_pendula_flowers_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Korinna"
-        },
-        {
-          "title": "Microscope view of Betula pendula flowers 04.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Microscope_view_of_Betula_pendula_flowers_04.jpg/960px-Microscope_view_of_Betula_pendula_flowers_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Korinna"
-        },
-        {
-          "title": "Microscope view of Betula pendula flowers 05.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Microscope_view_of_Betula_pendula_flowers_05.jpg/960px-Microscope_view_of_Betula_pendula_flowers_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Korinna"
-        },
-        {
-          "title": "Microscope view of Betula pendula flowers 08.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Microscope_view_of_Betula_pendula_flowers_08.jpg/960px-Microscope_view_of_Betula_pendula_flowers_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Korinna"
-        }
-      ],
+      "flowers": [],
       "fruits_seeds": [
         {
           "title": "Betula pendula (Ruwe Berk) - Klein Leeuwenhorst, Noordwijkerhout.jpg",
@@ -3664,15 +3287,9 @@
     "clean_latin": "Betula pubescens",
     "family": "Betulaceae",
     "plant_type": "broadleaf",
-    "total_images": 75,
+    "total_images": 72,
     "images": {
       "bark": [
-        {
-          "title": "Bark damage on birch tree by Sciurus vulgaris, Shap Wells, Cumbria.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Bark_damage_on_birch_tree_by_Sciurus_vulgaris%2C_Shap_Wells%2C_Cumbria.jpg/960px-Bark_damage_on_birch_tree_by_Sciurus_vulgaris%2C_Shap_Wells%2C_Cumbria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Rosser1954"
-        },
         {
           "title": "Betula pubescens bark and lenticels. Spier's Old School Grounds, Beith, North Ayrshire.jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Betula_pubescens_bark_and_lenticels._Spier%27s_Old_School_Grounds%2C_Beith%2C_North_Ayrshire.jpg/960px-Betula_pubescens_bark_and_lenticels._Spier%27s_Old_School_Grounds%2C_Beith%2C_North_Ayrshire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -3706,22 +3323,10 @@
           "author": "Jean-Pol GRANDMONT"
         },
         {
-          "title": "1911 Britannica-Birch-Betula alba.png",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/1911_Britannica-Birch-Betula_alba.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "Wikimedia Commons",
-          "author": "Encyclopædia Britannica, 1911"
-        },
-        {
           "title": "306 Betula alba L.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/306_Betula_alba_L.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "source": "Wikimedia Commons",
           "author": "Amédée Masclef"
-        },
-        {
-          "title": "WWB-0305-149-Betula alba.png",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/WWB-0305-149-Betula_alba.png/960px-WWB-0305-149-Betula_alba.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Edward Step"
         }
       ],
       "leaves_top": [
@@ -4142,7 +3747,7 @@
     "clean_latin": "Carpinus betulus",
     "family": "Betulaceae",
     "plant_type": "broadleaf",
-    "total_images": 69,
+    "total_images": 63,
     "images": {
       "bark": [
         {
@@ -4178,18 +3783,6 @@
       ],
       "botanical_illustration": [
         {
-          "title": "Britishentomologyvolume2Plate579.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Britishentomologyvolume2Plate579.jpg/960px-Britishentomologyvolume2Plate579.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "John Curtis"
-        },
-        {
-          "title": "Carpinus betulus.png",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Carpinus_betulus.png/960px-Carpinus_betulus.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Lisa Nicvert"
-        },
-        {
           "title": "Carpinus betulus JPG1b.jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Carpinus_betulus_JPG1b.jpg/960px-Carpinus_betulus_JPG1b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
@@ -4209,18 +3802,6 @@
         }
       ],
       "leaves_top": [
-        {
-          "title": "186 Carpinus betulus Hornbeam 01 Leaf Mid 2 LEAF epidermis print.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/186_Carpinus_betulus_Hornbeam_01_Leaf_Mid_2_LEAF_epidermis_print.jpg/960px-186_Carpinus_betulus_Hornbeam_01_Leaf_Mid_2_LEAF_epidermis_print.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "ChrisInMilton"
-        },
-        {
-          "title": "316 Hornbeam Carpinus betulus LEAF epidermis print.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/316_Hornbeam_Carpinus_betulus_LEAF_epidermis_print.jpg/960px-316_Hornbeam_Carpinus_betulus_LEAF_epidermis_print.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "ChrisInMilton"
-        },
         {
           "title": "Blätter der Gemeinen Hainbuche unter Natriumdampflicht.jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Bl%C3%A4tter_der_Gemeinen_Hainbuche_unter_Natriumdampflicht.jpg/960px-Bl%C3%A4tter_der_Gemeinen_Hainbuche_unter_Natriumdampflicht.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -4470,18 +4051,6 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Hornbeam_%28Carpinus_betulus%29_twig_and_buds_%288256584397%29.jpg/960px-Hornbeam_%28Carpinus_betulus%29_twig_and_buds_%288256584397%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
           "author": "Peter O'Connor aka anemoneprojectors from Stevenage, United Kingdom"
-        },
-        {
-          "title": "The elements of forestry, designed to afford information concerning the planting and care of forest trees for ornament or profit and giving suggestions upon the creation and care of woodlands with the (21227673216).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/The_elements_of_forestry%2C_designed_to_afford_information_concerning_the_planting_and_care_of_forest_trees_for_ornament_or_profit_and_giving_suggestions_upon_the_creation_and_care_of_woodlands_with_the_%2821227673216%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Hough, Franklin Benjamin, 1822-1885"
-        },
-        {
-          "title": "The elements of forestry - designed to afford information concerning the planting and care of forest trees for ornament or profit and giving suggestions upon the creation and care of woodlands with (20787699105).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/The_elements_of_forestry_-_designed_to_afford_information_concerning_the_planting_and_care_of_forest_trees_for_ornament_or_profit_and_giving_suggestions_upon_the_creation_and_care_of_woodlands_with_%2820787699105%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Internet Archive Book Images"
         }
       ],
       "stem_branch": [
@@ -4584,7 +4153,7 @@
     "clean_latin": "Cornus mas",
     "family": "Cornaceae",
     "plant_type": "broadleaf",
-    "total_images": 66,
+    "total_images": 64,
     "images": {
       "bark": [
         {
@@ -4878,12 +4447,6 @@
       ],
       "buds_winter": [
         {
-          "title": "Plant culture; a working handbook of every day practice for all who grow flowering and ornamental plants in the garden and greenhouse (1921) (14767207485).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Plant_culture%3B_a_working_handbook_of_every_day_practice_for_all_who_grow_flowering_and_ornamental_plants_in_the_garden_and_greenhouse_%281921%29_%2814767207485%29.jpg/960px-Plant_culture%3B_a_working_handbook_of_every_day_practice_for_all_who_grow_flowering_and_ornamental_plants_in_the_garden_and_greenhouse_%281921%29_%2814767207485%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Internet Archive Book Images"
-        },
-        {
           "title": "Cornus mas Observation #402118788",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738159485/large.jpg",
           "source": "iNaturalist (Research Grade)",
@@ -4966,12 +4529,6 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Corvus_corone_Cornus_mas_JdP.jpg/960px-Corvus_corone_Cornus_mas_JdP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
           "author": "Marie-Lan Taÿ Pamart"
-        },
-        {
-          "title": "The tree book - A popular guide to a knowledge of the trees of North America and to their uses and cultivation (1920) (14780709784).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/The_tree_book_-_A_popular_guide_to_a_knowledge_of_the_trees_of_North_America_and_to_their_uses_and_cultivation_%281920%29_%2814780709784%29.jpg/960px-The_tree_book_-_A_popular_guide_to_a_knowledge_of_the_trees_of_North_America_and_to_their_uses_and_cultivation_%281920%29_%2814780709784%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Rogers, Julia Ellen, b. 1866"
         }
       ],
       "tree_shape": [
@@ -5008,7 +4565,7 @@
     "clean_latin": "Cornus sanguinea",
     "family": "Cornaceae",
     "plant_type": "broadleaf",
-    "total_images": 66,
+    "total_images": 64,
     "images": {
       "bark": [
         {
@@ -5074,12 +4631,6 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/%28MHNT%29_Cornus_sanguinea_-_leaves_and_flowers.jpg/960px-%28MHNT%29_Cornus_sanguinea_-_leaves_and_flowers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
           "author": "Didier Descouens"
-        },
-        {
-          "title": "202 Cornus sanguinea Dogwood LEAF epidermis print.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/202_Cornus_sanguinea_Dogwood_LEAF_epidermis_print.jpg/960px-202_Cornus_sanguinea_Dogwood_LEAF_epidermis_print.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "ChrisInMilton"
         },
         {
           "title": "Cornus sanguinea - flowers and leaves 02.jpg",
@@ -5344,12 +4895,6 @@
           "author": "Hladac"
         },
         {
-          "title": "Plant culture; a working handbook of every day practice for all who grow flowering and ornamental plants in the garden and greenhouse (1921) (14767207485).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Plant_culture%3B_a_working_handbook_of_every_day_practice_for_all_who_grow_flowering_and_ornamental_plants_in_the_garden_and_greenhouse_%281921%29_%2814767207485%29.jpg/960px-Plant_culture%3B_a_working_handbook_of_every_day_practice_for_all_who_grow_flowering_and_ornamental_plants_in_the_garden_and_greenhouse_%281921%29_%2814767207485%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Internet Archive Book Images"
-        },
-        {
           "title": "Cornus sanguinea Observation #402121020",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738159671/large.jpg",
           "source": "iNaturalist (Research Grade)",
@@ -5432,7 +4977,7 @@
     "clean_latin": "Corylus avellana",
     "family": "Betulaceae",
     "plant_type": "broadleaf",
-    "total_images": 69,
+    "total_images": 63,
     "images": {
       "bark": [
         {
@@ -5468,12 +5013,6 @@
       ],
       "botanical_illustration": [
         {
-          "title": "Britishentomologyvolume3Plate345.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Britishentomologyvolume3Plate345.jpg/960px-Britishentomologyvolume3Plate345.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "John Curtis"
-        },
-        {
           "title": "Corylus avellana NF.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Corylus_avellana_NF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "source": "Wikimedia Commons",
@@ -5490,39 +5029,9 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Corylus_avellana_lindman_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "source": "Wikimedia Commons",
           "author": "Carl Axel Magnus Lindman"
-        },
-        {
-          "title": "Hazel (Corylus Avellana) - EB1911 Fig. 1.png",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Hazel_%28Corylus_Avellana%29_-_EB1911_Fig._1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "Wikimedia Commons",
-          "author": "AnonymousUnknown author"
         }
       ],
       "leaves_top": [
-        {
-          "title": "2020 year. Herbarium. Corylus avellana. img-007.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/2020_year._Herbarium._Corylus_avellana._img-007.jpg/960px-2020_year._Herbarium._Corylus_avellana._img-007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
-        {
-          "title": "2020 year. Herbarium. Corylus avellana. img-008.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/2020_year._Herbarium._Corylus_avellana._img-008.jpg/960px-2020_year._Herbarium._Corylus_avellana._img-008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
-        {
-          "title": "2020 year. Herbarium. Corylus avellana. img-034.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/2020_year._Herbarium._Corylus_avellana._img-034.jpg/960px-2020_year._Herbarium._Corylus_avellana._img-034.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
-        {
-          "title": "2020 year. Herbarium. Corylus avellana. img-036.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/2020_year._Herbarium._Corylus_avellana._img-036.jpg/960px-2020_year._Herbarium._Corylus_avellana._img-036.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
         {
           "title": "Hazelnut leaf, Rind, Armenia.jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Hazelnut_leaf%2C_Rind%2C_Armenia.jpg/960px-Hazelnut_leaf%2C_Rind%2C_Armenia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -5874,7 +5383,7 @@
     "clean_latin": "Crataegus monogyna",
     "family": "Rosaceae",
     "plant_type": "broadleaf",
-    "total_images": 58,
+    "total_images": 56,
     "images": {
       "bark": [
         {
@@ -5908,20 +5417,7 @@
           "author": "totnesmartin"
         }
       ],
-      "botanical_illustration": [
-        {
-          "title": "Britishentomologyvolume1Plate31.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Britishentomologyvolume1Plate31.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "Wikimedia Commons",
-          "author": "John Curtis"
-        },
-        {
-          "title": "Britishentomologyvolume2Plate31.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Britishentomologyvolume2Plate31.jpg/960px-Britishentomologyvolume2Plate31.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "John Curtis"
-        }
-      ],
+      "botanical_illustration": [],
       "leaves_top": [
         {
           "title": "(MHNT) Crataegus monogyna - Leaves and stipules.jpg",
@@ -6250,7 +5746,7 @@
     "clean_latin": "Fagus sylvatica",
     "family": "Fagaceae",
     "plant_type": "broadleaf",
-    "total_images": 71,
+    "total_images": 70,
     "images": {
       "bark": [
         {
@@ -6284,14 +5780,7 @@
           "author": "Rosser1954"
         }
       ],
-      "botanical_illustration": [
-        {
-          "title": "Britishentomologyvolume5Plate674.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Britishentomologyvolume5Plate674.jpg/960px-Britishentomologyvolume5Plate674.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "John Curtis"
-        }
-      ],
+      "botanical_illustration": [],
       "leaves_top": [
         {
           "title": "Copper Beech Fagus sylvatica f. purpurea Autumn Leaves Closeup 3008px.jpg",
@@ -6704,7 +6193,7 @@
     "clean_latin": "Fraxinus excelsior",
     "family": "Oleaceae",
     "plant_type": "broadleaf",
-    "total_images": 74,
+    "total_images": 65,
     "images": {
       "bark": [
         {
@@ -6759,36 +6248,6 @@
         }
       ],
       "leaves_top": [
-        {
-          "title": "2020 year. Herbarium. Fraxinus. img-002.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/2020_year._Herbarium._Fraxinus._img-002.jpg/960px-2020_year._Herbarium._Fraxinus._img-002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
-        {
-          "title": "2020 year. Herbarium. Fraxinus. img-005.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/2020_year._Herbarium._Fraxinus._img-005.jpg/960px-2020_year._Herbarium._Fraxinus._img-005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
-        {
-          "title": "2020 year. Herbarium. Fraxinus. img-008.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/2020_year._Herbarium._Fraxinus._img-008.jpg/960px-2020_year._Herbarium._Fraxinus._img-008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
-        {
-          "title": "2020 year. Herbarium. Fraxinus. img-009.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/2020_year._Herbarium._Fraxinus._img-009.jpg/960px-2020_year._Herbarium._Fraxinus._img-009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
-        {
-          "title": "2020 year. Herbarium. Fraxinus. img-010.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/2020_year._Herbarium._Fraxinus._img-010.jpg/960px-2020_year._Herbarium._Fraxinus._img-010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
         {
           "title": "Fraxinus excelsior Observation #402175952",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738270582/large.jpg",
@@ -7110,30 +6569,6 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Lamiales_-_Fraxinus_excelsior_1.jpg/960px-Lamiales_-_Fraxinus_excelsior_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
           "author": "Dénes Emőke"
-        },
-        {
-          "title": "2020 year. Herbarium. Fraxinus. img-039.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/2020_year._Herbarium._Fraxinus._img-039.jpg/960px-2020_year._Herbarium._Fraxinus._img-039.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
-        {
-          "title": "2020 year. Herbarium. Fraxinus. img-040.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/2020_year._Herbarium._Fraxinus._img-040.jpg/960px-2020_year._Herbarium._Fraxinus._img-040.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
-        {
-          "title": "2020 year. Herbarium. Fraxinus. img-044.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/2020_year._Herbarium._Fraxinus._img-044.jpg/960px-2020_year._Herbarium._Fraxinus._img-044.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
-        {
-          "title": "2020 year. Herbarium. Fraxinus. img-045.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/2020_year._Herbarium._Fraxinus._img-045.jpg/960px-2020_year._Herbarium._Fraxinus._img-045.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
         }
       ],
       "tree_shape": [
@@ -7588,7 +7023,7 @@
     "clean_latin": "Juglans regia",
     "family": "Juglandaceae",
     "plant_type": "broadleaf",
-    "total_images": 67,
+    "total_images": 65,
     "images": {
       "bark": [
         {
@@ -7646,12 +7081,6 @@
         {
           "title": "Juglans regia Leaf epiderrmis print with stomata.jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Juglans_regia_Leaf_epiderrmis_print_with_stomata.jpg/960px-Juglans_regia_Leaf_epiderrmis_print_with_stomata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "ChrisInMilton"
-        },
-        {
-          "title": "Juglans regia Walnut leaf epidermis print and stomata 100x.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Juglans_regia_Walnut_leaf_epidermis_print_and_stomata_100x.jpg/960px-Juglans_regia_Walnut_leaf_epidermis_print_and_stomata_100x.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
           "author": "ChrisInMilton"
         },
@@ -7908,12 +7337,6 @@
           "author": "AnRo0002"
         },
         {
-          "title": "Image from page 64 of \"A manual of dangerous insects likely to be introduced in the United States through importations\" (1917) (14804673693).jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Image_from_page_64_of_%22A_manual_of_dangerous_insects_likely_to_be_introduced_in_the_United_States_through_importations%22_%281917%29_%2814804673693%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "Wikimedia Commons",
-          "author": "Internet Archive Book Images"
-        },
-        {
           "title": "Juglans regia sl7.jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Juglans_regia_sl7.jpg/960px-Juglans_regia_sl7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
@@ -8018,7 +7441,7 @@
     "clean_latin": "Juniperus communis",
     "family": "Cupressaceae",
     "plant_type": "conifer",
-    "total_images": 68,
+    "total_images": 67,
     "images": {
       "bark": [
         {
@@ -8047,12 +7470,6 @@
         }
       ],
       "botanical_illustration": [
-        {
-          "title": "Britishentomologyvolume6Plate519.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Britishentomologyvolume6Plate519.jpg/960px-Britishentomologyvolume6Plate519.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Curtis"
-        },
         {
           "title": "Juniperus communis foliage illustration.jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Juniperus_communis_foliage_illustration.jpg/960px-Juniperus_communis_foliage_illustration.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -8454,7 +7871,7 @@
     "clean_latin": "Larix decidua",
     "family": "Pinaceae",
     "plant_type": "conifer",
-    "total_images": 70,
+    "total_images": 66,
     "images": {
       "bark": [
         {
@@ -8784,18 +8201,6 @@
       ],
       "buds_winter": [
         {
-          "title": "Bulletin (Pennsylvania Department of Forestry), no. 11 (1901) (20315585019).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Bulletin_%28Pennsylvania_Department_of_Forestry%29%2C_no._11_%281901%29_%2820315585019%29.jpg/960px-Bulletin_%28Pennsylvania_Department_of_Forestry%29%2C_no._11_%281901%29_%2820315585019%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Pennsylvania. Dept. of Forestry"
-        },
-        {
-          "title": "Bulletin (Pennsylvania Department of Forestry), no. 11 (1901) (20476045126).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Bulletin_%28Pennsylvania_Department_of_Forestry%29%2C_no._11_%281901%29_%2820476045126%29.jpg/960px-Bulletin_%28Pennsylvania_Department_of_Forestry%29%2C_no._11_%281901%29_%2820476045126%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Pennsylvania. Dept. of Forestry"
-        },
-        {
           "title": "Larix decidua Observation #401973067",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737856118/large.jpg",
           "source": "iNaturalist (Research Grade)",
@@ -8850,18 +8255,6 @@
       ],
       "fruits_seeds": [
         {
-          "title": "Bulletin (19800658354).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Bulletin_%2819800658354%29.jpg/960px-Bulletin_%2819800658354%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Pennsylvania. Dept. of Forests and Waters"
-        },
-        {
-          "title": "Forest trees, for shelter, ornament and profit. A practical manual for their culture and propagation (1871) (14780515385).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Forest_trees%2C_for_shelter%2C_ornament_and_profit._A_practical_manual_for_their_culture_and_propagation_%281871%29_%2814780515385%29.jpg/960px-Forest_trees%2C_for_shelter%2C_ornament_and_profit._A_practical_manual_for_their_culture_and_propagation_%281871%29_%2814780515385%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Internet Archive Book Images"
-        },
-        {
           "title": "Larix kaempferi MHNT.BOT.2007.40.39.jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Larix_kaempferi_MHNT.BOT.2007.40.39.jpg/960px-Larix_kaempferi_MHNT.BOT.2007.40.39.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
@@ -8902,7 +8295,7 @@
     "clean_latin": "Larix kaempferi",
     "family": "Pinaceae",
     "plant_type": "conifer",
-    "total_images": 66,
+    "total_images": 64,
     "images": {
       "bark": [
         {
@@ -8936,18 +8329,6 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Larix_kaempferi_SZ105.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "source": "Wikimedia Commons",
           "author": "Philipp Franz von Siebold and Joseph Gerhard Zuccarini"
-        },
-        {
-          "title": "Mitteilungen der Deutschen Dendrologischen Gesellschaft (1912) (14591228647).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Mitteilungen_der_Deutschen_Dendrologischen_Gesellschaft_%281912%29_%2814591228647%29.jpg/960px-Mitteilungen_der_Deutschen_Dendrologischen_Gesellschaft_%281912%29_%2814591228647%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Deutsche Dendrologische Gesellschaft"
-        },
-        {
-          "title": "Wood ornament with pine and larch trees.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Wood_ornament_with_pine_and_larch_trees.jpg/960px-Wood_ornament_with_pine_and_larch_trees.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Taras Kazantsev"
         }
       ],
       "leaves_top": [
@@ -9326,54 +8707,10 @@
     "clean_latin": "Larix x",
     "family": "Pinaceae",
     "plant_type": "conifer",
-    "total_images": 67,
+    "total_images": 59,
     "images": {
-      "bark": [
-        {
-          "title": "Bulletin (Pennsylvania Department of Forestry), no. 11 (1901) (20315585019).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Bulletin_%28Pennsylvania_Department_of_Forestry%29%2C_no._11_%281901%29_%2820315585019%29.jpg/960px-Bulletin_%28Pennsylvania_Department_of_Forestry%29%2C_no._11_%281901%29_%2820315585019%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Pennsylvania. Dept. of Forestry"
-        },
-        {
-          "title": "Bulletin (Pennsylvania Department of Forestry), no. 11 (1901) (20476045126).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Bulletin_%28Pennsylvania_Department_of_Forestry%29%2C_no._11_%281901%29_%2820476045126%29.jpg/960px-Bulletin_%28Pennsylvania_Department_of_Forestry%29%2C_no._11_%281901%29_%2820476045126%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Pennsylvania. Dept. of Forestry"
-        },
-        {
-          "title": "Bulletin (Pennsylvania Department of Forestry), no. 11 (1901) (20492758062).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Bulletin_%28Pennsylvania_Department_of_Forestry%29%2C_no._11_%281901%29_%2820492758062%29.jpg/960px-Bulletin_%28Pennsylvania_Department_of_Forestry%29%2C_no._11_%281901%29_%2820492758062%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Pennsylvania. Dept. of Forestry"
-        }
-      ],
-      "botanical_illustration": [
-        {
-          "title": "Bulletins on forest pathology - from Bulletin U.S.D.A., Washington, D.C., 1913-1925 (1913) (19882735424).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Bulletins_on_forest_pathology_-_from_Bulletin_U.S.D.A.%2C_Washington%2C_D.C.%2C_1913-1925_%281913%29_%2819882735424%29.jpg/960px-Bulletins_on_forest_pathology_-_from_Bulletin_U.S.D.A.%2C_Washington%2C_D.C.%2C_1913-1925_%281913%29_%2819882735424%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "United States. Dept. of Agriculture"
-        },
-        {
-          "title": "Munns (1938) 028 Larix occidentalis (20353441714).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Munns_%281938%29_028_Larix_occidentalis_%2820353441714%29.jpg/960px-Munns_%281938%29_028_Larix_occidentalis_%2820353441714%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Munns, E. N. (Edward Norfolk), 1889-1972"
-        },
-        {
-          "title": "Report on the relation of railroads to forest supplies and forestry - together with appendices on the structure of some timber ties, their behavior, and the cause of their decay in the road bed, on (14571881047).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Report_on_the_relation_of_railroads_to_forest_supplies_and_forestry_-_together_with_appendices_on_the_structure_of_some_timber_ties%2C_their_behavior%2C_and_the_cause_of_their_decay_in_the_road_bed%2C_on_%2814571881047%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Fernow, B. E. (Bernhard Eduard), 1851-1923"
-        },
-        {
-          "title": "Veitch's manual of the coniferae - containing a general review of the order, a synopsis of the species cultivated in Great Britain, their botanical history, economic properties, place and use in (14583409699).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Veitch%27s_manual_of_the_coniferae_-_containing_a_general_review_of_the_order%2C_a_synopsis_of_the_species_cultivated_in_Great_Britain%2C_their_botanical_history%2C_economic_properties%2C_place_and_use_in_%2814583409699%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Internet Archive Book Images"
-        }
-      ],
+      "bark": [],
+      "botanical_illustration": [],
       "leaves_top": [
         {
           "title": "(Larix leptolepis close-up at Yumoto, Japan) - DPLA - 93b2e1982702933e0480770396e8bc18.jpg",
@@ -9710,12 +9047,6 @@
       ],
       "fruits_seeds": [
         {
-          "title": "Bulletin (19800658354).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Bulletin_%2819800658354%29.jpg/960px-Bulletin_%2819800658354%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Pennsylvania. Dept. of Forests and Waters"
-        },
-        {
           "title": "Larix x Observation #367069805",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/670311934/large.jpg",
           "source": "iNaturalist (Research Grade)",
@@ -9756,7 +9087,7 @@
     "clean_latin": "Lonicera xylosteum",
     "family": "Caprifoliaceae",
     "plant_type": "broadleaf",
-    "total_images": 51,
+    "total_images": 50,
     "images": {
       "bark": [
         {
@@ -9784,12 +9115,6 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Lonicera_xylosteum_3_RF.jpg/960px-Lonicera_xylosteum_3_RF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
           "author": "Robert Flogaus-Faust"
-        },
-        {
-          "title": "Lonicera xylosteum BB-1913.png",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Lonicera_xylosteum_BB-1913.png/960px-Lonicera_xylosteum_BB-1913.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Britton, N.L., and A. Brown. 1913. An illustrated flora of the northern United S"
         },
         {
           "title": "Lonicera xylosteum Sturm45.jpg",
@@ -10090,7 +9415,7 @@
     "clean_latin": "Malus sylvestris",
     "family": "Rosaceae",
     "plant_type": "broadleaf",
-    "total_images": 72,
+    "total_images": 65,
     "images": {
       "bark": [
         {
@@ -10120,12 +9445,6 @@
       ],
       "botanical_illustration": [
         {
-          "title": "Britishentomologyvolume2Plate91.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Britishentomologyvolume2Plate91.jpg/960px-Britishentomologyvolume2Plate91.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "John Curtis"
-        },
-        {
           "title": "Malus domestica bud illustrations.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Malus_domestica_bud_illustrations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "source": "Wikimedia Commons",
@@ -10142,45 +9461,9 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Malus_sylvestris_fruit_illustrations.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "source": "Wikimedia Commons",
           "author": "G.Bernetti/EUFORGEN"
-        },
-        {
-          "title": "Malus sylvestris seeds USDA-ARS.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Malus_sylvestris_seeds_USDA-ARS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "Wikimedia Commons",
-          "author": "J.H. Kirkbride, Jr., C.R. Gunn, and M.J. Dallwitz."
         }
       ],
       "leaves_top": [
-        {
-          "title": "2020 year. Herbarium. Malus sylvestris. img-019.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/2020_year._Herbarium._Malus_sylvestris._img-019.jpg/960px-2020_year._Herbarium._Malus_sylvestris._img-019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
-        {
-          "title": "2020 year. Herbarium. Malus sylvestris. img-020.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/2020_year._Herbarium._Malus_sylvestris._img-020.jpg/960px-2020_year._Herbarium._Malus_sylvestris._img-020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
-        {
-          "title": "2020 year. Herbarium. Malus sylvestris. img-036.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/2020_year._Herbarium._Malus_sylvestris._img-036.jpg/960px-2020_year._Herbarium._Malus_sylvestris._img-036.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
-        {
-          "title": "2020 year. Herbarium. Malus sylvestris. img-038.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/2020_year._Herbarium._Malus_sylvestris._img-038.jpg/960px-2020_year._Herbarium._Malus_sylvestris._img-038.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
-        {
-          "title": "2020 year. Herbarium. Malus sylvestris. img-056.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/2020_year._Herbarium._Malus_sylvestris._img-056.jpg/960px-2020_year._Herbarium._Malus_sylvestris._img-056.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
         {
           "title": "Malus sylvestris Observation #401970212",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/737842438/large.jpg",
@@ -10550,7 +9833,7 @@
     "clean_latin": "Picea abies",
     "family": "Pinaceae",
     "plant_type": "conifer",
-    "total_images": 57,
+    "total_images": 51,
     "images": {
       "bark": [
         {
@@ -10584,38 +9867,7 @@
           "author": "Titus Tscharntke"
         }
       ],
-      "botanical_illustration": [
-        {
-          "title": "2009-09-19 Dacrymyces chrysospermus Berk. & M.A. Curtis 57524.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/2009-09-19_Dacrymyces_chrysospermus_Berk._%26_M.A._Curtis_57524.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "Wikimedia Commons",
-          "author": "This image was created by user amadej trnkoczy (amadej) at Mushroom Observer, a"
-        },
-        {
-          "title": "2009-09-19 Dacrymyces chrysospermus Berk. & M.A. Curtis 57525.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/2009-09-19_Dacrymyces_chrysospermus_Berk._%26_M.A._Curtis_57525.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "Wikimedia Commons",
-          "author": "This image was created by user amadej trnkoczy (amadej) at Mushroom Observer, a"
-        },
-        {
-          "title": "2009-09-19 Dacrymyces chrysospermus Berk. & M.A. Curtis 57531.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/2009-09-19_Dacrymyces_chrysospermus_Berk._%26_M.A._Curtis_57531.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "Wikimedia Commons",
-          "author": "This image was created by user amadej trnkoczy (amadej) at Mushroom Observer, a"
-        },
-        {
-          "title": "Britishentomologyvolume1Plate4.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Britishentomologyvolume1Plate4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "Wikimedia Commons",
-          "author": "John Curtis"
-        },
-        {
-          "title": "Britishentomologyvolume3Plate4.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Britishentomologyvolume3Plate4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "Wikimedia Commons",
-          "author": "John Curtis"
-        }
-      ],
+      "botanical_illustration": [],
       "leaves_top": [
         {
           "title": "Norway Spruce needle stomata.jpg",
@@ -10628,12 +9880,6 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Norway_spruce_needle_anatomy.jpg/960px-Norway_spruce_needle_anatomy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
           "author": "Gerly123"
-        },
-        {
-          "title": "Picea abies needle under a microscope.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Picea_abies_needle_under_a_microscope.jpg/960px-Picea_abies_needle_under_a_microscope.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Gustamons"
         },
         {
           "title": "Picea abies needles in Väsmestorp 2024-10-29 (0261).jpg",
@@ -10920,7 +10166,7 @@
     "clean_latin": "Picea sitchensis",
     "family": "Pinaceae",
     "plant_type": "conifer",
-    "total_images": 64,
+    "total_images": 57,
     "images": {
       "bark": [
         {
@@ -10954,38 +10200,7 @@
           "author": "Rosser1954"
         }
       ],
-      "botanical_illustration": [
-        {
-          "title": "38420 Clearing Right of Way Near Lake Pleasant - Curtis Phot (21853472929).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/38420_Clearing_Right_of_Way_Near_Lake_Pleasant_-_Curtis_Phot_%2821853472929%29.jpg/960px-38420_Clearing_Right_of_Way_Near_Lake_Pleasant_-_Curtis_Phot_%2821853472929%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "U.S. Forest Service- Pacific Northwest Region"
-        },
-        {
-          "title": "38429 A Spruce Tree...Near Lake Pleasant - Curtis Photo (21852511708).jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/38429_A_Spruce_Tree...Near_Lake_Pleasant_-_Curtis_Photo_%2821852511708%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "Wikimedia Commons",
-          "author": "U.S. Forest Service- Pacific Northwest Region"
-        },
-        {
-          "title": "Flowers near white sand beach.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Flowers_near_white_sand_beach.jpg/960px-Flowers_near_white_sand_beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Ken Curtis"
-        },
-        {
-          "title": "Loading spruce logs onto flatcar with spar tree, north of Newport, Oregon, along line of U S Army Signal Corps, Spruce (CURTIS 524).jpeg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Loading_spruce_logs_onto_flatcar_with_spar_tree%2C_north_of_Newport%2C_Oregon%2C_along_line_of_U_S_Army_Signal_Corps%2C_Spruce_%28CURTIS_524%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "Wikimedia Commons",
-          "author": "Asahel Curtis"
-        },
-        {
-          "title": "Sitka spruce log along the line of the U S Army Signal Corps, Spruce Production Division Railroad, near Newport, Oregon, June 22 (CURTIS 525).jpeg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Sitka_spruce_log_along_the_line_of_the_U_S_Army_Signal_Corps%2C_Spruce_Production_Division_Railroad%2C_near_Newport%2C_Oregon%2C_June_22_%28CURTIS_525%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "Wikimedia Commons",
-          "author": "Asahel Curtis"
-        }
-      ],
+      "botanical_illustration": [],
       "leaves_top": [
         {
           "title": "Needles 5507.jpg",
@@ -11280,18 +10495,6 @@
       ],
       "fruits_seeds": [
         {
-          "title": "Bulletin of the U.S. Department of Agriculture (1098) (20313212800).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Bulletin_of_the_U.S._Department_of_Agriculture_%281098%29_%2820313212800%29.jpg/960px-Bulletin_of_the_U.S._Department_of_Agriculture_%281098%29_%2820313212800%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "United States. Dept. of Agriculture"
-        },
-        {
-          "title": "Bulletin of the U.S. Department of Agriculture (1913-1923.) (20310159208).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Bulletin_of_the_U.S._Department_of_Agriculture_%281913-1923.%29_%2820310159208%29.jpg/960px-Bulletin_of_the_U.S._Department_of_Agriculture_%281913-1923.%29_%2820310159208%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "United States. Dept. of Agriculture"
-        },
-        {
           "title": "De8xeonX0AAKjV1.jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/De8xeonX0AAKjV1.jpg/960px-De8xeonX0AAKjV1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
@@ -11332,15 +10535,9 @@
     "clean_latin": "Pinus contorta",
     "family": "Pinaceae",
     "plant_type": "conifer",
-    "total_images": 60,
+    "total_images": 55,
     "images": {
       "bark": [
-        {
-          "title": "1913. Treating lodgepole logs for bark beetles. These are the infected logs before slashings are thrown on. Limbs from logs should be piled in order to be burned successfully. Ochoco National Forest, Oregon. (37739147975).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/1913._Treating_lodgepole_logs_for_bark_beetles._These_are_the_infected_logs_before_slashings_are_thrown_on._Limbs_from_logs_should_be_piled_in_order_to_be_burned_successfully._Ochoco_National_Forest%2C_Oregon._%2837739147975%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "R6, State &amp; Private Forestry, Forest Health Protection"
-        },
         {
           "title": "Bison rub on Pinus contorta trunk, Grand Teton NP.jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Bison_rub_on_Pinus_contorta_trunk%2C_Grand_Teton_NP.jpg/960px-Bison_rub_on_Pinus_contorta_trunk%2C_Grand_Teton_NP.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -11366,32 +10563,7 @@
           "author": "CAJC: in the PNW from somewhere on the foggy PNW, USA, USA"
         }
       ],
-      "botanical_illustration": [
-        {
-          "title": "Components of adaptive variation in pinus contorta from the inland northwest (1987) (20049642984).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Components_of_adaptive_variation_in_pinus_contorta_from_the_inland_northwest_%281987%29_%2820049642984%29.jpg/960px-Components_of_adaptive_variation_in_pinus_contorta_from_the_inland_northwest_%281987%29_%2820049642984%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Internet Archive Book Images"
-        },
-        {
-          "title": "Lodge-pole pines (Pinus contorta Douglas ex Loudon); two tre Wellcome V0043061.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Lodge-pole_pines_%28Pinus_contorta_Douglas_ex_Loudon%29%3B_two_tre_Wellcome_V0043061.jpg/960px-Lodge-pole_pines_%28Pinus_contorta_Douglas_ex_Loudon%29%3B_two_tre_Wellcome_V0043061.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Wikimedia Commons"
-        },
-        {
-          "title": "Munns (1938) 015 Pinus contorta.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Munns_%281938%29_015_Pinus_contorta.jpg/960px-Munns_%281938%29_015_Pinus_contorta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Munns, E. N. (Edward Norfolk), 1889-1972"
-        },
-        {
-          "title": "Sandy costal flats east of Albion, Mendocino County. Stunted Pinus contorta, P. muricata, dense vaccinium Rhododendron myrica, etc. D. Dunning.png",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Sandy_costal_flats_east_of_Albion%2C_Mendocino_County._Stunted_Pinus_contorta%2C_P._muricata%2C_dense_vaccinium_Rhododendron_myrica%2C_etc._D._Dunning.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "Wikimedia Commons",
-          "author": "Duncan Dunning"
-        }
-      ],
+      "botanical_illustration": [],
       "leaves_top": [
         {
           "title": "1924. These lodgepole pine trees, first weakened by a needle miner, were later killed by mountain pine beetle. Tenaya Basin, Yosemite National Park. (26445242119).jpg",
@@ -17960,7 +17132,7 @@
     "clean_latin": "Taxus baccata",
     "family": "Taxaceae",
     "plant_type": "conifer",
-    "total_images": 62,
+    "total_images": 59,
     "images": {
       "bark": [
         {
@@ -17988,20 +17160,7 @@
           "author": "Adrian Tync"
         }
       ],
-      "botanical_illustration": [
-        {
-          "title": "Britishentomologyvolume1Plate18.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Britishentomologyvolume1Plate18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "Wikimedia Commons",
-          "author": "John Curtis"
-        },
-        {
-          "title": "Britishentomologyvolume8Plate18.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Britishentomologyvolume8Plate18.jpg/960px-Britishentomologyvolume8Plate18.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "John Curtis"
-        }
-      ],
+      "botanical_illustration": [],
       "leaves_top": [
         {
           "title": "T.baccata-paper chromatography.jpg",
@@ -18244,12 +17403,6 @@
       ],
       "stem_branch": [
         {
-          "title": "EB1911 Yew.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/EB1911_Yew.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "Wikimedia Commons",
-          "author": "Unknown authorUnknown author"
-        },
-        {
           "title": "Taxus-baccata-young-shoots.jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Taxus-baccata-young-shoots.jpg/960px-Taxus-baccata-young-shoots.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
@@ -18360,7 +17513,7 @@
     "clean_latin": "Thuja occidentalis",
     "family": "Cupressaceae",
     "plant_type": "conifer",
-    "total_images": 62,
+    "total_images": 61,
     "images": {
       "bark": [
         {
@@ -18708,12 +17861,6 @@
       ],
       "fruits_seeds": [
         {
-          "title": "Annual report of the secretary of the State Pomological Society of Michigan (1874-1880) (19179036920).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Annual_report_of_the_secretary_of_the_State_Pomological_Society_of_Michigan_%281874-1880%29_%2819179036920%29.jpg/960px-Annual_report_of_the_secretary_of_the_State_Pomological_Society_of_Michigan_%281874-1880%29_%2819179036920%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Internet Archive Book Images"
-        },
-        {
           "title": "CBG Fruit Veg Island - Cornus mas 'Golden Glory', Juglans cinerea 'Weschcke' Butternut, Thuja occidentalis 'Brandon', Vitis cvs Grapes 150627 (19708869043).jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/CBG_Fruit_Veg_Island_-_Cornus_mas_%27Golden_Glory%27%2C_Juglans_cinerea_%27Weschcke%27_Butternut%2C_Thuja_occidentalis_%27Brandon%27%2C_Vitis_cvs_Grapes_150627_%2819708869043%29.jpg/960px-CBG_Fruit_Veg_Island_-_Cornus_mas_%27Golden_Glory%27%2C_Juglans_cinerea_%27Weschcke%27_Butternut%2C_Thuja_occidentalis_%27Brandon%27%2C_Vitis_cvs_Grapes_150627_%2819708869043%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
@@ -18760,7 +17907,7 @@
     "clean_latin": "Thuja plicata",
     "family": "Cupressaceae",
     "plant_type": "conifer",
-    "total_images": 57,
+    "total_images": 55,
     "images": {
       "bark": [
         {
@@ -18794,20 +17941,7 @@
           "author": "Chris Light"
         }
       ],
-      "botanical_illustration": [
-        {
-          "title": "Felled redcedar logs of Skagit County, \"ready for the donkey\" (CURTIS 1746).jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Felled_redcedar_logs_of_Skagit_County%2C_%22ready_for_the_donkey%22_%28CURTIS_1746%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "Wikimedia Commons",
-          "author": "Asahel Curtis"
-        },
-        {
-          "title": "Redcedar logs, Skagit County, Washington, 1910 (INDOCC 525).jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Redcedar_logs%2C_Skagit_County%2C_Washington%2C_1910_%28INDOCC_525%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "Wikimedia Commons",
-          "author": "Asahel Curtis"
-        }
-      ],
+      "botanical_illustration": [],
       "leaves_top": [
         {
           "title": "Cedar needles 0636.jpg",
@@ -19130,7 +18264,7 @@
     "clean_latin": "Tilia cordata",
     "family": "Malvaceae",
     "plant_type": "broadleaf",
-    "total_images": 65,
+    "total_images": 62,
     "images": {
       "bark": [
         {
@@ -19191,12 +18325,6 @@
         }
       ],
       "leaves_top": [
-        {
-          "title": "2020 year. Herbarium. Tilia cordata. img-008.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/2020_year._Herbarium._Tilia_cordata._img-008.jpg/960px-2020_year._Herbarium._Tilia_cordata._img-008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
         {
           "title": "Tilia trunk and leaves.jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Tilia_trunk_and_leaves.jpg/960px-Tilia_trunk_and_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -19424,12 +18552,6 @@
       ],
       "buds_winter": [
         {
-          "title": "The elements of forestry, designed to afford information concerning the planting and care of forest trees for ornament or profit and giving suggestions upon the creation and care of woodlands with the (21067059569).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/The_elements_of_forestry%2C_designed_to_afford_information_concerning_the_planting_and_care_of_forest_trees_for_ornament_or_profit_and_giving_suggestions_upon_the_creation_and_care_of_woodlands_with_the_%2821067059569%29.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Hough, Franklin Benjamin, 1822-1885"
-        },
-        {
           "title": "Tilia cordata Observation #402120191",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738162189/large.jpg",
           "source": "iNaturalist (Research Grade)",
@@ -19490,12 +18612,6 @@
           "author": "Didier Descouens"
         },
         {
-          "title": "Tilia cordata fruit leaves under a microscope.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Tilia_cordata_fruit_leaves_under_a_microscope.jpg/960px-Tilia_cordata_fruit_leaves_under_a_microscope.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Gustamons"
-        },
-        {
           "title": "Tilia cordata fruits, winter.jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Tilia_cordata_fruits%2C_winter.jpg/960px-Tilia_cordata_fruits%2C_winter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
@@ -19548,7 +18664,7 @@
     "clean_latin": "Tilia platyphyllos",
     "family": "Malvaceae",
     "plant_type": "broadleaf",
-    "total_images": 75,
+    "total_images": 69,
     "images": {
       "bark": [
         {
@@ -19609,36 +18725,6 @@
         }
       ],
       "leaves_top": [
-        {
-          "title": "2020 year. Herbarium. Tilia platyphyllos. img-001.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/2020_year._Herbarium._Tilia_platyphyllos._img-001.jpg/960px-2020_year._Herbarium._Tilia_platyphyllos._img-001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
-        {
-          "title": "2020 year. Herbarium. Tilia platyphyllos. img-002.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/2020_year._Herbarium._Tilia_platyphyllos._img-002.jpg/960px-2020_year._Herbarium._Tilia_platyphyllos._img-002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
-        {
-          "title": "2020 year. Herbarium. Tilia platyphyllos. img-006.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/2020_year._Herbarium._Tilia_platyphyllos._img-006.jpg/960px-2020_year._Herbarium._Tilia_platyphyllos._img-006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
-        {
-          "title": "2020 year. Herbarium. Tilia platyphyllos. img-007.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/2020_year._Herbarium._Tilia_platyphyllos._img-007.jpg/960px-2020_year._Herbarium._Tilia_platyphyllos._img-007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
-        {
-          "title": "2020 year. Herbarium. Tilia platyphyllos. img-010.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/2020_year._Herbarium._Tilia_platyphyllos._img-010.jpg/960px-2020_year._Herbarium._Tilia_platyphyllos._img-010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
         {
           "title": "Tilia platyphyllos Observation #400924848",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/735803716/large.jpg",
@@ -19936,12 +19022,6 @@
       ],
       "flowers": [
         {
-          "title": "EB1911 Flower - Inflorescence of Tilia platyphyllos.jpg",
-          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/EB1911_Flower_-_Inflorescence_of_Tilia_platyphyllos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-          "source": "Wikimedia Commons",
-          "author": "From Vines’ Students’ Text-Book of Botany"
-        },
-        {
           "title": "Flowers of large-leaved linden (Tilia platyphyllos) IMG 3223 01.JPG",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Flowers_of_large-leaved_linden_%28Tilia_platyphyllos%29_IMG_3223_01.JPG/960px-Flowers_of_large-leaved_linden_%28Tilia_platyphyllos%29_IMG_3223_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
@@ -20026,7 +19106,7 @@
     "clean_latin": "Tilia x",
     "family": "Malvaceae",
     "plant_type": "broadleaf",
-    "total_images": 82,
+    "total_images": 78,
     "images": {
       "bark": [
         {
@@ -20044,12 +19124,6 @@
         {
           "title": "Lenticels on a young lime tree's bark. Tilia x europea. Lainshaw Woods in East Ayrshire.jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Lenticels_on_a_young_lime_tree%27s_bark._Tilia_x_europea._Lainshaw_Woods_in_East_Ayrshire.jpg/960px-Lenticels_on_a_young_lime_tree%27s_bark._Tilia_x_europea._Lainshaw_Woods_in_East_Ayrshire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Rosser1954"
-        },
-        {
-          "title": "Lime tree with bark damage. Anderson Plantation, Lainshaw Woods, Stewarton.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Lime_tree_with_bark_damage._Anderson_Plantation%2C_Lainshaw_Woods%2C_Stewarton.jpg/960px-Lime_tree_with_bark_damage._Anderson_Plantation%2C_Lainshaw_Woods%2C_Stewarton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
           "author": "Rosser1954"
         },
@@ -20434,24 +19508,6 @@
       ],
       "buds_winter": [
         {
-          "title": "Bulletin (Pennsylvania Department of Forestry), no. 11 (1901) (20313887958).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Bulletin_%28Pennsylvania_Department_of_Forestry%29%2C_no._11_%281901%29_%2820313887958%29.jpg/960px-Bulletin_%28Pennsylvania_Department_of_Forestry%29%2C_no._11_%281901%29_%2820313887958%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Pennsylvania. Dept. of Forestry"
-        },
-        {
-          "title": "Bulletin (Pennsylvania Department of Forestry), no. 11 (1901) (20503025105).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Bulletin_%28Pennsylvania_Department_of_Forestry%29%2C_no._11_%281901%29_%2820503025105%29.jpg/960px-Bulletin_%28Pennsylvania_Department_of_Forestry%29%2C_no._11_%281901%29_%2820503025105%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Pennsylvania. Dept. of Forestry"
-        },
-        {
-          "title": "Bulletin (Pennsylvania Department of Forestry), no. 11 (1901) (20509348421).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Bulletin_%28Pennsylvania_Department_of_Forestry%29%2C_no._11_%281901%29_%2820509348421%29.jpg/960px-Bulletin_%28Pennsylvania_Department_of_Forestry%29%2C_no._11_%281901%29_%2820509348421%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Pennsylvania. Dept. of Forestry"
-        },
-        {
           "title": "Tilia-europaea-bud.JPG",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Tilia-europaea-bud.JPG/960px-Tilia-europaea-bud.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
@@ -20546,7 +19602,7 @@
     "clean_latin": "Tsuga canadensis",
     "family": "Pinaceae",
     "plant_type": "conifer",
-    "total_images": 73,
+    "total_images": 72,
     "images": {
       "bark": [
         {
@@ -20581,12 +19637,6 @@
         }
       ],
       "botanical_illustration": [
-        {
-          "title": "NAS-149 Tsuga canadensis.png",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/NAS-149_Tsuga_canadensis.png/960px-NAS-149_Tsuga_canadensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "François André Michaux (book author), Augustus Lucas Hillhouse (translator), iii"
-        },
         {
           "title": "Tsuga cone and leaves.png",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Tsuga_cone_and_leaves.png/960px-Tsuga_cone_and_leaves.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -21012,7 +20062,7 @@
     "clean_latin": "Ulmus glabra",
     "family": "Ulmaceae",
     "plant_type": "broadleaf",
-    "total_images": 59,
+    "total_images": 58,
     "images": {
       "bark": [
         {
@@ -21061,12 +20111,6 @@
         }
       ],
       "leaves_top": [
-        {
-          "title": "237 Ulmus glabra Wych Elm LEAF epidermis print.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/237_Ulmus_glabra_Wych_Elm_LEAF_epidermis_print.jpg/960px-237_Ulmus_glabra_Wych_Elm_LEAF_epidermis_print.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "ChrisInMilton"
-        },
         {
           "title": "Leaves of Ulmus glabra var. montana.jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Leaves_of_Ulmus_glabra_var._montana.jpg/960px-Leaves_of_Ulmus_glabra_var._montana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -21393,7 +20437,7 @@
     "clean_latin": "Viburnum opulus",
     "family": "Adoxaceae",
     "plant_type": "broadleaf",
-    "total_images": 65,
+    "total_images": 60,
     "images": {
       "bark": [
         {
@@ -21454,30 +20498,6 @@
         }
       ],
       "leaves_top": [
-        {
-          "title": "2020 year. Herbarium. Trees. img-063.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/2020_year._Herbarium._Trees._img-063.jpg/960px-2020_year._Herbarium._Trees._img-063.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
-        {
-          "title": "2020 year. Herbarium. Trees. img-064.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/2020_year._Herbarium._Trees._img-064.jpg/960px-2020_year._Herbarium._Trees._img-064.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
-        {
-          "title": "2020 year. Herbarium. Trees. img-069.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/2020_year._Herbarium._Trees._img-069.jpg/960px-2020_year._Herbarium._Trees._img-069.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
-        {
-          "title": "2020 year. Herbarium. Trees. img-070.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/2020_year._Herbarium._Trees._img-070.jpg/960px-2020_year._Herbarium._Trees._img-070.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Dmitry Makeev"
-        },
         {
           "title": "Viburnum opulus foliage, Ehrenbach.jpg",
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Viburnum_opulus_foliage%2C_Ehrenbach.jpg/960px-Viburnum_opulus_foliage%2C_Ehrenbach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -21724,12 +20744,6 @@
         }
       ],
       "stem_branch": [
-        {
-          "title": "Trees; a handbook of forest-botany for the woodlands and the laboratory (1904) (14593144510).jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Trees%3B_a_handbook_of_forest-botany_for_the_woodlands_and_the_laboratory_%281904%29_%2814593144510%29.jpg/960px-Trees%3B_a_handbook_of_forest-botany_for_the_woodlands_and_the_laboratory_%281904%29_%2814593144510%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Internet Archive Book Images"
-        },
         {
           "title": "Viburnum opulus Observation #402158745",
           "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/738237402/large.jpg",
