@@ -34,9 +34,28 @@ let userExamAnswers = {}; // Map of questionIndex -> string
 let currentQuestion = null;
 let currentRevealedClues = [];
 
+// Discard & Curation State
+let discardedImages = [];
+let discardedUrlSet = new Set();
+
+// Atlas, Gallery, and Slideshow State
+let atlasMode = 'catalog'; // 'catalog' or 'gallery'
+let galleryActiveOrgan = 'ALL';
+let galleryFilteredImages = [];
+let galleryPage = 1;
+const GALLERY_PAGE_SIZE = 60;
+let activeSpeciesModalId = null;
+let speciesModalActiveOrgan = 'ALL';
+
+// Slideshow State
+let slideshowActiveList = [];
+let slideshowCurrentIndex = 0;
+let slideshowCropBottom = 0;
+
 // Initialize Application
 document.addEventListener('DOMContentLoaded', async () => {
   await initDatabase();
+  initDiscardedStorage();
   setupOrganCheckboxes();
   setupFamilyFilterPills();
   renderSpeciesSelectorList();
@@ -865,9 +884,49 @@ function confirmExitQuiz() {
   }
 }
 
-// Key listeners (Enter to check or advance)
+// Key listeners (Shortcuts for quiz, slideshow, modals)
 function initKeyListeners() {
   document.addEventListener('keydown', (e) => {
+    // If typing in input, textarea, or select, avoid global hotkeys (except Escape to blur)
+    if (['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement?.tagName)) {
+      if (e.key === 'Escape') {
+        document.activeElement.blur();
+      }
+      return;
+    }
+
+    // Slideshow active hotkeys
+    const slideshowModal = document.getElementById('slideshow-modal');
+    if (slideshowModal && !slideshowModal.classList.contains('hidden')) {
+      if (e.key === 'ArrowRight' || e.key === 'l' || e.key === 'L') {
+        e.preventDefault();
+        slideshowNext();
+      } else if (e.key === 'ArrowLeft' || e.key === 'h' || e.key === 'H') {
+        e.preventDefault();
+        slideshowPrev();
+      } else if (e.key === 'd' || e.key === 'D' || e.key === 'Delete' || e.key === 'Backspace') {
+        e.preventDefault();
+        discardCurrentSlideshowImage();
+      } else if (e.key === 'c' || e.key === 'C') {
+        e.preventDefault();
+        toggleSlideshowCrop();
+      } else if (e.key === 'Escape') {
+        e.preventDefault();
+        closeSlideshow();
+      }
+      return;
+    }
+
+    // Modal Escape shortcuts
+    if (e.key === 'Escape') {
+      closeSpeciesModal();
+      closeTrashModal();
+      closeLightbox();
+      toggleExportModal(false);
+      return;
+    }
+
+    // Enter in Quiz feedback
     if (e.key === 'Enter') {
       const nextBtn = document.getElementById('next-question-btn');
       const feedbackSection = document.getElementById('quiz-feedback-section');
@@ -875,10 +934,6 @@ function initKeyListeners() {
         e.preventDefault();
         proceedToNextQuestion();
       }
-    }
-    if (e.key === 'Escape') {
-      closeLightbox();
-      toggleExportModal(false);
     }
   });
 }
@@ -1035,8 +1090,303 @@ function restartSameQuiz() {
 }
 
 // ==========================================
-// SPECIES ATLAS & BROWSING
+// DISCARDED IMAGES & CURATION ENGINE
 // ==========================================
+
+function initDiscardedStorage() {
+  const saved = localStorage.getItem('phytomemo_discarded_images');
+  if (saved) {
+    try {
+      discardedImages = JSON.parse(saved);
+      discardedUrlSet = new Set(discardedImages.map(d => d.url));
+      
+      // Purge discarded images from active in-memory database
+      allSpecies.forEach(sp => {
+        Object.keys(sp.images).forEach(org => {
+          sp.images[org] = sp.images[org].filter(img => !discardedUrlSet.has(img.url));
+        });
+        sp.total_images = Object.values(sp.images).reduce((sum, list) => sum + list.length, 0);
+      });
+    } catch (e) {
+      console.warn('Error loading discarded images:', e);
+      discardedImages = [];
+      discardedUrlSet = new Set();
+    }
+  }
+  updateDiscardedBadgeCount();
+}
+
+function saveDiscardedStorage() {
+  localStorage.setItem('phytomemo_discarded_images', JSON.stringify(discardedImages));
+  discardedUrlSet = new Set(discardedImages.map(d => d.url));
+  updateDiscardedBadgeCount();
+}
+
+function updateDiscardedBadgeCount() {
+  const badge = document.getElementById('discarded-badge-count');
+  if (badge) badge.textContent = discardedImages.length;
+  const modalBadge = document.getElementById('trash-modal-count');
+  if (modalBadge) modalBadge.textContent = discardedImages.length;
+}
+
+function discardImage(url, speciesLatin, organ, title, author, source, silent = false) {
+  if (!url) return;
+  if (discardedUrlSet.has(url)) return;
+
+  // Find species in allSpecies
+  const sp = allSpecies.find(s => s.latin === speciesLatin || s.id === speciesLatin);
+  let removedItem = null;
+  if (sp && sp.images[organ]) {
+    const idx = sp.images[organ].findIndex(img => img.url === url);
+    if (idx !== -1) {
+      removedItem = sp.images[organ].splice(idx, 1)[0];
+      sp.total_images = Object.values(sp.images).reduce((sum, list) => sum + list.length, 0);
+    }
+  }
+
+  const record = {
+    url,
+    speciesLatin: sp ? sp.latin : (speciesLatin || 'Unknown Species'),
+    speciesSwedish: sp ? sp.swedish : '',
+    speciesEnglish: sp ? sp.english : '',
+    family: sp ? sp.family : '',
+    organ: organ || 'photo',
+    title: title || (removedItem ? removedItem.title : ''),
+    author: author || (removedItem ? removedItem.author : ''),
+    source: source || (removedItem ? removedItem.source : ''),
+    timestamp: Date.now()
+  };
+
+  discardedImages.unshift(record);
+  saveDiscardedStorage();
+
+  if (!silent) {
+    showToast(`Discarded image from ${record.speciesLatin} (${ORGAN_METADATA[record.organ]?.label || record.organ})`, 'Undo', () => {
+      restoreImage(url);
+    });
+  }
+
+  // Refresh Views
+  if (atlasMode === 'gallery') {
+    const gIdx = galleryFilteredImages.findIndex(img => img.url === url);
+    if (gIdx !== -1) {
+      galleryFilteredImages.splice(gIdx, 1);
+      const countEl = document.getElementById('gallery-image-count');
+      if (countEl) countEl.textContent = galleryFilteredImages.length;
+      renderGalleryGrid();
+    }
+    setupGalleryFilters();
+  } else if (atlasMode === 'catalog') {
+    renderAtlasList();
+  }
+
+  // If Species Detail modal is open
+  if (activeSpeciesModalId && (!document.getElementById('species-modal')?.classList.contains('hidden'))) {
+    const activeSp = allSpecies.find(s => s.id === activeSpeciesModalId);
+    if (activeSp) {
+      renderSpeciesModalOrganTabs(activeSp);
+      document.getElementById('species-modal-count').textContent = `${activeSp.total_images || 0} photos`;
+    }
+    renderSpeciesModalGallery();
+  }
+
+  // If Slideshow is open
+  if (!document.getElementById('slideshow-modal')?.classList.contains('hidden')) {
+    const sIdx = slideshowActiveList.findIndex(img => img.url === url);
+    if (sIdx !== -1) {
+      slideshowActiveList.splice(sIdx, 1);
+      if (slideshowActiveList.length === 0) {
+        closeSlideshow();
+      } else {
+        if (slideshowCurrentIndex >= slideshowActiveList.length) {
+          slideshowCurrentIndex = slideshowActiveList.length - 1;
+        }
+        renderCurrentSlide();
+      }
+    }
+  }
+
+  // Update export count
+  const expCount = document.getElementById('export-species-count');
+  if (expCount) expCount.textContent = allSpecies.length;
+}
+
+function restoreImage(url) {
+  const idx = discardedImages.findIndex(d => d.url === url);
+  if (idx === -1) return;
+  const item = discardedImages.splice(idx, 1)[0];
+  saveDiscardedStorage();
+
+  // Put back into allSpecies
+  const sp = allSpecies.find(s => s.latin === item.speciesLatin);
+  if (sp) {
+    if (!sp.images[item.organ]) sp.images[item.organ] = [];
+    sp.images[item.organ].push({
+      url: item.url,
+      title: item.title,
+      author: item.author,
+      source: item.source
+    });
+    sp.total_images = Object.values(sp.images).reduce((sum, list) => sum + list.length, 0);
+  }
+
+  showToast(`Restored image for ${item.speciesLatin}`);
+
+  if (atlasMode === 'gallery') {
+    setupGalleryFilters();
+    filterGalleryImages();
+  } else {
+    renderAtlasList();
+  }
+  if (activeSpeciesModalId) {
+    const activeSp = allSpecies.find(s => s.id === activeSpeciesModalId);
+    if (activeSp) {
+      renderSpeciesModalOrganTabs(activeSp);
+      document.getElementById('species-modal-count').textContent = `${activeSp.total_images || 0} photos`;
+    }
+    renderSpeciesModalGallery();
+  }
+  renderTrashModal();
+}
+
+function restoreAllImages() {
+  if (discardedImages.length === 0) return;
+  if (!confirm(`Restore all ${discardedImages.length} discarded images back to active database?`)) return;
+
+  discardedImages.forEach(item => {
+    const sp = allSpecies.find(s => s.latin === item.speciesLatin);
+    if (sp) {
+      if (!sp.images[item.organ]) sp.images[item.organ] = [];
+      sp.images[item.organ].push({
+        url: item.url,
+        title: item.title,
+        author: item.author,
+        source: item.source
+      });
+      sp.total_images = Object.values(sp.images).reduce((sum, list) => sum + list.length, 0);
+    }
+  });
+
+  discardedImages = [];
+  saveDiscardedStorage();
+  showToast('All discarded images restored!');
+
+  if (atlasMode === 'gallery') {
+    setupGalleryFilters();
+    filterGalleryImages();
+  } else {
+    renderAtlasList();
+  }
+  renderTrashModal();
+  closeTrashModal();
+}
+
+function openTrashModal() {
+  const modal = document.getElementById('trash-modal');
+  if (!modal) return;
+  renderTrashModal();
+  modal.classList.remove('hidden');
+}
+
+function closeTrashModal() {
+  document.getElementById('trash-modal')?.classList.add('hidden');
+}
+
+function renderTrashModal() {
+  const grid = document.getElementById('trash-modal-grid');
+  const countEl = document.getElementById('trash-modal-count');
+  if (!grid) return;
+  if (countEl) countEl.textContent = discardedImages.length;
+
+  if (discardedImages.length === 0) {
+    grid.innerHTML = '<div class="col-span-full py-12 text-center text-stone-500 text-xs">No discarded images in trash.</div>';
+    return;
+  }
+
+  grid.innerHTML = discardedImages.map(item => {
+    const meta = ORGAN_METADATA[item.organ] || { label: item.organ, icon: '🌿' };
+    const cleanUrl = item.url.replace(/'/g, "\\'");
+    return `
+      <div class="bg-stone-900 border border-stone-800 rounded-xl p-2.5 flex items-center justify-between gap-3 group shadow-sm">
+        <div class="flex items-center gap-3 min-w-0">
+          <img src="${item.url}" alt="${item.speciesLatin}" class="w-12 h-12 rounded-lg object-cover bg-stone-950 shrink-0 border border-stone-800" />
+          <div class="min-w-0">
+            <div class="font-bold font-botanical italic text-stone-200 text-xs truncate">${item.speciesLatin}</div>
+            <div class="text-[10px] text-stone-400 truncate">${meta.icon} ${meta.label}</div>
+            <div class="text-[9px] text-stone-500 truncate">${item.title || item.source || ''}</div>
+          </div>
+        </div>
+        <button 
+          onclick="restoreImage('${cleanUrl}')" 
+          class="px-2.5 py-1 rounded-lg bg-stone-800 hover:bg-emerald-600 text-stone-300 hover:text-white text-xs font-semibold transition shrink-0"
+          title="Restore this image"
+        >
+          ↩️ Restore
+        </button>
+      </div>
+    `;
+  }).join('');
+}
+
+function showToast(message, actionLabel = null, actionCallback = null) {
+  const container = document.getElementById('toast-container');
+  if (!container) return;
+
+  const toast = document.createElement('div');
+  toast.className = 'pointer-events-auto bg-stone-900/95 border border-stone-700 text-stone-200 text-xs px-4 py-2.5 rounded-xl shadow-2xl flex items-center gap-3 backdrop-blur-md transition-all duration-200 transform translate-y-2 opacity-0';
+  
+  const textSpan = document.createElement('span');
+  textSpan.textContent = message;
+  toast.appendChild(textSpan);
+
+  if (actionLabel && actionCallback) {
+    const btn = document.createElement('button');
+    btn.className = 'px-2.5 py-1 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[11px] transition shrink-0';
+    btn.textContent = actionLabel;
+    btn.onclick = () => {
+      actionCallback();
+      toast.remove();
+    };
+    toast.appendChild(btn);
+  }
+
+  container.appendChild(toast);
+  requestAnimationFrame(() => {
+    toast.classList.remove('translate-y-2', 'opacity-0');
+  });
+
+  setTimeout(() => {
+    toast.classList.add('translate-y-2', 'opacity-0');
+    setTimeout(() => toast.remove(), 300);
+  }, 4500);
+}
+
+// ==========================================
+// SPECIES ATLAS & BROWSING (CATALOG + GALLERY)
+// ==========================================
+
+function switchAtlasMode(mode) {
+  atlasMode = mode;
+  const catalogBtn = document.getElementById('atlas-mode-catalog-btn');
+  const galleryBtn = document.getElementById('atlas-mode-gallery-btn');
+  const catalogPanel = document.getElementById('atlas-catalog-panel');
+  const galleryPanel = document.getElementById('atlas-gallery-panel');
+
+  if (mode === 'catalog') {
+    catalogBtn.className = 'px-3 py-1.5 rounded-lg font-medium transition bg-emerald-600 text-white flex items-center gap-1.5';
+    galleryBtn.className = 'px-3 py-1.5 rounded-lg font-medium transition text-stone-400 hover:text-stone-200 flex items-center gap-1.5';
+    catalogPanel.classList.remove('hidden');
+    galleryPanel.classList.add('hidden');
+    renderAtlasList();
+  } else {
+    galleryBtn.className = 'px-3 py-1.5 rounded-lg font-medium transition bg-emerald-600 text-white flex items-center gap-1.5';
+    catalogBtn.className = 'px-3 py-1.5 rounded-lg font-medium transition text-stone-400 hover:text-stone-200 flex items-center gap-1.5';
+    catalogPanel.classList.add('hidden');
+    galleryPanel.classList.remove('hidden');
+    setupGalleryFilters();
+    filterGalleryImages();
+  }
+}
 
 function renderAtlasList() {
   const container = document.getElementById('atlas-species-grid');
@@ -1050,13 +1400,15 @@ function renderAtlasList() {
            sp.family.toLowerCase().includes(search);
   });
 
+  const countEl = document.getElementById('catalog-species-count');
+  if (countEl) countEl.textContent = list.length;
+
   if (list.length === 0) {
     container.innerHTML = '<div class="col-span-full text-center py-10 text-stone-500 text-sm">No species found matching query.</div>';
     return;
   }
 
   container.innerHTML = list.map(sp => {
-    // Pick primary photo
     let coverPhoto = '';
     for (const k of ['botanical_illustration', 'tree_shape', 'leaves_top', 'bark']) {
       if ((sp.images[k] || []).length > 0) {
@@ -1071,16 +1423,19 @@ function renderAtlasList() {
     }).join('');
 
     return `
-      <div class="bg-stone-950 border border-stone-800 rounded-2xl overflow-hidden hover:border-emerald-700 transition flex flex-col justify-between group">
+      <div class="bg-stone-950 border border-stone-800 rounded-2xl overflow-hidden hover:border-emerald-700 transition flex flex-col justify-between group shadow">
         <div>
-          <div class="relative h-44 bg-stone-900 overflow-hidden cursor-pointer" onclick="openAtlasModal('${sp.id}')">
+          <div class="relative h-44 bg-stone-900 overflow-hidden cursor-pointer" onclick="openSpeciesModal('${sp.id}')">
             <img src="${coverPhoto}" alt="${sp.latin}" class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
             <span class="absolute top-2 right-2 px-2 py-0.5 rounded-full bg-black/80 border border-stone-700 text-[10px] text-stone-200 font-mono">
               ${sp.family}
             </span>
+            <span class="absolute bottom-2 left-2 px-2 py-0.5 rounded bg-black/80 text-[10px] text-emerald-400 font-bold">
+              ${sp.total_images || 0} images
+            </span>
           </div>
           <div class="p-4">
-            <h3 class="text-base font-bold font-botanical italic text-emerald-400 cursor-pointer" onclick="openAtlasModal('${sp.id}')">
+            <h3 class="text-base font-bold font-botanical italic text-emerald-400 cursor-pointer hover:underline" onclick="openSpeciesModal('${sp.id}')">
               ${sp.latin}
             </h3>
             <div class="text-xs text-stone-300 mt-0.5">
@@ -1091,28 +1446,536 @@ function renderAtlasList() {
             </div>
           </div>
         </div>
-        <div class="p-4 pt-0 border-t border-stone-800/60 mt-2">
+        <div class="p-4 pt-0 border-t border-stone-800/60 mt-2 space-y-2">
           <div class="flex flex-wrap gap-1 mt-2">
             ${organChips}
           </div>
-          <button onclick="openAtlasModal('${sp.id}')" class="mt-3 w-full py-1.5 rounded-lg bg-stone-800 hover:bg-stone-700 text-xs font-semibold text-stone-200 transition">
-            View All Organ Photos →
-          </button>
+          <div class="grid grid-cols-2 gap-2 mt-3">
+            <button onclick="openSpeciesModal('${sp.id}')" class="py-1.5 px-2 rounded-lg bg-stone-800 hover:bg-stone-700 text-xs font-semibold text-stone-200 transition flex items-center justify-center gap-1">
+              <span>🖼️</span> <span>All Photos</span>
+            </button>
+            <button onclick="startSlideshowForSpecies('${sp.id}')" class="py-1.5 px-2 rounded-lg bg-emerald-700/70 hover:bg-emerald-600 text-xs font-semibold text-white transition flex items-center justify-center gap-1">
+              <span>▶️</span> <span>Slideshow</span>
+            </button>
+          </div>
         </div>
       </div>
     `;
   }).join('');
 }
 
-function openAtlasModal(speciesId) {
+// ==========================================
+// FULL IMAGE GALLERY (FILTER & BATCH REVIEW)
+// ==========================================
+
+function setupGalleryFilters() {
+  const spSelect = document.getElementById('gallery-species-select');
+  if (spSelect && spSelect.options.length <= 1) {
+    const sorted = [...allSpecies].sort((a, b) => a.latin.localeCompare(b.latin));
+    sorted.forEach(sp => {
+      const opt = document.createElement('option');
+      opt.value = sp.latin;
+      opt.textContent = `${sp.latin} (${sp.swedish || sp.english})`;
+      spSelect.appendChild(opt);
+    });
+  }
+
+  const organCounts = {};
+  let totalImgs = 0;
+  allSpecies.forEach(sp => {
+    Object.entries(sp.images).forEach(([org, imgs]) => {
+      organCounts[org] = (organCounts[org] || 0) + imgs.length;
+      totalImgs += imgs.length;
+    });
+  });
+
+  const pillsContainer = document.getElementById('gallery-organ-pills');
+  if (pillsContainer) {
+    let html = `
+      <button 
+        onclick="setGalleryOrganFilter('ALL')" 
+        class="px-2.5 py-1 rounded-lg text-xs font-semibold transition ${galleryActiveOrgan === 'ALL' ? 'bg-emerald-600 text-white' : 'bg-stone-900 border border-stone-800 text-stone-400 hover:text-stone-200'}"
+      >
+        All Organs (${totalImgs})
+      </button>
+    `;
+    Object.entries(ORGAN_METADATA).forEach(([orgKey, meta]) => {
+      const count = organCounts[orgKey] || 0;
+      const isActive = galleryActiveOrgan === orgKey;
+      html += `
+        <button 
+          onclick="setGalleryOrganFilter('${orgKey}')" 
+          class="px-2.5 py-1 rounded-lg text-xs font-semibold transition ${isActive ? 'bg-emerald-600 text-white' : 'bg-stone-900 border border-stone-800 text-stone-400 hover:text-stone-200'}"
+        >
+          ${meta.icon} ${meta.label} (${count})
+        </button>
+      `;
+    });
+    pillsContainer.innerHTML = html;
+  }
+}
+
+function setGalleryOrganFilter(organKey) {
+  galleryActiveOrgan = organKey;
+  setupGalleryFilters();
+  filterGalleryImages();
+}
+
+function filterGalleryImages() {
+  const spVal = document.getElementById('gallery-species-select')?.value || 'ALL';
+  const srcVal = document.getElementById('gallery-source-select')?.value || 'ALL';
+  const textVal = (document.getElementById('gallery-text-filter')?.value || '').toLowerCase().trim();
+
+  const collected = [];
+  allSpecies.forEach(sp => {
+    if (spVal !== 'ALL' && sp.latin !== spVal) return;
+
+    Object.entries(sp.images).forEach(([orgKey, imgs]) => {
+      if (galleryActiveOrgan !== 'ALL' && orgKey !== galleryActiveOrgan) return;
+
+      imgs.forEach(img => {
+        if (srcVal === 'Wikimedia' && !img.source?.includes('Wikimedia')) return;
+        if (srcVal === 'iNaturalist' && !img.source?.includes('iNaturalist')) return;
+
+        if (textVal) {
+          const match = sp.latin.toLowerCase().includes(textVal) ||
+                        (sp.swedish || '').toLowerCase().includes(textVal) ||
+                        (sp.english || '').toLowerCase().includes(textVal) ||
+                        (img.title || '').toLowerCase().includes(textVal) ||
+                        orgKey.toLowerCase().includes(textVal);
+          if (!match) return;
+        }
+
+        collected.push({
+          url: img.url,
+          speciesLatin: sp.latin,
+          speciesSwedish: sp.swedish,
+          speciesEnglish: sp.english,
+          family: sp.family,
+          zone: sp.zone,
+          speciesId: sp.id,
+          organ: orgKey,
+          title: img.title || '',
+          author: img.author || '',
+          source: img.source || ''
+        });
+      });
+    });
+  });
+
+  galleryFilteredImages = collected;
+  galleryPage = 1;
+
+  const countEl = document.getElementById('gallery-image-count');
+  if (countEl) countEl.textContent = galleryFilteredImages.length;
+
+  renderGalleryGrid();
+}
+
+function renderGalleryGrid() {
+  const container = document.getElementById('atlas-gallery-grid');
+  if (!container) return;
+
+  if (galleryFilteredImages.length === 0) {
+    container.innerHTML = '<div class="col-span-full py-12 text-center text-stone-500 text-xs">No images match current filters.</div>';
+    document.getElementById('gallery-load-more-container')?.classList.add('hidden');
+    return;
+  }
+
+  const start = 0;
+  const end = galleryPage * GALLERY_PAGE_SIZE;
+  const pageSlice = galleryFilteredImages.slice(start, end);
+
+  container.innerHTML = pageSlice.map((item, idx) => {
+    const meta = ORGAN_METADATA[item.organ] || { label: item.organ, icon: '🌿' };
+    const cleanUrl = item.url.replace(/'/g, "\\'");
+    const cleanLatin = item.speciesLatin.replace(/'/g, "\\'");
+    const cleanTitle = (item.title || '').replace(/'/g, "\\'");
+
+    return `
+      <div class="relative bg-stone-950 border border-stone-800 rounded-xl overflow-hidden hover:border-emerald-600 transition group flex flex-col justify-between shadow-sm">
+        <div class="relative h-36 bg-stone-900 cursor-pointer overflow-hidden" onclick="openSlideshowAtFilteredIndex(${idx})">
+          <img 
+            src="${item.url}" 
+            alt="${item.speciesLatin}" 
+            loading="lazy" 
+            class="w-full h-full object-cover group-hover:scale-105 transition duration-200" 
+          />
+          <span class="absolute top-1.5 left-1.5 px-2 py-0.5 rounded-full bg-black/80 backdrop-blur-sm border border-stone-700 text-[10px] font-semibold text-stone-200">
+            ${meta.icon} ${meta.label}
+          </span>
+          <button 
+            type="button" 
+            onclick="event.stopPropagation(); discardImage('${cleanUrl}', '${cleanLatin}', '${item.organ}', '${cleanTitle}', '${(item.author || '').replace(/'/g, "\\'")}', '${(item.source || '').replace(/'/g, "\\'")}')" 
+            class="absolute top-1.5 right-1.5 w-7 h-7 rounded-full bg-black/80 hover:bg-rose-600 text-stone-300 hover:text-white flex items-center justify-center transition border border-stone-700 shadow-md"
+            title="Discard this image (B&W, lineart, or bad)"
+          >
+            🗑️
+          </button>
+        </div>
+
+        <div class="p-2.5 bg-stone-950 flex flex-col justify-between flex-1">
+          <div>
+            <div class="font-bold font-botanical italic text-emerald-400 text-xs truncate cursor-pointer hover:underline" onclick="openSlideshowAtFilteredIndex(${idx})">
+              ${item.speciesLatin}
+            </div>
+            <div class="text-[10px] text-stone-400 truncate mt-0.5">
+              ${item.speciesSwedish || item.speciesEnglish || item.family}
+            </div>
+          </div>
+          <div class="text-[9px] text-stone-500 truncate mt-1 flex items-center justify-between">
+            <span class="truncate">${item.source?.includes('Wikimedia') ? 'Commons' : 'iNat'}</span>
+            <span class="text-stone-400 hover:text-emerald-400 cursor-pointer" onclick="openSlideshowAtFilteredIndex(${idx})">Inspect →</span>
+          </div>
+        </div>
+      </div>
+    `;
+  }).join('');
+
+  const loadMoreContainer = document.getElementById('gallery-load-more-container');
+  const remainingCountEl = document.getElementById('gallery-remaining-count');
+  if (end < galleryFilteredImages.length) {
+    loadMoreContainer?.classList.remove('hidden');
+    if (remainingCountEl) remainingCountEl.textContent = (galleryFilteredImages.length - end);
+  } else {
+    loadMoreContainer?.classList.add('hidden');
+  }
+}
+
+function loadMoreGalleryImages() {
+  galleryPage++;
+  renderGalleryGrid();
+}
+
+function openSlideshowAtFilteredIndex(index) {
+  if (!galleryFilteredImages || galleryFilteredImages.length === 0) return;
+  openSlideshow(galleryFilteredImages, index);
+}
+
+function startSlideshowFromFilteredGallery() {
+  if (!galleryFilteredImages || galleryFilteredImages.length === 0) {
+    alert('No images match current filter criteria!');
+    return;
+  }
+  openSlideshow(galleryFilteredImages, 0);
+}
+
+// ==========================================
+// SPECIES DETAIL & ORGAN GALLERY MODAL
+// ==========================================
+
+function openSpeciesModal(speciesId) {
+  const sp = allSpecies.find(s => s.id === speciesId || s.latin === speciesId);
+  if (!sp) return;
+  activeSpeciesModalId = sp.id;
+  speciesModalActiveOrgan = 'ALL';
+
+  document.getElementById('species-modal-latin').textContent = sp.latin;
+  document.getElementById('species-modal-family').textContent = sp.family;
+  document.getElementById('species-modal-names').textContent = `🇸🇪 ${sp.swedish || 'N/A'} • 🇬🇧 ${sp.english || 'N/A'}`;
+  document.getElementById('species-modal-zone').textContent = `Zone: ${sp.zone || 'N/A'}`;
+  document.getElementById('species-modal-count').textContent = `${sp.total_images || 0} photos`;
+
+  renderSpeciesModalOrganTabs(sp);
+  renderSpeciesModalGallery();
+
+  document.getElementById('species-modal')?.classList.remove('hidden');
+}
+
+function closeSpeciesModal() {
+  document.getElementById('species-modal')?.classList.add('hidden');
+  activeSpeciesModalId = null;
+}
+
+function renderSpeciesModalOrganTabs(sp) {
+  const container = document.getElementById('species-modal-organ-tabs');
+  if (!container) return;
+
+  let html = `
+    <button 
+      onclick="setSpeciesModalOrgan('ALL')" 
+      class="px-2.5 py-1 rounded-lg text-xs font-semibold transition ${speciesModalActiveOrgan === 'ALL' ? 'bg-emerald-600 text-white' : 'bg-stone-800 text-stone-300 hover:bg-stone-700'}"
+    >
+      All (${sp.total_images})
+    </button>
+  `;
+
+  Object.entries(sp.images).forEach(([orgKey, imgs]) => {
+    if (imgs.length === 0) return;
+    const meta = ORGAN_METADATA[orgKey] || { label: orgKey, icon: '🌿' };
+    const isActive = speciesModalActiveOrgan === orgKey;
+    html += `
+      <button 
+        onclick="setSpeciesModalOrgan('${orgKey}')" 
+        class="px-2.5 py-1 rounded-lg text-xs font-semibold transition ${isActive ? 'bg-emerald-600 text-white' : 'bg-stone-800 text-stone-300 hover:bg-stone-700'}"
+      >
+        ${meta.icon} ${meta.label} (${imgs.length})
+      </button>
+    `;
+  });
+
+  container.innerHTML = html;
+}
+
+function setSpeciesModalOrgan(orgKey) {
+  speciesModalActiveOrgan = orgKey;
+  const sp = allSpecies.find(s => s.id === activeSpeciesModalId);
+  if (sp) renderSpeciesModalOrganTabs(sp);
+  renderSpeciesModalGallery();
+}
+
+function renderSpeciesModalGallery() {
+  const container = document.getElementById('species-modal-gallery-grid');
+  const sp = allSpecies.find(s => s.id === activeSpeciesModalId);
+  if (!container || !sp) return;
+
+  const images = [];
+  Object.entries(sp.images).forEach(([orgKey, list]) => {
+    if (speciesModalActiveOrgan !== 'ALL' && orgKey !== speciesModalActiveOrgan) return;
+    list.forEach(img => {
+      images.push({
+        url: img.url,
+        speciesLatin: sp.latin,
+        speciesSwedish: sp.swedish,
+        speciesEnglish: sp.english,
+        family: sp.family,
+        zone: sp.zone,
+        organ: orgKey,
+        title: img.title || '',
+        author: img.author || '',
+        source: img.source || ''
+      });
+    });
+  });
+
+  if (images.length === 0) {
+    container.innerHTML = '<div class="col-span-full py-8 text-center text-stone-500 text-xs">No images in this category.</div>';
+    return;
+  }
+
+  container.innerHTML = images.map((item, idx) => {
+    const meta = ORGAN_METADATA[item.organ] || { label: item.organ, icon: '🌿' };
+    const cleanUrl = item.url.replace(/'/g, "\\'");
+    const cleanLatin = item.speciesLatin.replace(/'/g, "\\'");
+    const cleanTitle = (item.title || '').replace(/'/g, "\\'");
+
+    return `
+      <div class="relative bg-stone-950 border border-stone-800 rounded-xl overflow-hidden hover:border-emerald-600 transition group flex flex-col justify-between">
+        <div class="relative h-32 bg-stone-900 cursor-pointer" onclick="openSlideshowFromSpeciesModalImage(${idx})">
+          <img src="${item.url}" alt="${meta.label}" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition duration-200" />
+          <span class="absolute top-1 left-1 px-1.5 py-0.5 rounded bg-black/80 text-[9px] font-bold text-stone-200">
+            ${meta.icon} ${meta.label}
+          </span>
+          <button 
+            type="button" 
+            onclick="event.stopPropagation(); discardImage('${cleanUrl}', '${cleanLatin}', '${item.organ}', '${cleanTitle}', '${(item.author || '').replace(/'/g, "\\'")}', '${(item.source || '').replace(/'/g, "\\'")}')" 
+            class="absolute top-1 right-1 w-6 h-6 rounded-full bg-black/80 hover:bg-rose-600 text-stone-300 hover:text-white flex items-center justify-center transition border border-stone-700 shadow"
+            title="Discard this image"
+          >
+            🗑️
+          </button>
+        </div>
+        <div class="p-2 bg-stone-950 text-[10px] text-stone-400 truncate">
+          ${item.title || item.source || meta.label}
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function startSlideshowFromSpeciesModal() {
+  const sp = allSpecies.find(s => s.id === activeSpeciesModalId);
+  if (!sp) return;
+  const images = [];
+  Object.entries(sp.images).forEach(([orgKey, list]) => {
+    list.forEach(img => {
+      images.push({
+        url: img.url,
+        speciesLatin: sp.latin,
+        speciesSwedish: sp.swedish,
+        speciesEnglish: sp.english,
+        family: sp.family,
+        zone: sp.zone,
+        organ: orgKey,
+        title: img.title || '',
+        author: img.author || '',
+        source: img.source || ''
+      });
+    });
+  });
+  if (images.length === 0) return;
+  openSlideshow(images, 0);
+}
+
+function openSlideshowFromSpeciesModalImage(index) {
+  const sp = allSpecies.find(s => s.id === activeSpeciesModalId);
+  if (!sp) return;
+  const images = [];
+  Object.entries(sp.images).forEach(([orgKey, list]) => {
+    if (speciesModalActiveOrgan !== 'ALL' && orgKey !== speciesModalActiveOrgan) return;
+    list.forEach(img => {
+      images.push({
+        url: img.url,
+        speciesLatin: sp.latin,
+        speciesSwedish: sp.swedish,
+        speciesEnglish: sp.english,
+        family: sp.family,
+        zone: sp.zone,
+        organ: orgKey,
+        title: img.title || '',
+        author: img.author || '',
+        source: img.source || ''
+      });
+    });
+  });
+  openSlideshow(images, index);
+}
+
+function startSlideshowForSpecies(speciesId) {
   const sp = allSpecies.find(s => s.id === speciesId);
   if (!sp) return;
+  const images = [];
+  Object.entries(sp.images).forEach(([orgKey, list]) => {
+    list.forEach(img => {
+      images.push({
+        url: img.url,
+        speciesLatin: sp.latin,
+        speciesSwedish: sp.swedish,
+        speciesEnglish: sp.english,
+        family: sp.family,
+        zone: sp.zone,
+        organ: orgKey,
+        title: img.title || '',
+        author: img.author || '',
+        source: img.source || ''
+      });
+    });
+  });
+  if (images.length === 0) return;
+  openSlideshow(images, 0);
+}
 
-  // Open first illustration or photo in lightbox
-  const firstPhoto = sp.images?.botanical_illustration?.[0] || sp.images?.leaves_top?.[0] || sp.images?.bark?.[0];
-  if (firstPhoto) {
-    openLightbox(firstPhoto.url, 'Botanical Plate', `${sp.latin} (${sp.swedish} / ${sp.english})`, firstPhoto.author);
+// ==========================================
+// INTERACTIVE SLIDESHOW SYSTEM
+// ==========================================
+
+function openSlideshow(imagesList, startIndex = 0) {
+  if (!imagesList || imagesList.length === 0) return;
+  slideshowActiveList = [...imagesList];
+  slideshowCurrentIndex = Math.max(0, Math.min(startIndex, slideshowActiveList.length - 1));
+  slideshowCropBottom = 0;
+
+  const modal = document.getElementById('slideshow-modal');
+  if (!modal) return;
+  modal.classList.remove('hidden');
+
+  renderCurrentSlide();
+}
+
+function closeSlideshow() {
+  document.getElementById('slideshow-modal')?.classList.add('hidden');
+}
+
+function renderCurrentSlide() {
+  if (!slideshowActiveList || slideshowActiveList.length === 0) {
+    closeSlideshow();
+    return;
   }
+
+  const cur = slideshowActiveList[slideshowCurrentIndex];
+  const meta = ORGAN_METADATA[cur.organ] || { label: cur.organ, icon: '🌿' };
+
+  document.getElementById('slideshow-organ-badge').textContent = `${meta.icon} ${meta.label}`;
+  document.getElementById('slideshow-species-latin').textContent = cur.speciesLatin;
+  document.getElementById('slideshow-species-family').textContent = cur.family || '';
+  document.getElementById('slideshow-species-common').textContent = `🇸🇪 ${cur.speciesSwedish || 'N/A'} • 🇬🇧 ${cur.speciesEnglish || 'N/A'}`;
+
+  document.getElementById('slideshow-counter-current').textContent = slideshowCurrentIndex + 1;
+  document.getElementById('slideshow-counter-total').textContent = slideshowActiveList.length;
+
+  const imgEl = document.getElementById('slideshow-main-img');
+  imgEl.src = cur.url;
+
+  applySlideshowCropStyle();
+
+  document.getElementById('slideshow-photo-author').textContent = cur.author ? `Credit: ${cur.author}` : (cur.title || '');
+  const linkEl = document.getElementById('slideshow-photo-link');
+  if (linkEl) {
+    linkEl.href = cur.url;
+  }
+
+  renderSlideshowFilmstrip();
+}
+
+function applySlideshowCropStyle() {
+  const imgEl = document.getElementById('slideshow-main-img');
+  const maskOverlay = document.getElementById('slideshow-mask-overlay');
+  const cropLabel = document.getElementById('slideshow-crop-label');
+
+  if (slideshowCropBottom > 0) {
+    imgEl.style.setProperty('--slideshow-crop-bottom', `${slideshowCropBottom}%`);
+    maskOverlay?.classList.remove('hidden');
+    if (cropLabel) cropLabel.textContent = `Mask Active (${slideshowCropBottom}%)`;
+  } else {
+    imgEl.style.setProperty('--slideshow-crop-bottom', '0%');
+    maskOverlay?.classList.add('hidden');
+    if (cropLabel) cropLabel.textContent = 'Anti-Cheat Mask';
+  }
+}
+
+function toggleSlideshowCrop() {
+  slideshowCropBottom = slideshowCropBottom > 0 ? 0 : 14;
+  applySlideshowCropStyle();
+}
+
+function slideshowNext() {
+  if (slideshowActiveList.length === 0) return;
+  slideshowCurrentIndex = (slideshowCurrentIndex + 1) % slideshowActiveList.length;
+  renderCurrentSlide();
+}
+
+function slideshowPrev() {
+  if (slideshowActiveList.length === 0) return;
+  slideshowCurrentIndex = (slideshowCurrentIndex - 1 + slideshowActiveList.length) % slideshowActiveList.length;
+  renderCurrentSlide();
+}
+
+function discardCurrentSlideshowImage() {
+  if (slideshowActiveList.length === 0) return;
+  const cur = slideshowActiveList[slideshowCurrentIndex];
+  discardImage(cur.url, cur.speciesLatin, cur.organ, cur.title, cur.author, cur.source);
+}
+
+function renderSlideshowFilmstrip() {
+  const strip = document.getElementById('slideshow-filmstrip');
+  if (!strip) return;
+
+  const total = slideshowActiveList.length;
+  let startIdx = Math.max(0, slideshowCurrentIndex - 7);
+  let endIdx = Math.min(total, startIdx + 15);
+  if (endIdx - startIdx < 15 && startIdx > 0) {
+    startIdx = Math.max(0, endIdx - 15);
+  }
+
+  let html = '';
+  for (let i = startIdx; i < endIdx; i++) {
+    const item = slideshowActiveList[i];
+    const isCurrent = i === slideshowCurrentIndex;
+    html += `
+      <div 
+        onclick="slideshowCurrentIndex = ${i}; renderCurrentSlide();" 
+        class="h-12 w-12 rounded-lg overflow-hidden shrink-0 cursor-pointer border transition ${
+          isCurrent 
+            ? 'ring-2 ring-emerald-400 border-emerald-400 scale-110' 
+            : 'border-stone-800 opacity-60 hover:opacity-100'
+        }"
+      >
+        <img src="${item.url}" alt="${item.speciesLatin}" class="w-full h-full object-cover" />
+      </div>
+    `;
+  }
+
+  strip.innerHTML = html;
 }
 
 // ==========================================
@@ -1444,7 +2307,13 @@ function showView(viewId) {
   } else if (viewId === 'atlas-view') {
     document.getElementById('nav-atlas-btn')?.classList.add('bg-emerald-600', 'text-white');
     document.getElementById('nav-atlas-btn')?.classList.remove('text-stone-300');
-    renderAtlasList();
+    if (atlasMode === 'catalog') {
+      renderAtlasList();
+    } else {
+      setupGalleryFilters();
+      filterGalleryImages();
+    }
+    updateDiscardedBadgeCount();
   } else if (viewId === 'search-view') {
     document.getElementById('nav-search-btn')?.classList.add('bg-emerald-600', 'text-white');
     document.getElementById('nav-search-btn')?.classList.remove('text-stone-300');

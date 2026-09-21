@@ -641,32 +641,171 @@
     </section>
 
 
-    <!-- ================= VIEW 4: SPECIES ATLAS ================= -->
+    <!-- ================= VIEW 4: SPECIES ATLAS & CURATION GALLERY ================= -->
     <section id="atlas-view" class="hidden space-y-6">
-      <div class="bg-stone-900 border border-stone-800 rounded-2xl p-6">
-        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-stone-800">
+      <div class="bg-stone-900 border border-stone-800 rounded-2xl p-4 sm:p-6">
+        
+        <!-- Atlas Header & Mode Toggles -->
+        <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4 pb-4 border-b border-stone-800">
           <div>
             <h2 class="text-xl font-bold font-botanical text-stone-100 flex items-center gap-2">
-              <span>📖</span> Botanical Species Atlas
+              <span>📖</span> Botanical Species Atlas & Image Curation
             </h2>
             <p class="text-xs text-stone-400 mt-1">
-              Browse all 61 examination reference trees with complete organ photo galleries.
+              Browse reference species, inspect high-res photos in Slideshow mode, and manually discard line art, monochrome, or unwanted images.
             </p>
           </div>
-          <div class="flex items-center gap-2">
-            <input 
-              type="text" 
-              id="atlas-search-input" 
-              oninput="renderAtlasList()" 
-              placeholder="Search Latin, Swedish, or English name..." 
-              class="w-64 bg-stone-950 border border-stone-800 rounded-xl px-3 py-1.5 text-xs text-stone-200 placeholder-stone-500 focus:outline-none focus:border-emerald-500"
-            />
+
+          <!-- Controls: Mode toggle, Discarded Trash, Export -->
+          <div class="flex flex-wrap items-center gap-2">
+            <!-- Mode Switcher -->
+            <div class="flex rounded-xl bg-stone-950 p-1 border border-stone-800 text-xs">
+              <button 
+                id="atlas-mode-catalog-btn" 
+                onclick="switchAtlasMode('catalog')" 
+                class="px-3 py-1.5 rounded-lg font-medium transition bg-emerald-600 text-white flex items-center gap-1.5"
+              >
+                <span>🌳</span> <span>Species Cards</span>
+              </button>
+              <button 
+                id="atlas-mode-gallery-btn" 
+                onclick="switchAtlasMode('gallery')" 
+                class="px-3 py-1.5 rounded-lg font-medium transition text-stone-400 hover:text-stone-200 flex items-center gap-1.5"
+              >
+                <span>🖼️</span> <span>Full Gallery & Filter</span>
+              </button>
+            </div>
+
+            <!-- Discarded Trash Button -->
+            <button 
+              onclick="openTrashModal()" 
+              class="px-3 py-1.5 rounded-xl border border-stone-800 bg-stone-950/60 hover:bg-stone-800 text-xs text-stone-300 hover:text-rose-400 transition flex items-center gap-1.5"
+              title="View & restore discarded images"
+            >
+              <span>🗑️</span> <span>Discarded</span>
+              <span id="discarded-badge-count" class="px-1.5 py-0.2 rounded-full bg-stone-800 text-[10px] text-stone-400 font-mono">0</span>
+            </button>
+
+            <!-- Export Curated Database -->
+            <button 
+              onclick="downloadDatabaseJSON()" 
+              class="px-3 py-1.5 rounded-xl bg-emerald-600/20 hover:bg-emerald-600/30 border border-emerald-600/40 text-xs text-emerald-300 font-medium transition flex items-center gap-1.5"
+              title="Download cleaned plants_data.json"
+            >
+              <span>💾</span> <span>Export JSON</span>
+            </button>
           </div>
         </div>
 
-        <div id="atlas-species-grid" class="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          <!-- Injected via JS -->
+        <!-- MODE 1: SPECIES CATALOG CARDS -->
+        <div id="atlas-catalog-panel" class="mt-6 space-y-4">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+            <div class="flex items-center gap-2 flex-1">
+              <input 
+                type="text" 
+                id="atlas-search-input" 
+                oninput="renderAtlasList()" 
+                placeholder="Search Latin, Swedish, or English name, or family..." 
+                class="w-full sm:w-80 bg-stone-950 border border-stone-800 rounded-xl px-3 py-2 text-xs text-stone-200 placeholder-stone-500 focus:outline-none focus:border-emerald-500"
+              />
+            </div>
+            <div class="text-xs text-stone-400">
+              Showing <span id="catalog-species-count" class="font-bold text-emerald-400">61</span> species
+            </div>
+          </div>
+
+          <div id="atlas-species-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <!-- Injected via JS -->
+          </div>
         </div>
+
+        <!-- MODE 2: FULL IMAGE GALLERY (FILTER & BATCH REVIEW) -->
+        <div id="atlas-gallery-panel" class="hidden mt-6 space-y-4">
+          <!-- Gallery Filter Toolbar -->
+          <div class="bg-stone-950/80 border border-stone-800 rounded-xl p-4 space-y-3">
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+              <!-- Species Selector -->
+              <div>
+                <label class="block text-[11px] font-semibold text-stone-400 mb-1">Filter by Species</label>
+                <select 
+                  id="gallery-species-select" 
+                  onchange="filterGalleryImages()" 
+                  class="w-full bg-stone-900 border border-stone-800 rounded-xl px-3 py-1.5 text-xs text-stone-200 focus:outline-none focus:border-emerald-500"
+                >
+                  <option value="ALL">All 61 Species</option>
+                  <!-- Injected via JS -->
+                </select>
+              </div>
+
+              <!-- Source Selector -->
+              <div>
+                <label class="block text-[11px] font-semibold text-stone-400 mb-1">Filter by Repository</label>
+                <select 
+                  id="gallery-source-select" 
+                  onchange="filterGalleryImages()" 
+                  class="w-full bg-stone-900 border border-stone-800 rounded-xl px-3 py-1.5 text-xs text-stone-200 focus:outline-none focus:border-emerald-500"
+                >
+                  <option value="ALL">All Sources (Wikimedia + iNaturalist)</option>
+                  <option value="Wikimedia">Wikimedia Commons</option>
+                  <option value="iNaturalist">iNaturalist Research Grade</option>
+                </select>
+              </div>
+
+              <!-- Search title/caption -->
+              <div>
+                <label class="block text-[11px] font-semibold text-stone-400 mb-1">Search Captions & Titles</label>
+                <input 
+                  type="text" 
+                  id="gallery-text-filter" 
+                  oninput="filterGalleryImages()" 
+                  placeholder="e.g., drawing, plate, leaf, bud..." 
+                  class="w-full bg-stone-900 border border-stone-800 rounded-xl px-3 py-1.5 text-xs text-stone-200 placeholder-stone-500 focus:outline-none focus:border-emerald-500"
+                />
+              </div>
+            </div>
+
+            <!-- Organ Filter Pills -->
+            <div>
+              <label class="block text-[11px] font-semibold text-stone-400 mb-1.5">Filter by Plant Organ / Diagnostic Part</label>
+              <div id="gallery-organ-pills" class="flex flex-wrap gap-1.5">
+                <!-- Injected via JS -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Gallery Status Bar -->
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs text-stone-400 px-1">
+            <div>
+              Showing <span id="gallery-image-count" class="font-bold text-emerald-400">0</span> images
+              <span class="text-stone-500 ml-1">• Click any image to open Slideshow • Click <span class="text-rose-400">🗑️</span> to discard</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <button 
+                id="gallery-start-slideshow-btn" 
+                onclick="startSlideshowFromFilteredGallery()" 
+                class="px-3 py-1.5 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl font-semibold transition flex items-center gap-1.5 text-xs shadow-sm"
+              >
+                <span>▶️</span> <span>Play Slideshow of Filtered Set</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Gallery Grid -->
+          <div id="atlas-gallery-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+            <!-- Injected via JS -->
+          </div>
+
+          <!-- Load More Button -->
+          <div id="gallery-load-more-container" class="text-center py-4 hidden">
+            <button 
+              onclick="loadMoreGalleryImages()" 
+              class="px-6 py-2.5 bg-stone-800 hover:bg-stone-700 text-stone-200 text-xs font-semibold rounded-xl transition shadow"
+            >
+              Load More Images (<span id="gallery-remaining-count">0</span> remaining)
+            </button>
+          </div>
+        </div>
+
       </div>
     </section>
 
@@ -761,6 +900,212 @@
         Current repository size: <span id="export-species-count">61</span> species.
       </div>
     </div>
+  </div>
+
+  <!-- ================= SPECIES DETAIL & ORGAN GALLERY MODAL ================= -->
+  <div id="species-modal" class="fixed inset-0 bg-black/85 backdrop-blur-md z-50 hidden flex items-center justify-center p-3 sm:p-6" onclick="closeSpeciesModal()">
+    <div class="bg-stone-900 border border-stone-800 rounded-2xl max-w-5xl w-full max-h-[92vh] flex flex-col overflow-hidden shadow-2xl" onclick="event.stopPropagation()">
+      <!-- Modal Header -->
+      <div class="p-5 border-b border-stone-800 flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-stone-950/70">
+        <div>
+          <div class="flex items-center gap-2">
+            <h2 id="species-modal-latin" class="text-xl sm:text-2xl font-bold font-botanical italic text-emerald-400"></h2>
+            <span id="species-modal-family" class="px-2 py-0.5 rounded-full bg-stone-800 border border-stone-700 text-[10px] text-stone-300 font-mono"></span>
+          </div>
+          <div class="text-xs text-stone-300 mt-1 flex flex-wrap items-center gap-2">
+            <span id="species-modal-names"></span>
+            <span class="text-stone-600">•</span>
+            <span id="species-modal-zone" class="text-stone-400"></span>
+            <span class="text-stone-600">•</span>
+            <span id="species-modal-count" class="text-emerald-400 font-semibold"></span>
+          </div>
+        </div>
+        <div class="flex items-center gap-2 shrink-0">
+          <button 
+            id="species-modal-play-btn" 
+            onclick="startSlideshowFromSpeciesModal()" 
+            class="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl text-xs font-bold transition flex items-center gap-1.5 shadow"
+          >
+            <span>▶️</span> <span>Play Slideshow</span>
+          </button>
+          <button onclick="closeSpeciesModal()" class="text-stone-400 hover:text-white p-2 text-lg rounded-lg hover:bg-stone-800 transition">✕</button>
+        </div>
+      </div>
+
+      <!-- Organ Filter Tabs for this Species -->
+      <div class="px-5 py-3 border-b border-stone-800/80 bg-stone-900/90 overflow-x-auto">
+        <div id="species-modal-organ-tabs" class="flex gap-1.5 min-w-max text-xs">
+          <!-- Injected via JS -->
+        </div>
+      </div>
+
+      <!-- Scrollable Image Gallery -->
+      <div class="p-5 overflow-y-auto flex-1 bg-stone-950/50">
+        <div id="species-modal-gallery-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+          <!-- Injected via JS -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= INTERACTIVE SLIDESHOW MODAL ================= -->
+  <div id="slideshow-modal" class="fixed inset-0 bg-black/95 backdrop-blur-lg z-50 hidden flex flex-col justify-between" onclick="closeSlideshow()">
+    <!-- Top Header Bar -->
+    <div class="w-full bg-stone-950/80 border-b border-stone-800/80 px-4 sm:px-6 py-3 flex items-center justify-between gap-4 z-10" onclick="event.stopPropagation()">
+      <div class="flex items-center gap-3 min-w-0">
+        <span id="slideshow-organ-badge" class="px-2.5 py-1 rounded-lg bg-emerald-950 border border-emerald-800 text-xs font-bold text-emerald-400 shrink-0"></span>
+        <div class="min-w-0 truncate">
+          <div class="flex items-center gap-2">
+            <h3 id="slideshow-species-latin" class="text-base sm:text-lg font-bold font-botanical italic text-stone-100 truncate"></h3>
+            <span id="slideshow-species-family" class="hidden sm:inline-block px-2 py-0.5 rounded bg-stone-800 text-[10px] text-stone-300 font-mono"></span>
+          </div>
+          <div id="slideshow-species-common" class="text-xs text-stone-400 truncate"></div>
+        </div>
+      </div>
+
+      <!-- Counter -->
+      <div class="flex items-center gap-2 text-xs font-mono text-stone-300 bg-stone-900 px-3 py-1 rounded-xl border border-stone-800 shrink-0">
+        <span>Image</span>
+        <span id="slideshow-counter-current" class="font-bold text-emerald-400">1</span>
+        <span>/</span>
+        <span id="slideshow-counter-total" class="font-bold">1</span>
+      </div>
+
+      <!-- Actions -->
+      <div class="flex items-center gap-2 shrink-0">
+        <!-- Anti Cheat Crop Toggle -->
+        <button 
+          id="slideshow-crop-btn" 
+          onclick="toggleSlideshowCrop()" 
+          class="px-2.5 sm:px-3 py-1.5 rounded-xl bg-stone-800 hover:bg-stone-700 text-xs font-semibold text-amber-300 border border-amber-900/50 transition flex items-center gap-1.5"
+          title="Toggle label crop (Shortcut: C)"
+        >
+          <span>🛡️</span> <span id="slideshow-crop-label" class="hidden sm:inline">Anti-Cheat Mask</span>
+        </button>
+
+        <!-- Discard Current Image -->
+        <button 
+          onclick="discardCurrentSlideshowImage()" 
+          class="px-3 py-1.5 rounded-xl bg-rose-950/40 hover:bg-rose-900/70 border border-rose-800/60 text-xs font-bold text-rose-300 transition flex items-center gap-1.5"
+          title="Discard this picture (Shortcut: D or Delete)"
+        >
+          <span>🗑️</span> <span>Discard</span>
+        </button>
+
+        <!-- Close -->
+        <button 
+          onclick="closeSlideshow()" 
+          class="text-stone-400 hover:text-white p-1.5 rounded-lg hover:bg-stone-800 text-lg transition"
+          title="Close slideshow (Esc)"
+        >✕</button>
+      </div>
+    </div>
+
+    <!-- Center Stage (Image Viewer + Nav Arrows) -->
+    <div class="relative flex-1 flex items-center justify-center p-2 sm:p-6 overflow-hidden" onclick="event.stopPropagation()">
+      <!-- Prev Button -->
+      <button 
+        onclick="slideshowPrev()" 
+        class="absolute left-2 sm:left-6 z-20 w-11 h-11 sm:w-14 sm:h-14 rounded-full bg-stone-900/80 hover:bg-emerald-700/80 border border-stone-700 text-stone-200 hover:text-white flex items-center justify-center text-xl sm:text-2xl transition backdrop-blur-md shadow-lg"
+        title="Previous image (← ArrowLeft)"
+      >
+        ‹
+      </button>
+
+      <!-- Main Image Container -->
+      <div class="relative max-h-[70vh] max-w-full flex items-center justify-center overflow-hidden rounded-2xl border border-stone-800/80 bg-stone-950 shadow-2xl">
+        <img 
+          id="slideshow-main-img" 
+          src="" 
+          alt="Botanical view" 
+          class="max-h-[70vh] w-auto max-w-full object-contain transition-all duration-150 select-none" 
+          style="clip-path: inset(0% 0% var(--slideshow-crop-bottom, 0%) 0%);"
+        />
+        <div id="slideshow-mask-overlay" class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-stone-950 via-stone-950/90 to-transparent pointer-events-none transition-all duration-150 hidden flex flex-col justify-end pb-3 items-center">
+          <span class="text-[10px] font-bold tracking-wider text-amber-300 uppercase bg-black/80 px-3 py-1 rounded-full border border-amber-900/60 shadow">
+            🛡️ Name Label Masked (14%)
+          </span>
+        </div>
+      </div>
+
+      <!-- Next Button -->
+      <button 
+        onclick="slideshowNext()" 
+        class="absolute right-2 sm:right-6 z-20 w-11 h-11 sm:w-14 sm:h-14 rounded-full bg-stone-900/80 hover:bg-emerald-700/80 border border-stone-700 text-stone-200 hover:text-white flex items-center justify-center text-xl sm:text-2xl transition backdrop-blur-md shadow-lg"
+        title="Next image (→ ArrowRight)"
+      >
+        ›
+      </button>
+    </div>
+
+    <!-- Bottom Filmstrip & Metadata -->
+    <div class="w-full bg-stone-950/90 border-t border-stone-800/80 p-3 sm:px-6 space-y-2 z-10" onclick="event.stopPropagation()">
+      <!-- Filmstrip thumbnails -->
+      <div id="slideshow-filmstrip" class="flex gap-2 overflow-x-auto pb-1 max-w-full justify-start sm:justify-center items-center h-16">
+        <!-- Injected via JS -->
+      </div>
+
+      <!-- Footer Info & Hotkeys -->
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-1 text-[11px] text-stone-400 pt-1 border-t border-stone-900">
+        <div class="flex items-center gap-2 truncate">
+          <span id="slideshow-photo-author"></span>
+          <a id="slideshow-photo-link" href="#" target="_blank" class="text-emerald-400 hover:underline">View original source ↗</a>
+        </div>
+        <div class="text-[10px] text-stone-500 font-mono flex items-center gap-2">
+          <span>Shortcuts:</span>
+          <span><kbd class="px-1.5 py-0.5 rounded bg-stone-800 border border-stone-700 text-stone-300">←</kbd> <kbd class="px-1.5 py-0.5 rounded bg-stone-800 border border-stone-700 text-stone-300">→</kbd> Prev/Next</span>
+          <span>•</span>
+          <span><kbd class="px-1.5 py-0.5 rounded bg-rose-950/60 border border-rose-800/60 text-rose-300">D</kbd> Discard</span>
+          <span>•</span>
+          <span><kbd class="px-1.5 py-0.5 rounded bg-stone-800 border border-stone-700 text-stone-300">C</kbd> Crop</span>
+          <span>•</span>
+          <span><kbd class="px-1.5 py-0.5 rounded bg-stone-800 border border-stone-700 text-stone-300">Esc</kbd> Exit</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= DISCARDED IMAGES TRASH MODAL ================= -->
+  <div id="trash-modal" class="fixed inset-0 bg-black/85 backdrop-blur-md z-50 hidden flex items-center justify-center p-3 sm:p-6" onclick="closeTrashModal()">
+    <div class="bg-stone-900 border border-stone-800 rounded-2xl max-w-4xl w-full max-h-[90vh] flex flex-col overflow-hidden shadow-2xl" onclick="event.stopPropagation()">
+      <div class="p-5 border-b border-stone-800 flex items-center justify-between gap-4 bg-stone-950/70">
+        <div>
+          <h2 class="text-lg font-bold text-stone-100 flex items-center gap-2">
+            <span>🗑️</span> Discarded Images Review (<span id="trash-modal-count" class="text-rose-400 font-mono">0</span>)
+          </h2>
+          <p class="text-xs text-stone-400 mt-1">
+            Discarded pictures are hidden from all quizzes and galleries. You can restore them or export a clean database.
+          </p>
+        </div>
+        <div class="flex items-center gap-2">
+          <button 
+            onclick="restoreAllImages()" 
+            class="px-3 py-1.5 bg-stone-800 hover:bg-stone-700 text-stone-200 text-xs font-semibold rounded-xl transition"
+          >
+            ↩️ Restore All
+          </button>
+          <button 
+            onclick="downloadDatabaseJSON()" 
+            class="px-3 py-1.5 bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-semibold rounded-xl transition"
+          >
+            💾 Export Clean JSON
+          </button>
+          <button onclick="closeTrashModal()" class="text-stone-400 hover:text-white p-2 text-lg">✕</button>
+        </div>
+      </div>
+
+      <!-- Discarded Items Grid -->
+      <div class="p-5 overflow-y-auto flex-1 bg-stone-950/40">
+        <div id="trash-modal-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+          <!-- Injected via JS -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= TOAST NOTIFICATION CONTAINER ================= -->
+  <div id="toast-container" class="fixed bottom-5 right-5 z-50 flex flex-col gap-2 pointer-events-none">
+    <!-- Injected via JS -->
   </div>
 
   <!-- Footer -->

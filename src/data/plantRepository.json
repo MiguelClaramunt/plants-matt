@@ -501,7 +501,7 @@
     "family": "Sapindaceae",
     "zone": "17",
     "plant_type": "broadleaf",
-    "total_images": 59,
+    "total_images": 58,
     "images": {
       "bark": [
         {
@@ -535,12 +535,6 @@
           "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Britishentomologyvolume5Plate328.jpg/960px-Britishentomologyvolume5Plate328.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
           "source": "Wikimedia Commons",
           "author": "John Curtis"
-        },
-        {
-          "title": "Acer campestre BYN.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Acer_campestre_BYN.jpg/960px-Acer_campestre_BYN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Megustanlasframbuesas"
         },
         {
           "title": "Acer campestre JPG1.jpg",
@@ -7651,7 +7645,7 @@
     "family": "Juglandaceae",
     "zone": "17, 18",
     "plant_type": "broadleaf",
-    "total_images": 68,
+    "total_images": 67,
     "images": {
       "bark": [
         {
@@ -7691,12 +7685,6 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/295_Juglans_regia_L.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
           "source": "Wikimedia Commons",
           "author": "Amédée Masclef"
-        },
-        {
-          "title": "Juglans regia BYN.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Juglans_regia_BYN.jpg/960px-Juglans_regia_BYN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Megustanlasframbuesas"
         },
         {
           "title": "Juglans regia Közönséges dió.jpg",
@@ -21204,7 +21192,7 @@
     "family": "Ulmaceae",
     "zone": "15",
     "plant_type": "broadleaf",
-    "total_images": 60,
+    "total_images": 59,
     "images": {
       "bark": [
         {
@@ -21239,12 +21227,6 @@
         }
       ],
       "botanical_illustration": [
-        {
-          "title": "Ulmus glabra BYN.jpg",
-          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Ulmus_glabra_BYN.jpg/960px-Ulmus_glabra_BYN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "source": "Wikimedia Commons",
-          "author": "Megustanlasframbuesas"
-        },
         {
           "title": "Ulmus glabra nf.jpg",
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Ulmus_glabra_nf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
