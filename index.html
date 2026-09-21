@@ -180,7 +180,7 @@
                   type="text" 
                   id="species-search-input" 
                   oninput="renderSpeciesSelectorList()" 
-                  placeholder="Filter species by Latin, Swedish (e.g. skogslönn), or English name..."
+                  placeholder="Filter species by Latin name or family..."
                   class="w-full bg-stone-950 border border-stone-800 rounded-xl pl-10 pr-4 py-2 text-sm text-stone-100 placeholder-stone-500 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition"
                 />
               </div>
@@ -228,22 +228,13 @@
 
             <!-- Target Answer Type -->
             <div>
-              <label class="text-sm font-semibold text-stone-200 block mb-2">Prompt & Target Answer</label>
-              <div class="grid grid-cols-1 gap-2">
-                <label class="flex items-center gap-3 p-2.5 rounded-xl border border-emerald-700/50 bg-emerald-950/20 cursor-pointer hover:bg-emerald-950/40 transition">
-                  <input type="radio" name="answer-type" value="latin" checked class="text-emerald-500 focus:ring-0 accent-emerald-500" />
-                  <div>
-                    <span class="text-xs font-bold text-stone-100 block">Scientific Latin Name (Exam Standard)</span>
-                    <span class="text-[11px] text-stone-400">e.g. Acer platanoides, Pinus sylvestris</span>
-                  </div>
-                </label>
-                <label class="flex items-center gap-3 p-2.5 rounded-xl border border-stone-800 bg-stone-950/40 cursor-pointer hover:bg-stone-800/60 transition">
-                  <input type="radio" name="answer-type" value="swedish" class="text-emerald-500 focus:ring-0 accent-emerald-500" />
-                  <div>
-                    <span class="text-xs font-bold text-stone-200 block">🇸🇪 Swedish Common Name</span>
-                    <span class="text-[11px] text-stone-400">e.g. skogslönn, tall, vårtbjörk</span>
-                  </div>
-                </label>
+              <label class="text-sm font-semibold text-stone-200 block mb-2">Target Answer</label>
+              <div class="p-2.5 rounded-xl border border-emerald-700/50 bg-emerald-950/20 flex items-center gap-3">
+                <span class="text-lg">🌿</span>
+                <div>
+                  <span class="text-xs font-bold text-stone-100 block">Scientific Latin Name (Exam Standard)</span>
+                  <span class="text-[11px] text-stone-400">e.g. Acer platanoides, Pinus sylvestris</span>
+                </div>
               </div>
             </div>
 
@@ -529,22 +520,14 @@
 
             <!-- Complete Species Reference Card -->
             <div class="bg-stone-950 border border-stone-800 rounded-xl p-4 sm:p-5">
-              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 pb-4 border-b border-stone-800">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pb-4 border-b border-stone-800">
                 <div>
                   <span class="text-[11px] text-stone-500 uppercase tracking-wider font-semibold block">Scientific Name (Latin)</span>
                   <span id="feedback-latin-name" class="text-base font-bold font-botanical italic text-emerald-400">Acer platanoides</span>
                 </div>
                 <div>
-                  <span class="text-[11px] text-stone-500 uppercase tracking-wider font-semibold block">Swedish Common Name</span>
-                  <span id="feedback-swedish-name" class="text-sm font-semibold text-stone-200">skogslönn</span>
-                </div>
-                <div>
-                  <span class="text-[11px] text-stone-500 uppercase tracking-wider font-semibold block">English Common Name</span>
-                  <span id="feedback-english-name" class="text-sm font-semibold text-stone-200">Norway Maple</span>
-                </div>
-                <div>
-                  <span class="text-[11px] text-stone-500 uppercase tracking-wider font-semibold block">Family & Zone</span>
-                  <span id="feedback-family-zone" class="text-sm font-semibold text-stone-300">Sapindaceae (Zone 17)</span>
+                  <span class="text-[11px] text-stone-500 uppercase tracking-wider font-semibold block">Botanical Family</span>
+                  <span id="feedback-family" class="text-base font-semibold text-stone-200">Sapindaceae</span>
                 </div>
               </div>
 
@@ -705,7 +688,7 @@
                 type="text" 
                 id="atlas-search-input" 
                 oninput="renderAtlasList()" 
-                placeholder="Search Latin, Swedish, or English name, or family..." 
+                placeholder="Search Latin name or botanical family..." 
                 class="w-full sm:w-80 bg-stone-950 border border-stone-800 rounded-xl px-3 py-2 text-xs text-stone-200 placeholder-stone-500 focus:outline-none focus:border-emerald-500"
               />
             </div>
@@ -912,11 +895,7 @@
             <h2 id="species-modal-latin" class="text-xl sm:text-2xl font-bold font-botanical italic text-emerald-400"></h2>
             <span id="species-modal-family" class="px-2 py-0.5 rounded-full bg-stone-800 border border-stone-700 text-[10px] text-stone-300 font-mono"></span>
           </div>
-          <div class="text-xs text-stone-300 mt-1 flex flex-wrap items-center gap-2">
-            <span id="species-modal-names"></span>
-            <span class="text-stone-600">•</span>
-            <span id="species-modal-zone" class="text-stone-400"></span>
-            <span class="text-stone-600">•</span>
+          <div class="text-xs text-stone-400 mt-1 flex items-center gap-2">
             <span id="species-modal-count" class="text-emerald-400 font-semibold"></span>
           </div>
         </div>
@@ -959,7 +938,6 @@
             <h3 id="slideshow-species-latin" class="text-base sm:text-lg font-bold font-botanical italic text-stone-100 truncate"></h3>
             <span id="slideshow-species-family" class="hidden sm:inline-block px-2 py-0.5 rounded bg-stone-800 text-[10px] text-stone-300 font-mono"></span>
           </div>
-          <div id="slideshow-species-common" class="text-xs text-stone-400 truncate"></div>
         </div>
       </div>
 

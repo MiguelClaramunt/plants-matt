@@ -198,10 +198,8 @@ function renderSpeciesSelectorList() {
     }
     if (searchTerm) {
       const matchLatin = sp.latin.toLowerCase().includes(searchTerm);
-      const matchSwedish = (sp.swedish || '').toLowerCase().includes(searchTerm);
-      const matchEnglish = (sp.english || '').toLowerCase().includes(searchTerm);
       const matchFamily = sp.family.toLowerCase().includes(searchTerm);
-      if (!matchLatin && !matchSwedish && !matchEnglish && !matchFamily) {
+      if (!matchLatin && !matchFamily) {
         return false;
       }
     }
@@ -241,10 +239,8 @@ function renderSpeciesSelectorList() {
                 ${isConifer ? '🌲 Conifer' : '🍃 Broadleaf'}
               </span>
             </div>
-            <div class="text-[11px] text-stone-400 truncate flex items-center gap-2">
-              <span>🇸🇪 ${sp.swedish}</span>
-              <span>•</span>
-              <span>🇬🇧 ${sp.english}</span>
+            <div class="text-[11px] text-stone-400 font-mono truncate">
+              ${sp.family}
             </div>
           </div>
         </div>
@@ -587,13 +583,8 @@ function renderCurrentQuestion() {
   }
 
   const labelEl = document.getElementById('quiz-input-label');
-  if (answerType === 'swedish') {
-    labelEl.textContent = 'Vad heter detta träd på svenska? (t.ex. skogslönn, tall, vårtbjörk)';
-    inputEl.placeholder = 'Skriv svenskt namn...';
-  } else {
-    labelEl.textContent = 'What is the Latin scientific name of this species? (e.g. Acer platanoides)';
-    inputEl.placeholder = 'Type scientific Latin name...';
-  }
+  labelEl.textContent = 'What is the Latin scientific name of this species? (e.g. Acer platanoides)';
+  inputEl.placeholder = 'Type scientific Latin name...';
 
   setTimeout(() => inputEl.focus(), 50);
 }
@@ -791,7 +782,7 @@ function skipQuizAnswer() {
 
 function evaluateAnswer(userText) {
   const species = currentQuestion.species;
-  const targetAnswer = answerType === 'swedish' ? species.swedish : species.latin;
+  const targetAnswer = species.latin;
   
   const { isMatch, isClose } = checkAnswerMatch(userText, targetAnswer);
 
@@ -835,9 +826,8 @@ function evaluateAnswer(userText) {
 
   // Fill Species Key Details
   document.getElementById('feedback-latin-name').textContent = species.latin;
-  document.getElementById('feedback-swedish-name').textContent = species.swedish;
-  document.getElementById('feedback-english-name').textContent = species.english;
-  document.getElementById('feedback-family-zone').textContent = `${species.family} • Zone: ${species.zone || 'N/A'}`;
+  const famEl = document.getElementById('feedback-family');
+  if (famEl) famEl.textContent = species.family;
 
   // Fill Mini Gallery
   const gallery = document.getElementById('feedback-all-organs-gallery');
@@ -952,7 +942,7 @@ function finishQuiz() {
 
     quizQuestions.forEach((q, idx) => {
       const species = q.species;
-      const targetAnswer = answerType === 'swedish' ? species.swedish : species.latin;
+      const targetAnswer = species.latin;
       const userText = userExamAnswers[idx] ? userExamAnswers[idx].trim() : '(Unanswered)';
       
       const { isMatch, isClose } = checkAnswerMatch(userText, targetAnswer);
@@ -1046,8 +1036,8 @@ function finishQuiz() {
               <span class="font-bold font-botanical italic text-stone-100 text-sm">${rec.species.latin}</span>
               <span class="px-1.5 py-0.5 rounded bg-stone-800 text-[10px] text-stone-300">${meta.icon} ${meta.label}</span>
             </div>
-            <div class="text-stone-400 text-[11px]">
-              🇸🇪 ${rec.species.swedish} • 🇬🇧 ${rec.species.english}
+            <div class="text-stone-400 text-[11px] font-mono">
+              Family: ${rec.species.family}
             </div>
             <div class="mt-1">
               <span class="text-stone-500">Your answer:</span> 
@@ -1147,8 +1137,6 @@ function discardImage(url, speciesLatin, organ, title, author, source, silent = 
   const record = {
     url,
     speciesLatin: sp ? sp.latin : (speciesLatin || 'Unknown Species'),
-    speciesSwedish: sp ? sp.swedish : '',
-    speciesEnglish: sp ? sp.english : '',
     family: sp ? sp.family : '',
     organ: organ || 'photo',
     title: title || (removedItem ? removedItem.title : ''),
@@ -1395,8 +1383,6 @@ function renderAtlasList() {
   const list = allSpecies.filter(sp => {
     if (!search) return true;
     return sp.latin.toLowerCase().includes(search) ||
-           (sp.swedish || '').toLowerCase().includes(search) ||
-           (sp.english || '').toLowerCase().includes(search) ||
            sp.family.toLowerCase().includes(search);
   });
 
@@ -1438,11 +1424,8 @@ function renderAtlasList() {
             <h3 class="text-base font-bold font-botanical italic text-emerald-400 cursor-pointer hover:underline" onclick="openSpeciesModal('${sp.id}')">
               ${sp.latin}
             </h3>
-            <div class="text-xs text-stone-300 mt-0.5">
-              <span>🇸🇪 ${sp.swedish}</span> • <span>🇬🇧 ${sp.english}</span>
-            </div>
-            <div class="text-[11px] text-stone-500 mt-1">
-              Hardiness Zone: ${sp.zone || 'N/A'}
+            <div class="text-xs text-stone-400 font-mono mt-1">
+              Family: ${sp.family}
             </div>
           </div>
         </div>
@@ -1475,7 +1458,7 @@ function setupGalleryFilters() {
     sorted.forEach(sp => {
       const opt = document.createElement('option');
       opt.value = sp.latin;
-      opt.textContent = `${sp.latin} (${sp.swedish || sp.english})`;
+      opt.textContent = `${sp.latin} (${sp.family})`;
       spSelect.appendChild(opt);
     });
   }
@@ -1539,8 +1522,7 @@ function filterGalleryImages() {
 
         if (textVal) {
           const match = sp.latin.toLowerCase().includes(textVal) ||
-                        (sp.swedish || '').toLowerCase().includes(textVal) ||
-                        (sp.english || '').toLowerCase().includes(textVal) ||
+                        sp.family.toLowerCase().includes(textVal) ||
                         (img.title || '').toLowerCase().includes(textVal) ||
                         orgKey.toLowerCase().includes(textVal);
           if (!match) return;
@@ -1549,10 +1531,7 @@ function filterGalleryImages() {
         collected.push({
           url: img.url,
           speciesLatin: sp.latin,
-          speciesSwedish: sp.swedish,
-          speciesEnglish: sp.english,
           family: sp.family,
-          zone: sp.zone,
           speciesId: sp.id,
           organ: orgKey,
           title: img.title || '',
@@ -1619,8 +1598,8 @@ function renderGalleryGrid() {
             <div class="font-bold font-botanical italic text-emerald-400 text-xs truncate cursor-pointer hover:underline" onclick="openSlideshowAtFilteredIndex(${idx})">
               ${item.speciesLatin}
             </div>
-            <div class="text-[10px] text-stone-400 truncate mt-0.5">
-              ${item.speciesSwedish || item.speciesEnglish || item.family}
+            <div class="text-[10px] text-stone-400 font-mono truncate mt-0.5">
+              ${item.family}
             </div>
           </div>
           <div class="text-[9px] text-stone-500 truncate mt-1 flex items-center justify-between">
@@ -1672,8 +1651,6 @@ function openSpeciesModal(speciesId) {
 
   document.getElementById('species-modal-latin').textContent = sp.latin;
   document.getElementById('species-modal-family').textContent = sp.family;
-  document.getElementById('species-modal-names').textContent = `🇸🇪 ${sp.swedish || 'N/A'} • 🇬🇧 ${sp.english || 'N/A'}`;
-  document.getElementById('species-modal-zone').textContent = `Zone: ${sp.zone || 'N/A'}`;
   document.getElementById('species-modal-count').textContent = `${sp.total_images || 0} photos`;
 
   renderSpeciesModalOrganTabs(sp);
@@ -1736,10 +1713,7 @@ function renderSpeciesModalGallery() {
       images.push({
         url: img.url,
         speciesLatin: sp.latin,
-        speciesSwedish: sp.swedish,
-        speciesEnglish: sp.english,
         family: sp.family,
-        zone: sp.zone,
         organ: orgKey,
         title: img.title || '',
         author: img.author || '',
@@ -1792,10 +1766,7 @@ function startSlideshowFromSpeciesModal() {
       images.push({
         url: img.url,
         speciesLatin: sp.latin,
-        speciesSwedish: sp.swedish,
-        speciesEnglish: sp.english,
         family: sp.family,
-        zone: sp.zone,
         organ: orgKey,
         title: img.title || '',
         author: img.author || '',
@@ -1817,10 +1788,7 @@ function openSlideshowFromSpeciesModalImage(index) {
       images.push({
         url: img.url,
         speciesLatin: sp.latin,
-        speciesSwedish: sp.swedish,
-        speciesEnglish: sp.english,
         family: sp.family,
-        zone: sp.zone,
         organ: orgKey,
         title: img.title || '',
         author: img.author || '',
@@ -1840,10 +1808,7 @@ function startSlideshowForSpecies(speciesId) {
       images.push({
         url: img.url,
         speciesLatin: sp.latin,
-        speciesSwedish: sp.swedish,
-        speciesEnglish: sp.english,
         family: sp.family,
-        zone: sp.zone,
         organ: orgKey,
         title: img.title || '',
         author: img.author || '',
@@ -1888,7 +1853,6 @@ function renderCurrentSlide() {
   document.getElementById('slideshow-organ-badge').textContent = `${meta.icon} ${meta.label}`;
   document.getElementById('slideshow-species-latin').textContent = cur.speciesLatin;
   document.getElementById('slideshow-species-family').textContent = cur.family || '';
-  document.getElementById('slideshow-species-common').textContent = `🇸🇪 ${cur.speciesSwedish || 'N/A'} • 🇬🇧 ${cur.speciesEnglish || 'N/A'}`;
 
   document.getElementById('slideshow-counter-current').textContent = slideshowCurrentIndex + 1;
   document.getElementById('slideshow-counter-total').textContent = slideshowActiveList.length;
@@ -2073,10 +2037,7 @@ async function importTaxonLive(taxonId, latinName, commonName) {
     const newRecord = {
       id: latinName.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
       latin: latinName,
-      english: commonName || latinName,
-      swedish: commonName || latinName,
       family: taxon?.iconic_taxon_name || 'Plantae',
-      zone: 'Custom',
       plant_type: 'broadleaf',
       total_images: tPhotos.length,
       images: organBuckets
