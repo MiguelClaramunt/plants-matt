@@ -10,6 +10,18 @@ HEADERS = {
     'User-Agent': 'SLU-BotanicalApp/2.0 (BI1452 tree identification; high quality educational enrichment; contact: curator@slu.se)'
 }
 
+DISCARDED_PATH = os.path.join(os.path.dirname(__file__), '..', 'discarded_images.json')
+DISCARDED_URLS = set()
+if os.path.exists(DISCARDED_PATH):
+    try:
+        with open(DISCARDED_PATH, 'r', encoding='utf-8') as df:
+            for item in json.load(df):
+                if item and 'url' in item:
+                    DISCARDED_URLS.add(item['url'])
+        print(f"Loaded {len(DISCARDED_URLS)} discarded URLs to skip during scraping.")
+    except Exception as e:
+        print(f"Warning: could not load discarded_images.json: {e}")
+
 ORGAN_CONFIG = {
     'bark': [
         'bark', 'trunk', 'cortex'
@@ -148,7 +160,7 @@ def enrich_species(sp_item):
     def add_imgs(organ_key, img_list):
         for im in img_list:
             u = im.get('url')
-            if u and u not in seen_urls:
+            if u and u not in seen_urls and u not in DISCARDED_URLS:
                 seen_urls.add(u)
                 organs[organ_key].append(im)
 

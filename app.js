@@ -1425,25 +1425,43 @@ function restartSameQuiz() {
 // ==========================================
 
 function initDiscardedStorage() {
+  discardedImages = [];
+  discardedUrlSet = new Set();
+
+  // 1. Preload master repository of discarded images
+  if (window.DISCARDED_DATABASE && Array.isArray(window.DISCARDED_DATABASE)) {
+    window.DISCARDED_DATABASE.forEach(img => {
+      if (img && img.url && !discardedUrlSet.has(img.url)) {
+        discardedImages.push(img);
+        discardedUrlSet.add(img.url);
+      }
+    });
+  }
+
+  // 2. Load user session discards from localStorage
   const saved = localStorage.getItem('phytomemo_discarded_images');
   if (saved) {
     try {
-      discardedImages = JSON.parse(saved);
-      discardedUrlSet = new Set(discardedImages.map(d => d.url));
-      
-      // Purge discarded images from active in-memory database
-      allSpecies.forEach(sp => {
-        Object.keys(sp.images).forEach(org => {
-          sp.images[org] = sp.images[org].filter(img => !discardedUrlSet.has(img.url));
-        });
-        sp.total_images = Object.values(sp.images).reduce((sum, list) => sum + list.length, 0);
+      const localDiscards = JSON.parse(saved);
+      localDiscards.forEach(img => {
+        if (img && img.url && !discardedUrlSet.has(img.url)) {
+          discardedImages.push(img);
+          discardedUrlSet.add(img.url);
+        }
       });
     } catch (e) {
       console.warn('Error loading discarded images:', e);
-      discardedImages = [];
-      discardedUrlSet = new Set();
     }
   }
+
+  // Purge discarded images from active in-memory database
+  allSpecies.forEach(sp => {
+    Object.keys(sp.images || {}).forEach(org => {
+      sp.images[org] = sp.images[org].filter(img => !discardedUrlSet.has(img.url));
+    });
+    sp.total_images = Object.values(sp.images).reduce((sum, list) => sum + list.length, 0);
+  });
+
   updateDiscardedBadgeCount();
 }
 
@@ -2282,6 +2300,7 @@ async function importTaxonLive(taxonId, latinName, commonName) {
       const mUrl = tp.photo?.medium_url;
       if (mUrl) {
         const largeUrl = mUrl.replace('/medium.', '/large.');
+        if (discardedUrlSet.has(largeUrl)) return;
         const organKeys = Object.keys(organBuckets);
         const assignedOrgan = organKeys[i % organKeys.length];
         organBuckets[assignedOrgan].push({

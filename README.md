@@ -8,12 +8,11 @@ Easily hostable on **GitHub Pages** with zero build steps or external server dep
 
 ## 🚀 Key Features
 
-1. **Complete BI1452 Exam Reference List (61 Species)**:
-   - Full dataset extracted from `BI1452 - tree species to be examined, autumn 2026 (1).pdf`.
-   - Includes **Family**, **Scientific Name (Latin)**, **Swedish Common Name**, **English Common Name**, and **Hardiness Zone**.
+1. **Complete Botanical Reference List (61 Species)**:
+   - Includes **Family** and **Scientific Name (Latin)**.
    - 15 Gymnosperms / Conifers and 46 Angiosperms / Broadleaf trees.
 
-2. **Organ-Categorized Verified Images (3,360+ Quality Images)**:
+2. **Organ-Categorized Verified Images (2,015+ Quality Images)**:
    - Curated from **Wikimedia Commons** and **iNaturalist (Research Grade)**.
    - Quality-filtered to eliminate non-diagnostic scans, stamps, information boards, or low-res files.
    - **Interactive Anti-Cheat Dynamic Cropping (Name Masking)**:
@@ -39,20 +38,19 @@ Easily hostable on **GitHub Pages** with zero build steps or external server dep
    - **Adjustable Quiz Size**: Default 20 questions (or choose 5, 10, 15, 20, 30, or all selected).
    - **Exam Mode vs Practice Mode**:
      - 🎓 **Exam Mode (Showcase Results at End Only)**: Simulates real exam conditions. Answers and feedback stay hidden throughout the test. Students can navigate between questions, jump to any question, review/edit answers, and receive their comprehensive scorecard and answer key only after submitting all answers.
-     - 💡 **Practice Mode (Instant Feedback)**: Displays immediate feedback, the correct Latin name, and full organ mini-gallery after each question.
+     - 💡 **Practice Mode (Instant Feedback)**: Displays immediate feedback and the correct Latin name after each question.
    - **Organ Focus**: Test on all organs randomly or drill into specific organs (e.g. *Winter buds only* or *Bark only*).
    - **Clue Modes**:
      - *1 Random Image* (strict exam challenge)
      - *Progressive Reveal* (starts with 1 image; reveals more clues on request)
      - *Multi-Organ Gallery* (shows 2-3 organs side by side)
    - **Spell-Check & Matching**:
-     - Tests Latin scientific name by default (with optional practice mode for Swedish common names).
+     - Tests Latin scientific name.
      - Tolerant spelling mode for forgiving minor typos and hybrid accents (`×` vs `x`).
 
 4. **Instant Feedback & Species Profile**:
    - Immediate feedback showing whether you were correct, made a minor typo, or were incorrect.
-   - Shows the actual Latin name, Swedish name, English name, Family, and Hardiness Zone.
-   - Displays a mini-gallery of all other organs for that species so you learn the complete tree profile.
+   - Shows the actual Latin name and Family.
 
 5. **Comprehensive Review & Weakness Drill**:
    - Final percentage score and botanical rank.
@@ -62,9 +60,10 @@ Easily hostable on **GitHub Pages** with zero build steps or external server dep
 
 6. **Species Atlas & Flashcard Browser**:
    - Browse all 61 species with search and family filters.
-   - Inspect all organ photos side-by-side.
+   - Infinite lazy scroll gallery and slideshow view.
+   - Ability to discard any unwanted images at any time with persistent export/import.
 
-7. **Generalizable Beyond BI1452 (Add Any Plant)**:
+7. **Generalizable (Add Any Plant)**:
    - Built-in live search connecting to iNaturalist Research Grade and Wikimedia Commons directly in your browser.
    - Search any plant species on Earth (e.g. *Sequoiadendron giganteum*, *Eucalyptus*, *Monstera*) and add it to your custom deck.
    - Export and import custom decks as JSON.
@@ -78,7 +77,7 @@ This app is built with pure HTML, Tailwind CSS (via CDN), and vanilla JavaScript
 1. Push this repository to GitHub:
    ```bash
    git add .
-   git commit -m "Initial commit of PhytoMemo tree identification app"
+   git commit -m "feat: botanical quiz app"
    git push origin main
    ```
 2. On GitHub, go to your repository **Settings** → **Pages**.
@@ -106,7 +105,8 @@ python3 -m http.server 8000
 
 - [index.html](file:///home/mca/git/plants-matt/index.html) — Main application user interface.
 - [app.js](file:///home/mca/git/plants-matt/app.js) — Quiz engine, interactive species filter, fuzzy matcher, scoring, and atlas logic.
-- [plants_data.js](file:///home/mca/git/plants-matt/plants_data.js) — Pre-compiled verified repository of 61 species and 670+ images (loads in `<script>` tag, works offline and on `file://`).
-- [plants_data.json](file:///home/mca/git/plants-matt/plants_data.json) — Standard JSON database format for export/import.
-- [bi1452_species.json](file:///home/mca/git/plants-matt/bi1452_species.json) — Clean structured list of the 61 species transcribed from the reference PDF.
-- `scripts/` — Automated data harvesting scripts for generating or updating botanical images from Wikimedia Commons and iNaturalist.
+- [plants_data.js](file:///home/mca/git/plants-matt/plants_data.js) — Pre-compiled verified repository of 61 species and 2,015+ images (loads in `<script>` tag, works offline and on `file://`).
+- [plants_data.json](file:///home/mca/git/plants-matt/plants_data.json) — Standard JSON database format.
+- [discarded_images.js](file:///home/mca/git/plants-matt/discarded_images.js) — Registry of 1,305 discarded images loaded client-side to prevent discarded photos from reappearing during live searches.
+- [discarded_images.json](file:///home/mca/git/plants-matt/discarded_images.json) — Discarded images registry used by Python harvesting scripts to skip unwanted images permanently.
+- `scripts/` — Automated data harvesting and enrichment scripts with automatic discarded image skipping.

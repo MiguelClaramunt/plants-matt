@@ -7,8 +7,19 @@ import re
 from concurrent.futures import ThreadPoolExecutor
 
 HEADERS = {
-    'User-Agent': 'SLU-PlantQuiz/1.0 (BI1452 tree identification interactive quiz; contact: student@slu.se)'
+    'User-Agent': 'TreeMemorizationApp/2.0 (Plant identification database generator; contact: bot@example.org)'
 }
+
+DISCARDED_PATH = os.path.join(os.path.dirname(__file__), '..', 'discarded_images.json')
+DISCARDED_URLS = set()
+if os.path.exists(DISCARDED_PATH):
+    try:
+        with open(DISCARDED_PATH, 'r', encoding='utf-8') as df:
+            for item in json.load(df):
+                if item and 'url' in item:
+                    DISCARDED_URLS.add(item['url'])
+    except Exception:
+        pass
 
 def clean_latin(name):
     # Strip quotes, hybrids, var
@@ -56,7 +67,7 @@ def search_commons_category_files(cat_name, limit=3):
                 thumb = ii.get('thumburl') or ii.get('url')
                 artist = ii.get('extmetadata', {}).get('Artist', {}).get('value', 'Wikimedia Commons')
                 clean_artist = re.sub('<[^<]+?>', '', artist)[:80].strip() if artist else 'Wikimedia Commons'
-                if thumb:
+                if thumb and thumb not in DISCARDED_URLS:
                     results.append({
                         'title': title.replace('File:', '').replace('_', ' '),
                         'url': thumb,
@@ -84,7 +95,7 @@ def search_commons_search(query, limit=2):
                 thumb = ii.get('thumburl') or ii.get('url')
                 artist = ii.get('extmetadata', {}).get('Artist', {}).get('value', 'Wikimedia Commons')
                 clean_artist = re.sub('<[^<]+?>', '', artist)[:80].strip() if artist else 'Wikimedia Commons'
-                if thumb:
+                if thumb and thumb not in DISCARDED_URLS:
                     results.append({
                         'title': title.replace('File:', '').replace('_', ' '),
                         'url': thumb,
@@ -121,12 +132,14 @@ def fetch_inaturalist_taxon_and_photos(clean_name):
                     p = tp.get('photo', {})
                     m_url = p.get('medium_url')
                     if m_url:
-                        photos.append({
-                            'title': f"{clean_name} Observation",
-                            'url': m_url.replace('/medium.', '/large.'),
-                            'source': 'iNaturalist Research Grade',
-                            'author': p.get('attribution', 'iNaturalist')
-                        })
+                        large_url = m_url.replace('/medium.', '/large.')
+                        if large_url not in DISCARDED_URLS:
+                            photos.append({
+                                'title': f"{clean_name} Observation",
+                                'url': large_url,
+                                'source': 'iNaturalist Research Grade',
+                                'author': p.get('attribution', 'iNaturalist')
+                            })
                 return taxon, photos
     except Exception:
         return None, []
@@ -255,7 +268,7 @@ def main():
         json.dump(results, f, indent=2, ensure_ascii=False)
         
     # Also save as JS file for direct inclusion in index.html (bypasses any browser CORS on file://)
-    js_content = "// PhytoMemo Botanical Database — Verified Image Repository for BI1452 & World Flora\n"
+    js_content = "// Plant Database — Verified Image Repository\n"
     js_content += f"window.PLANT_DATABASE = {json.dumps(results, indent=2, ensure_ascii=False)};\n"
     with open('plants_data.js', 'w', encoding='utf-8') as f:
         f.write(js_content)

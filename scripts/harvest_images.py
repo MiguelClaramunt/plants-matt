@@ -6,8 +6,19 @@ import os
 import re
 
 HEADERS = {
-    'User-Agent': 'PlantQuizBotSLU/1.0 (SLU tree identification exam prep; contact: exam-prep@slu.se)'
+    'User-Agent': 'TreeMemorizationApp/2.0 (Plant identification database harvester; contact: bot@example.org)'
 }
+
+DISCARDED_PATH = os.path.join(os.path.dirname(__file__), '..', 'discarded_images.json')
+DISCARDED_URLS = set()
+if os.path.exists(DISCARDED_PATH):
+    try:
+        with open(DISCARDED_PATH, 'r', encoding='utf-8') as df:
+            for item in json.load(df):
+                if item and 'url' in item:
+                    DISCARDED_URLS.add(item['url'])
+    except Exception:
+        pass
 
 ORGAN_CATEGORIES = [
     'bark',
@@ -47,7 +58,7 @@ def search_commons(query, limit=3):
                     continue
                 ii = p.get('imageinfo', [{}])[0]
                 thumb = ii.get('thumburl') or ii.get('url')
-                if thumb:
+                if thumb and thumb not in DISCARDED_URLS:
                     results.append({
                         'title': title,
                         'url': thumb,
@@ -85,12 +96,13 @@ def search_inat_photos(latin_name):
                     if m_url:
                         # upgrade medium to large or keep medium
                         large_url = m_url.replace('/medium.', '/large.')
-                        photos.append({
-                            'title': f"{clean} (iNaturalist)",
-                            'url': large_url,
-                            'source': 'iNaturalist (Curated Taxon Photo)',
-                            'author': p.get('attribution', 'iNaturalist')
-                        })
+                        if large_url not in DISCARDED_URLS:
+                            photos.append({
+                                'title': f"{clean} (iNaturalist)",
+                                'url': large_url,
+                                'source': 'iNaturalist (Curated Taxon Photo)',
+                                'author': p.get('attribution', 'iNaturalist')
+                            })
                 return photos
     except Exception as e:
         # print(f"iNat error for {latin_name}: {e}")

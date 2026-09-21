@@ -6,8 +6,19 @@ import os
 import re
 
 HEADERS = {
-    'User-Agent': 'PlantQuizBotSLU/1.0 (SLU tree identification exam prep; contact: botany-study@example.org)'
+    'User-Agent': 'TreeMemorizationApp/2.0 (Plant identification database builder; contact: bot@example.org)'
 }
+
+DISCARDED_PATH = os.path.join(os.path.dirname(__file__), '..', 'discarded_images.json')
+DISCARDED_URLS = set()
+if os.path.exists(DISCARDED_PATH):
+    try:
+        with open(DISCARDED_PATH, 'r', encoding='utf-8') as df:
+            for item in json.load(df):
+                if item and 'url' in item:
+                    DISCARDED_URLS.add(item['url'])
+    except Exception:
+        pass
 
 def clean_latin(name):
     # E.g. "Salix alba var. Sericea" -> "Salix alba"
@@ -41,7 +52,7 @@ def search_commons_files(query, limit=2):
                 artist = ii.get('extmetadata', {}).get('Artist', {}).get('value', 'Wikimedia Commons')
                 # clean html tags from artist
                 clean_artist = re.sub('<[^<]+?>', '', artist)[:80].strip() if artist else 'Wikimedia Commons'
-                if thumb:
+                if thumb and thumb not in DISCARDED_URLS:
                     imgs.append({
                         'title': title.replace('File:', '').replace('_', ' '),
                         'url': thumb,
@@ -83,12 +94,13 @@ def fetch_inat_data(clean_name):
                     if m_url:
                         # use large photo if possible
                         large_url = m_url.replace('/medium.', '/large.')
-                        photos.append({
-                            'title': f"{clean_name} Observation",
-                            'url': large_url,
-                            'source': 'iNaturalist Research Grade',
-                            'author': p.get('attribution', 'iNaturalist')
-                        })
+                        if large_url not in DISCARDED_URLS:
+                            photos.append({
+                                'title': f"{clean_name} Observation",
+                                'url': large_url,
+                                'source': 'iNaturalist Research Grade',
+                                'author': p.get('attribution', 'iNaturalist')
+                            })
                 return taxon, photos
     except Exception as e:
         return None, []
