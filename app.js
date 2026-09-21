@@ -1,5 +1,6 @@
 // ==========================================
-// PhytoMemo — Tree Identification App Engine
+// Tree Identification Quiz Engine
+// Zero-build static architecture with client-side scoring & verification
 // ==========================================
 
 const ORGAN_METADATA = {
@@ -42,8 +43,9 @@ let discardedUrlSet = new Set();
 let atlasMode = 'catalog'; // 'catalog' or 'gallery'
 let galleryActiveOrgan = 'ALL';
 let galleryFilteredImages = [];
-let galleryPage = 1;
-const GALLERY_PAGE_SIZE = 60;
+let galleryRenderedCount = 0;
+const GALLERY_CHUNK_SIZE = 36;
+let galleryObserver = null;
 let activeSpeciesModalId = null;
 let speciesModalActiveOrgan = 'ALL';
 
@@ -1842,84 +1844,138 @@ function filterGalleryImages() {
   });
 
   galleryFilteredImages = collected;
-  galleryPage = 1;
+  renderGalleryGrid(true);
+}
+
+function renderGalleryGrid(reset = true) {
+  const container = document.getElementById('atlas-gallery-grid');
+  if (!container) return;
+
+  if (reset) {
+    container.innerHTML = '';
+    galleryRenderedCount = 0;
+  }
 
   const countEl = document.getElementById('gallery-image-count');
   if (countEl) countEl.textContent = galleryFilteredImages.length;
 
-  renderGalleryGrid();
-}
-
-function renderGalleryGrid() {
-  const container = document.getElementById('atlas-gallery-grid');
-  if (!container) return;
-
   if (galleryFilteredImages.length === 0) {
     container.innerHTML = '<div class="col-span-full py-12 text-center text-stone-500 text-xs">No images match current filters.</div>';
-    document.getElementById('gallery-load-more-container')?.classList.add('hidden');
+    document.getElementById('gallery-infinite-status')?.classList.add('hidden');
     return;
   }
 
-  const start = 0;
-  const end = galleryPage * GALLERY_PAGE_SIZE;
-  const pageSlice = galleryFilteredImages.slice(start, end);
+  appendNextGalleryBatch();
+  setupGalleryInfiniteScroll();
+}
 
-  container.innerHTML = pageSlice.map((item, idx) => {
+function appendNextGalleryBatch() {
+  const container = document.getElementById('atlas-gallery-grid');
+  if (!container) return;
+
+  if (galleryRenderedCount >= galleryFilteredImages.length) {
+    document.getElementById('gallery-infinite-status')?.classList.add('hidden');
+    return;
+  }
+
+  const statusEl = document.getElementById('gallery-infinite-status');
+  if (statusEl) statusEl.classList.remove('hidden');
+
+  const start = galleryRenderedCount;
+  const end = Math.min(start + GALLERY_CHUNK_SIZE, galleryFilteredImages.length);
+  const nextSlice = galleryFilteredImages.slice(start, end);
+
+  const fragment = document.createDocumentFragment();
+  nextSlice.forEach((item, sliceIdx) => {
+    const globalIdx = start + sliceIdx;
     const cleanUrl = item.url.replace(/'/g, "\\'");
     const cleanLatin = item.speciesLatin.replace(/'/g, "\\'");
     const cleanTitle = (item.title || '').replace(/'/g, "\\'");
+    const cleanAuthor = (item.author || '').replace(/'/g, "\\'");
+    const cleanSource = (item.source || '').replace(/'/g, "\\'");
 
-    return `
-      <div class="relative bg-stone-950 border border-stone-800 rounded-xl overflow-hidden hover:border-emerald-600 transition group flex flex-col justify-between shadow-sm">
-        <div class="relative h-36 bg-stone-900 cursor-pointer overflow-hidden" onclick="openSlideshowAtFilteredIndex(${idx})">
-          <img 
-            src="${item.url}" 
-            alt="${item.speciesLatin}" 
-            loading="lazy" 
-            class="w-full h-full object-cover group-hover:scale-105 transition duration-200" 
-          />
-          <button 
-            type="button" 
-            onclick="event.stopPropagation(); discardImage('${cleanUrl}', '${cleanLatin}', '${item.organ}', '${cleanTitle}', '${(item.author || '').replace(/'/g, "\\'")}', '${(item.source || '').replace(/'/g, "\\'")}')" 
-            class="absolute top-1.5 right-1.5 w-7 h-7 rounded-full bg-black/80 hover:bg-rose-600 text-stone-300 hover:text-white flex items-center justify-center transition border border-stone-700 shadow-md"
-            title="Discard this image (B&W, lineart, or bad)"
-          >
-            🗑️
-          </button>
+    const card = document.createElement('div');
+    card.className = 'relative bg-stone-950 border border-stone-800 rounded-xl overflow-hidden hover:border-emerald-600 transition group flex flex-col justify-between shadow-sm';
+    card.innerHTML = `
+      <div class="relative h-36 bg-stone-900 cursor-pointer overflow-hidden" onclick="openSlideshowAtFilteredIndex(${globalIdx})">
+        <img 
+          src="${item.url}" 
+          alt="${item.speciesLatin}" 
+          loading="lazy" 
+          decoding="async"
+          class="w-full h-full object-cover group-hover:scale-105 transition duration-200" 
+        />
+        <button 
+          type="button" 
+          onclick="event.stopPropagation(); discardImage('${cleanUrl}', '${cleanLatin}', '${item.organ}', '${cleanTitle}', '${cleanAuthor}', '${cleanSource}')" 
+          class="absolute top-1.5 right-1.5 w-7 h-7 rounded-full bg-black/80 hover:bg-rose-600 text-stone-300 hover:text-white flex items-center justify-center transition border border-stone-700 shadow-md"
+          title="Discard this image (B&W, lineart, or bad)"
+        >
+          🗑️
+        </button>
+      </div>
+
+      <div class="p-2.5 bg-stone-950 flex flex-col justify-between flex-1">
+        <div>
+          <div class="font-bold font-botanical italic text-emerald-400 text-xs truncate cursor-pointer hover:underline" onclick="openSlideshowAtFilteredIndex(${globalIdx})">
+            ${item.speciesLatin}
+          </div>
+          <div class="text-[10px] text-stone-400 font-mono truncate mt-0.5">
+            ${item.family}
+          </div>
         </div>
-
-        <div class="p-2.5 bg-stone-950 flex flex-col justify-between flex-1">
-          <div>
-            <div class="font-bold font-botanical italic text-emerald-400 text-xs truncate cursor-pointer hover:underline" onclick="openSlideshowAtFilteredIndex(${idx})">
-              ${item.speciesLatin}
-            </div>
-            <div class="text-[10px] text-stone-400 font-mono truncate mt-0.5">
-              ${item.family}
-            </div>
-          </div>
-          <div class="text-[9px] text-stone-500 truncate mt-1 flex items-center justify-between">
-            <span class="truncate">${item.source?.includes('Wikimedia') ? 'Commons' : 'iNat'}</span>
-            <span class="text-stone-400 hover:text-emerald-400 cursor-pointer" onclick="openSlideshowAtFilteredIndex(${idx})">Inspect →</span>
-          </div>
+        <div class="text-[9px] text-stone-500 truncate mt-1 flex items-center justify-between">
+          <span class="truncate">${item.source?.includes('Wikimedia') ? 'Commons' : 'iNat'}</span>
+          <span class="text-stone-400 hover:text-emerald-400 cursor-pointer" onclick="openSlideshowAtFilteredIndex(${globalIdx})">Inspect →</span>
         </div>
       </div>
     `;
-  }).join('');
+    fragment.appendChild(card);
+  });
 
-  const loadMoreContainer = document.getElementById('gallery-load-more-container');
-  const remainingCountEl = document.getElementById('gallery-remaining-count');
-  if (end < galleryFilteredImages.length) {
-    loadMoreContainer?.classList.remove('hidden');
-    if (remainingCountEl) remainingCountEl.textContent = (galleryFilteredImages.length - end);
-  } else {
-    loadMoreContainer?.classList.add('hidden');
+  container.appendChild(fragment);
+  galleryRenderedCount = end;
+
+  if (galleryRenderedCount >= galleryFilteredImages.length) {
+    if (statusEl) statusEl.classList.add('hidden');
   }
 }
 
-function loadMoreGalleryImages() {
-  galleryPage++;
-  renderGalleryGrid();
+function setupGalleryInfiniteScroll() {
+  if (galleryObserver) {
+    galleryObserver.disconnect();
+  }
+
+  const sentinel = document.getElementById('gallery-infinite-sentinel');
+  if (!sentinel) return;
+
+  if (window.IntersectionObserver) {
+    galleryObserver = new IntersectionObserver((entries) => {
+      if (entries[0] && entries[0].isIntersecting && atlasMode === 'gallery') {
+        if (galleryRenderedCount < galleryFilteredImages.length) {
+          appendNextGalleryBatch();
+        }
+      }
+    }, {
+      root: null,
+      rootMargin: '600px',
+      threshold: 0
+    });
+    galleryObserver.observe(sentinel);
+  }
 }
+
+// Global scroll listener fallback for infinite lazy loading
+window.addEventListener('scroll', () => {
+  if (atlasMode !== 'gallery') return;
+  if (galleryRenderedCount >= galleryFilteredImages.length) return;
+  const scrollY = window.scrollY || window.pageYOffset || document.documentElement.scrollTop;
+  const viewportHeight = window.innerHeight;
+  const docHeight = document.documentElement.scrollHeight;
+  if (scrollY + viewportHeight >= docHeight - 700) {
+    appendNextGalleryBatch();
+  }
+}, { passive: true });
 
 function openSlideshowAtFilteredIndex(index) {
   if (!galleryFilteredImages || galleryFilteredImages.length === 0) return;

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PhytoMemo — Tree Species Identification Quiz (BI1452)</title>
+  <title>Tree Species Identification</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌿</text></svg>" />
   
   <!-- Tailwind CSS CDN -->
@@ -56,16 +56,13 @@
     ::-webkit-scrollbar-track {
       background: #1c1917;
     }
-    ::-webkit-scrollbar-thumb {
-      background: #44403c;
-      border-radius: 4px;
-    }
-    ::-webkit-scrollbar-thumb:hover {
-      background: #57534e;
-    }
+    .font-botanical { font-family: 'Georgia', 'Cambria', serif; }
+    /* Hide scrollbars smoothly for clean horizontal rail */
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
   </style>
-
-  <!-- Load pre-built verified database -->
+  
+  <!-- Embedded Plant Database Script (Zero-Build GitHub Pages support) -->
   <script src="plants_data.js"></script>
 </head>
 <body class="bg-stone-950 text-stone-100 min-h-full flex flex-col selection:bg-emerald-600 selection:text-white antialiased">
@@ -76,11 +73,9 @@
       <div class="flex items-center space-x-3 cursor-pointer" onclick="showView('setup-view')">
         <span class="text-2xl">🌿</span>
         <div>
-          <h1 class="text-lg font-bold text-emerald-400 tracking-tight flex items-center gap-2">
-            PhytoMemo
-            <span class="text-xs font-medium px-2 py-0.5 rounded-full bg-emerald-950 border border-emerald-800 text-emerald-300">BI1452 SLU</span>
+          <h1 class="text-lg font-bold text-emerald-400 tracking-tight">
+            Tree Species Identification
           </h1>
-          <p class="text-xs text-stone-400 hidden sm:block">Tree Species Memorization & Exam Trainer</p>
         </div>
       </div>
 
@@ -106,20 +101,16 @@
   <main class="flex-1 max-w-7xl w-full mx-auto p-4 sm:p-6 lg:p-8">
 
     <!-- ================= VIEW 1: QUIZ SETUP ================= -->
-    <section id="setup-view" class="space-y-8">
+    <section id="setup-view" class="space-y-6">
       
-      <!-- Intro Hero Banner -->
-      <div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-stone-900 via-stone-900 to-emerald-950/40 border border-stone-800 p-6 sm:p-8">
-        <div class="max-w-3xl">
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold uppercase tracking-wider mb-4">
-            Interactive Tree Memorization Tool
-          </div>
-          <h2 class="text-2xl sm:text-3xl font-bold text-stone-100 font-botanical tracking-tight">
-            Configure Your Tree Identification Quiz
+      <!-- Setup Header -->
+      <div class="flex items-center justify-between pb-3 border-b border-stone-800">
+        <div>
+          <h2 class="text-xl font-bold text-stone-100 font-botanical tracking-tight">
+            Quiz Setup
           </h2>
-          <p class="mt-2 text-stone-300 text-sm sm:text-base leading-relaxed">
-            Test your botanical identification skills across verified photos from Wikimedia Commons & iNaturalist: 
-            <span class="text-emerald-400 font-medium">bark, winter buds, leaves (top & underside), flowers, fruits/cones, habit, and classical botanical illustrations</span>.
+          <p class="text-xs text-stone-400 mt-0.5">
+            Configure species pool and preferences for your botanical identification quiz.
           </p>
         </div>
       </div>
@@ -754,14 +745,15 @@
             <!-- Injected via JS -->
           </div>
 
-          <!-- Load More Button -->
-          <div id="gallery-load-more-container" class="text-center py-4 hidden">
-            <button 
-              onclick="loadMoreGalleryImages()" 
-              class="px-6 py-2.5 bg-stone-800 hover:bg-stone-700 text-stone-200 text-xs font-semibold rounded-xl transition shadow"
-            >
-              Load More Images (<span id="gallery-remaining-count">0</span> remaining)
-            </button>
+          <!-- Infinite Scroll Sentinel & Subtle Loading Indicator -->
+          <div id="gallery-infinite-sentinel" class="py-6 flex items-center justify-center text-xs text-stone-500">
+            <span id="gallery-infinite-status" class="hidden flex items-center gap-2">
+              <svg class="animate-spin h-4 w-4 text-emerald-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"></path>
+              </svg>
+              <span>Loading more images lazily...</span>
+            </span>
           </div>
         </div>
 
@@ -777,7 +769,7 @@
             <span>➕</span> Add Any Plant from Botanical Databases
           </h2>
           <p class="text-xs text-stone-400 mt-1">
-            Generalize your database beyond the BI1452 exam! Search iNaturalist Research Grade & Wikimedia Commons live to import any world flora.
+            Search iNaturalist Research Grade & Wikimedia Commons live to import species.
           </p>
         </div>
 
@@ -1099,9 +1091,8 @@
   </div>
 
   <!-- Footer -->
-  <footer class="bg-stone-950 border-t border-stone-800/80 py-6 text-center text-xs text-stone-500">
-    <p>PhytoMemo • Botanical species identification quiz based on Swedish University of Agricultural Sciences (SLU) BI1452 curriculum.</p>
-    <p class="mt-1">Verified images curated from Wikimedia Commons & iNaturalist (Research Grade open data).</p>
+  <footer class="bg-stone-950 border-t border-stone-800/80 py-4 text-center text-xs text-stone-500">
+    <p>Curated botanical images from Wikimedia Commons & iNaturalist.</p>
   </footer>
 
   <!-- Application Logic -->

@@ -1,6 +1,6 @@
-# PhytoMemo 🌿 — Tree Species Identification & Memorization App
+# Tree Species Identification Quiz
 
-A lightweight, interactive botanical web app designed to help students memorize tree and plant species for taxonomy examinations (specifically referenced against **SLU's BI1452: Trees, Structure and Function**, Autumn 2026).
+A client-side web application for studying and testing tree species identification using curated high-resolution botanical photography.
 
 Easily hostable on **GitHub Pages** with zero build steps or external server dependencies.
 
